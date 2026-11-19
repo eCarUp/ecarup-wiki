@@ -1,75 +1,75 @@
 ---
 title: 'Gewiss'
 slug: '/ocpp-ladestationen/gewiss'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration du backend'
 sidebar_label: 'Gewiss'
 ---
-![Gewiss – Illustration 1](/img/ocpp-ladestationen-gewiss/01.jpg)
+<Kacheln min="11rem">
 
-[JOINON EVO](https://www.gewiss.com/ch/de/mobility)
+<Kachel bild="/img/ocpp-ladestationen-gewiss/01.jpg" bildtext="Gewiss JOINON EVO" titel="JOINON EVO" href="https://www.gewiss.com/ch/de/mobility" bildhoehe="10rem" mittig />
 
-![Gewiss – Illustration 2](/img/ocpp-ladestationen-gewiss/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-gewiss/02.jpg" bildtext="Gewiss JOINON-FAST" titel="JOINON-FAST" href="https://www.gewiss.com/ch/de/mobility" bildhoehe="10rem" mittig />
 
-[JOINON-FAST](https://www.gewiss.com/ch/de/mobility)
+</Kacheln>
 
-## Guide d'intégration au backend
+## Guide d'intégration du backend
 
-Les bornes Gewiss JOINON s'intègrent en quelques étapes au système de décompte eCarUp. Une fois installées dans votre compte, vous définissez vous-même et en toute simplicité les conditions d'utilisation de vos bornes (prix, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+Les bornes de recharge Gewiss JOINON peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans ton compte, tu peux définir toi-même, sans difficulté, les conditions d'utilisation de tes bornes (tarifs, utilisateurs, plages horaires disponibles, etc.). Tu décides qui peut recharger, quand et à quel tarif. 
 
-- Prérequis pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Condition préalable : l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configuration dans le [portail web pour les exploitants de bornes](/stationsbetreiber/webportal) 
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal) 
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+- Découvre ici-même davantage de choses sur nos [fonctions Premium](/funktionen)
 
 
 ### Intégration des bornes OCPP
 
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assure-toi que tes bornes de recharge sont installées et que ton PC ou ton téléphone portable est connecté au même réseau que la borne de recharge.
 
-2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
+2.  Ouvre le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connecte-toi avec les données de ton compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet « Stations » ("Stationen").
+3.  Dans le menu à gauche, clique sur l'onglet « Bornes » (« Stationen »).
 
-4.  Sélectionnez l'onglet « OCPP » ("OCPP").
+4.  Sélectionne l'onglet « OCPP ».
 
-5.  Copiez l'URL dans le presse-papiers.
+5.  Copie l'URL dans le presse-papiers.
 
 
-1.Lien ws sans Basic Auth : testé et fonctionnel
+1.ws Lien sans Basic Auth : testé et fonctionne
 
-2.wss sans Basic Auth : testé et fonctionnel
+2.wss sans Basic Auth : testé et fonctionne
 
 3.wss avec Basic Auth : non testé
 
-6.  Accédez à l'interface web de la borne souhaitée et collez l'URL copiée.
+6.  Va dans l'interface web de la borne souhaitée et colle l'URL copiée.
 
 
-## Wallbox JOINON EVO
+## Borne murale JOINON EVO
 
 - "firmwareVersion":"12.3.0" 
 
 
-1.  Connectez-vous à la borne Gewiss JOINON Evo via LAN ou WLAN (les détails de la connexion figurent dans le guide d'installation)
+1.  Connecte-toi à la borne Gewiss JOINON Evo via LAN ou WLAN (tu trouveras les détails de la connexion dans la notice d'installation).
 
-2.  Masque de connexion (les données de connexion nécessaires figurent également dans le guide d'installation.
+2.  Écran de connexion (tu trouveras également les données de connexion requises dans la notice d'installation).
 
-3.  Dans le menu Charging Station, vous pouvez configurer la connexion souhaitée. 
+3.  Dans le point de menu « Charging Station », tu peux configurer la connexion souhaitée. 
 
 
-4\. Authorisation Type doit être réglé sur "Autorisation". 
+4\. « Authorisation Type » doit être réglé sur « Autorisation ».
 
 
 
 ![Gewiss – Illustration 3](/img/ocpp-ladestationen-gewiss/03.png)
 
-5\. OCPP Protocol sur "ON"
+5\. Mettre « OCPP Protocol » sur « ON ».
 
-6\. Ajouter l'URL eCarUp
+6\. Ajouter l'URL eCarUp.
 
 Exemple : wss://[www.ecarup.com/api/Ocpp16/D8xxxxxxxxx](http://www.ecarup.com/api/Ocpp16/D8xxxxxxxxx)
 
-7\. Chargebox identity = numéro de série de la borne
+7\. « Chargebox identity » = numéro de série de la borne.
 
 8\. Enregistrer.
 
@@ -82,24 +82,24 @@ Exemple : wss://[www.ecarup.com/api/Ocpp16/D8xxxxxxxxx](http://www.ecarup.com/ap
 - "firmwareVersion":"V4.13.M0 " 
 
 
-1.  Connectez-vous à la borne de recharge DC Gewiss i-Fast via LAN ou WLAN (les détails de la connexion figurent dans le guide d'installation)
+1.  Connecte-toi à la borne de recharge DC Gewiss i-Fast via LAN ou WLAN (tu trouveras les détails de la connexion dans la notice d'installation).
 
-2.  Masque de connexion (les données de connexion nécessaires figurent également dans le guide d'installation.
+2.  Écran de connexion (tu trouveras également les données de connexion requises dans la notice d'installation).
 
 
-3. Cliquez sur "Set"
+3. Clique sur « Set ».
 
-4\. Sélectionnez "Backend"
+4\. Sélectionne « Backend ».
 
-5\. Ajoutez votre URL eCarUp sous Central System URL. 
+5\. Ajoute ton URL eCarUp dans « Central System URL ». 
 
 Exemple : wss://[www.ecarup.com/api/Ocpp16/D8xxxxxxxxx](http://www.ecarup.com/api/Ocpp16/D8xxxxxxxxx)
 
-6. Charge Box ID\= numéro de série de la borne
+6. « Charge Box ID » = numéro de série de la borne.
 
-7. OCPP Security Profile peut être sélectionné en option. 
+7. Le « OCPP Security Profile » peut être choisi en option. 
 
-8\. Enregistrer. 
+8\. Enregistrer.
 
 
 
@@ -108,11 +108,11 @@ Exemple : wss://[www.ecarup.com/api/Ocpp16/D8xxxxxxxxx](http://www.ecarup.com/ap
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle d'envoi des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle d'envoi des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. C'est la seule manière de calculer et d'afficher plus précisément la puissance de charge actuelle dans l'application. 
 
 
 
-Vous pouvez le modifier comme suit :
+Tu peux la modifier comme suit :
 
 1.  Get Configuration (pour lire ce qui est programmé)
 

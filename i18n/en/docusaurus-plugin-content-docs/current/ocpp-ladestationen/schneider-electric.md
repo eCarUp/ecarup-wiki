@@ -4,23 +4,23 @@ slug: '/ocpp-ladestationen/schneider-electric'
 description: 'Backend integration guide'
 sidebar_label: 'Schneider Electric'
 ---
-![Schneider Electric – Figure 1](/img/ocpp-ladestationen-schneider-electric/01.jpg)
+<Kacheln min="11rem">
 
-[EVlink Pro AC](/ocpp-ladestationen/schneider-electric)
+<Kachel bild="/img/ocpp-ladestationen-schneider-electric/01.jpg" bildtext="Schneider Electric EVlink Pro AC" titel="EVlink Pro AC" href="/ocpp-ladestationen/schneider-electric" bildhoehe="10rem" mittig />
 
-![Schneider Electric – Figure 2](/img/ocpp-ladestationen-schneider-electric/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-schneider-electric/02.jpg" bildtext="Schneider Electric EVlink Pro DC" titel="EVlink Pro DC" href="/ocpp-ladestationen/schneider-electric" bildhoehe="10rem" mittig />
 
-[EVlink Pro DC](/ocpp-ladestationen/schneider-electric)
+</Kacheln>
 
 ## Backend integration guide
 
-Schneider Electric stations can be integrated into the eCarUp billing system in a few steps. Once installed in your account, you can easily define the terms of use of your stations yourself (prices, users, available times, etc.). You decide who can charge, when and at what price. 
+Schneider Electric stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Requirements for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more about our [Premium functions](/funktionen)
+- Learn more about our [premium features](/funktionen)
 
 ### Integration of OCPP stations
 
@@ -28,23 +28,23 @@ Schneider Electric stations can be integrated into the eCarUp billing system in 
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stationen" tab ("Stations").
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-6.  Go to the web interface of the station in question and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
-## Connecting Schneider Electric charging stations
+## Integrating the Schneider Electric charging stations
 
 ### EVlink Pro AC
 
-### Connecting the EVlink AC Pro
+### Integrating the EVlink AC Pro
 
-To access the station via smartphone, the following steps are required:
+To access the station via smartphone, the following steps are necessary:
 
-- Install the "eSetup" app from Schneider Electric on your mobile phone;
+- Install the Schneider Electric "eSetup" app on your phone;
 
 - Create a user account there.
 
@@ -91,7 +91,7 @@ To access the station via smartphone, the following steps are required:
 
 ### Step 6
 
-- Select Supervision for the OCPP setting
+- Select the supervision view for the OCPP setting
 
 ![Schneider Electric – Figure 9](/img/ocpp-ladestationen-schneider-electric/09.png)
 
@@ -99,13 +99,13 @@ To access the station via smartphone, the following steps are required:
 
 ![Schneider Electric – Figure 10](/img/ocpp-ladestationen-schneider-electric/10.jpg)
 
-- Supervision ON
+- Set supervision to ON
 
-- Paste the OCPP URL from your account as usual
+- Enter the OCPP URL as usual from your account
 
 Example: ws://www.ecarup.com/api/Ocpp16/xxxxxxxxxxxxxx
 
-- Select Authentication required (Public)
+- Select Authentication required (Public) ("Öffentlich")
 
 ### Step 8
 
@@ -127,21 +127,21 @@ Example: ws://www.ecarup.com/api/Ocpp16/xxxxxxxxxxxxxx
 
 Would you like to integrate the Schneider DC charging station with eCarUp?
 
-- Send your OCPP URL to the following Schneider e-mail address: [services@ch.schneider-electric.com](mailto:services@ch.schneider-electric.com)
+- Send your OCPP URL to the following Schneider email address: [services@ch.schneider-electric.com](mailto:services@ch.schneider-electric.com)
 
-- Schneider Electric will get back to you shortly. 
+- Schneider Electric will get back to you promptly. 
 
 ## EVlink Smart Wallbox & EVlink Parking
 
-### Connecting the EVlink Smart Wallbox
+### Integrating the EVlink Smart Wallbox
 
 Connect to the station via Ethernet
 
-1.  Assign the following static IP address to your PC: 192.168.0.x (x is an integer between 241 and 249)
+1.  Assign the following static IP address on your PC: 192.168.0.x (x is an integer between 241 and 249)
 
 2.  Subnet mask: 255.255.255.0 + no default gateway, no DNS and no proxy
 
-3.  Open your web browser and enter http://192.168.0.102 in the address bar.
+3.  Open your web browser and enter http://192.168.0.102 in the URL address bar.
 
 4.  User name ( admin ), password ( ADMIN ) 
 
@@ -149,9 +149,9 @@ Connect to the station via Ethernet
 
 ### General Settings
 
-1.  Charging Station Name: remove all spaces
+1.  Remove all spaces from the Charging Station Name
 
-2.  Station type: set to Supervised
+2.  Set Station type to Supervised
 
 3.  Authentication done by Supervision 
 
@@ -159,7 +159,7 @@ Connect to the station via Ethernet
 
 ### Supervision
 
-1.  Set the OCPP version to 1.6
+1.  Set OCPP Version to 1.6
 
 2.  Supervision URL: paste the complete URL from your account
 
@@ -173,11 +173,11 @@ Finally, restart the station!
 
 Connect to the LMS via Ethernet ETH1
 
-1.  Assign the following static IP address to your PC: 192.168.0.x (x is an integer between 241 and 249)
+1.  Assign the following static IP address on your PC: 192.168.0.x (x is an integer between 241 and 249)
 
 2.  Subnet mask: 255.255.255.0 + no default gateway, no DNS and no proxy
 
-3.  Open your web browser and enter http://192.168.0.128 in the address bar.
+3.  Open your web browser and enter http://192.168.0.128 in the URL address bar.
 
 4.  User name ( admin ), password ( ADMIN ) 
 
@@ -191,9 +191,9 @@ Connect to the LMS via Ethernet ETH1
 
 ### Advanced settings
 
-- Admin --> Advanced (Erweitert)\--> Advanced settings (Erweiterte Einstellungen)  --> Enable charge point numbering (Ladepunktnummerierung aktivieren) \--> ON
+- Admin --> Advanced\--> Advanced settings  --> Activate charge point numbering \--> ON
 
-⚠️ Caution: only enable this function for stations with 2 connectors. 
+⚠️ Note: only activate this function for stations with 2 connectors. 
 
 ![Schneider Electric – Figure 16](/img/ocpp-ladestationen-schneider-electric/16.png)
 
@@ -207,15 +207,15 @@ Connect to the LMS via Ethernet ETH1
 
 ### Final check
 
-1.  The station should now receive the supervision URL from the LMS 
+1.  The station should now receive the monitoring URL from the LMS 
 
-2.  The ID of the charging station should be identical
+2.  The charging station ID should be identical
 
 ![Schneider Electric – Figure 18](/img/ocpp-ladestationen-schneider-electric/18.png)
 
-## Advanced setting via maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. Only then can we better calculate and display the current charging power in the app. 
 
 You can change this as follows:
 

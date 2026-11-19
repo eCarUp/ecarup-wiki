@@ -1,36 +1,34 @@
 ---
 title: 'Siemens'
 slug: '/ocpp-ladestationen/siemens'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione backend'
 sidebar_label: 'Siemens'
 ---
-![Siemens – Figura 1](/img/ocpp-ladestationen-siemens/01.jpg)
+<Kacheln min="11rem">
 
-[SiCharge CC](/ocpp-ladestationen/siemens#sicharge-cc-ac22)
+<Kachel bild="/img/ocpp-ladestationen-siemens/01.jpg" bildtext="Siemens SiCharge CC" titel="SiCharge CC" href="/ocpp-ladestationen/siemens#sicharge-cc-ac22" bildhoehe="10rem" mittig />
 
-![Siemens – Figura 2](/img/ocpp-ladestationen-siemens/02.png)
+<Kachel bild="/img/ocpp-ladestationen-siemens/02.png" bildtext="Siemens VersiCharge" titel="Siemens VersiCharge" href="/ocpp-ladestationen/siemens#versiecharge-ac-22kw" bildhoehe="10rem" mittig />
 
-[Siemens VersiCharge](/ocpp-ladestationen/siemens#versiecharge-ac-22kw)
+<Kachel bild="/img/ocpp-ladestationen-siemens/03.png" bildtext="Siemens SICHARGE D" titel="Siemens SICHARGE D" href="/ocpp-ladestationen/siemens#sicharge-d" bildhoehe="10rem" mittig />
 
-![Siemens – Figura 3](/img/ocpp-ladestationen-siemens/03.png)
+</Kacheln>
 
-[Siemens SICHARGE D](/ocpp-ladestationen/siemens#sicharge-d)
+## Guida all'integrazione backend
 
-## Guida all'integrazione nel backend
+Le stazioni Siemens possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni d'uso delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo. 
 
-Le stazioni Siemens possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire tu stesso in modo semplice le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari di disponibilità ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Requisiti per l'[integrazione via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
-
-- Configurazione nel [portale web per gestori di stazioni](/stationsbetreiber/webportal)
+- Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
 - Scopri di più sulle nostre [funzioni Premium](/funktionen)
 
 ### Integrazione delle stazioni OCPP
 
-1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
-2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) e accedi con i dati del tuo account.
+2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua il login con i dati del tuo account.
 
 3.  Nel menu a sinistra, clicca sulla scheda "Stazioni" ("Stationen").
 
@@ -48,11 +46,11 @@ Le stazioni Siemens possono essere integrate in pochi passaggi nel sistema di co
 
 ### Integrazione della SICharge
 
-Connettersi alla stazione tramite Ethernet
+Collegarsi alla stazione tramite Ethernet
 
-1.  Il laptop deve avere l'IP 192.168.32.10 e la subnet mask 255.255.255.0.
+1.  Il laptop deve avere il seguente indirizzo IP 192.168.32.10 e la subnet mask: 255.255.255.0.
 
-2.  Apri il browser del tuo laptop e inserisci nella barra degli indirizzi il seguente URL: 192.168.32.1
+2.  Apri il browser del tuo laptop e digita il seguente URL nella barra degli indirizzi: 192.168.32.1
 
 3.  Il nome utente è "admin" e la password è il numero di serie dell'impianto
 
@@ -62,9 +60,9 @@ Connettersi alla stazione tramite Ethernet
 
 2.  Protocol Version OCPP 1.6J
 
-3.  Inserire l'URL dell'account
+3.  Incolla l'URL dell'account
 
-4.  In User Management, alla voce Authentication, nella Whitelist deve essere selezionata l'opzione OCPP (managed).
+4.  In User Management, sotto Authentication, nella whitelist il punto presso OCPP (managed) deve essere impostato.
 
 5.  Salvare e riavviare
 
@@ -72,11 +70,11 @@ Connettersi alla stazione tramite Ethernet
 
 ![Siemens – Figura 5](/img/ocpp-ladestationen-siemens/05.png)
 
-### Connessione tramite scheda SIM
+### Collegamento tramite scheda SIM
 
-Insieme alla colonnina di ricarica, Siemens fornisce anche una scheda SIM M2M. 
+Siemens fornisce insieme alla colonnina di ricarica anche una scheda SIM M2M. 
 
-È ancora necessario effettuare la seguente impostazione:
+Occorre ancora effettuare la seguente impostazione:
 
 - Authentication Method su PAP
 
@@ -113,29 +111,29 @@ Versione firmware testata: V2.132.29
 </div>
 </div>
 
-3\. In seguito, il gestore della stazione deve inviare l'URL, incluso il numero di serie della stazione, al seguente indirizzo e-mail per l'integrazione:
+3\. Successivamente il gestore della stazione deve inviare l'URL, comprensivo del numero di serie della stazione, al seguente indirizzo e-mail per l'integrazione:
 
 [si.emobility.ch@siemens.com](mailto:si.emobility.ch@siemens.com). 
 
-Siemens ti contatterà al più presto per completare l'integrazione. 
+Siemens si metterà in contatto con voi a breve per un'integrazione riuscita. 
 
 ## SiCharge D
 
-Per l'integrazione della SiCharge D, l'URL e il numero di serie della stazione devono essere inviati al seguente indirizzo e-mail: 
+Per l'integrazione della SiCharge D occorre inviare l'URL + il numero di serie della stazione al seguente indirizzo e-mail: 
 
 [si.emobility.ch@siemens.com](mailto:si.emobility.ch@siemens.com)
 
-Siemens ti contatterà al più presto per completare l'integrazione. 
+Siemens si metterà in contatto con voi a breve per un'integrazione riuscita. 
 
 ![Siemens – Figura 10](/img/ocpp-ladestationen-siemens/10.png)
 
-## Impostazioni avanzate tramite lo strumento di manutenzione (eCarUp Premium)
+## Impostazioni avanzate tramite il tool di manutenzione (eCarUp Premium)
 
 L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
 
 Puoi modificarlo come segue:
 
-1.  Get Configuration (per leggere cosa è programmato)
+1.  Get Configuration (per leggere ciò che è programmato)
 
 2.  Change Configuration (per sovrascrivere il valore)
 

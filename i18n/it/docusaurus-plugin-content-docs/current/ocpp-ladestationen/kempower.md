@@ -1,35 +1,33 @@
 ---
 title: 'Kempower'
 slug: '/ocpp-ladestationen/kempower'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione backend'
 sidebar_label: 'Kempower'
 ---
-![Kempower – Figura 1](/img/ocpp-ladestationen-kempower/01.jpg)
+<Kacheln min="11rem">
 
-[Kempower Station Charger](https://kempower.com/de/solution/kempower-station-charger/)
+<Kachel bild="/img/ocpp-ladestationen-kempower/01.jpg" bildtext="Kempower Station Charger" titel="Kempower Station Charger" href="https://kempower.com/de/solution/kempower-station-charger/" bildhoehe="10rem" mittig />
 
-![Kempower – Figura 2](/img/ocpp-ladestationen-kempower/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-kempower/02.jpg" bildtext="Kempower Satellite" titel="Kempower Satellite" href="https://kempower.com/de/solution/kempower-satellite/" bildhoehe="10rem" mittig />
 
-[Kempower Satellite](https://kempower.com/de/solution/kempower-satellite/)
+<Kachel bild="/img/ocpp-ladestationen-kempower/03.jpg" bildtext="Kempower Movable Charger" titel="Kempower Movable Charger" href="https://kempower.com/de/solution/kempower-movable-charger/" bildhoehe="10rem" mittig />
 
-![Kempower – Figura 3](/img/ocpp-ladestationen-kempower/03.jpg)
+</Kacheln>
 
-[Kempower Movable Charger](https://kempower.com/de/solution/kempower-movable-charger/)
+## Guida all'integrazione backend
 
-## Guida all'integrazione nel backend
+Le stazioni Kempower possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo. 
 
-Le stazioni Kempower possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire tu stesso in modo semplice le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari di disponibilità ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
-- Configurazione nel [portale web per gestori di stazioni](/stationsbetreiber/webportal)
-
-- Scopri di più sulle nostre [funzioni Premium](/funktionen)
+- Scopri di più sulle nostre [funzioni premium](/funktionen)
 
 
 ### Integrazione di stazioni OCPP
 
-1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
 2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua l'accesso con i dati del tuo account.
 
@@ -46,23 +44,23 @@ Le stazioni Kempower possono essere integrate in pochi passaggi nel sistema di c
 
 Importante: versione firmware testata, 3.2.6
 
-### Passo 1
+### Passaggio 1
 
-Verifica che la tua stazione sia online e comunichi con il portale Kempower. 
+Assicurati che la tua stazione sia online e comunichi con il portale Kempower. 
 
 - [https://kempower.io/](https://kempower.io/)
 
 
-### Passo 2
+### Passaggio 2
 
 1.  Verifica che la stazione disponga anche di una connessione Internet attiva
 
-2.  Clicca sull'ingranaggio in alto a destra.
+2.  Clicca sull'icona a forma di ingranaggio in alto a destra.
 
 
 ![Kempower – Figura 4](/img/ocpp-ladestationen-kempower/04.png)
 
-### Passo 3
+### Passaggio 3
 
 1.  Clicca su Connectivity e attiva OCPP
 
@@ -71,16 +69,16 @@ Verifica che la tua stazione sia online e comunichi con il portale Kempower.
 
 ![Kempower – Figura 5](/img/ocpp-ladestationen-kempower/05.png)
 
-### Passo 4
+### Passaggio 4
 
-1.  Infine, verifica le impostazioni di autorizzazione e clicca su salva.
+1.  Per concludere, controlla le impostazioni di autorizzazione e clicca su salva.
 
 
 ![Kempower – Figura 6](/img/ocpp-ladestationen-kempower/06.png)
 
-## Impostazione avanzata tramite lo strumento di manutenzione (eCarUp Premium)
+## Impostazioni avanzate tramite strumento di manutenzione (eCarUp Premium)
 
-L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30-60s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
 
 
 

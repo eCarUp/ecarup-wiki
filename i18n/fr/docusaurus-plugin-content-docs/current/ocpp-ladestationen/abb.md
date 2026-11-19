@@ -1,61 +1,57 @@
 ---
 title: 'ABB'
 slug: '/ocpp-ladestationen/abb'
-description: 'Toutes les bornes ABB dotées d''une fonctionnalité backend peuvent être intégrées au backend eCarUp.'
+description: 'Toutes les bornes de recharge ABB dotées d''une fonctionnalité backend peuvent être intégrées au backend eCarUp.'
 sidebar_label: 'ABB'
 ---
-Toutes les bornes ABB dotées d'une fonctionnalité backend peuvent être intégrées au backend eCarUp.
-Les bornes de recharge ABB déjà installées peuvent également être migrées vers  eCarUp. 
+Toutes les bornes de recharge ABB dotées d'une fonctionnalité backend peuvent être intégrées au backend eCarUp.
+Les bornes de recharge ABB déjà installées peuvent également être migrées vers eCarUp. 
 
-![ABB – Illustration 1](/img/ocpp-ladestationen-abb/01.jpg)
+<Kacheln min="11rem">
 
-[AC Terra Wallbox](https://e-mobility.abb.com/en)
+<Kachel bild="/img/ocpp-ladestationen-abb/01.jpg" bildtext="ABB AC Terra Wallbox" titel="AC Terra Wallbox" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-![ABB – Illustration 2](/img/ocpp-ladestationen-abb/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-abb/02.jpg" bildtext="ABB AC EV Lunic Pro M / Pro S" titel="AC EV Lunic Pro M / Pro S" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-[AC EV Lunic Pro M / Pro S](https://e-mobility.abb.com/en)
+<Kachel bild="/img/ocpp-ladestationen-abb/03.jpg" bildtext="ABB DC Terra 24 / 54 / 54 HV" titel="DC Terra 24 / 54 / 54 HV" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-![ABB – Illustration 3](/img/ocpp-ladestationen-abb/03.jpg)
+<Kachel bild="/img/ocpp-ladestationen-abb/04.jpg" bildtext="ABB DC Terra Wallbox" titel="DC Terra Wallbox" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-[DC Terra 24 / 54 / 54 HV](https://e-mobility.abb.com/en)
+</Kacheln>
 
-![ABB – Illustration 4](/img/ocpp-ladestationen-abb/04.jpg)
+## Guide d'intégration du backend
 
-[DC Terra Wallbox](https://e-mobility.abb.com/en)
+Les bornes ABB peuvent être intégrées en quelques étapes au système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir simplement vous-même les conditions d'utilisation de vos bornes (prix, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
 
-## Guide d'intégration au backend
+- Prérequis pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-Les bornes ABB peuvent être intégrées en quelques étapes au système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même et en toute simplicité les conditions d'utilisation de vos bornes (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Découvrez-en plus sur nos [fonctions premium](/funktionen)
 
-- Configuration dans le [portail web pour les exploitants de bornes](/stationsbetreiber/webportal)
+### Intégration de bornes OCPP
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
-
-### Intégration des bornes OCPP
-
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone portable est connecté au même réseau que la borne de recharge.
 
 2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet « Stations » ("Stationen").
+3.  Dans le menu à gauche, cliquez sur l'onglet « Stationen » (Stations).
 
-4.  Sélectionnez l'onglet « OCPP » ("OCPP").
+4.  Sélectionnez l'onglet « OCPP ».
 
 5.  Copiez l'URL dans le presse-papiers.
 
-6.  Accédez à l'interface web de la borne souhaitée et collez l'URL copiée.
+6.  Accédez à l'interface web de la borne souhaitée et collez-y l'URL copiée.
 
-## Intégration des bornes de recharge AC ABB
+## Intégration des bornes de recharge ABB AC
 
-<Video src="UxKCeK8RGSA" title="Vidéo YouTube, guide d'intégration ABB dans le backend eCarUp" />
+<Video src="UxKCeK8RGSA" title="Vidéo YouTube, guide d'intégration d'ABB dans le backend eCarUp" />
 
 ### ABB Terra AC Wallbox
 
-Pour intégrer l'ABB Terra AC Wallbox, les étapes suivantes doivent être effectuées (une seule fois) du côté d'ABB :
+Pour intégrer la ABB Terra AC Wallbox, les étapes suivantes doivent être effectuées (une seule fois) du côté d'ABB :
 
-- Créer un compte sur le portail TerraConfig. Demande via  [https://forms.abb.com/form-39881/Antrag-Connected-Services-AC-Terra](https://forms.abb.com/form-39881/Antrag-Connected-Services-AC-Terra))
+- Créer un compte sur le portail TerraConfig. Demande via [https://forms.abb.com/form-39881/Antrag-Connected-Services-AC-Terra](https://forms.abb.com/form-39881/Antrag-Connected-Services-AC-Terra))
 
 - Créer un compte d'application dans le portail
 
@@ -71,11 +67,11 @@ Pour intégrer l'ABB Terra AC Wallbox, les étapes suivantes doivent être effec
 
 ![ABB – Illustration 6](/img/ocpp-ladestationen-abb/06.png)
 
-### Procédez ensuite comme suit dans l'application ABB TerraConfig :
+### Procéder ensuite comme suit dans l'application ABB TerraConfig :
 
 - Se connecter à l'application TerraConfig avec le compte d'application (ABB)
 
-- Se connecter à la borne via Bluetooth (nécessite la clé fournie)
+- Se connecter à la borne par Bluetooth (nécessite la clé fournie)
 
 - Testé avec la version logicielle 1.6.9
 
@@ -115,11 +111,11 @@ Pour intégrer l'ABB Terra AC Wallbox, les étapes suivantes doivent être effec
 <div className="row">
 <div className="col col--6">
 
-2.3.1Activer le serveur externe
+2.3.1 Activer le serveur externe
 
 L'URL ajoutée dans le portail web peut être sélectionnée ici.
 
-2.3.2 Ajouter une URL personnalisée : l'URL OCPP peut être saisie ici manuellement.
+2.3.2 Ajouter une URL personnalisée : l'URL OCPP peut être saisie manuellement ici.
 
 Sélectionner et configurer le serveur OCPP
 
@@ -135,29 +131,29 @@ Confirmer la configuration du serveur OCPP
 
 ![ABB – Illustration 12](/img/ocpp-ladestationen-abb/12.png)
 
-Enregistrer l'ensemble de la configuration et redémarrer. 
+Enregistrer la configuration complète et redémarrer. 
 
 ![ABB – Illustration 13](/img/ocpp-ladestationen-abb/13.png)
 
-## Intégration des bornes de recharge DC ABB
+## Intégration des bornes de recharge ABB DC
 
 ### ABB Terra DC (Wallbox et bornes de recharge rapide)
 
-Les bornes de recharge DC doivent être configurées par ABB avec le backend eCarUp. Pour ce faire, adressez-vous directement, en indiquant les données de la borne et votre URL OCPP (issue du portail web), à :
+Les bornes de recharge DC doivent être configurées par ABB avec le backend eCarUp. Adressez-vous pour cela directement à l'adresse suivante, en indiquant les données de la borne et votre URL OCPP (issue du portail web) :
 
 -  [emobility@ch.abb.com](mailto:emobility@ch.abb.com)
 
 La migration vous sera confirmée par e-mail.
 
-La borne est ensuite créée dans votre compte eCarUp et vous pouvez effectuer les paramètres selon votre cas d'utilisation. Vous trouverez plus d'informations à ce sujet dans la rubrique [Backend](/funktionen).
+La borne est ensuite créée dans votre compte eCarUp et vous pouvez effectuer les paramètres selon votre cas d'application. Vous trouverez davantage d'informations dans la rubrique [Backend](/funktionen).
 
 ## Ancienne version
 
-### Procédez ensuite comme suit dans l'application ABB TerraConfig (ancienne version) :
+### Procéder ensuite comme suit dans l'application ABB TerraConfig (ancienne version) :
 
 - Se connecter à l'application TerraConfig avec le compte d'application (ABB)
 
-- Se connecter à la borne via Bluetooth (nécessite la clé fournie)
+- Se connecter à la borne par Bluetooth (nécessite la clé fournie)
 
 <Video src="6aw4vxHiWwU" title="Vidéo YouTube, configurer le backend OCPP pour la borne murale ABB Terra AC" />
 
@@ -169,7 +165,7 @@ La borne est ensuite créée dans votre compte eCarUp et vous pouvez effectuer l
 
 ![ABB – Illustration 15](/img/ocpp-ladestationen-abb/15.jpg)
 
-3\. Le lien URL prédéfini s'affiche
+3\. Un lien URL prédéfini apparaît
 
 ![ABB – Illustration 16](/img/ocpp-ladestationen-abb/16.jpg)
 
@@ -197,13 +193,13 @@ Information :
 
 Depuis la version logicielle d'ABB (SW V1.6.5), l'UID du badge ABB fourni (carte RFID n° xxxxxxxxx) n'est plus transmis via OCPP pour des raisons de sécurité.  
 
-### Obstacles possibles à une activation réussie par carte RFID
+### Obstacles possibles à une activation infructueuse par carte RFID
 
-1.  Si la borne nous envoie une demande d'autorisation avec le numéro de série, cela signifie que la borne est encore en mode Free Vending. Veuillez désactiver ce mode sous Device Mode dans l'application TerraConfig. 
+1.  Si la borne nous envoie une demande d'autorisation avec le numéro de série, cela signifie qu'elle est encore en mode Free Vending. Veuillez désactiver ce mode sous Device Mode dans l'application TerraConfig. 
 
 ![ABB – Illustration 21](/img/ocpp-ladestationen-abb/21.png)
 
-L'intervalle de transmission des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle de transmission des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. Ce n'est qu'ainsi que nous pouvons mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
 
 Vous pouvez le modifier comme suit :
 

@@ -1,45 +1,41 @@
 ---
 title: 'ABB'
 slug: '/ocpp-ladestationen/abb'
-description: 'Tutte le stazioni ABB con funzionalità backend possono essere integrate nel backend di eCarUp.'
+description: 'Tutte le stazioni ABB con funzionalità backend possono essere integrate nel backend eCarUp.'
 sidebar_label: 'ABB'
 ---
-Tutte le stazioni ABB con funzionalità backend possono essere integrate nel backend di eCarUp.
+Tutte le stazioni ABB con funzionalità backend possono essere integrate nel backend eCarUp.
 Anche le stazioni di ricarica ABB già installate possono essere migrate a eCarUp. 
 
-![ABB – Figura 1](/img/ocpp-ladestationen-abb/01.jpg)
+<Kacheln min="11rem">
 
-[AC Terra Wallbox](https://e-mobility.abb.com/en)
+<Kachel bild="/img/ocpp-ladestationen-abb/01.jpg" bildtext="ABB AC Terra Wallbox" titel="AC Terra Wallbox" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-![ABB – Figura 2](/img/ocpp-ladestationen-abb/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-abb/02.jpg" bildtext="ABB AC EV Lunic Pro M / Pro S" titel="AC EV Lunic Pro M / Pro S" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-[AC EV Lunic Pro M / Pro S](https://e-mobility.abb.com/en)
+<Kachel bild="/img/ocpp-ladestationen-abb/03.jpg" bildtext="ABB DC Terra 24 / 54 / 54 HV" titel="DC Terra 24 / 54 / 54 HV" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-![ABB – Figura 3](/img/ocpp-ladestationen-abb/03.jpg)
+<Kachel bild="/img/ocpp-ladestationen-abb/04.jpg" bildtext="ABB DC Terra Wallbox" titel="DC Terra Wallbox" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-[DC Terra 24 / 54 / 54 HV](https://e-mobility.abb.com/en)
+</Kacheln>
 
-![ABB – Figura 4](/img/ocpp-ladestationen-abb/04.jpg)
+## Guida all'integrazione del backend
 
-[DC Terra Wallbox](https://e-mobility.abb.com/en)
-
-## Guida all'integrazione nel backend
-
-Le stazioni ABB possono essere integrate in pochi passaggi nel sistema di conteggio di eCarUp. Una volta installate nel tuo account, puoi definire tu stesso in modo semplice le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
+Le stazioni ABB possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire in modo semplice e autonomo le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Decidi tu chi può caricare, quando e a quale prezzo. 
 
 - Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configurazione nel [portale web per gestori di stazioni](/stationsbetreiber/webportal)
+- Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
-- Scopri di più sulle nostre [funzioni Premium](/funktionen)
+- Scopri di più sulle nostre [funzioni premium](/funktionen)
 
 ### Integrazione delle stazioni OCPP
 
-1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
-2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) e accedi con i dati del tuo account.
+2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua il login con i dati del tuo account.
 
-3.  Nel menu a sinistra, clicca sulla scheda "Stazioni" ("Stationen").
+3.  Nel menu a sinistra, clicca sulla scheda "Stazioni" (Stationen).
 
 4.  Seleziona la scheda "OCPP".
 
@@ -49,19 +45,19 @@ Le stazioni ABB possono essere integrate in pochi passaggi nel sistema di conteg
 
 ## Integrazione delle stazioni di ricarica ABB AC
 
-<Video src="UxKCeK8RGSA" title="Video YouTube, guida all'integrazione ABB nel backend di eCarUp" />
+<Video src="UxKCeK8RGSA" title="Video YouTube, guida all'integrazione di ABB nel backend eCarUp" />
 
 ### ABB Terra AC Wallbox
 
-Per integrare la ABB Terra AC Wallbox, ABB deve eseguire (una sola volta) i seguenti passaggi:
+Per integrare la ABB Terra AC Wallbox, da parte di ABB devono essere eseguiti (una sola volta) i seguenti passaggi:
 
-- Creare un account sul portale TerraConfig. Richiesta tramite  [https://forms.abb.com/form-39881/Antrag-Connected-Services-AC-Terra](https://forms.abb.com/form-39881/Antrag-Connected-Services-AC-Terra))
+- Creare un account sul portale TerraConfig. La richiesta si effettua tramite [https://forms.abb.com/form-39881/Antrag-Connected-Services-AC-Terra](https://forms.abb.com/form-39881/Antrag-Connected-Services-AC-Terra))
 
 - Creare un account app nel portale
 
 - Aggiungere l'URL di eCarUp tramite il portale ABB
 
-- Attenzione: nel Third Party Name non usare caratteri speciali né spazi!
+- Attenzione: nel Third Party Name non utilizzare caratteri speciali né spazi!
 
 - Senza password
 
@@ -71,11 +67,11 @@ Per integrare la ABB Terra AC Wallbox, ABB deve eseguire (una sola volta) i segu
 
 ![ABB – Figura 6](/img/ocpp-ladestationen-abb/06.png)
 
-### Procedi poi nell'app ABB TerraConfig come segue:
+### Procedere quindi come segue nell'app ABB TerraConfig:
 
-- Accedi all'app TerraConfig con l'account app (ABB)
+- Accedere all'app TerraConfig con l'account app (ABB)
 
-- Connettiti alla stazione tramite Bluetooth (è necessaria la chiave fornita in dotazione)
+- Collegarsi alla stazione tramite Bluetooth (serve la chiave in dotazione)
 
 - Verificato con la versione software 1.6.9
 
@@ -92,7 +88,7 @@ Per integrare la ABB Terra AC Wallbox, ABB deve eseguire (una sola volta) i segu
 <div className="row">
 <div className="col col--6">
 
-2.1 Selezionare il tipo di connessione desiderato
+2.1 Selezionare il tipo di collegamento desiderato
 
 2.2 Disattivare la ricarica libera
 
@@ -115,13 +111,13 @@ Per integrare la ABB Terra AC Wallbox, ABB deve eseguire (una sola volta) i segu
 <div className="row">
 <div className="col col--6">
 
-2.3.1Attivare il server esterno
+2.3.1 Attivare il server esterno
 
 L'URL aggiunto nel portale web può essere selezionato qui.
 
-2.3.2 Aggiungere un URL personalizzato: qui è possibile inserire manualmente l'URL OCPP.
+2.3.2 Aggiungere un URL personalizzato: qui è possibile incollare manualmente l'URL OCPP.
 
-Selezionare e configurare il server OCPP
+Selezionare il server OCPP e configurarlo
 
 </div>
 <div className="col col--6 text--center">
@@ -143,25 +139,25 @@ Salvare l'intera configurazione e riavviare.
 
 ### ABB Terra DC (Wallbox e stazioni di ricarica rapida)
 
-Le stazioni di ricarica DC devono essere configurate da ABB con il backend di eCarUp. A tale scopo, rivolgiti direttamente, indicando i dati della stazione e il tuo URL OCPP (dal portale web), a:
+Le stazioni di ricarica DC devono essere configurate da ABB con il backend eCarUp. A tal fine, rivolgiti direttamente a ABB, indicando i dati della stazione e il tuo URL OCPP (dal portale web):
 
 -  [emobility@ch.abb.com](mailto:emobility@ch.abb.com)
 
 La migrazione ti verrà confermata via e-mail.
 
-In seguito la stazione è creata nel tuo account eCarUp e puoi effettuare le impostazioni in base al tuo caso d'uso. Maggiori informazioni sono disponibili nella sezione [Backend](/funktionen).
+In seguito la stazione sarà creata nel tuo account eCarUp e potrai effettuare le impostazioni in base al tuo caso d'uso. Trovi maggiori informazioni nella rubrica [Backend](/funktionen).
 
 ## Versione precedente
 
-### Procedi poi nell'app ABB TerraConfig (versione precedente) come segue:
+### Procedere quindi come segue nell'app ABB TerraConfig (versione precedente):
 
-- Accedi all'app TerraConfig con l'account app (ABB)
+- Accedere all'app TerraConfig con l'account app (ABB)
 
-- Connettiti alla stazione tramite Bluetooth (è necessaria la chiave fornita in dotazione)
+- Collegarsi alla stazione tramite Bluetooth (serve la chiave in dotazione)
 
-<Video src="6aw4vxHiWwU" title="Video YouTube, configurare il backend OCPP per la stazione di ricarica a parete ABB Terra AC" />
+<Video src="6aw4vxHiWwU" title="Video YouTube, configurare il backend OCPP per la wallbox ABB Terra AC" />
 
-1.  OCPP Server
+1.  Server OCPP
 
 ![ABB – Figura 14](/img/ocpp-ladestationen-abb/14.jpg)
 
@@ -169,7 +165,7 @@ In seguito la stazione è creata nel tuo account eCarUp e puoi effettuare le imp
 
 ![ABB – Figura 15](/img/ocpp-ladestationen-abb/15.jpg)
 
-3\. Compare il link URL predefinito
+3\. Compare un link URL predefinito
 
 ![ABB – Figura 16](/img/ocpp-ladestationen-abb/16.jpg)
 
@@ -185,29 +181,29 @@ In seguito la stazione è creata nel tuo account eCarUp e puoi effettuare le imp
 
 ![ABB – Figura 19](/img/ocpp-ladestationen-abb/19.png)
 
-⚠️ Se le carte RFID non funzionano, devi "attivare le carte esterne" nell'app Terra Config.
+⚠️ Se le carte RFID non funzionano, nell'app Terra Config devi "attivare le carte esterne".
 
 ## Importante:
 
-Se le carte RFID non funzionano, devi ancora effettuare la seguente impostazione sulla stazione tramite l'app Terra Config:
+Se le carte RFID non funzionano, devi effettuare sulla stazione, tramite l'app Terra Config, anche la seguente impostazione:
 
 ![ABB – Figura 20](/img/ocpp-ladestationen-abb/20.png)
 
 Informazione:
 
-Dal rilascio software di ABB (SW V1.6.5), con il badge ABB fornito in dotazione (carta RFID n. xxxxxxxxx) l'UID non viene più trasmesso tramite OCPP per motivi di sicurezza.  
+Dal rilascio software di ABB (SW V1.6.5), con il badge ABB in dotazione (carta RFID n. xxxxxxxxx) l'UID non viene più trasmesso tramite OCPP per motivi di sicurezza.  
 
-### Possibili ostacoli all'attivazione tramite carta RFID
+### Possibili ostacoli per un'attivazione non riuscita tramite la carta RFID
 
-1.  Se la stazione ci invia una richiesta di autorizzazione con il numero di serie, significa che la stazione è ancora in modalità Free Vending. Disattiva questa modalità alla voce Device Mode nell'app TerraConfig. 
+1.  Se la stazione ci invia una richiesta di autorizzazione con il numero di serie, significa che la stazione si trova ancora in modalità Free Vending. Disattivare questa modalità in Device Mode nell'app TerraConfig. 
 
 ![ABB – Figura 21](/img/ocpp-ladestationen-abb/21.png)
 
-L'intervallo di upload dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo tra 30 e 60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
 
 Puoi modificarlo come segue:
 
-1.  Get Configuration (per leggere cosa è programmato)
+1.  Get Configuration (per leggere ciò che è programmato)
 
 2.  Change Configuration (per sovrascrivere il valore) 
 

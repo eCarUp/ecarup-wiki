@@ -4,51 +4,49 @@ slug: '/ocpp-ladestationen/kempower'
 description: 'Backend integration guide'
 sidebar_label: 'Kempower'
 ---
-![Kempower – Figure 1](/img/ocpp-ladestationen-kempower/01.jpg)
+<Kacheln min="11rem">
 
-[Kempower Station Charger](https://kempower.com/de/solution/kempower-station-charger/)
+<Kachel bild="/img/ocpp-ladestationen-kempower/01.jpg" bildtext="Kempower Station Charger" titel="Kempower Station Charger" href="https://kempower.com/de/solution/kempower-station-charger/" bildhoehe="10rem" mittig />
 
-![Kempower – Figure 2](/img/ocpp-ladestationen-kempower/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-kempower/02.jpg" bildtext="Kempower Satellite" titel="Kempower Satellite" href="https://kempower.com/de/solution/kempower-satellite/" bildhoehe="10rem" mittig />
 
-[Kempower Satellite](https://kempower.com/de/solution/kempower-satellite/)
+<Kachel bild="/img/ocpp-ladestationen-kempower/03.jpg" bildtext="Kempower Movable Charger" titel="Kempower Movable Charger" href="https://kempower.com/de/solution/kempower-movable-charger/" bildhoehe="10rem" mittig />
 
-![Kempower – Figure 3](/img/ocpp-ladestationen-kempower/03.jpg)
-
-[Kempower Movable Charger](https://kempower.com/de/solution/kempower-movable-charger/)
+</Kacheln>
 
 ## Backend integration guide
 
-Kempower stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when and at what price. 
+Kempower stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Prerequisites for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more about our [Premium features](/funktionen) here
+- Learn more about our [premium functions](/funktionen) here
 
 
 ### Integration of OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or mobile phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and your PC or mobile phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stations" tab ("Stationen").
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-6.  Go to the web interface of the station in question and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
 
-## Connecting the Kempower charging station
+## Integrating the Kempower charging station
 
 Important: tested firmware version, 3.2.6
 
 ### Step 1
 
-Make sure that your station is online and communicating with the Kempower portal. 
+Make sure your station is online and communicating with the Kempower portal. 
 
 - [https://kempower.io/](https://kempower.io/)
 
@@ -64,23 +62,23 @@ Make sure that your station is online and communicating with the Kempower portal
 
 ### Step 3
 
-1.  Click Connectivity and enable OCPP
+1.  Click "Connectivity" and enable OCPP
 
-2.  Add your eCarUp URL and click Save. 
+2.  Add your eCarUp URL and click "Save" . 
 
 
 ![Kempower – Figure 5](/img/ocpp-ladestationen-kempower/05.png)
 
 ### Step 4
 
-1.  Finally, check the authorisation settings and click Save.
+1.  Finally, check the authorization settings and click "Save".
 
 
 ![Kempower – Figure 6](/img/ocpp-ladestationen-kempower/06.png)
 
-## Advanced settings via the maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the Meter Values can vary from station to station. We recommend an interval of 30-60s. Only then can we better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
 
 
 

@@ -6,51 +6,53 @@ sidebar_label: 'POWERJames'
 ---
 ## Backend integration guide
 
-POWERJames stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
+POWERJames stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price.
 
-- Requirements for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configuration in the [web portal for station operators](/stationsbetreiber/webportal) 
+- Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more about our [Premium features](/funktionen) here
+- Learn more about our [premium features](/funktionen)
 
-![POWERJames – Figure 1](/img/ocpp-ladestationen-powerjames/01.png)
+<Kacheln min="11rem">
 
-[Wallbox POWERJames Charges](https://powerjames.com/#funktionen)
+<Kachel bild="/img/ocpp-ladestationen-powerjames/01.png" bildtext="POWERJames Wallbox POWERJames Charges" titel="Wallbox POWERJames Charges" href="https://powerjames.com/#funktionen" bildhoehe="10rem" mittig />
+
+</Kacheln>
 
 ### Integrating OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or mobile phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and that your PC or phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stationen" tab ("Stations").
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-6.  Go to the web interface of the station in question and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
 ## POWERJames Charge S
 
-- "firmwareVersion":"22.0.35" 
+- "firmwareVersion":"22.0.35"
 
 ### Step 1
 
 - Connect the charging station to the local Wi-Fi.
 
-- Tip: See the Quick Guide supplied with the station.
+- Tip: See the enclosed Quick Guide.
 
 ### Step 2
 
-- Then contact PowerJames support at [support@powerjames.com](mailto:support@powerjames.com) to let them know that you want to connect the station to eCarUp.
+- Then contact PowerJames support at [support@powerjames.com](mailto:support@powerjames.com) to let them know you want to connect the station to eCarUp.
 
 ### Step 3
 
-- As soon as you have their okay, you can get started. 
+- Once you have their approval, you can get started.
 
-- Connect to the wallbox with your mobile phone again and enter the IP address 192.168.4.1 in the browser once more. 
+- Connect to the wallbox again via your phone and enter the IP address 192.168.4.1 in the browser again.
 
 ### Step 4
 
@@ -88,9 +90,9 @@ POWERJames stations can be integrated into the eCarUp billing system in just a f
 <div className="row">
 <div className="col col--6">
 
-- Final check: OCPP must show "Active".
+- Final check: for OCPP, "Active" must be shown.
 
-- This completes the configuration on the PowerJames side, and the metering point can now be edited in eCarUp.
+- This completes the configuration at PowerJames, and the measuring point can be edited in eCarUp.
 
 </div>
 <div className="col col--6 text--center">
@@ -100,9 +102,9 @@ POWERJames stations can be integrated into the eCarUp billing system in just a f
 </div>
 </div>
 
-## Advanced settings via the maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the meter values can vary from station to station. We recommend an interval of 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60 s. Only then can we better calculate and display the current charging power in the app.
 
 You can change this as follows:
 

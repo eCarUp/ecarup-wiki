@@ -1,40 +1,40 @@
 ---
 title: 'Schneider Electric'
 slug: '/ocpp-ladestationen/schneider-electric'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration backend'
 sidebar_label: 'Schneider Electric'
 ---
-![Schneider Electric – Illustration 1](/img/ocpp-ladestationen-schneider-electric/01.jpg)
+<Kacheln min="11rem">
 
-[EVlink Pro AC](/ocpp-ladestationen/schneider-electric)
+<Kachel bild="/img/ocpp-ladestationen-schneider-electric/01.jpg" bildtext="Schneider Electric EVlink Pro AC" titel="EVlink Pro AC" href="/ocpp-ladestationen/schneider-electric" bildhoehe="10rem" mittig />
 
-![Schneider Electric – Illustration 2](/img/ocpp-ladestationen-schneider-electric/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-schneider-electric/02.jpg" bildtext="Schneider Electric EVlink Pro DC" titel="EVlink Pro DC" href="/ocpp-ladestationen/schneider-electric" bildhoehe="10rem" mittig />
 
-[EVlink Pro DC](/ocpp-ladestationen/schneider-electric)
+</Kacheln>
 
-## Guide d'intégration au backend
+## Guide d'intégration backend
 
-Les bornes Schneider Electric peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous définissez vous-même, en toute simplicité, les conditions d'utilisation de vos bornes (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+Les bornes de recharge Schneider Electric peuvent être intégrées au système de décompte eCarUp en quelques étapes. Une fois installées dans votre compte, vous pouvez définir vous-même, en toute simplicité, les conditions d'utilisation de vos bornes (tarifs, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel tarif. 
 
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Condition préalable pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configuration dans le [portail web pour les exploitants de bornes](/stationsbetreiber/webportal)
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+- Apprenez-en davantage sur nos [fonctions premium](/funktionen)
 
-### Intégration des bornes OCPP
+### Intégration de bornes OCPP
 
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone portable est connecté au même réseau que la borne de recharge.
 
-2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les identifiants de votre compte.
+2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet "Stations" ("Stationen").
+3.  Dans le menu à gauche, cliquez sur l'onglet « Stationen » (Stations).
 
-4.  Sélectionnez l'onglet "OCPP".
+4.  Sélectionnez l'onglet « OCPP ».
 
 5.  Copiez l'URL dans le presse-papiers.
 
-6.  Accédez à l'interface web de la borne souhaitée et collez-y l'URL copiée.
+6.  Rendez-vous sur l'interface web de la borne souhaitée et collez-y l'URL copiée.
 
 ## Intégration des bornes de recharge Schneider Electric
 
@@ -44,7 +44,7 @@ Les bornes Schneider Electric peuvent être intégrées en quelques étapes dans
 
 Pour pouvoir accéder à la borne via smartphone, les étapes suivantes sont nécessaires :
 
-- Installez l'app "eSetup" de Schneider Electric sur votre téléphone ;
+- Installez sur votre téléphone portable l'application « eSetup » de Schneider Electric ;
 
 - Créez-y un compte utilisateur.
 
@@ -58,7 +58,7 @@ Pour pouvoir accéder à la borne via smartphone, les étapes suivantes sont né
 
 ### Étape 2
 
-- La recherche est lancée
+- La recherche démarre
 
 ![Schneider Electric – Illustration 5](/img/ocpp-ladestationen-schneider-electric/05.jpg)
 
@@ -73,7 +73,7 @@ Pour pouvoir accéder à la borne via smartphone, les étapes suivantes sont né
 <div className="row">
 <div className="col col--6">
 
-- Saisir le code PIN (il a été attribué lors de l'enregistrement)
+- Saisir le code PIN (attribué lors de l'enregistrement)
 
 </div>
 <div className="col col--6 text--center">
@@ -85,7 +85,7 @@ Pour pouvoir accéder à la borne via smartphone, les étapes suivantes sont né
 
 ### Étape 5
 
-- Sélectionner la configuration
+- Sélectionner Configuration
 
 ![Schneider Electric – Illustration 8](/img/ocpp-ladestationen-schneider-electric/08.jpg)
 
@@ -99,13 +99,13 @@ Pour pouvoir accéder à la borne via smartphone, les étapes suivantes sont né
 
 ![Schneider Electric – Illustration 10](/img/ocpp-ladestationen-schneider-electric/10.jpg)
 
-- Supervision ACTIVÉE
+- Supervision sur ON
 
-- Coller l'URL OCPP normale de votre compte
+- Insérer normalement l'URL OCPP depuis votre compte
 
 Exemple : ws://www.ecarup.com/api/Ocpp16/xxxxxxxxxxxxxx
 
-- Sélectionner Authentification requise (public)
+- Sélectionner Authentification requise (Public)
 
 ### Étape 8
 
@@ -137,7 +137,7 @@ Vous souhaitez intégrer la borne de recharge DC de Schneider à eCarUp ?
 
 Se connecter à la borne via Ethernet
 
-1.  Attribuer l'adresse IP statique suivante à votre PC : 192.168.0.x (x est un nombre entier entre 241 et 249)
+1.  Attribuer à votre PC l'adresse IP statique suivante : 192.168.0.x (x est un nombre entier compris entre 241 et 249)
 
 2.  Masque de sous-réseau : 255.255.255.0 + pas de passerelle par défaut, pas de DNS et pas de proxy
 
@@ -161,7 +161,7 @@ Se connecter à la borne via Ethernet
 
 1.  Régler OCPP Version sur 1.6
 
-2.  Supervision URL : coller l'URL complète de votre compte
+2.  Supervision URL : insérer l'URL de votre compte en entier
 
 3.  Renommer Charging station ID + sans espaces. 
 
@@ -173,7 +173,7 @@ Pour terminer, redémarrer la borne !
 
 Se connecter au LMS via Ethernet ETH1
 
-1.  Attribuer l'adresse IP statique suivante à votre PC : 192.168.0.x (x est un nombre entier entre 241 et 249)
+1.  Attribuer à votre PC l'adresse IP statique suivante : 192.168.0.x (x est un nombre entier compris entre 241 et 249)
 
 2.  Masque de sous-réseau : 255.255.255.0 + pas de passerelle par défaut, pas de DNS et pas de proxy
 
@@ -183,17 +183,17 @@ Se connecter au LMS via Ethernet ETH1
 
 ### Remote Supervision
 
-1.  Enable sur "ON"
+1.  Enable sur « ON »
 
-2.  Remote supervision URL address : coller l'URL eCarUp complète du compte.
+2.  Remote supervision URL address : insérer l'URL eCarUp de votre compte en entier.
 
 ![Schneider Electric – Illustration 15](/img/ocpp-ladestationen-schneider-electric/15.png)
 
 ### Paramètres avancés
 
-- Admin --> Avancé (Erweitert)\--> Paramètres avancés (Erweiterte Einstellungen)  --> Activer la numérotation des points de recharge (Ladepunktnummerierung aktivieren) \--> ON
+- Admin --> Avancé\--> Paramètres avancés  --> Activer la numérotation des points de recharge \--> ON
 
-⚠️ Attention : n'activer cette fonction que pour les bornes à 2 prises. 
+⚠️ Attention : n'activer cette fonction que pour les bornes à 2 connecteurs. 
 
 ![Schneider Electric – Illustration 16](/img/ocpp-ladestationen-schneider-electric/16.png)
 
@@ -215,9 +215,9 @@ Se connecter au LMS via Ethernet ETH1
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de téléversement des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30-60s. C'est la seule façon de mieux calculer et afficher la puissance de recharge actuelle dans l'app. 
+L'intervalle de téléversement des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon de mieux calculer et afficher la puissance de charge actuelle dans l'application. 
 
-Vous pouvez le modifier comme suit :
+Vous pouvez la modifier comme suit :
 
 1.  Get Configuration (pour lire ce qui est programmé)
 

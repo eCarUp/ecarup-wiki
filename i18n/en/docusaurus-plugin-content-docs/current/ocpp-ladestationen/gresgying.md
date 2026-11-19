@@ -4,37 +4,37 @@ slug: '/ocpp-ladestationen/gresgying'
 description: 'Backend integration guide'
 sidebar_label: 'Gresgying'
 ---
-![Gresgying – Figure 1](/img/ocpp-ladestationen-gresgying/01.png)
+<Kacheln min="11rem">
 
-[Turbo Wallbox](https://www.gresgying.global/product/turbo-wallbox.html)
+<Kachel bild="/img/ocpp-ladestationen-gresgying/01.png" bildtext="Gresgying Turbo Wallbox" titel="Turbo Wallbox" href="https://www.gresgying.global/product/turbo-wallbox.html" bildhoehe="10rem" mittig />
 
-![Gresgying – Figure 2](/img/ocpp-ladestationen-gresgying/02.png)
+<Kachel bild="/img/ocpp-ladestationen-gresgying/02.png" bildtext="Gresgying 120kW & 180kW DC Charging Station" titel="120kW & 180kW DC Charging Station" href="https://www.gresgying.global/product/120kw-180kw-dc-charging-station.html" bildhoehe="10rem" mittig />
 
-[120kW & 180kW DC Charging Station](https://www.gresgying.global/product/120kw-180kw-dc-charging-station.html)
+</Kacheln>
 
 ## Backend integration guide
 
 Gresgying stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Requirements for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal) 
 
-- Learn more here about our [Premium features](/funktionen)
+- Learn more about our [premium features](/funktionen)
 
-### Integration of OCPP stations
+### Integrating OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and that your PC or phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stations" tab ("Stationen").
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-6.  Go to the web interface of the station in question and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
 ## Gresgying AC Wallbox
 
@@ -42,7 +42,7 @@ Gresgying stations can be integrated into the eCarUp billing system in just a fe
 
 - Install the Gresgying app
 
-- Tested app version V1.0.10
+- Tested app version: V1.0.10
 
 ![Gresgying – Figure 3](/img/ocpp-ladestationen-gresgying/03.png)
 
@@ -98,9 +98,9 @@ Gresgying stations can be integrated into the eCarUp billing system in just a fe
 <div className="row">
 <div className="col col--6">
 
-- Under Path, add the complete URL from your eCarUp account.
+- Under Path, add the entire URL from your eCarUp account.
 
-- Please note that the serial number of the station must be added after the URL.
+- Please note that the serial number of the station must be appended after the URL.
 
 - Click Connect.
 
@@ -112,7 +112,7 @@ Gresgying stations can be integrated into the eCarUp billing system in just a fe
 </div>
 </div>
 
-### Example of the URL:
+### Example URL:
 
 - ws://www.ecarup.com/api/Ocpp16/D0xxxxxxxxxx/Seriennummer
 
@@ -126,15 +126,15 @@ Gresgying stations can be integrated into the eCarUp billing system in just a fe
 
 - "firmwareVersion":"C2032\_V2.8.2" 
 
-### The station can be configured both locally and remotely.
+### The station can be configured locally as well as remotely.
 
 Locally via the display:
 
-- Please refer to the operating instructions supplied with the station. 
+- Please refer to the operating manual supplied. 
 
 Remotely via the Device Management System:
 
-- Click "Device Manage" and search for the station in question
+- Click "Device Manage" and search for the desired station
 
 - Select "Set Parameters"
 
@@ -148,7 +148,7 @@ Remotely via the Device Management System:
 
 ![Gresgying – Figure 10](/img/ocpp-ladestationen-gresgying/10.png)
 
-## Advanced settings via the maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
 The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. Only then can we better calculate and display the current charging power in the app. 
 

@@ -1,40 +1,36 @@
 ---
 title: 'Mennekes'
 slug: '/ocpp-ladestationen/mennekes'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione del backend'
 sidebar_label: 'Mennekes'
 ---
-![Mennekes – Figura 1](/img/ocpp-ladestationen-mennekes/01.jpg)
+<Kacheln min="11rem">
 
-[Professional](https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/01.jpg" bildtext="Mennekes Professional" titel="Professional" href="https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/" bildhoehe="10rem" mittig />
 
-![Mennekes – Figura 2](/img/ocpp-ladestationen-mennekes/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/02.jpg" bildtext="Mennekes Wallbox Premium" titel="Wallbox Premium" href="https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/" bildhoehe="10rem" mittig />
 
-[Wallbox Premium](https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/03.jpg" bildtext="Mennekes Amtron Professional" titel="Amtron Professional" href="https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/" bildhoehe="10rem" mittig />
 
-![Mennekes – Figura 3](/img/ocpp-ladestationen-mennekes/03.jpg)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/04.png" bildtext="Mennekes Amtron 4Business/4You" titel="Amtron 4Business/4You" href="https://www.mennekes.ch/emobility/produkt-details/1347012405BK/#" bildhoehe="10rem" mittig />
 
-[Amtron Professional](https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/)
+</Kacheln>
 
-![Mennekes – Figura 4](/img/ocpp-ladestationen-mennekes/04.png)
+## Guida all'integrazione del backend
 
-[Amtron 4Business/4You](https://www.mennekes.ch/emobility/produkt-details/1347012405BK/#)
+Le stazioni Mennekes possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni d'uso delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo. 
 
-## Guida all'integrazione nel backend
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-Le stazioni Mennekes possono essere integrate in pochi passi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire tu stesso in modo semplice le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
-
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
-
-- Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
+- Configurazione nel [portale web per i gestori delle stazioni](/stationsbetreiber/webportal)
 
 - Scopri di più sulle nostre [funzioni Premium](/funktionen)
 
 ### Integrazione delle stazioni OCPP
 
-1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
-2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua l'accesso con i dati del tuo account.
+2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua il login con i dati del tuo account.
 
 3.  Nel menu a sinistra, clicca sulla scheda "Stazioni" ("Stationen").
 
@@ -46,15 +42,15 @@ Le stazioni Mennekes possono essere integrate in pochi passi nel sistema di cont
 
 ## Amtron 4Business/4You
 
-- Versione firmware testata 1.2.15
+- versione firmware testata 1.2.15
 
 Integra la stazione in una rete a cui puoi accedere tramite l'indirizzo IP.  
 
 <Embed src="https://demo.arcade.software/pn64vzJQpOAvqVOZLRlT?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" aspect="1.570" title="Wiki - Mennekes" />
 
-1.  Attiva la modalità esperto
+1.  Attiva la modalità esperto ("Expertenmodus")
 
-2.  Nelle impostazioni, clicca su Backend.
+2.  Nelle impostazioni clicca su Backend.
 
 ![Mennekes – Figura 5](/img/ocpp-ladestationen-mennekes/05.png)
 
@@ -64,9 +60,9 @@ Esempio di URL:
 
 ![Mennekes – Figura 6](/img/ocpp-ladestationen-mennekes/06.png)
 
-## Integrazione della colonnina di ricarica Amedio Professional e della Wallbox Amtron Professional
+## Integrazione della colonnina Amedio Professional e della Wallbox Amtron Professional
 
-### 1\. Collegare il notebook al controller Bender tramite cavo USB:
+### 1\. Collegare il notebook al Bender Controller tramite cavo USB:
 
 ⚠️ Importante: utilizzare l'interfaccia Micro-USB
 
@@ -87,13 +83,13 @@ Inserisci il seguente URL: http://192.168.123.123/operator/
 
 Deve essere installata almeno la versione 4.00-2139.
 
-In State -> Firmware Version si trova la versione attuale.
+Sotto State -> Firmware Version si trova la versione più recente.
 
 Eseguire l'aggiornamento del firmware:
 
 a) Copiare il file del firmware su una chiavetta USB. Inserire la chiavetta USB.
 
-b) Riavviare il controller Bender
+b) Riavviare il Bender Controller
 
 </div>
 <div className="col col--4 text--center">
@@ -111,19 +107,19 @@ WebSocket JSON OCPP URL: ws://www.ecarup.com/api/Ocpp16/&#123;ecarupID&#125;/
 
 Esempio: ws://www.ecarup.com/api/Ocpp16/D8D2AFE54EF4D508/
 
-⚠️ Importante: dopo l'URL OCPP di eCarUp occorre aggiungere un "/" (come mostrato nell'esempio). Inoltre, la "ChargePoint ID (OCPP)" non deve contenere caratteri speciali.
+⚠️ Importante: dopo l'URL OCPP di eCarUp deve essere aggiunto un "/" (come mostrato nell'esempio). Inoltre, nel campo "ChargePoint ID (OCPP)" non devono essere presenti caratteri speciali.
 
 ![Mennekes – Figura 9](/img/ocpp-ladestationen-mennekes/09.png)
 
-## Integrazione dell'ACU V3 &V4
+## Integrazione delle ACU V3 &V4
 
 ### Integrazione dei controller ACU
 
 Collegarsi alla stazione tramite Ethernet
 
-1.  Il laptop deve avere il seguente IP 192.168.0.21 e la subnet mask: 255.255.255.0.
+1.  Il laptop deve avere il seguente IP 192.168.0.21 e subnet mask: 255.255.255.0.
 
-2.  Apri il browser del tuo laptop e inserisci il seguente URL nella barra degli indirizzi 192.168.0.10
+2.  Apri il browser del tuo laptop e inserisci nella barra degli indirizzi il seguente URL: 192.168.0.10
 
 3.  Nome utente e password sono "admin"
 
@@ -131,21 +127,21 @@ Collegarsi alla stazione tramite Ethernet
 
 ### Aggiornamenti software e guida Mennekes:
 
-Il software, inclusa la guida, è disponibile alla pagina [Aggiornamenti software di Mennekes](https://www.chargeupyourday.de/services/software-updates/).
+Il software, guida inclusa, è disponibile alla pagina [Software Updates di Mennekes](https://www.chargeupyourday.de/services/software-updates/).
 
 ## Interfaccia web di Mennekes
 
 1.  Verifica del firmware attuale
 
-2.  Se non è aggiornato, aggiorna l'ACU. La versione software attuale, inclusa la guida, è disponibile sulla [pagina degli aggiornamenti software di Mennekes](https://www.chargeupyourday.de/services/software-updates/).
+2.  Se non è aggiornato, aggiorna l'ACU. La versione software attuale, guida inclusa, si trova nella [pagina degli aggiornamenti software di Mennekes](https://www.chargeupyourday.de/services/software-updates/).
 
-3.  Selezionare il protocollo di trasmissione v1.6J
+3.  Seleziona il protocollo di trasmissione v1.6J
 
-4.  Inserire l'URL OCPP del tuo account e OCPP 1.6 
+4.  Inserisci l'URL OCPP del tuo account e OCPP 1.6 
 
-ws://www.ecarup.com/api/Ocpp16/(il tuo ID)/
+ws://www.ecarup.com/api/Ocpp16/(Ihre ID)/
 
-Non dimenticare lo slash alla fine. ! 
+Non dimenticare lo slash finale. ! 
 
 Rispettare le impostazioni
 
@@ -161,13 +157,13 @@ Rispettare le impostazioni
 
 Softwareupdate-ACU-v3-v4\_v03\_30-09-2019\_de.pdf
 
-## Impostazioni avanzate tramite lo strumento di manutenzione (eCarUp Premium)
+## Impostazioni avanzate tramite il tool di manutenzione (eCarUp Premium)
 
-L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo tra 30-60s. Solo così possiamo calcolare e visualizzare meglio la potenza di ricarica attuale nell'app. 
+L'intervallo di caricamento dei Meter Values può variare da una stazione all'altra. Consigliamo un intervallo tra 30 e 60 s. Solo così possiamo calcolare e mostrare meglio nell'app la potenza di ricarica attuale. 
 
 Puoi modificarlo come segue:
 
-1.  Get Configuration (per leggere cosa è programmato)
+1.  Get Configuration (per leggere ciò che è programmato)
 
 2.  Change Configuration (per sovrascrivere il valore)
 

@@ -1,97 +1,97 @@
 ---
 title: 'KEBA'
 slug: '/ocpp-ladestationen/keba'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration backend'
 sidebar_label: 'KEBA'
 ---
-![KEBA – Illustration 1](/img/ocpp-ladestationen-keba/01.png)
+<Kacheln min="11rem">
 
-[Keba P30](https://www.keba.com/de/emobility/elektromobilitaet)
+<Kachel bild="/img/ocpp-ladestationen-keba/01.png" bildtext="Keba P30" titel="Keba P30" href="https://www.keba.com/de/emobility/elektromobilitaet" bildhoehe="10rem" mittig />
 
-![KEBA – Illustration 2](/img/ocpp-ladestationen-keba/02.png)
+<Kachel bild="/img/ocpp-ladestationen-keba/02.png" bildtext="Keba P40" titel="Keba P40" href="https://www.keba.com/de/emobility/elektromobilitaet" bildhoehe="10rem" mittig />
 
-[Keba P40](https://www.keba.com/de/emobility/elektromobilitaet)
+</Kacheln>
 
-## Guide d'intégration au backend
+## Guide d'intégration backend
 
-Les stations KEBA s'intègrent en quelques étapes au système de décompte eCarUp. Une fois installées dans votre compte, vous définissez vous-même et en toute simplicité les conditions d'utilisation de vos stations (prix, utilisateurs, horaires de disponibilité, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+Les bornes de recharge KEBA peuvent être intégrées en quelques étapes au système de décompte eCarUp. Une fois installées dans ton compte, tu peux définir toi-même, sans difficulté, les conditions d'utilisation de tes bornes (prix, utilisateurs, plages horaires disponibles, etc.). Tu décides qui peut recharger, quand et à quel prix. 
 
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Condition préalable pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configuration dans le [portail web pour exploitants de stations](/stationsbetreiber/webportal)
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+- Découvre ici davantage d'informations sur nos [fonctions Premium](/funktionen)
 
-### Intégration de stations OCPP
+### Intégration de bornes OCPP
 
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assure-toi que tes bornes de recharge sont installées et que ton PC ou ton téléphone portable est connecté au même réseau que la borne de recharge.
 
-2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
+2.  Ouvre le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connecte-toi avec les données de ton compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet « Stations » (Stationen).
+3.  Dans le menu à gauche, clique sur l'onglet « Bornes » (« Stationen »).
 
-4.  Sélectionnez l'onglet « OCPP ».
+4.  Sélectionne l'onglet « OCPP ».
 
-5.  Copiez l'URL dans le presse-papiers.
+5.  Copie l'URL dans le presse-papiers.
 
-1.Lien ws sans Basic Auth : testé et fonctionnel
+1.ws Link ohne Basic Auth: Getestet und funktioniert
 
-2.wss sans Basic Auth : testé et fonctionnel
+2.wss ohne Basic Auth: Getestet und funktioniert
 
-3.wss avec Basic Auth : testé et fonctionnel
+3.wss mit Basic Auth: Getestet und funktioniert
 
-6.  Accédez à l'interface web de la station souhaitée et collez-y l'URL copiée.
+6.  Va sur l'interface web de la borne souhaitée et colle l'URL copiée.
 
-## Intégration de la wallbox Keba P40
+## Intégration de la Keba Wallbox P40
 
-- Version du firmware testée : 1.3.0 
+- version de firmware testée : 1.3.0 
 
-Intégrez la station à un réseau dans lequel vous pouvez y accéder par son adresse IP. 
+Intègre la borne dans un réseau auquel tu peux accéder via l'adresse IP. 
 
 <Embed src="https://demo.arcade.software/IYNbI7tB2YAuuK25c3KR?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" aspect="1.660" title="Wiki - KEBA" />
 
-1.  Dans le navigateur, ouvrez l'adresse IP de la station
+1.  Ouvre l'adresse IP de la borne dans le navigateur
 
-2.  Connectez-vous :
+2.  Connecte-toi :
 
-Mot de passe par défaut : fourni avec le guide.
+Mot de passe par défaut : fourni avec le mode d'emploi.
 
-3.  Sous OCPP, effectuez maintenant les réglages suivants :
+3.  Effectue maintenant les paramètres suivants sous OCPP :
 
-Chargepoint Identity : « nom de la station »
+Chargepoint Identity : « nom de la borne »
 
-Attention : le nom de la station (Chargepoint Identity) ne doit contenir ni espaces ni caractères spéciaux, à l'exception du trait de soulignement « \_ ». Une fois l'intégration réussie, la station peut être renommée sans problème sur la plateforme eCarUp.
+Attention : le nom de la borne (Chargepoint Identity) ne doit contenir ni espace ni caractère spécial, à l'exception du tiret bas « \_ ». Après une intégration réussie, la borne peut être renommée sans problème sur la plateforme eCarUp.
 
-OCPP Communication Type : « OCPP 1.6 JSON »
+OCPP Communication Type: "OCPP 1.6 JSON"
 
-Central System Hostname : « www.ecarup.com »
+Central System Hostname: "www.ecarup.com"
 
-Central System Port : « 80 »
+Central System Port: "80"
 
-Central System Path : « api/Ocpp16/xxxxxxxx
+Central System Path: "api/Ocpp16/xxxxxxxx
 
-4.  Cliquez sur « Apply ».
+4.  Clique sur « Apply ».
 
 ![KEBA – Illustration 3](/img/ocpp-ladestationen-keba/03.png)
 
-5\. Réglez Authorization sur « ON »
+5\. Authorization sur « ON »
 
 6\. Online Authorization Mode « FirstOnline ».
 
-7\. Cliquez sur « Apply »
+7\. Clique sur « Apply »
 
 ![KEBA – Illustration 4](/img/ocpp-ladestationen-keba/04.png)
 
 <div className="row">
 <div className="col col--8">
 
-Si vous souhaitez connecter la station avec WSS et Basic Auth, vous devez effectuer les réglages suivants dans l'application Keba :
+Si tu souhaites connecter la borne avec WSS et Basic Auth, tu dois effectuer les paramètres suivants dans l'application Keba :
 
-- Connexion sécurisée au système central (Sichere Zentralsystemverbindung) pour WSS
+- Connexion sécurisée au système central pour WSS
 
-- Authentification du système central (Zentrale Systemauthentifizierung) pour Basic Auth.
+- Authentification du système central pour Basic Auth.
 
-La clé d'autorisation (Authorization Key) doit être récupérée dans le compte eCarUp, puis saisie en plus dans le portail web.
+La clé d'autorisation (Authorization Key) doit être récupérée dans le compte eCarUp et être en plus saisie dans le portail web.
 
 </div>
 <div className="col col--4 text--center">
@@ -107,13 +107,13 @@ Contrôle
 
 ![KEBA – Illustration 7](/img/ocpp-ladestationen-keba/07.png)
 
-## Intégration de la wallbox Keba P30 série X
+## Intégration de la Keba Wallbox P30 X Series
 
-<Video src="db3zpnosgv8" title="Vidéo YouTube, intégrer une station KEBA au backend eCarUp" />
+<Video src="db3zpnosgv8" title="Vidéo YouTube, intégrer une borne KEBA au backend eCarUp" />
 
-### KEBA et droit de la métrologie en Allemagne
+### KEBA : métrologie et étalonnage légal en Allemagne
 
-Avec les bornes de recharge KEBA ME, les sessions de recharge semi-publiques et publiques peuvent être facturées simplement par carte de crédit via eCarUp, conformément aux prescriptions en vigueur du droit de la métrologie. En savoir plus : [Droit de la métrologie en Allemagne](/sonstige-informationen/eichrecht-in-deutschland).
+Avec les bornes de recharge KEBA ME, eCarUp permet de décompter simplement par carte de crédit les sessions de recharge semi-publiques et publiques, conformément aux prescriptions en vigueur en matière de métrologie et d'étalonnage légal. Plus d'informations : [Étalonnage légal en Allemagne](/sonstige-informationen/eichrecht-in-deutschland).
 
 ### Important : tenir compte de la circulaire Keba
 
@@ -123,35 +123,35 @@ Avec les bornes de recharge KEBA ME, les sessions de recharge semi-publiques et 
 
 ### Important : version du firmware !
 
-Pour pouvoir installer votre borne de recharge KEBA x-series (y compris M&E / version du firmware : 1.9.1 ou plus récente / logiciel le plus récent toujours disponible dans les [téléchargements KEBA](https://www.keba.com/de/emobility/service-support/downloads/downloads)) dans un compte eCarUp, les préparatifs suivants doivent être effectués :
+Pour pouvoir installer ta borne de recharge KEBA x-series (également M&E / version du firmware : 1.9.1 ou plus récente / dernier logiciel toujours disponible dans les [téléchargements KEBA](https://www.keba.com/de/emobility/service-support/downloads/downloads)) dans un compte eCarUp, les préparatifs suivants doivent être effectués :
 
 ### Intégration de la x-series
 
-1.  Connectez votre ordinateur à l'adresse IP de la station. L'adresse IP s'affiche sur l'écran de la station.
+1.  Connectez votre ordinateur à l'adresse IP de la borne. L'adresse IP s'affiche sur l'écran de la borne.
 
-2.  Connectez-vous :
+2.  Connecte-toi :
 
 Nom d'utilisateur par défaut : admin
 
-Mot de passe par défaut : Keba\_xxxx( numéro de série de la station)
+Mot de passe par défaut : Keba\_xxxx (numéro de série de la borne)
 
-3.  Sous OCPP, effectuez maintenant les réglages suivants :
+3.  Effectue maintenant les paramètres suivants sous OCPP :
 
-Chargepoint Identity : « nom de la station »
+Chargepoint Identity : « nom de la borne »
 
-Attention : le nom de la station (Chargepoint Identity) ne doit contenir ni espaces ni caractères spéciaux, à l'exception du trait de soulignement « \_ ». Une fois l'intégration réussie, la station peut être renommée sans problème sur la plateforme eCarUp.
+Attention : le nom de la borne (Chargepoint Identity) ne doit contenir ni espace ni caractère spécial, à l'exception du tiret bas « \_ ». Après une intégration réussie, la borne peut être renommée sans problème sur la plateforme eCarUp.
 
-OCPP Communication Type : « OCPP 1.6 JSON »
+OCPP Communication Type: "OCPP 1.6 JSON"
 
-Central System Hostname : « www.ecarup.com »
+Central System Hostname: "www.ecarup.com"
 
-Central System Port : « 80 »
+Central System Port: "80"
 
-Central System Path : « api/Ocpp16/&#123;code du site web eCarUp&#125; ». Vous l'avez enregistré à l'étape trois de la préparation (voir ci-dessus).
+Central System Path: "api/Ocpp16/&#123;code von der eCarUp Webseite&#125;". Tu as enregistré celui-ci à l'étape trois de la préparation (voir ci-dessus).
 
 ![KEBA – Illustration 10](/img/ocpp-ladestationen-keba/10.png)
 
-4\. Configuration de l'appareil
+4\. Configuration des appareils
 
 Menu : Configuration --> Appareils (le chargement de la page prend un peu de temps)
 
@@ -161,34 +161,34 @@ Online Authorization Mode : First Online
 
 ![KEBA – Illustration 11](/img/ocpp-ladestationen-keba/11.png)
 
-Remarque : si votre entreprise utilise un proxy dans son système, vous pouvez effectuer ces réglages directement sur la station KEBA. 
+Remarque : si ton entreprise prend en charge un proxy dans le système, tu peux effectuer ces paramètres directement sur la borne KEBA. 
 
-La borne de recharge KEBA x-series est maintenant enregistrée dans votre compte eCarUp. Vous pouvez à présent définir les conditions d'utilisation de la borne de recharge dans le portail web eCarUp.
+La borne de recharge KEBA x-series est maintenant enregistrée dans ton compte eCarUp. Tu peux maintenant définir les conditions d'utilisation de la borne de recharge dans le portail web eCarUp.
 
 ### Intégration de la c-series
 
-Les bornes de recharge KEBA c-series peuvent être installées comme esclaves des bornes de recharge KEBA x-series. Comme pour la x-series, vous définissez vous-même et en toute simplicité les conditions d'utilisation de vos stations dès qu'elles sont installées dans votre compte. Vous décidez qui peut recharger, quand et à quel prix.
+Les bornes de recharge KEBA c-series peuvent être installées comme esclaves des bornes de recharge KEBA x-series. Comme pour la x-series, tu peux définir toi-même, sans difficulté, les conditions d'utilisation de tes bornes dès qu'elles sont installées dans ton compte. Tu décides qui peut recharger, quand et à quel prix.
 
-1.  Sur la station esclave, réglez le commutateur DIP « DSW2.5 » sur « On »
+1.  Place le commutateur DIP « DSW2.5 » de la borne esclave sur « On »
 
 ![KEBA – Illustration 12](/img/ocpp-ladestationen-keba/12.png)
 
 <div className="row">
 <div className="col col--6">
 
-2\. Connectez votre ordinateur à l'adresse IP du maître, la borne de recharge KEBA x-series.
+2\. Connecte ton ordinateur à l'adresse IP du maître – la borne de recharge KEBA x-series.
 
 Nom d'utilisateur par défaut : admin
 
-Mot de passe par défaut : numéro de série de la borne de recharge KEBA x-series
+Mot de passe par défaut : numéro de série de la borne de recharge KEBA x-Series
 
-3. Sous OCPP, effectuez maintenant les réglages suivants :
+3. Effectue maintenant les paramètres suivants sous OCPP :
 
-1.  Sous Operation Mode, passez à Charging Network
+1.  Passe sous Operation Mode sur Charging Network
 
-2.  Indiquez le nombre d'esclaves
+2.  Indique le nombre d'esclaves
 
-3.  Saisissez le numéro de série des esclaves
+3.  Saisis le numéro de série des esclaves
 
 </div>
 <div className="col col--6 text--center">
@@ -198,11 +198,11 @@ Mot de passe par défaut : numéro de série de la borne de recharge KEBA x-seri
 </div>
 </div>
 
-## Réglage avancé via l'outil de maintenance (eCarUp Premium)
+## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de téléversement des Meter Values peut varier d'une station à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle de téléversement des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon de mieux calculer et afficher la puissance de charge actuelle dans l'application. 
 
-Vous pouvez le modifier comme suit :
+Tu peux le modifier comme suit :
 
 1.  Get Configuration (pour lire ce qui est programmé)
 

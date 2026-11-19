@@ -6,31 +6,33 @@ sidebar_label: 'POWERJames'
 ---
 ## Guide d'intégration backend
 
-Les bornes POWERJames peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même et en toute simplicité les conditions d'utilisation de vos bornes (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+Les bornes POWERJames peuvent être intégrées au système de décompte eCarUp en quelques étapes. Une fois installées dans ton compte, tu peux définir toi-même, sans complication, les conditions d'utilisation de tes bornes (prix, utilisateurs, plages horaires disponibles, etc.). Tu décides qui peut recharger, quand et à quel prix.
 
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Condition préalable pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configuration dans le [portail web pour les exploitants de bornes](/stationsbetreiber/webportal) 
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+- Découvre ici davantage de détails sur nos [fonctions Premium](/funktionen)
 
-![POWERJames – Illustration 1](/img/ocpp-ladestationen-powerjames/01.png)
+<Kacheln min="11rem">
 
-[Wallbox POWERJames Charges](https://powerjames.com/#funktionen)
+<Kachel bild="/img/ocpp-ladestationen-powerjames/01.png" bildtext="POWERJames Wallbox POWERJames Charges" titel="Wallbox POWERJames Charges" href="https://powerjames.com/#funktionen" bildhoehe="10rem" mittig />
 
-### Intégration des bornes OCPP
+</Kacheln>
 
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+### Intégration de bornes OCPP
 
-2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
+1.  Assure-toi que tes bornes de recharge sont installées et que ton PC ou ton téléphone portable est connecté au même réseau que la borne de recharge.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet "Stations" ("Stationen").
+2.  Ouvre le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connecte-toi avec les données de ton compte.
 
-4.  Sélectionnez l'onglet "OCPP".
+3.  Dans le menu à gauche, clique sur l'onglet « Stationen ».
 
-5.  Copiez l'URL dans le presse-papiers.
+4.  Sélectionne l'onglet « OCPP ».
 
-6.  Accédez à l'interface web de la borne souhaitée et collez-y l'URL copiée.
+5.  Copie l'URL dans le presse-papiers.
+
+6.  Va sur l'interface web de la borne souhaitée et colle l'URL copiée.
 
 ## POWERJames Charge S
 
@@ -38,23 +40,23 @@ Les bornes POWERJames peuvent être intégrées en quelques étapes dans le syst
 
 ### Étape 1
 
-- Connectez la borne de recharge au réseau Wi-Fi local.
+- Connecte la borne de recharge au Wi-Fi local.
 
-- Conseil : consultez le Quick Guide fourni.
+- Astuce : consulte le guide rapide fourni.
 
 ### Étape 2
 
-- Contactez ensuite le support de PowerJames à l'adresse [support@powerjames.com](mailto:support@powerjames.com) pour l'informer que vous souhaitez connecter la borne à eCarUp.
+- Contacte ensuite le support de PowerJames à l'adresse [support@powerjames.com](mailto:support@powerjames.com) pour indiquer que tu souhaites connecter la borne à eCarUp.
 
 ### Étape 3
 
-- Dès que vous avez reçu leur accord, vous pouvez commencer. 
+- Dès que tu as reçu leur accord, tu peux commencer.
 
-- Connectez-vous à nouveau à la wallbox avec votre téléphone et saisissez une nouvelle fois l'adresse IP 192.168.4.1 dans le navigateur. 
+- Connecte-toi de nouveau à la wallbox via ton téléphone portable et saisis à nouveau l'adresse IP 192.168.4.1 dans le navigateur.
 
 ### Étape 4
 
-- Cliquez sur "OCPP Configuration"
+- Clique sur « OCPP Configuration »
 
 ![POWERJames – Illustration 2](/img/ocpp-ladestationen-powerjames/02.png)
 
@@ -63,13 +65,13 @@ Les bornes POWERJames peuvent être intégrées en quelques étapes dans le syst
 <div className="row">
 <div className="col col--6">
 
-- Activez l'interface OCPP
+- Active l'interface OCPP
 
 - La ChargeBox ID est définie automatiquement.
 
-- Ajoutez l'URL OCPP de votre compte eCarUp.
+- Ajoute l'URL OCPP de ton compte eCarUp.
 
-- Pour terminer, enregistrez et redémarrez la borne.
+- Enregistre à la fin et redémarre la borne.
 
 </div>
 <div className="col col--6 text--center">
@@ -81,14 +83,14 @@ Les bornes POWERJames peuvent être intégrées en quelques étapes dans le syst
 
 ### Exemple :
 
-- URL OCPP de votre compte : ws://www.ecarup.com/api/Ocpp16/D0xxxxxxxxxx
+- URL OCPP de ton compte : ws://www.ecarup.com/api/Ocpp16/D0xxxxxxxxxx
 
 ### Étape 6
 
 <div className="row">
 <div className="col col--6">
 
-- Contrôle final : sous OCPP, "Active" doit être affiché.
+- Contrôle final : pour OCPP, « Active » doit être affiché.
 
 - La configuration chez PowerJames est ainsi terminée et le point de mesure peut être modifié dans eCarUp.
 
@@ -102,9 +104,9 @@ Les bornes POWERJames peuvent être intégrées en quelques étapes dans le syst
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de transmission des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'app. 
+L'intervalle d'envoi des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'application.
 
-Vous pouvez le modifier comme suit :
+Tu peux le modifier comme suit :
 
 1.  Get Configuration (pour lire ce qui est programmé)
 

@@ -1,14 +1,14 @@
 ---
 title: 'Eaton OCPP'
 slug: '/ocpp-ladestationen/eaton'
-description: 'Stazioni di ricarica Green Motion meno recenti (Box Proxy)'
+description: 'Stazioni di ricarica Green Motion più datate (Box Proxy)'
 sidebar_label: 'Eaton OCPP'
 ---
 ## Stazioni di ricarica Box Proxy
 
-## Stazioni di ricarica Green Motion meno recenti (Box Proxy)
+## Stazioni di ricarica Green Motion più datate (Box Proxy)
 
-Il Box Proxy è disponibile da subito per l'integrazione delle stazioni Green Motion meno recenti. Ciò significa che le stazioni di ricarica possono già essere collegate alla piattaforma eCarUp e testate seguendo la guida riportata di seguito. Potrebbero tuttavia esserci ancora ampliamenti e/o miglioramenti.
+Il Box Proxy è disponibile da subito per l'integrazione delle stazioni Green Motion più datate. Ciò significa che le stazioni di ricarica possono già essere collegate alla piattaforma eCarUp e testate seguendo la guida riportata di seguito. Potrebbero però essere ancora in corso estensioni e/o miglioramenti.
 
 Attualmente sono supportati i seguenti modelli di stazioni di ricarica:
 
@@ -24,102 +24,100 @@ Attualmente sono supportati i seguenti modelli di stazioni di ricarica:
 
 ## Stazioni di ricarica OCPP
 
-![Eaton OCPP – Figura 1](/img/ocpp-ladestationen-eaton/01.jpg)
+<Kacheln min="11rem">
 
-[Green Motion Duo](https://www.eaton.com/ch/de-de.html)
+<Kachel bild="/img/ocpp-ladestationen-eaton/01.jpg" bildtext="Eaton Green Motion Duo" titel="Green Motion Duo" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-![Eaton OCPP – Figura 2](/img/ocpp-ladestationen-eaton/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-eaton/02.jpg" bildtext="Eaton Green Motion DC 22&66" titel="Green Motion DC 22&66" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-[Green Motion DC 22&66](https://www.eaton.com/ch/de-de.html)
+<Kachel bild="/img/ocpp-ladestationen-eaton/03.jpg" bildtext="Eaton Green Motion Building" titel="Green Motion Building" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-![Eaton OCPP – Figura 3](/img/ocpp-ladestationen-eaton/03.jpg)
+</Kacheln>
 
-[Green Motion Building](https://www.eaton.com/ch/de-de.html)
+## Guida all'integrazione del backend
 
-## Guida all'integrazione nel backend
+Le stazioni Eaton possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni d'uso delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo.
 
-Le stazioni Eaton possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire tu stesso in modo semplice le condizioni d'uso delle tue stazioni (prezzi, utenti, orari di disponibilità ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
-
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
 - Scopri di più sulle nostre [funzioni Premium](/funktionen)
 
-### Integrazione delle stazioni OCPP
+### Integrazione di stazioni OCPP
 
 1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
 2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua l'accesso con i dati del tuo account.
 
-3.  Nel menu a sinistra, clicca sulla scheda "Stazioni" ("Stationen").
+3.  Nel menu a sinistra, clicca sulla scheda «Stazioni» («Stationen»).
 
-4.  Seleziona la scheda "OCPP".
+4.  Seleziona la scheda «OCPP».
 
 5.  Copia l'URL negli appunti.
 
 6.  Vai all'interfaccia web della stazione desiderata e incolla l'URL copiato.
 
-## Collegamento delle stazioni di ricarica Eaton
+## Integrazione delle stazioni di ricarica Eaton
 
 ### Green Motion DC 22 & 66
 
 Versione firmware testata: 2003
 
-### Collegamento della stazione di ricarica
+### Integrazione della stazione di ricarica
 
-Info: la pagina di configurazione rimane attiva per 30 minuti, dopodiché la stazione deve essere riavviata. 
+Info: la pagina di configurazione rimane attiva per 30 minuti, poi la stazione deve essere riavviata.
 
 - Accendi la stazione tramite l'interruttore di protezione
 
-- Collega il PC via Ethernet a una delle tre porte LAN del router Teltronika nella stazione
+- Collega il PC tramite Ethernet a una delle tre porte LAN del router Teltonika nella stazione
 
-- Nel browser, vai al seguente IP: 192.168.52.11
+- Nel browser vai al seguente indirizzo IP: 192.168.52.11
 
-- Clicca su «Apri pagina» e inserisci nel browser i dati di accesso forniti in dotazione. (Di default può essere admin/admin)
+- Clicca su «Apri pagina» e inserisci nel browser i dati di accesso forniti in dotazione. (di default può essere admin/admin)
 
 ![Eaton OCPP – Figura 4](/img/ocpp-ladestationen-eaton/04.png)
 
 ![Eaton OCPP – Figura 5](/img/ocpp-ladestationen-eaton/05.png)
 
-### Passo 1
+### Passaggio 1
 
-- Verifica la versione del software: Bienne 2003 è il firmware testato. 
+- Verificare la versione del software: Bienne 2003 è il firmware testato.
 
 ![Eaton OCPP – Figura 6](/img/ocpp-ladestationen-eaton/06.png)
 
-### Passo 2
+### Passaggio 2
 
-- Seleziona OCPP Server
+- Selezionare OCPP Server
 
-- In Backend, imposta Custom
+- In Backend impostare Custom
 
-- Aggiungi l'URL eCarUp dal tuo account
+- Aggiungere l'URL eCarUp dal proprio account
 
-Esempio: 
+Esempio:
 
 wss://[www.ecarup.com/api/Ocpp16/D037091EE3xxxxxx/](http://www.ecarup.com/api/Ocpp16/D037091EE3026BE0/HL68P28001)
 
-- Imposta Security Profile su None
+- Security Profile su None
 
-- Salva
+- Salvare
 
 ![Eaton OCPP – Figura 7](/img/ocpp-ladestationen-eaton/07.png)
 
-### Passo 3
+### Passaggio 3
 
-- Riavvia la stazione
+- Riavviare la stazione
 
 ## Green Motion Building
 
 - Firmware testato v.1807
 
-### Collegamento della stazione di ricarica
+### Integrazione della stazione di ricarica
 
 <div className="row">
 <div className="col col--8">
 
-Info: la pagina di configurazione rimane attiva per 30 minuti, dopodiché la stazione deve essere riavviata.
+Info: la pagina di configurazione rimane attiva per 30 minuti, poi la stazione deve essere riavviata.
 
 - Accendi la stazione
 
@@ -127,13 +125,13 @@ Info: la pagina di configurazione rimane attiva per 30 minuti, dopodiché la sta
 
 - La stazione crea un hotspot con le ultime 4 cifre del numero di serie. Ad es. GM\_Mxxxxx
 
-- La password è riportata su un adesivo fornito con la documentazione del caricatore. I modelli meno recenti hanno una password standard (GreenMotion!1052).
+- La password è riportata su un adesivo insieme alla documentazione del caricatore. I modelli più datati hanno una password standard (GreenMotion!1052).
 
-- Collega il tuo PC o smartphone all'hotspot e nel browser vai al seguente IP: 192.168.53.1
+- Collega il tuo PC o smartphone all'hotspot e vai nel browser al seguente indirizzo IP: 192.168.53.1
 
-- Configura la rete e prosegui con i passi riportati di seguito.
+- Configura la rete e prosegui con i passaggi riportati di seguito.
 
-- È possibile che tu riceva un messaggio di avviso prima di accedere alla pagina di configurazione. Clicca su «Continua».
+- Prima di accedere alla pagina di configurazione potrebbe comparire un avviso. Clicca su «Continua».
 
 </div>
 <div className="col col--4 text--center">
@@ -145,39 +143,39 @@ Info: la pagina di configurazione rimane attiva per 30 minuti, dopodiché la sta
 
 ![Eaton OCPP – Figura 9](/img/ocpp-ladestationen-eaton/09.png)
 
-### Passo 1
+### Passaggio 1
 
-- Seleziona OCPP Server
+- Selezionare OCPP Server
 
-- In Backend, imposta Custom
+- In Backend impostare Custom
 
-- Aggiungi l'URL eCarUp dal tuo account
+- Aggiungere l'URL eCarUp dal proprio account
 
-Esempio: 
+Esempio:
 
 wss://[www.ecarup.com/api/Ocpp16/D037091EE3026BE0/](http://www.ecarup.com/api/Ocpp16/D037091EE3026BE0/HL68P28001)
 
-- Imposta Security Profile su None
+- Security Profile su None
 
-- Salva
+- Salvare
 
 ![Eaton OCPP – Figura 10](/img/ocpp-ladestationen-eaton/10.png)
 
-### Passo 2
+### Passaggio 2
 
-- Riavvia la stazione
+- Riavviare la stazione
 
-## Verificare l'autorizzazione
+## Verifica dell'autorizzazione
 
 ![Eaton OCPP – Figura 11](/img/ocpp-ladestationen-eaton/11.png)
 
 ## Impostazioni avanzate tramite lo strumento di manutenzione (eCarUp Premium)
 
-L'intervallo di upload dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30-60s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo di 30-60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale.
 
 Puoi modificarlo come segue:
 
-1.  Get Configuration (per leggere cosa è programmato)
+1.  Get Configuration (per leggere ciò che è programmato)
 
 2.  Change Configuration (per sovrascrivere il valore)
 
@@ -185,8 +183,8 @@ Puoi modificarlo come segue:
 
 ![Eaton OCPP – Figura 13](/img/ocpp-ladestationen-eaton/13.png)
 
-### Download dei log
+### Download Logs
 
-Se la stazione non dovesse comparire nel nostro sistema e nemmeno il supporto Eaton trovasse una soluzione al problema, ti chiediamo di metterci a disposizione i file di log per una verifica.
+Se la stazione non compare nel nostro sistema e nemmeno il supporto Eaton riesce a trovare una soluzione al problema, vi preghiamo di metterci a disposizione i file di log per la verifica.
 
 Maintenance --> System Log --> Get the Logs

@@ -4,36 +4,34 @@ slug: '/ocpp-ladestationen/partino'
 description: 'Backend integration guide'
 sidebar_label: 'Partino'
 ---
-![Partino – Figure 1](/img/ocpp-ladestationen-partino/01.jpg)
+<Kacheln min="11rem">
 
-[Partino Vool](https://www.partino.ch/de/angebot/e-ladestationen/vool/)
+<Kachel bild="/img/ocpp-ladestationen-partino/01.jpg" bildtext="Partino Vool" titel="Partino Vool" href="https://www.partino.ch/de/angebot/e-ladestationen/vool/" bildhoehe="10rem" mittig />
 
-![Partino – Figure 2](/img/ocpp-ladestationen-partino/02.png)
+<Kachel bild="/img/ocpp-ladestationen-partino/02.png" bildtext="Partino DC30" titel="Partino DC30" href="https://www.partino.ch/de/angebot/e-ladestationen/partino-x-ecotap/" bildhoehe="10rem" mittig />
 
-[Partino DC30](https://www.partino.ch/de/angebot/e-ladestationen/partino-x-ecotap/)
+<Kachel bild="/img/ocpp-ladestationen-partino/03.png" bildtext="Partino Ecotap" titel="Partino Ecotap" href="https://www.partino.ch/de/angebot/e-ladestationen/partino-x-ecotap/" bildhoehe="10rem" mittig />
 
-![Partino – Figure 3](/img/ocpp-ladestationen-partino/03.png)
-
-[Partino Ecotap](https://www.partino.ch/de/angebot/e-ladestationen/partino-x-ecotap/)
+</Kacheln>
 
 ## Backend integration guide
 
-Partino and Ecotap stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when and at what price. 
+Partino and Ecotap stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Prerequisites for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal) 
 
-- Learn more here about our [Premium features](/funktionen)
+- Learn more about our [premium features](/funktionen) here
 
 
 ### Integrating OCPP stations
 
 1.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-2.  In the menu on the left, click the "Stations" ("Stationen") tab.
+2.  In the menu on the left, click the "Stationen" tab ("Stationen").
 
-3.  Select the "OCPP" tab.
+3.  Select the "OCPP" tab ("OCPP").
 
 4.  Copy the URL to the clipboard.
 
@@ -45,11 +43,11 @@ Partino and Ecotap stations can be integrated into the eCarUp billing system in 
 - tested firmware version v1.9.16 
 
 
-<Video src="pRN2F2iiNzk" title="YouTube video, integration guide for Partino /Vool charging station into the eCarUp backend" />
+<Video src="pRN2F2iiNzk" title="YouTube video, integration guide for Partino / Vool charging station into the eCarUp backend" />
 
-### Video integration guide for Partino Vool charging stations into the eCarUp backend
+### Video: integration guide for Partino Vool charging stations into the eCarUp backend
 
-- To do this, install the Vool app
+- For this, install the Vool app
 
 
 ![Partino – Figure 4](/img/ocpp-ladestationen-partino/04.png)
@@ -83,9 +81,9 @@ Partino and Ecotap stations can be integrated into the eCarUp billing system in 
 
 ![Partino – Figure 10](/img/ocpp-ladestationen-partino/10.png)
 
-### Sending the eCarUp URL to Partino (when using the Floatbrige)
+### Sending the eCarUp URL to Partino (when using the Floatbridge)
 
-To integrate Partino stations (when using the Floatbrige) into our backend, you currently still need support from [Partino](https://www.partino.ch/de/). Partino carries out the final configuration step and assigns your charge points to the correct eCarUp account (via the OCPP URL) that you received during preparation. To do this, send the URL and the serial numbers of the charging station to Partino using the form below. 
+To integrate the Partino stations (when using the Floatbridge) into our backend, you currently still need support from the company [Partino](https://www.partino.ch/de/). Partino carries out the last configuration step and assigns your charge points to the correct eCarUp account (via OCPP URL), which you received during preparation. To do this, send the URL and the serial numbers of the charging station to Partino using the form below. 
 
 [Partino application form](https://www.partino.ch/wp-content/uploads/Partino_Anmeldeformular_eCarUp.pdf).
 
@@ -98,13 +96,13 @@ To integrate Partino stations (when using the Floatbrige) into our backend, you 
 
 ### Sending the OCPP URL to Partino
 
-To integrate Ecotap stations into our backend, you currently still need support from [Partino](https://www.partino.ch/de/). Partino carries out the final configuration step and assigns your charge points to the correct eCarUp account (via the OCPP URL) that you received during preparation. To do this, send the URL and the serial numbers of the charging station to Partino using the form below. 
+To integrate the Ecotap stations into our backend, you currently still need support from the company [Partino](https://www.partino.ch/de/). Partino carries out the last configuration step and assigns your charge points to the correct eCarUp account (via OCPP URL), which you received during preparation. To do this, send the URL and the serial numbers of the charging station to Partino using the form below. 
 
 [Partino application form](https://www.partino.ch/wp-content/uploads/Partino_Anmeldeformular_eCarUp.pdf).
 
-## Advanced settings via the maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the meter values can vary from station to station. We recommend an interval of 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. Only then can we better calculate and display the current charging power in the app. 
 
 
 

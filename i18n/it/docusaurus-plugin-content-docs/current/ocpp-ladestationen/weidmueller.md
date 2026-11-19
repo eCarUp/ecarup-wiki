@@ -1,31 +1,31 @@
 ---
 title: 'Weidmüller'
 slug: '/ocpp-ladestationen/weidmueller'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione del backend'
 sidebar_label: 'Weidmüller'
 ---
-![Weidmüller – Figura 1](/img/ocpp-ladestationen-weidmueller/01.jpg)
+<Kacheln min="11rem">
 
-[AC-Smart Advance](https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE)
+<Kachel bild="/img/ocpp-ladestationen-weidmueller/01.jpg" bildtext="Weidmüller AC-Smart Advance" titel="AC-Smart Advance" href="https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE" bildhoehe="10rem" mittig />
 
-![Weidmüller – Figura 2](/img/ocpp-ladestationen-weidmueller/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-weidmueller/02.jpg" bildtext="Weidmüller Wallbox" titel="Wallbox" href="https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE" bildhoehe="10rem" mittig />
 
-[Wallbox](https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE)
+</Kacheln>
 
-## Guida all'integrazione nel backend
+## Guida all'integrazione del backend
 
-Le stazioni Weidmüller possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire tu stesso in modo semplice le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
+Le stazioni Weidmüller possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni d'uso delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
 
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
 - Scopri di più sulle nostre [funzioni Premium](/funktionen)
 
 
-### Integrazione delle stazioni OCPP
+### Integrazione di stazioni OCPP
 
-1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
 2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) e accedi con i dati del tuo account.
 
@@ -38,20 +38,20 @@ Le stazioni Weidmüller possono essere integrate in pochi passaggi nel sistema d
 6.  Vai all'interfaccia web della stazione desiderata e incolla l'URL copiato.
 
 
-## Integrazione delle stazioni di ricarica Weidmüller
+## Collegamento delle stazioni di ricarica Weidmüller
 
 ### AC-Smart Advance
 
-- Processo di dismissione di questo hardware da parte di Weidmüller a partire dal 01/2025
+- Processo di fine produzione da parte di Weidmüller a partire da 01/2025 per questo hardware
 
 
 - Apri le impostazioni di rete e Internet del tuo PC
 
 - Qui devi assegnare un indirizzo IP statico, ad es. 192.168.0.72
 
-- Collega quindi il tuo PC alla wallbox e apri nel browser il seguente IP "Default": 192.168.0.8 
+- Poi collega il PC alla wallbox e apri nel browser il seguente IP "predefinito" ("Default"): 192.168.0.8 
 
-- I dati di accesso sono riportati nelle istruzioni fornite in dotazione
+- Per i dati di accesso consulta la guida fornita in dotazione
 
 - La versione del software deve essere almeno 01.08.01
 
@@ -62,7 +62,7 @@ Le stazioni Weidmüller possono essere integrate in pochi passaggi nel sistema d
 
 1.  Attivare Enable OCPP
 
-2.  Interface: qui è possibile scegliere un mezzo di comunicazione qualsiasi
+2.  Interface: qui si può scegliere un mezzo di comunicazione qualsiasi
 
 3.  Portal address = [www.ecarup.com](http://www.ecarup.com)
 
@@ -96,9 +96,9 @@ Riavviare la stazione.
 
 - Qui devi assegnare un indirizzo IP statico, ad es. 192.168.0.72
 
-- Collega quindi il tuo PC alla wallbox e apri nel browser il seguente IP "Default": 192.168.0.8 & PW: wallbe7213
+- Poi collega il PC alla wallbox e apri nel browser il seguente IP "predefinito" ("Default"): 192.168.0.8 e PW: wallbe7213
 
-- Il firmware deve essere almeno della versione: BF-01.04.20
+- Il firmware deve essere almeno alla versione: BF-01.04.20
 
 
 ### Interfaccia web
@@ -111,21 +111,21 @@ Riavviare la stazione.
 
 - Mezzo di comunicazione desiderato
 
-- L'OCPP Vendor non deve contenere spazi
+- OCPP Vendor non deve contenere spazi
 
-- Il websocket deve essere scomposto
+- Il websocket deve essere suddiviso nelle sue parti
 
 
 ### Websocket di eCarUp
 
-- Inseriscilo come mostrato nello screenshot
+- Inserirlo come mostrato nella schermata
 
-- Alla fine fai attenzione a: api/Ocpp16/weoih48zlkuhr9/00000010638
-
-
+- Prestare attenzione alla parte finale, api/Ocpp16/weoih48zlkuhr9/00000010638
 
 
-- Importante: alla fine non dimenticare / (slash) + 00000010638 (numero di serie della stazione)!
+
+
+- Importante: non dimenticare alla fine / (slash) + 00000010638 (numero di serie della stazione)!
 
 
 ![Weidmüller – Figura 5](/img/ocpp-ladestationen-weidmueller/05.png)
@@ -134,19 +134,19 @@ Il numero di serie della tua wallbox si trova come segue:
 
 ![Weidmüller – Figura 6](/img/ocpp-ladestationen-weidmueller/06.png)
 
-Se si utilizzano carte RFID, impostare anche il seguente parametro:
+Se si utilizzano schede RFID, impostare anche il seguente parametro:
 
 ![Weidmüller – Figura 7](/img/ocpp-ladestationen-weidmueller/07.png)
 
 ## Impostazioni avanzate tramite lo strumento di manutenzione (eCarUp Premium)
 
-L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo tra 30 e 60s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
 
 
 
 Puoi modificarlo come segue:
 
-1.  Get Configuration (per leggere cosa è programmato)
+1.  Get Configuration (per leggere ciò che è programmato)
 
 2.  Change Configuration (per sovrascrivere il valore)
 

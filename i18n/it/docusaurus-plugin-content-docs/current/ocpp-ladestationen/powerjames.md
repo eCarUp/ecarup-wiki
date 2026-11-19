@@ -1,22 +1,24 @@
 ---
 title: 'POWERJames'
 slug: '/ocpp-ladestationen/powerjames'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione del backend'
 sidebar_label: 'POWERJames'
 ---
-## Guida all'integrazione nel backend
+## Guida all'integrazione del backend
 
-Le stazioni POWERJames possono essere integrate in pochi passi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire facilmente in autonomia le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
+Le stazioni POWERJames possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni d'uso delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo.
 
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal) 
+- Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
 - Scopri di più sulle nostre [funzioni Premium](/funktionen)
 
-![POWERJames – Figura 1](/img/ocpp-ladestationen-powerjames/01.png)
+<Kacheln min="11rem">
 
-[Wallbox POWERJames Charges](https://powerjames.com/#funktionen)
+<Kachel bild="/img/ocpp-ladestationen-powerjames/01.png" bildtext="POWERJames Wallbox POWERJames Charges" titel="Wallbox POWERJames Charges" href="https://powerjames.com/#funktionen" bildhoehe="10rem" mittig />
+
+</Kacheln>
 
 ### Integrazione delle stazioni OCPP
 
@@ -34,31 +36,31 @@ Le stazioni POWERJames possono essere integrate in pochi passi nel sistema di co
 
 ## POWERJames Charge S
 
-- "firmwareVersion":"22.0.35" 
+- "firmwareVersion":"22.0.35"
 
-### Passo 1
+### Passaggio 1
 
 - Collega la stazione di ricarica alla rete Wi-Fi locale.
 
-- Suggerimento: consulta la Quick Guide fornita in dotazione.
+- Suggerimento: consulta la Quick Guide in dotazione.
 
-### Passo 2
+### Passaggio 2
 
-- Contatta poi il supporto di PowerJames all'indirizzo [support@powerjames.com](mailto:support@powerjames.com) comunicando che desideri collegare la stazione a eCarUp.
+- Contatta poi il supporto di PowerJames all'indirizzo [support@powerjames.com](mailto:support@powerjames.com) per comunicare che vuoi collegare la stazione a eCarUp.
 
-### Passo 3
+### Passaggio 3
 
-- Non appena avrai ricevuto il loro via libera, puoi iniziare. 
+- Non appena hai ricevuto il via libera, puoi iniziare.
 
-- Collegati di nuovo alla wallbox tramite lo smartphone e digita nuovamente l'indirizzo IP 192.168.4.1 nel browser. 
+- Collegati di nuovo alla wallbox tramite smartphone e digita ancora una volta l'indirizzo IP 192.168.4.1 nel browser.
 
-### Passo 4
+### Passaggio 4
 
 - Clicca su "OCPP Configuration"
 
 ![POWERJames – Figura 2](/img/ocpp-ladestationen-powerjames/02.png)
 
-### Passo 5
+### Passaggio 5
 
 <div className="row">
 <div className="col col--6">
@@ -69,7 +71,7 @@ Le stazioni POWERJames possono essere integrate in pochi passi nel sistema di co
 
 - Aggiungi l'URL OCPP del tuo account eCarUp.
 
-- Infine salva e riavvia la stazione.
+- Alla fine salva e riavvia la stazione.
 
 </div>
 <div className="col col--6 text--center">
@@ -81,16 +83,16 @@ Le stazioni POWERJames possono essere integrate in pochi passi nel sistema di co
 
 ### Esempio:
 
-- URL OCPP del tuo account: ws://www.ecarup.com/api/Ocpp16/D0xxxxxxxxxx
+- URL OCPP dal tuo account: ws://www.ecarup.com/api/Ocpp16/D0xxxxxxxxxx
 
-### Passo 6
+### Passaggio 6
 
 <div className="row">
 <div className="col col--6">
 
-- Controllo finale: per OCPP deve essere indicato "Active".
+- Controllo finale: alla voce OCPP deve essere indicato "Active".
 
-- La configurazione presso PowerJames è così conclusa e il punto di misura può essere modificato in eCarUp.
+- Con questo la configurazione presso PowerJames è conclusa e il punto di misura può essere modificato in eCarUp.
 
 </div>
 <div className="col col--6 text--center">
@@ -100,13 +102,13 @@ Le stazioni POWERJames possono essere integrate in pochi passi nel sistema di co
 </div>
 </div>
 
-## Impostazioni avanzate tramite lo strumento di manutenzione (eCarUp Premium)
+## Impostazioni avanzate tramite il tool di manutenzione (eCarUp Premium)
 
-L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30-60s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale.
 
 Puoi modificarlo come segue:
 
-1.  Get Configuration (per leggere cosa è programmato)
+1.  Get Configuration (per leggere ciò che è programmato)
 
 2.  Change Configuration (per sovrascrivere il valore)
 

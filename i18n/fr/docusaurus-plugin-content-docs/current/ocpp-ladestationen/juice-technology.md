@@ -1,41 +1,41 @@
 ---
 title: 'Juice Technology'
 slug: '/ocpp-ladestationen/juice-technology'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration backend'
 sidebar_label: 'Juice Technology'
 ---
-![Juice Technology – Illustration 1](/img/ocpp-ladestationen-juice-technology/01.jpg)
+<Kacheln min="11rem">
 
-[Charger me 3](https://juice.world/)
+<Kachel bild="/img/ocpp-ladestationen-juice-technology/01.jpg" bildtext="Juice Technology Charger me 3" titel="Charger me 3" href="https://juice.world/" bildhoehe="10rem" mittig />
 
-![Juice Technology – Illustration 2](/img/ocpp-ladestationen-juice-technology/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-juice-technology/02.jpg" bildtext="Juice Technology Charger 2" titel="Charger 2" href="https://juice.world/" bildhoehe="10rem" mittig />
 
-[Charger 2](https://juice.world/)
+</Kacheln>
 
-## Guide d'intégration au backend
+## Guide d'intégration backend
 
-Les bornes Juice peuvent être intégrées en quelques étapes au système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même et en toute simplicité les conditions d'utilisation de vos bornes (prix, utilisateurs, horaires de disponibilité, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+Les bornes de recharge Juice peuvent être intégrées au système de décompte eCarUp en quelques étapes. Une fois installées dans ton compte, tu peux définir toi-même, simplement, les conditions d'utilisation de tes bornes (prix, utilisateurs, plages horaires disponibles, etc.). Tu décides qui peut recharger, quand et à quel prix. 
 
 - Prérequis pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+- Apprends-en plus ici sur nos [fonctions Premium](/funktionen)
 
 
-### Intégration des bornes OCPP
+### Intégration de bornes OCPP
 
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assure-toi que tes bornes de recharge sont installées et que ton PC ou ton téléphone portable est connecté au même réseau que la borne de recharge.
 
-2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
+2.  Ouvre le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connecte-toi avec les données de ton compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet « Stations » ("Stationen").
+3.  Dans le menu à gauche, clique sur l'onglet « Stationen » (Stations).
 
-4.  Sélectionnez l'onglet « OCPP ».
+4.  Sélectionne l'onglet « OCPP ».
 
-5.  Copiez l'URL dans le presse-papiers.
+5.  Copie l'URL dans le presse-papiers.
 
-6.  Accédez à l'interface web de la borne souhaitée et collez-y l'URL copiée.
+6.  Va dans l'interface web de la borne souhaitée et colle l'URL copiée.
 
 
 ## Intégration des bornes de recharge Juice
@@ -50,34 +50,34 @@ Guide vidéo : intégration de Juice Technology dans le backend eCarUp
 
 Accéder à la borne (statique) :
 
-1\. Dès que vous êtes connecté à la borne (attention, le PC doit se trouver dans la même plage IP), ouvrez le navigateur de votre choix et saisissez l'adresse IP suivante : 192.168.123.123/
+1\. Dès que tu es connecté à la borne (attention, le PC doit se trouver dans la même plage IP), ouvre ton navigateur préféré et saisis l'adresse IP suivante : 192.168.123.123/
 
-2\. Connexion : vous trouverez les données de connexion dans le guide fourni.
+2\. Connexion : tu trouveras les données de connexion dans le guide fourni.
 
-Par défaut : 
+Standard : 
 
-Nom d'utilisateur : operator
+Username: operator
 
-Mot de passe : JuiCeMeUP!
+PW: JuiCeMeUP!
 
-3\. Configurez ensuite le Juice Charger me 3 selon vos besoins. 
+3\. Configure ensuite le Juice Charger me 3 selon tes souhaits. 
 
 
 
 Accéder à la borne (dynamique) :
 
-1.  Branchez le câble réseau sur le routeur et repérez l'adresse IP dans la liste des appareils du routeur. 
+1.  Branche le câble réseau au routeur et repère l'adresse IP dans le répertoire du routeur. 
 
-2.   Connexion : vous trouverez les données de connexion dans le guide fourni.
+2.   Connexion : tu trouveras les données de connexion dans le guide fourni.
 
 
-Par défaut : 
+Standard : 
 
-Nom d'utilisateur : operator
+Username: operator
 
-Mot de passe : JuiCeMeUP!
+PW: JuiCeMeUP!
 
-3.   Configurez ensuite le Juice Charger me 3 selon vos besoins. 
+3.   Configure ensuite le Juice Charger me 3 selon tes souhaits. 
 
 
 
@@ -86,16 +86,16 @@ Mot de passe : JuiCeMeUP!
 
 ![Juice Technology – Illustration 3](/img/ocpp-ladestationen-juice-technology/03.png)
 
-1.  Sélectionnez le type de connexion (WLAN, LAN, etc.)
+1.  Sélectionner le type de connexion (WLAN, LAN, etc.)
 
-2.  Ajoutez l'URL eCarUp de votre compte. 
+2.  Ajouter l'URL eCarUp issue de ton compte. 
 
 
 Exemple : ws://www.ecarup.com/api/OCPP16/wgwepog4980h4ho
 
 ![Juice Technology – Illustration 4](/img/ocpp-ladestationen-juice-technology/04.png)
 
-\+ réglez Meter Value Sample Interval sur 60 secondes au maximum. 
+\+ régler l'intervalle d'échantillonnage des Meter Values (Meter Value Sample Interval) à 60 secondes max. 
 
 ### Paramètres d'autorisation
 
@@ -106,7 +106,7 @@ Exemple : ws://www.ecarup.com/api/OCPP16/wgwepog4980h4ho
 - Désactiver la liste blanche locale
 
 
-Enregistrez tous les paramètres et redémarrez la borne. 
+Enregistrer tous les paramètres et redémarrer la borne. 
 
 ## Juice Charger 2
 
@@ -114,19 +114,19 @@ Enregistrez tous les paramètres et redémarrez la borne.
 
 Accéder à la borne :
 
-1\. Dès que vous êtes connecté à la borne, ouvrez le navigateur de votre choix et saisissez l'adresse IP suivante : 192.168.4.1:1234
+1\. Dès que tu es connecté à la borne, ouvre ton navigateur préféré et saisis l'adresse IP suivante : 192.168.4.1:1234
 
-2\. Connexion : sur cette page, saisissez le mot de passe par défaut 1234567890.
+2\. Connexion : saisis sur cette page le mot de passe par défaut 1234567890.
 
-3\. Configurez ensuite le Juice Charger 2 selon vos besoins. 
+3\. Configure ensuite le Juice Charger 2 selon tes souhaits. 
 
 ![Juice Technology – Illustration 6](/img/ocpp-ladestationen-juice-technology/06.png)
 
 ### Intégration OCPP
 
-⚠️ Important : l'URL générée depuis le compte eCarUp doit être décomposée selon l'exemple suivant. 
+⚠️ Important : l'URL générée à partir du compte eCarUp doit être décomposée selon l'exemple suivant. 
 
-1.  ws:// doit être omis, le Hostpath et le domaine doivent être saisis séparément.
+1.  ws:// est à omettre ; le chemin d'hôte (Hostpath) et le domaine doivent être saisis séparément, séparés par /.
 
 2.  (\*\*\*\* doit être remplacé par p. ex. F749E....)
 
@@ -139,17 +139,17 @@ Accéder à la borne :
 
 ![Juice Technology – Illustration 7](/img/ocpp-ladestationen-juice-technology/07.png)
 
-## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
+## Paramètre avancé via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de transmission des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. C'est la seule façon de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle d'envoi des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon de mieux calculer et afficher la puissance de recharge actuelle dans l'app. 
 
-Vous pouvez le modifier comme suit :
+Tu peux le modifier comme suit :
 
-1.  Get Configuration (pour lire la valeur programmée)
+1.  Get Configuration (pour lire ce qui est programmé)
 
 2.  Change Configuration (pour écraser la valeur)
 
 
-![Juice Technology – Illustration 8](/img/ocpp-ladestationen-juice-technology/08.png)
+![Juice Technology – Abbildung 8](/img/ocpp-ladestationen-juice-technology/08.png)
 
-![Juice Technology – Illustration 9](/img/ocpp-ladestationen-juice-technology/09.png)
+![Juice Technology – Abbildung 9](/img/ocpp-ladestationen-juice-technology/09.png)

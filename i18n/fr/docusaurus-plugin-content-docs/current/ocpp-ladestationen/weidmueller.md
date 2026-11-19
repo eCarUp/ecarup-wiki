@@ -1,74 +1,74 @@
 ---
 title: 'Weidmüller'
 slug: '/ocpp-ladestationen/weidmueller'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration backend'
 sidebar_label: 'Weidmüller'
 ---
-![Weidmüller – Figure 1](/img/ocpp-ladestationen-weidmueller/01.jpg)
+<Kacheln min="11rem">
 
-[AC-Smart Advance](https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE)
+<Kachel bild="/img/ocpp-ladestationen-weidmueller/01.jpg" bildtext="Weidmüller AC-Smart Advance" titel="AC-Smart Advance" href="https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE" bildhoehe="10rem" mittig />
 
-![Weidmüller – Figure 2](/img/ocpp-ladestationen-weidmueller/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-weidmueller/02.jpg" bildtext="Weidmüller Wallbox" titel="Wallbox" href="https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE" bildhoehe="10rem" mittig />
 
-[Wallbox](https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE)
+</Kacheln>
 
-## Guide d'intégration au backend
+## Guide d'intégration backend
 
-Les stations Weidmüller peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même et en toute simplicité les conditions d'utilisation de vos stations (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+Les bornes de recharge Weidmüller peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans ton compte, tu peux définir toi-même, sans complication, les conditions d'utilisation de tes bornes (prix, utilisateurs, plages horaires disponibles, etc.). Tu décides qui peut recharger, quand et à quel prix. 
 
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Condition préalable pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configuration dans le [portail web pour les exploitants de stations](/stationsbetreiber/webportal)
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Découvrez-en plus sur nos [fonctions Premium](/funktionen)
+- En savoir plus sur nos [fonctions Premium](/funktionen)
 
 
-### Intégration des stations OCPP
+### Intégration de bornes OCPP
 
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assure-toi que tes bornes de recharge sont installées et que ton PC ou ton téléphone est connecté au même réseau que la borne de recharge.
 
-2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
+2.  Ouvre le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connecte-toi avec les données de ton compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet "Stations" ("Stationen").
+3.  Dans le menu à gauche, clique sur l'onglet « Stationen » (Stationen).
 
-4.  Sélectionnez l'onglet "OCPP".
+4.  Sélectionne l'onglet « OCPP » (OCPP).
 
-5.  Copiez l'URL dans le presse-papiers.
+5.  Copie l'URL dans le presse-papiers.
 
-6.  Accédez à l'interface web de la station souhaitée et collez-y l'URL copiée.
+6.  Va dans l'interface web de la borne souhaitée et colle l'URL copiée.
 
 
 ## Intégration des bornes de recharge Weidmüller
 
 ### AC-Smart Advance
 
-- Processus d'abandon de ce matériel par Weidmüller à partir de 01/2025
+- Processus d'abandon de Weidmüller pour ce matériel à partir de 01/2025
 
 
-- Ouvrez les paramètres réseau et Internet de votre PC
+- Ouvre les paramètres réseau et Internet de ton PC
 
-- Vous devez y attribuer une adresse IP statique, p. ex. 192.168.0.72
+- Tu dois y attribuer une adresse IP statique, p. ex. 192.168.0.72
 
-- Connectez ensuite votre PC à la wallbox et ouvrez dans le navigateur l'adresse IP "par défaut" suivante : 192.168.0.8 
+- Connecte ensuite ton PC à la wallbox et ouvre dans le navigateur l'IP « par défaut » suivante : 192.168.0.8 
 
-- Veuillez consulter le guide fourni pour les données de connexion
+- Pour les données de connexion, merci de te référer au guide fourni
 
 - La version du logiciel doit être au minimum 01.08.01
 
-- Important : avec la version actuelle, aucune puissance de recharge active ne peut être affichée dans l'app !
+- Important : avec la version actuelle, la puissance de charge active ne peut pas être affichée dans l'app !
 
 
-![Weidmüller – Figure 3](/img/ocpp-ladestationen-weidmueller/03.png)
+![Weidmüller – illustration 3](/img/ocpp-ladestationen-weidmueller/03.png)
 
 1.  Activer Enable OCPP
 
-2.  Interface : vous pouvez choisir ici n'importe quel moyen de communication
+2.  Interface : un moyen de communication quelconque peut être choisi ici
 
 3.  Portal address = [www.ecarup.com](http://www.ecarup.com)
 
 4.  Portal port = 80 (port sortant standard)
 
-5.  Portal path = api/Ocpp16/xxxxxxxxxx/numéro de série de la station
+5.  Portal path = api/Ocpp16/xxxxxxxxxx/numéro de série de la borne
 
 
 Exemple : api/Ocpp16/we2eb484wrgwoir/0123456789
@@ -78,7 +78,7 @@ Exemple : api/Ocpp16/we2eb484wrgwoir/0123456789
 7.  MeterValue sample Interval 60s
 
 
-![Weidmüller – Figure 4](/img/ocpp-ladestationen-weidmueller/04.png)
+![Weidmüller – illustration 4](/img/ocpp-ladestationen-weidmueller/04.png)
 
 8\. Enable charging = Disabled
 
@@ -88,15 +88,15 @@ Exemple : api/Ocpp16/we2eb484wrgwoir/0123456789
 
 11\. Website, Modbus RTU/TCP and APP = actif
 
-Redémarrez la station. 
+Redémarrer la borne. 
 
-### Weidmüller (prédécesseur avec contrôleur Wallbe)
+### Weidmüller (modèle précédent avec contrôleur Wallbe)
 
-- Ouvrez les paramètres réseau et Internet de votre PC
+- Ouvre les paramètres réseau et Internet de ton PC
 
-- Vous devez y attribuer une adresse IP statique, p. ex. 192.168.0.72
+- Tu dois y attribuer une adresse IP statique, p. ex. 192.168.0.72
 
-- Connectez ensuite votre PC à la wallbox et ouvrez dans le navigateur l'adresse IP "par défaut" suivante : 192.168.0.8 & PW : wallbe7213
+- Connecte ensuite ton PC à la wallbox et ouvre dans le navigateur l'IP « par défaut » suivante : 192.168.0.8 & PW: wallbe7213
 
 - Le firmware doit être au minimum en version : BF-01.04.20
 
@@ -105,52 +105,52 @@ Redémarrez la station.
 
 ### Backend
 
-- Accédez au menu "Network"
+- Va dans le menu « Network »
 
-- Sélectionnez OCPP-J 1.6
+- Sélectionner OCPP-J 1.6
 
 - Moyen de communication souhaité
 
-- Le champ OCPP Vendor ne doit contenir aucun espace
+- OCPP Vendor ne doit pas contenir d'espace
 
-- Le websocket doit être décomposé
+- Le websocket doit être scindé en plusieurs parties
 
 
 ### Websocket d'eCarUp
 
-- Renseignez-le à l'aide de la capture d'écran
+- À renseigner d'après la capture d'écran
 
-- Attention à la fin : api/Ocpp16/weoih48zlkuhr9/00000010638
-
-
+- À la fin, veuille faire attention à : api/Ocpp16/weoih48zlkuhr9/00000010638
 
 
-- Important : n'oubliez pas le / (slash) + 00000010638 (numéro de série de la station) à la fin !
 
 
-![Weidmüller – Figure 5](/img/ocpp-ladestationen-weidmueller/05.png)
+- Important : ne pas oublier à la fin le / (slash) + 00000010638 (numéro de série de la borne) !
 
-Vous trouverez le numéro de série de votre wallbox comme suit :
 
-![Weidmüller – Figure 6](/img/ocpp-ladestationen-weidmueller/06.png)
+![Weidmüller – illustration 5](/img/ocpp-ladestationen-weidmueller/05.png)
 
-Si des cartes RFID sont utilisées, veuillez encore définir le paramètre suivant :
+Tu trouves le numéro de série de ta wallbox comme suit :
 
-![Weidmüller – Figure 7](/img/ocpp-ladestationen-weidmueller/07.png)
+![Weidmüller – illustration 6](/img/ocpp-ladestationen-weidmueller/06.png)
+
+Si des cartes RFID sont utilisées, merci de définir en plus le paramètre suivant :
+
+![Weidmüller – illustration 7](/img/ocpp-ladestationen-weidmueller/07.png)
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle d'envoi des Meter Values peut varier d'une station à l'autre. Nous recommandons un intervalle de 30 à 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'app. 
+L'intervalle d'envoi des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de charge actuelle dans l'app. 
 
 
 
-Vous pouvez le modifier comme suit :
+Tu peux le modifier comme suit :
 
 1.  Get Configuration (pour lire ce qui est programmé)
 
 2.  Change Configuration (pour écraser la valeur)
 
 
-![Weidmüller – Figure 8](/img/ocpp-ladestationen-weidmueller/08.png)
+![Weidmüller – illustration 8](/img/ocpp-ladestationen-weidmueller/08.png)
 
-![Weidmüller – Figure 9](/img/ocpp-ladestationen-weidmueller/09.png)
+![Weidmüller – illustration 9](/img/ocpp-ladestationen-weidmueller/09.png)

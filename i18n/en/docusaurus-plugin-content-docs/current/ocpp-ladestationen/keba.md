@@ -4,63 +4,63 @@ slug: '/ocpp-ladestationen/keba'
 description: 'Backend integration guide'
 sidebar_label: 'KEBA'
 ---
-![KEBA – Figure 1](/img/ocpp-ladestationen-keba/01.png)
+<Kacheln min="11rem">
 
-[Keba P30](https://www.keba.com/de/emobility/elektromobilitaet)
+<Kachel bild="/img/ocpp-ladestationen-keba/01.png" bildtext="Keba P30" titel="Keba P30" href="https://www.keba.com/de/emobility/elektromobilitaet" bildhoehe="10rem" mittig />
 
-![KEBA – Figure 2](/img/ocpp-ladestationen-keba/02.png)
+<Kachel bild="/img/ocpp-ladestationen-keba/02.png" bildtext="Keba P40" titel="Keba P40" href="https://www.keba.com/de/emobility/elektromobilitaet" bildhoehe="10rem" mittig />
 
-[Keba P40](https://www.keba.com/de/emobility/elektromobilitaet)
+</Kacheln>
 
 ## Backend integration guide
 
-KEBA stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when and at what price. 
+KEBA stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price.
 
-- Prerequisite for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more about our [Premium features](/funktionen) here
+- Learn more about our [premium features](/funktionen)
 
-### Integration of OCPP stations
+### Integrating OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or mobile phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and your PC or phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stations" tab ("Stationen").
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-1.ws link without Basic Auth: tested and working
+1.ws link without Basic Auth: Tested and works
 
-2.wss without Basic Auth: tested and working
+2.wss without Basic Auth: Tested and works
 
-3.wss with Basic Auth: tested and working
+3.wss with Basic Auth: Tested and works
 
-6.  Go to the web interface of the station in question and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
 ## Integrating the Keba Wallbox P40
 
-- tested firmware version: 1.3.0 
+- Tested firmware version: 1.3.0 
 
-Integrate the station into a network in which you can access it via its IP address. 
+Integrate the station into a network that you can access via its IP address. 
 
 <Embed src="https://demo.arcade.software/IYNbI7tB2YAuuK25c3KR?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" aspect="1.660" title="Wiki - KEBA" />
 
-1.  In your browser, go to the IP address of the station
+1.  Go to the station's IP address in your browser
 
 2.  Log in:
 
-Default password: supplied with the guide.
+Default password: supplied with the manual.
 
-3.  Under OCPP, make the following settings:
+3.  Now enter the following settings under OCPP:
 
 Chargepoint Identity: "Station name"
 
-Caution: the station name (Chargepoint Identity) must not contain spaces or special characters, with the exception of the underscore "\_". After successful integration, the station can be renamed on the eCarUp platform without any problems.
+Note: the station name (Chargepoint Identity) must not contain spaces or special characters, except for the underscore "\_". After successful integration, the station can be renamed on the eCarUp platform without any problems.
 
 OCPP Communication Type: "OCPP 1.6 JSON"
 
@@ -74,7 +74,7 @@ Central System Path: "api/Ocpp16/xxxxxxxx
 
 ![KEBA – Figure 3](/img/ocpp-ladestationen-keba/03.png)
 
-5\. Set Authorization to "ON"
+5\. Authorization to "ON"
 
 6\. Online Authorization Mode "FirstOnline".
 
@@ -85,11 +85,11 @@ Central System Path: "api/Ocpp16/xxxxxxxx
 <div className="row">
 <div className="col col--8">
 
-If you want to connect the station with WSS and Basic Auth, you must make the following settings in the Keba app:
+If you want to connect the station using WSS and Basic Auth, you must make the following settings in the Keba app:
 
-- Secure central system connection ("Sichere Zentralsystemverbindung") for WSS
+- Secure central system connection for WSS
 
-- Central system authentication ("Zentrale Systemauthentifizierung") for Basic Auth.
+- Central system authentication for Basic Auth.
 
 The Authorization Key must be taken from the eCarUp account and additionally entered in the web portal.
 
@@ -111,11 +111,11 @@ Check
 
 <Video src="db3zpnosgv8" title="YouTube video, integrating a KEBA station into the eCarUp backend" />
 
-### KEBA measurement and calibration law in Germany
+### KEBA calibration law compliance in Germany
 
-With the KEBA ME charging stations, semi-public and public charging sessions can be easily billed by credit card via eCarUp in accordance with the applicable measurement and calibration law regulations. More on this: [Calibration law in Germany](/sonstige-informationen/eichrecht-in-deutschland).
+With KEBA ME charging stations, semi-public and public charging sessions can be easily billed by credit card via eCarUp in accordance with the applicable measurement and calibration law regulations. Learn more: [Calibration law in Germany](/sonstige-informationen/eichrecht-in-deutschland).
 
-### Important: note the Keba circular
+### Important: observe the Keba circular
 
 ![KEBA – Figure 8](/img/ocpp-ladestationen-keba/08.png)
 
@@ -123,23 +123,23 @@ With the KEBA ME charging stations, semi-public and public charging sessions can
 
 ### Important: firmware version!
 
-To be able to install your KEBA x-series charging station (including M&E / firmware version: 1.9.1 or newer / latest software always available in the [KEBA Downloads](https://www.keba.com/de/emobility/service-support/downloads/downloads)) in an eCarUp account, the following preparations must be made:
+To install your KEBA x-series charging station (also M&E / firmware version: 1.9.1 or newer / always get the latest software from the [KEBA downloads](https://www.keba.com/de/emobility/service-support/downloads/downloads)) in an eCarUp account, the following preparations must be made:
 
-### Integration of the x-series
+### Integrating the x-series
 
-1.  Connect your computer to the IP address of the station. The IP address is shown on the station's display.
+1.  Connect your computer to the station's IP address. The IP address is shown on the station's display.
 
 2.  Log in:
 
-Default user name: admin
+Default username: admin
 
-Default password: Keba\_xxxx( serial number of the station)
+Default password: Keba\_xxxx (serial number of the station)
 
-3.  Under OCPP, make the following settings:
+3.  Now enter the following settings under OCPP:
 
 Chargepoint Identity: "Station name"
 
-Caution: the station name (Chargepoint Identity) must not contain spaces or special characters, with the exception of the underscore "\_". After successful integration, the station can be renamed on the eCarUp platform without any problems.
+Note: the station name (Chargepoint Identity) must not contain spaces or special characters, except for the underscore "\_". After successful integration, the station can be renamed on the eCarUp platform without any problems.
 
 OCPP Communication Type: "OCPP 1.6 JSON"
 
@@ -153,9 +153,9 @@ Central System Path: "api/Ocpp16/&#123;code from the eCarUp website&#125;". You 
 
 4\. Device configuration
 
-Menu: Configuration ("Konfiguration") --> Devices ("Geräte") (the page takes a while to load)
+Menu: Configuration --> Devices (the page takes a while to load)
 
-Authorization ("Authorisierung"): ON ("AN")
+Authorization: ON
 
 Online Authorization Mode: First Online
 
@@ -165,24 +165,24 @@ Note: If your company supports a proxy in the system, you can make these setting
 
 The KEBA x-series charging station is now registered in your eCarUp account. You can now define the terms of use of the charging station in the eCarUp web portal.
 
-### Integration of the c-series
+### Integrating the c-series
 
-KEBA c-series charging stations can be installed as slaves of KEBA x-series charging stations. Just as with the x-series, you can easily define the terms of use for your stations yourself as soon as they are installed in your account. You decide who can charge, when and at what price.
+KEBA c-series charging stations can be installed as slaves of the KEBA x-series charging stations. Just as with the x-series, you can easily define the terms of use of your stations yourself once they are installed in your account. You decide who can charge, when, and at what price.
 
-1.  In the slave station, set the DIP switch "DSW2.5" to "On"
+1.  On the slave station, set the DIP switch "DSW2.5" to "On"
 
 ![KEBA – Figure 12](/img/ocpp-ladestationen-keba/12.png)
 
 <div className="row">
 <div className="col col--6">
 
-2\. Connect your computer to the IP address of the master – the KEBA x-series charging station.
+2\. Connect your computer to the IP address of the master, the x-series KEBA charging station.
 
-Default user name: admin
+Default username: admin
 
 Default password: serial number of the KEBA x-series charging station
 
-3. Under OCPP, make the following settings:
+3. Now enter the following settings under OCPP:
 
 1.  Under Operation Mode, switch to Charging Network
 
@@ -198,9 +198,9 @@ Default password: serial number of the KEBA x-series charging station
 </div>
 </div>
 
-## Advanced settings via the maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the Meter Values can vary from station to station. We recommend an interval of 30–60 s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval of 30-60s. This is the only way we can better calculate and display the current charging power in the app.
 
 You can change this as follows:
 
