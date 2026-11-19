@@ -4,13 +4,13 @@ slug: '/ocpp-ladestationen/ratio-electric'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Ratio Electric'
 ---
-![Ratio Electric – Abbildung 1](/img/ocpp-ladestationen-ratio-electric/01.jpg)
+<Kacheln min="11rem">
 
-[IO7](https://elektroscout.ch/produkt/doppellader-fuer-den-oeffentlichen-bereich-mit-ocpp/)
+<Kachel bild="/img/ocpp-ladestationen-ratio-electric/01.jpg" bildtext="Ratio Electric IO7" titel="IO7" href="https://elektroscout.ch/produkt/doppellader-fuer-den-oeffentlichen-bereich-mit-ocpp/" bildhoehe="10rem" mittig />
 
-![Ratio Electric – Abbildung 2](/img/ocpp-ladestationen-ratio-electric/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-ratio-electric/02.jpg" bildtext="Ratio Electric IO6 MID Pro" titel="IO6 MID Pro" href="https://elektroscout.ch/produkt/io6/" bildhoehe="10rem" mittig />
 
-[IO6 MID Pro](https://elektroscout.ch/produkt/io6/)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

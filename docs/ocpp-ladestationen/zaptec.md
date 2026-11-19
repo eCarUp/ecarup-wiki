@@ -4,13 +4,13 @@ slug: '/ocpp-ladestationen/zaptec'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Zaptec'
 ---
-![Zaptec – Abbildung 1](/img/ocpp-ladestationen-zaptec/01.jpg)
+<Kacheln min="11rem">
 
-[Zaptec Go](https://www.zaptec.com/de-ch)
+<Kachel bild="/img/ocpp-ladestationen-zaptec/01.jpg" bildtext="Zaptec Go" titel="Zaptec Go" href="https://www.zaptec.com/de-ch" bildhoehe="10rem" mittig />
 
-![Zaptec – Abbildung 2](/img/ocpp-ladestationen-zaptec/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-zaptec/02.jpg" bildtext="Zaptec Pro" titel="Zaptec Pro" href="https://www.zaptec.com/de-ch" bildhoehe="10rem" mittig />
 
-[Zaptec Pro](https://www.zaptec.com/de-ch)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

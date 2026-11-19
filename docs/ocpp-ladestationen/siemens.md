@@ -4,17 +4,15 @@ slug: '/ocpp-ladestationen/siemens'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Siemens'
 ---
-![Siemens – Abbildung 1](/img/ocpp-ladestationen-siemens/01.jpg)
+<Kacheln min="11rem">
 
-[SiCharge CC](/ocpp-ladestationen/siemens#sicharge-cc-ac22)
+<Kachel bild="/img/ocpp-ladestationen-siemens/01.jpg" bildtext="Siemens SiCharge CC" titel="SiCharge CC" href="/ocpp-ladestationen/siemens#sicharge-cc-ac22" bildhoehe="10rem" mittig />
 
-![Siemens – Abbildung 2](/img/ocpp-ladestationen-siemens/02.png)
+<Kachel bild="/img/ocpp-ladestationen-siemens/02.png" bildtext="Siemens VersiCharge" titel="Siemens VersiCharge" href="/ocpp-ladestationen/siemens#versiecharge-ac-22kw" bildhoehe="10rem" mittig />
 
-[Siemens VersiCharge](/ocpp-ladestationen/siemens#versiecharge-ac-22kw)
+<Kachel bild="/img/ocpp-ladestationen-siemens/03.png" bildtext="Siemens SICHARGE D" titel="Siemens SICHARGE D" href="/ocpp-ladestationen/siemens#sicharge-d" bildhoehe="10rem" mittig />
 
-![Siemens – Abbildung 3](/img/ocpp-ladestationen-siemens/03.png)
-
-[Siemens SICHARGE D](/ocpp-ladestationen/siemens#sicharge-d)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

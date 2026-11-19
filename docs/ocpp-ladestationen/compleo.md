@@ -4,25 +4,19 @@ slug: '/ocpp-ladestationen/compleo'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Compleo'
 ---
-![Compleo – Abbildung 1](/img/ocpp-ladestationen-compleo/01.png)
+<Kacheln min="11rem">
 
-[SOLO](https://www.compleo-charging.ch/)
+<Kachel bild="/img/ocpp-ladestationen-compleo/01.png" bildtext="Compleo SOLO" titel="SOLO" href="https://www.compleo-charging.ch/" bildhoehe="10rem" mittig />
 
-![Compleo – Abbildung 2](/img/ocpp-ladestationen-compleo/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-compleo/02.jpg" bildtext="Compleo eBOX" titel="eBOX" href="https://www.compleo-charging.ch/" bildhoehe="10rem" mittig />
 
-[eBOX](https://www.compleo-charging.ch/)
+<Kachel bild="/img/ocpp-ladestationen-compleo/03.jpg" bildtext="Compleo DUO" titel="DUO" href="https://www.compleo-charging.ch/" bildhoehe="10rem" mittig />
 
-![Compleo – Abbildung 3](/img/ocpp-ladestationen-compleo/03.jpg)
+<Kachel bild="/img/ocpp-ladestationen-compleo/04.jpg" bildtext="Compleo CITO 500" titel="CITO 500" href="https://www.compleo-charging.ch/" bildhoehe="10rem" mittig />
 
-[DUO](https://www.compleo-charging.ch/)
+<Kachel bild="/img/ocpp-ladestationen-compleo/05.jpg" bildtext="Compleo CITO 240" titel="CITO 240" href="https://www.compleo-charging.ch/" bildhoehe="10rem" mittig />
 
-![Compleo – Abbildung 4](/img/ocpp-ladestationen-compleo/04.jpg)
-
-[CITO 500](https://www.compleo-charging.ch/)
-
-![Compleo – Abbildung 5](/img/ocpp-ladestationen-compleo/05.jpg)
-
-[CITO 240](https://www.compleo-charging.ch/)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

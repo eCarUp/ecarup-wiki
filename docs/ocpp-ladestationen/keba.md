@@ -4,13 +4,13 @@ slug: '/ocpp-ladestationen/keba'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'KEBA'
 ---
-![KEBA – Abbildung 1](/img/ocpp-ladestationen-keba/01.png)
+<Kacheln min="11rem">
 
-[Keba P30](https://www.keba.com/de/emobility/elektromobilitaet)
+<Kachel bild="/img/ocpp-ladestationen-keba/01.png" bildtext="Keba P30" titel="Keba P30" href="https://www.keba.com/de/emobility/elektromobilitaet" bildhoehe="10rem" mittig />
 
-![KEBA – Abbildung 2](/img/ocpp-ladestationen-keba/02.png)
+<Kachel bild="/img/ocpp-ladestationen-keba/02.png" bildtext="Keba P40" titel="Keba P40" href="https://www.keba.com/de/emobility/elektromobilitaet" bildhoehe="10rem" mittig />
 
-[Keba P40](https://www.keba.com/de/emobility/elektromobilitaet)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

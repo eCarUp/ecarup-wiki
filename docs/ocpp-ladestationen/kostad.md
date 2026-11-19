@@ -4,17 +4,15 @@ slug: '/ocpp-ladestationen/kostad'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Kostad'
 ---
-![Kostad – Abbildung 1](/img/ocpp-ladestationen-kostad/01.png)
+<Kacheln min="11rem">
 
-[Unnity20 - DC Wallbox](https://www.kostad.at/)
+<Kachel bild="/img/ocpp-ladestationen-kostad/01.png" bildtext="Kostad Unnity20 - DC Wallbox" titel="Unnity20 - DC Wallbox" href="https://www.kostad.at/" bildhoehe="10rem" mittig />
 
-![Kostad – Abbildung 2](/img/ocpp-ladestationen-kostad/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-kostad/02.jpg" bildtext="Kostad Unity50" titel="Unity50" href="https://www.kostad.at/" bildhoehe="10rem" mittig />
 
-[Unity50](https://www.kostad.at/)
+<Kachel bild="/img/ocpp-ladestationen-kostad/03.jpg" bildtext="Kostad Unity20 - Mobile Charger" titel="Unity20 - Mobile Charger" href="https://www.kostad.at/" bildhoehe="10rem" mittig />
 
-![Kostad – Abbildung 3](/img/ocpp-ladestationen-kostad/03.jpg)
-
-[Unity20 - Mobile Charger](https://www.kostad.at/)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

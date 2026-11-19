@@ -4,17 +4,15 @@ slug: '/ocpp-ladestationen/kempower'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Kempower'
 ---
-![Kempower – Abbildung 1](/img/ocpp-ladestationen-kempower/01.jpg)
+<Kacheln min="11rem">
 
-[Kempower Station Charger](https://kempower.com/de/solution/kempower-station-charger/)
+<Kachel bild="/img/ocpp-ladestationen-kempower/01.jpg" bildtext="Kempower Station Charger" titel="Kempower Station Charger" href="https://kempower.com/de/solution/kempower-station-charger/" bildhoehe="10rem" mittig />
 
-![Kempower – Abbildung 2](/img/ocpp-ladestationen-kempower/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-kempower/02.jpg" bildtext="Kempower Satellite" titel="Kempower Satellite" href="https://kempower.com/de/solution/kempower-satellite/" bildhoehe="10rem" mittig />
 
-[Kempower Satellite](https://kempower.com/de/solution/kempower-satellite/)
+<Kachel bild="/img/ocpp-ladestationen-kempower/03.jpg" bildtext="Kempower Movable Charger" titel="Kempower Movable Charger" href="https://kempower.com/de/solution/kempower-movable-charger/" bildhoehe="10rem" mittig />
 
-![Kempower – Abbildung 3](/img/ocpp-ladestationen-kempower/03.jpg)
-
-[Kempower Movable Charger](https://kempower.com/de/solution/kempower-movable-charger/)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

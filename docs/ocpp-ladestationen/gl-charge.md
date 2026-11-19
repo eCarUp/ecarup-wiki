@@ -4,17 +4,15 @@ slug: '/ocpp-ladestationen/gl-charge'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'GL Charge'
 ---
-![GL Charge – Abbildung 1](/img/ocpp-ladestationen-gl-charge/01.png)
+<Kacheln min="11rem">
 
-[LiteBox](https://iskraemeco-emobility.com/)
+<Kachel bild="/img/ocpp-ladestationen-gl-charge/01.png" bildtext="GL Charge LiteBox" titel="LiteBox" href="https://iskraemeco-emobility.com/" bildhoehe="10rem" mittig />
 
-![GL Charge – Abbildung 2](/img/ocpp-ladestationen-gl-charge/02.png)
+<Kachel bild="/img/ocpp-ladestationen-gl-charge/02.png" bildtext="GL Charge Public Box" titel="Public Box" href="https://iskraemeco-emobility.com/" bildhoehe="10rem" mittig />
 
-[Public Box](https://iskraemeco-emobility.com/)
+<Kachel bild="/img/ocpp-ladestationen-gl-charge/03.png" bildtext="GL Charge Platinum" titel="Platinum" href="https://iskraemeco-emobility.com/" bildhoehe="10rem" mittig />
 
-![GL Charge – Abbildung 3](/img/ocpp-ladestationen-gl-charge/03.png)
-
-[Platinum](https://iskraemeco-emobility.com/)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

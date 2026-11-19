@@ -4,17 +4,15 @@ slug: '/ocpp-ladestationen/hesotec'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Hesotec'
 ---
-![Hesotec – Abbildung 1](/img/ocpp-ladestationen-hesotec/01.jpg)
+<Kacheln min="11rem">
 
-[eBox wr30](https://electrify.hesotec.de/produkte/ebox-wr30)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/01.jpg" bildtext="Hesotec eBox wr30" titel="eBox wr30" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-![Hesotec – Abbildung 2](/img/ocpp-ladestationen-hesotec/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/02.jpg" bildtext="Hesotec eBox sr10" titel="eBox sr10" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-[eBox sr10](https://electrify.hesotec.de/produkte/ebox-wr30)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/03.jpg" bildtext="Hesotec eSat r10/r20" titel="eSat r10/r20" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-![Hesotec – Abbildung 3](/img/ocpp-ladestationen-hesotec/03.jpg)
-
-[eSat r10/r20](https://electrify.hesotec.de/produkte/ebox-wr30)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

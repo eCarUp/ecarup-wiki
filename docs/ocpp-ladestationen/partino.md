@@ -4,17 +4,15 @@ slug: '/ocpp-ladestationen/partino'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Partino'
 ---
-![Partino – Abbildung 1](/img/ocpp-ladestationen-partino/01.jpg)
+<Kacheln min="11rem">
 
-[Partino Vool](https://www.partino.ch/de/angebot/e-ladestationen/vool/)
+<Kachel bild="/img/ocpp-ladestationen-partino/01.jpg" bildtext="Partino Vool" titel="Partino Vool" href="https://www.partino.ch/de/angebot/e-ladestationen/vool/" bildhoehe="10rem" mittig />
 
-![Partino – Abbildung 2](/img/ocpp-ladestationen-partino/02.png)
+<Kachel bild="/img/ocpp-ladestationen-partino/02.png" bildtext="Partino DC30" titel="Partino DC30" href="https://www.partino.ch/de/angebot/e-ladestationen/partino-x-ecotap/" bildhoehe="10rem" mittig />
 
-[Partino DC30](https://www.partino.ch/de/angebot/e-ladestationen/partino-x-ecotap/)
+<Kachel bild="/img/ocpp-ladestationen-partino/03.png" bildtext="Partino Ecotap" titel="Partino Ecotap" href="https://www.partino.ch/de/angebot/e-ladestationen/partino-x-ecotap/" bildhoehe="10rem" mittig />
 
-![Partino – Abbildung 3](/img/ocpp-ladestationen-partino/03.png)
-
-[Partino Ecotap](https://www.partino.ch/de/angebot/e-ladestationen/partino-x-ecotap/)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

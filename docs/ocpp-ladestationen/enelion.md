@@ -4,13 +4,13 @@ slug: '/ocpp-ladestationen/enelion'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Enelion'
 ---
-![Enelion – Abbildung 1](/img/ocpp-ladestationen-enelion/01.jpg)
+<Kacheln min="11rem">
 
-[Lumina](https://enelion.com/product/lumina/)
+<Kachel bild="/img/ocpp-ladestationen-enelion/01.jpg" bildtext="Enelion Lumina" titel="Lumina" href="https://enelion.com/product/lumina/" bildhoehe="10rem" mittig />
 
-![Enelion – Abbildung 2](/img/ocpp-ladestationen-enelion/02.png)
+<Kachel bild="/img/ocpp-ladestationen-enelion/02.png" bildtext="Enelion Vertica" titel="Vertica" href="https://enelion.com/product/vertica/" bildhoehe="10rem" mittig />
 
-[Vertica](https://enelion.com/product/vertica/)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

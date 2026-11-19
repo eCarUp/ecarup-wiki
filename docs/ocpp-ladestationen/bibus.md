@@ -4,13 +4,13 @@ slug: '/ocpp-ladestationen/bibus'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Bibus'
 ---
-![Bibus – Abbildung 1](/img/ocpp-ladestationen-bibus/01.jpg)
+<Kacheln min="11rem">
 
-[Bibus eVolve](https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/)
+<Kachel bild="/img/ocpp-ladestationen-bibus/01.jpg" bildtext="Bibus eVolve" titel="Bibus eVolve" href="https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/" bildhoehe="10rem" mittig />
 
-![Bibus – Abbildung 2](/img/ocpp-ladestationen-bibus/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-bibus/02.jpg" bildtext="Bibus eNext" titel="Bibus eNext" href="https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/" bildhoehe="10rem" mittig />
 
-[Bibus eNext](https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

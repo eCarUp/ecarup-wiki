@@ -165,7 +165,7 @@ Du findest einige [Beispiele für die Beschriftung](/stationsbetreiber/qr-code) 
 
 Ladestationen können mit eCarUp auch öffentlich und damit gegenüber anonymen Fahrern abgerechnet werden. Dafür muss den Stationen in der Einrichtung der Status "öffentlich" zugeteilt werden und ein Standort gesetzt werden. Zudem ist hier die Beschriftung der Ladestationen sehr wichtig, da über den QR-Cod auch ad-hoc und damit barrierefrei geladen werden kann.
 
-Den Besucherparkplätzen können auch problemlos andere Preise zugeordnet werden (siehe unten). 
+Den Besucherparkplätzen können auch problemlos andere Preise zugeordnet werden (siehe unten).
 
 Optional können die Stationen auch über [die Roaming Funktion in den Ladenetzwerken von Drittanbietern veröffentlicht werden](/funktionen/roaming). Das geht aber nur, wenn die Station 24 Stunden 7 Tage in der Woche öffentlich zur Verfügung steht. Du musst dich zudem bewusst sein, dass die Station danach sehr breit gefunden wird (in verschiedensten Apps und Navigationsgeräten von Autos) und damit fremde Nutzer angezogen werden.
 
