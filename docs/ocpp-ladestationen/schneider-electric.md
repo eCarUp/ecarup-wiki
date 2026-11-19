@@ -4,13 +4,13 @@ slug: '/ocpp-ladestationen/schneider-electric'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Schneider Electric'
 ---
-![Schneider Electric – Abbildung 1](/img/ocpp-ladestationen-schneider-electric/01.jpg)
+<Kacheln min="11rem">
 
-[EVlink Pro AC](/ocpp-ladestationen/schneider-electric)
+<Kachel bild="/img/ocpp-ladestationen-schneider-electric/01.jpg" bildtext="Schneider Electric EVlink Pro AC" titel="EVlink Pro AC" href="/ocpp-ladestationen/schneider-electric" bildhoehe="10rem" mittig />
 
-![Schneider Electric – Abbildung 2](/img/ocpp-ladestationen-schneider-electric/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-schneider-electric/02.jpg" bildtext="Schneider Electric EVlink Pro DC" titel="EVlink Pro DC" href="/ocpp-ladestationen/schneider-electric" bildhoehe="10rem" mittig />
 
-[EVlink Pro DC](/ocpp-ladestationen/schneider-electric)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

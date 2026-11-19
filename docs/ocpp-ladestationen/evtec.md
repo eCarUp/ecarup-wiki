@@ -4,17 +4,15 @@ slug: '/ocpp-ladestationen/evtec'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'EVTEC'
 ---
-![EVTEC – Abbildung 1](/img/ocpp-ladestationen-evtec/01.jpg)
+<Kacheln min="11rem">
 
-[Cappuccino & Charge](https://www.evtec.ch/geraete)
+<Kachel bild="/img/ocpp-ladestationen-evtec/01.jpg" bildtext="EVTEC Cappuccino & Charge" titel="Cappuccino & Charge" href="https://www.evtec.ch/geraete" bildhoehe="10rem" mittig />
 
-![EVTEC – Abbildung 2](/img/ocpp-ladestationen-evtec/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-evtec/02.jpg" bildtext="EVTEC Coffee & Charge" titel="Coffee & Charge" href="https://www.evtec.ch/geraete" bildhoehe="10rem" mittig />
 
-[Coffee & Charge](https://www.evtec.ch/geraete)
+<Kachel bild="/img/ocpp-ladestationen-evtec/03.png" bildtext="EVTEC Espresso & Charge" titel="Espresso & Charge" href="https://www.evtec.ch/geraete" bildhoehe="10rem" mittig />
 
-![EVTEC – Abbildung 3](/img/ocpp-ladestationen-evtec/03.png)
-
-[Espresso & Charge](https://www.evtec.ch/geraete)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

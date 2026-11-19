@@ -175,7 +175,7 @@ const sidebars: SidebarsConfig = {
       link: {type: 'doc', id: 'drittsysteme/index'},
       items: [
         {type: 'doc', id: 'drittsysteme/abrechnungsdienstleister',
-         customProps: {rolle: 'abrechnung'}},
+         customProps: {rolle: 'verwalter'}},
         'drittsysteme/api-visualisierung',
         {
           type: 'category',

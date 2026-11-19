@@ -4,13 +4,13 @@ slug: '/ocpp-ladestationen/gresgying'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Gresgying'
 ---
-![Gresgying – Abbildung 1](/img/ocpp-ladestationen-gresgying/01.png)
+<Kacheln min="11rem">
 
-[Turbo Wallbox](https://www.gresgying.global/product/turbo-wallbox.html)
+<Kachel bild="/img/ocpp-ladestationen-gresgying/01.png" bildtext="Gresgying Turbo Wallbox" titel="Turbo Wallbox" href="https://www.gresgying.global/product/turbo-wallbox.html" bildhoehe="10rem" mittig />
 
-![Gresgying – Abbildung 2](/img/ocpp-ladestationen-gresgying/02.png)
+<Kachel bild="/img/ocpp-ladestationen-gresgying/02.png" bildtext="Gresgying 120kW & 180kW DC Charging Station" titel="120kW & 180kW DC Charging Station" href="https://www.gresgying.global/product/120kw-180kw-dc-charging-station.html" bildhoehe="10rem" mittig />
 
-[120kW & 180kW DC Charging Station](https://www.gresgying.global/product/120kw-180kw-dc-charging-station.html)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

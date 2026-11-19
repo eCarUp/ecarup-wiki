@@ -15,9 +15,11 @@ NEXBLUE Stationen können in wenigen Schritten in das eCarUp Abrechnungssystem i
 - Lerne hier mehr, über unsere [Premium Funktionen](/funktionen)
 
 
-![NEXBLUE – Abbildung 1](/img/ocpp-ladestationen-nexblue/01.png)
+<Kacheln min="11rem">
 
-[NEXBLUE](https://nexblue.com/de)
+<Kachel bild="/img/ocpp-ladestationen-nexblue/01.png" bildtext="NEXBLUE" titel="NEXBLUE" href="https://nexblue.com/de" bildhoehe="10rem" mittig />
+
+</Kacheln>
 
 ### Integration von OCPP Stationen
 

@@ -4,13 +4,13 @@ slug: '/ocpp-ladestationen/gewiss'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Gewiss'
 ---
-![Gewiss – Abbildung 1](/img/ocpp-ladestationen-gewiss/01.jpg)
+<Kacheln min="11rem">
 
-[JOINON EVO](https://www.gewiss.com/ch/de/mobility)
+<Kachel bild="/img/ocpp-ladestationen-gewiss/01.jpg" bildtext="Gewiss JOINON EVO" titel="JOINON EVO" href="https://www.gewiss.com/ch/de/mobility" bildhoehe="10rem" mittig />
 
-![Gewiss – Abbildung 2](/img/ocpp-ladestationen-gewiss/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-gewiss/02.jpg" bildtext="Gewiss JOINON-FAST" titel="JOINON-FAST" href="https://www.gewiss.com/ch/de/mobility" bildhoehe="10rem" mittig />
 
-[JOINON-FAST](https://www.gewiss.com/ch/de/mobility)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

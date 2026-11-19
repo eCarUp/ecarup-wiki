@@ -24,17 +24,15 @@ Aktuell werden die folgenden Ladestationsmodelle unterstützt:
 
 ## OCPP Ladestationen
 
-![Eaton OCPP – Abbildung 1](/img/ocpp-ladestationen-eaton/01.jpg)
+<Kacheln min="11rem">
 
-[Green Motion Duo](https://www.eaton.com/ch/de-de.html)
+<Kachel bild="/img/ocpp-ladestationen-eaton/01.jpg" bildtext="Eaton Green Motion Duo" titel="Green Motion Duo" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-![Eaton OCPP – Abbildung 2](/img/ocpp-ladestationen-eaton/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-eaton/02.jpg" bildtext="Eaton Green Motion DC 22&66" titel="Green Motion DC 22&66" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-[Green Motion DC 22&66](https://www.eaton.com/ch/de-de.html)
+<Kachel bild="/img/ocpp-ladestationen-eaton/03.jpg" bildtext="Eaton Green Motion Building" titel="Green Motion Building" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-![Eaton OCPP – Abbildung 3](/img/ocpp-ladestationen-eaton/03.jpg)
-
-[Green Motion Building](https://www.eaton.com/ch/de-de.html)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

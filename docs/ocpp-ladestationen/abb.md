@@ -7,21 +7,17 @@ sidebar_label: 'ABB'
 Alle ABB Stationen mit Backendfunktionalität können ins eCarUp Backend eingebunden werden.
 Auch bereits installierte ABB Ladestationen können zu  eCarUp migriert werden. 
 
-![ABB – Abbildung 1](/img/ocpp-ladestationen-abb/01.jpg)
+<Kacheln min="11rem">
 
-[AC Terra Wallbox](https://e-mobility.abb.com/en)
+<Kachel bild="/img/ocpp-ladestationen-abb/01.jpg" bildtext="ABB AC Terra Wallbox" titel="AC Terra Wallbox" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-![ABB – Abbildung 2](/img/ocpp-ladestationen-abb/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-abb/02.jpg" bildtext="ABB AC EV Lunic Pro M / Pro S" titel="AC EV Lunic Pro M / Pro S" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-[AC EV Lunic Pro M / Pro S](https://e-mobility.abb.com/en)
+<Kachel bild="/img/ocpp-ladestationen-abb/03.jpg" bildtext="ABB DC Terra 24 / 54 / 54 HV" titel="DC Terra 24 / 54 / 54 HV" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-![ABB – Abbildung 3](/img/ocpp-ladestationen-abb/03.jpg)
+<Kachel bild="/img/ocpp-ladestationen-abb/04.jpg" bildtext="ABB DC Terra Wallbox" titel="DC Terra Wallbox" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-[DC Terra 24 / 54 / 54 HV](https://e-mobility.abb.com/en)
-
-![ABB – Abbildung 4](/img/ocpp-ladestationen-abb/04.jpg)
-
-[DC Terra Wallbox](https://e-mobility.abb.com/en)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

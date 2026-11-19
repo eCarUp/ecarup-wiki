@@ -18,6 +18,27 @@ Editor arbeitet, findet den Weg dazu weiter unten unter
    darum musst du dich nicht kümmern.
 3. Änderungen sind nach wenigen Minuten online.
 
+## Inhalt
+
+- [Eine Seite korrigieren](#eine-seite-korrigieren)
+- [Überschriften](#überschriften)
+- [Ein Bild hinzufügen](#ein-bild-hinzufügen)
+- [Bild neben Text stellen](#bild-neben-text-stellen)
+- [Tabellen](#tabellen)
+- [Eine Frage ins FAQ aufnehmen](#eine-frage-ins-faq-aufnehmen)
+- [Eine Seite einem Land zuordnen](#eine-seite-einem-land-zuordnen)
+- [Eine Seite einer Rolle zuordnen](#eine-seite-einer-rolle-zuordnen)
+- [Eine neue Seite anlegen](#eine-neue-seite-anlegen)
+- [Eine neue Seite in die Navigation eintragen](#eine-neue-seite-in-die-navigation-eintragen)
+- [Eine Seite an eine andere Stelle verschieben](#eine-seite-an-eine-andere-stelle-verschieben)
+- [Videos einbinden](#videos-einbinden)
+- [Google Tabellen einbetten](#google-tabellen-einbetten)
+- [PDF verlinken](#pdf-verlinken)
+- [Lokal mit VS Code arbeiten](#lokal-mit-vs-code-arbeiten)
+- [Was du nicht tun sollst](#was-du-nicht-tun-sollst)
+- [Und die Übersetzungen?](#und-die-übersetzungen)
+- [Wenn etwas schiefgeht](#wenn-etwas-schiefgeht)
+
 ---
 
 ## Eine Seite korrigieren

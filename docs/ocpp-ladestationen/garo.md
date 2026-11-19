@@ -4,17 +4,15 @@ slug: '/ocpp-ladestationen/garo'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Garo'
 ---
-![Garo – Abbildung 1](/img/ocpp-ladestationen-garo/01.jpg)
+<Kacheln min="11rem">
 
-[Wallbox GLB+](https://www.garo.se/en/products/wallbox)
+<Kachel bild="/img/ocpp-ladestationen-garo/01.jpg" bildtext="Garo Wallbox GLB+" titel="Wallbox GLB+" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-![Garo – Abbildung 2](/img/ocpp-ladestationen-garo/02.png)
+<Kachel bild="/img/ocpp-ladestationen-garo/02.png" bildtext="Garo Entity Pro" titel="Entity Pro" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-[Entity Pro](https://www.garo.se/en/products/wallbox)
+<Kachel bild="/img/ocpp-ladestationen-garo/03.jpg" bildtext="Garo LS4 Compact" titel="LS4 Compact" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-![Garo – Abbildung 3](/img/ocpp-ladestationen-garo/03.jpg)
-
-[LS4 Compact](https://www.garo.se/en/products/wallbox)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

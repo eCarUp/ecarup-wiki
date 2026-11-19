@@ -4,17 +4,15 @@ slug: '/ocpp-ladestationen/charge-amps'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Charge Amps'
 ---
-![Charge Amps – Abbildung 1](/img/ocpp-ladestationen-charge-amps/01.jpg)
+<Kacheln min="11rem">
 
-[Charge Amps Aura](https://www.chargeamps.com/de/product/charge-amps-aura/)
+<Kachel bild="/img/ocpp-ladestationen-charge-amps/01.jpg" bildtext="Charge Amps Aura" titel="Charge Amps Aura" href="https://www.chargeamps.com/de/product/charge-amps-aura/" bildhoehe="10rem" mittig />
 
-![Charge Amps – Abbildung 2](/img/ocpp-ladestationen-charge-amps/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-charge-amps/02.jpg" bildtext="Charge Amps Dawn" titel="Charge Amps Dawn" href="https://www.chargeamps.com/de/product/charge-amps-aura/" bildhoehe="10rem" mittig />
 
-[Charge Amps Dawn](https://www.chargeamps.com/de/product/charge-amps-aura/)
+<Kachel bild="/img/ocpp-ladestationen-charge-amps/03.jpg" bildtext="Charge Amps Halo" titel="Charge Amps Halo" href="https://www.chargeamps.com/de/product/charge-amps-aura/" bildhoehe="10rem" mittig />
 
-![Charge Amps – Abbildung 3](/img/ocpp-ladestationen-charge-amps/03.jpg)
-
-[Charge Amps Halo](https://www.chargeamps.com/de/product/charge-amps-aura/)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

@@ -4,13 +4,13 @@ slug: '/ocpp-ladestationen/juice-technology'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Juice Technology'
 ---
-![Juice Technology – Abbildung 1](/img/ocpp-ladestationen-juice-technology/01.jpg)
+<Kacheln min="11rem">
 
-[Charger me 3](https://juice.world/)
+<Kachel bild="/img/ocpp-ladestationen-juice-technology/01.jpg" bildtext="Juice Technology Charger me 3" titel="Charger me 3" href="https://juice.world/" bildhoehe="10rem" mittig />
 
-![Juice Technology – Abbildung 2](/img/ocpp-ladestationen-juice-technology/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-juice-technology/02.jpg" bildtext="Juice Technology Charger 2" titel="Charger 2" href="https://juice.world/" bildhoehe="10rem" mittig />
 
-[Charger 2](https://juice.world/)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

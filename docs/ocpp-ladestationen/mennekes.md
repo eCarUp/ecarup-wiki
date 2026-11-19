@@ -4,21 +4,17 @@ slug: '/ocpp-ladestationen/mennekes'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'Mennekes'
 ---
-![Mennekes – Abbildung 1](/img/ocpp-ladestationen-mennekes/01.jpg)
+<Kacheln min="11rem">
 
-[Professional](https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/01.jpg" bildtext="Mennekes Professional" titel="Professional" href="https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/" bildhoehe="10rem" mittig />
 
-![Mennekes – Abbildung 2](/img/ocpp-ladestationen-mennekes/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/02.jpg" bildtext="Mennekes Wallbox Premium" titel="Wallbox Premium" href="https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/" bildhoehe="10rem" mittig />
 
-[Wallbox Premium](https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/03.jpg" bildtext="Mennekes Amtron Professional" titel="Amtron Professional" href="https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/" bildhoehe="10rem" mittig />
 
-![Mennekes – Abbildung 3](/img/ocpp-ladestationen-mennekes/03.jpg)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/04.png" bildtext="Mennekes Amtron 4Business/4You" titel="Amtron 4Business/4You" href="https://www.mennekes.ch/emobility/produkt-details/1347012405BK/#" bildhoehe="10rem" mittig />
 
-[Amtron Professional](https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/)
-
-![Mennekes – Abbildung 4](/img/ocpp-ladestationen-mennekes/04.png)
-
-[Amtron 4Business/4You](https://www.mennekes.ch/emobility/produkt-details/1347012405BK/#)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 

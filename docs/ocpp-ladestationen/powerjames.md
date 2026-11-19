@@ -14,9 +14,11 @@ POWERJames Stationen können in wenigen Schritten in das eCarUp Abrechnungssyste
 
 - Lerne hier mehr, über unsere [Premium Funktionen](/funktionen)
 
-![POWERJames – Abbildung 1](/img/ocpp-ladestationen-powerjames/01.png)
+<Kacheln min="11rem">
 
-[Wallbox POWERJames Charges](https://powerjames.com/#funktionen)
+<Kachel bild="/img/ocpp-ladestationen-powerjames/01.png" bildtext="POWERJames Wallbox POWERJames Charges" titel="Wallbox POWERJames Charges" href="https://powerjames.com/#funktionen" bildhoehe="10rem" mittig />
+
+</Kacheln>
 
 ### Integration von OCPP Stationen
 

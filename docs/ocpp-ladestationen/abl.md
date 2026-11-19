@@ -4,13 +4,13 @@ slug: '/ocpp-ladestationen/abl'
 description: 'Backend Integrationsanleitung'
 sidebar_label: 'ABL'
 ---
-![ABL – Abbildung 1](/img/ocpp-ladestationen-abl/01.jpg)
+<Kacheln min="11rem">
 
-[ABL Wallbox](https://www.ablmobility.de/de/)
+<Kachel bild="/img/ocpp-ladestationen-abl/01.jpg" bildtext="ABL Wallbox" titel="ABL Wallbox" href="https://www.ablmobility.de/de/" bildhoehe="10rem" mittig />
 
-![ABL – Abbildung 2](/img/ocpp-ladestationen-abl/02.png)
+<Kachel bild="/img/ocpp-ladestationen-abl/02.png" bildtext="ABL Supernova" titel="ABL Supernova" href="https://www.ablmobility.de/de/" bildhoehe="10rem" mittig />
 
-[ABL Supernova](https://www.ablmobility.de/de/)
+</Kacheln>
 
 ## Backend Integrationsanleitung
 
