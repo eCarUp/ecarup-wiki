@@ -1,40 +1,40 @@
 ---
 title: 'Enelion'
 slug: '/ocpp-ladestationen/enelion'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration backend'
 sidebar_label: 'Enelion'
 ---
-![Enelion – Illustration 1](/img/ocpp-ladestationen-enelion/01.jpg)
+<Kacheln min="11rem">
 
-[Lumina](https://enelion.com/product/lumina/)
+<Kachel bild="/img/ocpp-ladestationen-enelion/01.jpg" bildtext="Enelion Lumina" titel="Lumina" href="https://enelion.com/product/lumina/" bildhoehe="10rem" mittig />
 
-![Enelion – Illustration 2](/img/ocpp-ladestationen-enelion/02.png)
+<Kachel bild="/img/ocpp-ladestationen-enelion/02.png" bildtext="Enelion Vertica" titel="Vertica" href="https://enelion.com/product/vertica/" bildhoehe="10rem" mittig />
 
-[Vertica](https://enelion.com/product/vertica/)
+</Kacheln>
 
-## Guide d'intégration au backend
+## Guide d'intégration backend
 
-Les bornes Enelion peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même et en toute simplicité les conditions d'utilisation de vos bornes (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+Les bornes de recharge Enelion peuvent être intégrées au système de décompte eCarUp en quelques étapes. Une fois installées dans votre compte, vous pouvez définir simplement vous-même les conditions d'utilisation de vos bornes de recharge (prix, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
 
-- Prérequis pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Condition préalable pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configuration dans le [portail web pour les exploitants de bornes](/stationsbetreiber/webportal)
+- Configuration dans le [portail web pour exploitants de bornes de recharge](/stationsbetreiber/webportal)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+- Apprenez-en plus sur nos [fonctions Premium](/funktionen)
 
-### Intégration des bornes OCPP
+### Intégration de bornes de recharge OCPP
 
-1.  Assurez-vous que votre borne est installée et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assurez-vous que votre borne de recharge est installée et que votre PC ou votre téléphone portable est connecté au même réseau que la borne de recharge.
 
 2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
 
-3.  Dans le menu à gauche, cliquez sur l'onglet « Bornes » (« Stationen »).
+3.  Dans le menu à gauche, cliquez sur l'onglet « Stationen » (Stations).
 
 4.  Sélectionnez l'onglet « OCPP ».
 
 5.  Copiez l'URL dans le presse-papiers.
 
-6.  Accédez à l'interface web de la borne souhaitée et collez-y l'URL copiée.
+6.  Rendez-vous sur l'interface web de la borne de recharge souhaitée et collez-y l'URL copiée.
 
 ## Enelion Lumina
 
@@ -42,22 +42,22 @@ Les bornes Enelion peuvent être intégrées en quelques étapes dans le systèm
 
 1.  Allumez votre Lumina
 
-2.  Prenez un smartphone et ouvrez vos paramètres Wi-Fi
+2.  Utilisez pour cela un smartphone et ouvrez vos paramètres WLAN
 
-3.  Sélectionnez le point d'accès de la wallbox Lumina\-Wallbox (Enelion-xxxx-xxx)
+3.  Sélectionnez le hotspot de la wallbox Lumina\-(Enelion-xxxx-xxx)
 
 4.  Ouvrez le navigateur de votre smartphone et saisissez l'adresse IP suivante : 192.168.8.8
 
 5.  La page de configuration Enelion s'ouvre
 
-6.  Saisissez le mot de passe demandé. Vous le trouverez dans le courrier fourni par Enelion 
+6.  Saisissez le mot de passe demandé. Vous le trouvez sur le courrier d'Enelion fourni avec la borne 
 
 ### Étape 1
 
 <div className="row">
 <div className="col col--6">
 
-- Sous Network, la borne peut être connectée par Wi-Fi ou GSM.
+- Sous Network, la borne de recharge peut être connectée au WLAN ou au GSM.
 
 </div>
 <div className="col col--6 text--center">
@@ -75,7 +75,7 @@ Les bornes Enelion peuvent être intégrées en quelques étapes dans le systèm
 
 ### Étape 3
 
-- Désactivez le mode FreeCharge et enregistrez
+- Retirez le mode FreeCharge et enregistrez
 
 ![Enelion – Illustration 5](/img/ocpp-ladestationen-enelion/05.png)
 
@@ -95,15 +95,15 @@ Les bornes Enelion peuvent être intégrées en quelques étapes dans le systèm
 
 2.  Connector ID 1
 
-3.  Le Freecharge idTAg ne doit pas être vide. Vous pouvez y enregistrer un badge maître (liste blanche) ou, s'il n'a pas d'importance, procéder comme dans l'exemple de la capture d'écran
+3.  Freecharge idTAg ne doit pas être vide. Un badge maître peut y être enregistré (liste blanche) ou, si cela n'a pas d'importance, procédez comme dans l'exemple de la capture d'écran
 
-4.  Saisissez votre URL eCarUp provenant de votre compte
+4.  Enregistrez votre URL eCarUp issue du compte
 
-5.  La Charge Point ID ne doit pas non plus être vide et peut être nommée librement. (Attention : 20 caractères max. et pas d'espace)
+5.  Charge Point ID ne doit pas non plus être vide et peut être libellé individuellement. (Attention : 20 caractères maximum et pas d'espace)
 
 \+ Enregistrer et redémarrer
 
-Contrôlez l'état de connexion de la borne dans le tableau de bord. 
+Contrôlez l'état de la connexion de la borne de recharge dans le tableau de bord. 
 
 <div className="row">
 <div className="col col--6 text--center">
@@ -124,11 +124,11 @@ Contrôlez l'état de connexion de la borne dans le tableau de bord.
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de transmission des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule manière pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'app. 
+L'intervalle d'envoi des Meter Values peut varier d'une borne de recharge à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de charge actuelle dans l'application. 
 
 Vous pouvez le modifier comme suit :
 
-1.  Get Configuration (pour lire la valeur programmée)
+1.  Get Configuration (pour lire ce qui est programmé)
 
 2.  Change Configuration (pour écraser la valeur)
 

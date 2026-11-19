@@ -1,26 +1,24 @@
 ---
 title: 'Hager'
 slug: '/ocpp-ladestationen/hager'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione del backend'
 sidebar_label: 'Hager'
 ---
-![Hager – Figura 1](/img/ocpp-ladestationen-hager/01.png)
+<Kacheln min="11rem">
 
-[Hager witty plus & pro](https://hager.com/de-ch/katalog/ladestation-fuer-elektrofahrzeuge-evcs/ladestationen?_gl=1*qlklly*_up*MQ..*_ga*MTIzODc0MzgyNC4xNzUxMjY5MTg3*_ga_PV0S9027V6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw*_ga_9H5STC0VW6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw)
+<Kachel bild="/img/ocpp-ladestationen-hager/01.png" bildtext="Hager witty plus & pro" titel="Hager witty plus & pro" href="https://hager.com/de-ch/katalog/ladestation-fuer-elektrofahrzeuge-evcs/ladestationen?_gl=1*qlklly*_up*MQ..*_ga*MTIzODc0MzgyNC4xNzUxMjY5MTg3*_ga_PV0S9027V6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw*_ga_9H5STC0VW6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw" bildhoehe="10rem" mittig />
 
-![Hager – Figura 2](/img/ocpp-ladestationen-hager/02.png)
+<Kachel bild="/img/ocpp-ladestationen-hager/02.png" bildtext="Hager witty park 2" titel="Hager witty park 2" href="https://hager.com/de-ch/katalog/ladestation-fuer-elektrofahrzeuge-evcs/ladestationen?_gl=1*qlklly*_up*MQ..*_ga*MTIzODc0MzgyNC4xNzUxMjY5MTg3*_ga_PV0S9027V6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw*_ga_9H5STC0VW6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw" bildhoehe="10rem" mittig />
 
-[Hager witty park 2](https://hager.com/de-ch/katalog/ladestation-fuer-elektrofahrzeuge-evcs/ladestationen?_gl=1*qlklly*_up*MQ..*_ga*MTIzODc0MzgyNC4xNzUxMjY5MTg3*_ga_PV0S9027V6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw*_ga_9H5STC0VW6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw)
+<Kachel bild="/img/ocpp-ladestationen-hager/03.png" bildtext="Hager witty share" titel="Hager witty share" href="https://hager.com/de-ch/katalog/ladestation-fuer-elektrofahrzeuge-evcs/ladestationen?_gl=1*qlklly*_up*MQ..*_ga*MTIzODc0MzgyNC4xNzUxMjY5MTg3*_ga_PV0S9027V6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw*_ga_9H5STC0VW6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw" bildhoehe="10rem" mittig />
 
-![Hager – Figura 3](/img/ocpp-ladestationen-hager/03.png)
+</Kacheln>
 
-[Hager witty share](https://hager.com/de-ch/katalog/ladestation-fuer-elektrofahrzeuge-evcs/ladestationen?_gl=1*qlklly*_up*MQ..*_ga*MTIzODc0MzgyNC4xNzUxMjY5MTg3*_ga_PV0S9027V6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw*_ga_9H5STC0VW6*czE3NTEyNjkxODQkbzEkZzAkdDE3NTEyNjkxODQkajYwJGwwJGgw)
+## Guida all'integrazione del backend
 
-## Guida all'integrazione nel backend
+Le stazioni Hager possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza difficoltà le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
 
-Le stazioni Hager possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni d'uso delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
-
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
@@ -28,11 +26,11 @@ Le stazioni Hager possono essere integrate in pochi passaggi nel sistema di cont
 
 ### Integrazione di stazioni OCPP
 
-1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
-2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua l'accesso con i dati del tuo account.
+2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) e accedi con i dati del tuo account.
 
-3.  Nel menu a sinistra, clicca sulla scheda "Stazioni" ("Stationen").
+3.  Nel menu a sinistra, clicca sulla scheda "Stazioni".
 
 4.  Seleziona la scheda "OCPP".
 
@@ -48,25 +46,25 @@ Le stazioni Hager possono essere integrate in pochi passaggi nel sistema di cont
 
 ## Integrazione della Hager witty park 2
 
-- Versione firmware testata: V1.1.0.11
+- versione firmware testata: V1.1.0.11
 
-1.  Connettiti alla stazione Hager tramite LAN o WLAN (i dettagli per la connessione si trovano nelle istruzioni di installazione)
+1.  Collegati alla stazione Hager tramite LAN o WLAN (i dettagli per la connessione si trovano nelle istruzioni di installazione)
 
-2.  Maschera di login (i dati di accesso necessari si trovano anch'essi nelle istruzioni di installazione.)
+2.  Maschera di login (anche i dati di accesso necessari si trovano nelle istruzioni di installazione.)
 
-3.  Analogamente all'integrazione della Hager witty pro, puoi inserire allo stesso modo il tuo URL eCarUp. [Link](/ocpp-ladestationen/hager#integrazione-della-hager-witty-pro)
+3.  Analogamente all'integrazione della Hager witty pro, puoi inserire il tuo URL eCarUp allo stesso modo. [Link](/ocpp-ladestationen/hager#integrazione-della-hager-witty-pro)
 
-4\. Se desideri personalizzare anche lo schermo, puoi farlo in "Stazioni di ricarica" ("Ladestationen") e poi in Schermo (Bildschirm). 
+4\. Se desideri personalizzare ulteriormente lo schermo, puoi farlo in "Stazioni di ricarica" e poi in Schermo. 
 
 ![Hager – Figura 4](/img/ocpp-ladestationen-hager/04.png)
 
-5. Suggerimento: puoi far proiettare i codici QR direttamente tramite OCPP sul display della stazione. 
+5. Suggerimento: puoi far proiettare i codici QR direttamente sul display della stazione tramite OCPP. 
 
-- Tramite ChangeConfiguration nello strumento di manutenzione, puoi inviare il seguente comando:
+- Con ChangeConfiguration tramite lo strumento di manutenzione puoi inviare il seguente comando:
 
 \[2, "b1a70001-6e37-b9a9-d242-a5f2e0ab6860", "ChangeConfiguration", &#123;"key":"HagerQrCodeURL1","value":"[https://admin.ecarup.com/instant-payment?serial=I3M264mupkyqFp4fu21QTqZeY](https://admin.ecarup.com/instant-payment?serial=I3M264mupkyqFp4fu21QTqZeY)"&#125;\]
 
-- Come ottenere l'URL è spiegato qui: [Link](/stationsbetreiber/qr-code)
+- Come ottenere l'URL lo trovi qui: [Link](/stationsbetreiber/qr-code)
 
 - Tutto sullo strumento di manutenzione qui: [Link](/funktionen/wartung)
 
@@ -80,23 +78,23 @@ Esempio:
 
 - XVL122SCH e XVL122CCH
 
-- Versione firmware testata: V1.1.5.3
+- versione firmware testata: V1.1.5.3
 
-1.  Connettiti alla stazione Hager tramite LAN o WLAN (i dettagli per la connessione si trovano nelle istruzioni di installazione)
+1.  Collegati alla stazione Hager tramite LAN o WLAN (i dettagli per la connessione si trovano nelle istruzioni di installazione)
 
-2.  Maschera di login (i dati di accesso necessari si trovano anch'essi nelle istruzioni di installazione.).
+2.  Maschera di login (anche i dati di accesso necessari si trovano nelle istruzioni di installazione.).
 
-3.  Nella voce di menu Charging Station è possibile impostare la connessione desiderata. 
+3.  Nella voce di menu Charging Station si può impostare la connessione desiderata. 
 
-4\. In Access Management è possibile aggiungere il Charge Point Operator. 
+4\. In Access Management si può aggiungere il Charge Point Operator. 
 
 5\. Server OCPP: l'URL del tuo account, ad es.    wss://www.ecarup.com/api/Ocpp16/D037xxxxxxxxxx
 
-6\. Il ChargePoint-ID può essere lasciato con le impostazioni predefinite.
+6\. L'ID ChargePoint può essere lasciato con le impostazioni predefinite.
 
  7\. Tipo di autenticazione su Nessuna.
 
-8\. Salva e riavvia
+8\. Salvare e riavviare
 
 ![Hager – Figura 7](/img/ocpp-ladestationen-hager/07.png)
 
@@ -106,33 +104,33 @@ Opzionale: wss + Basic Auth.
 
 ![Hager – Figura 9](/img/ocpp-ladestationen-hager/09.png)
 
-## Gestore del carico Hager
+## Hager Lastmanager
 
 XEM 520
 
 Importante: deve essere presente la versione firmware LLM\_2023\_098. 
 
-1.  Connettiti al gestore del carico
+1.  Collegati al gestore del carico
 
-2.  Clicca sulla voce di menu Stazioni di ricarica (Ladestationen)
+2.  Clicca sulla voce di menu Stazioni di ricarica
 
-3.  Cerca la stazione di ricarica e configura l'assegnazione delle fasi
+3.  Cerca la stazione di ricarica e configura l'appartenenza di fase
 
-4.  Vai alla stazione di ricarica, attiva Gestore della stazione di ricarica CPO (Ladestationsbetreiber CPO) e poi clicca su Impostazioni (Einstellungen).
+4.  Vai a Stazione di ricarica, attiva Gestore della stazione di ricarica CPO e poi clicca su Impostazioni.
 
 ![Hager – Figura 10](/img/ocpp-ladestationen-hager/10.png)
 
-5\. Seleziona eCarUp nell'elenco e aggiungi il tuo ID eCarUp. (non l'intero URL)
+5\. Seleziona eCarUp dall'elenco e aggiungi il tuo ID eCarUp. (non l'intero URL)
 
 ad es. (ws://www.ecarup.com/api/Ocpp16/) D037xxxxxxxxxx
 
-poi clicca anche su avanti. 
+poi clicca di nuovo su Avanti. 
 
 ![Hager – Figura 11](/img/ocpp-ladestationen-hager/11.png)
 
 6. Inserisci il numero di serie della stazione di ricarica nel campo OCPP ID. 
 
-7\. Clicca ora su Connetti al server CPO (Verbinden zum CPO Server).
+7\. Clicca ora su Connetti al server CPO.
 
 8\. La stazione si riavvia. 
 
@@ -149,9 +147,9 @@ Controllo finale
 
 - XVL122S e XVL122C
 
-- Versione firmware testata: V1.1.1.6
+- versione firmware testata: V1.1.1.6
 
-- Installa a tal fine l'app Hager Charge
+- Installa a tale scopo l'app Hager Charge
 
 </div>
 <div className="col col--6 text--center">
@@ -191,7 +189,7 @@ Aggiungi una rete alla stazione di ricarica
 
 ![Hager – Figura 21](/img/ocpp-ladestationen-hager/21.png)
 
-- Inserisci il tuo URL eCarUp nel campo dell'indirizzo. 
+- Inserisci il tuo URL eCarUp nel campo Indirizzo. 
 
 - OCPP ID: inserisci qui il numero di serie della stazione. 
 
@@ -207,47 +205,47 @@ Aggiungi una rete alla stazione di ricarica
 
 Guida rapida all'integrazione di una stazione Hager nel backend eCarUp
 
-1.  Connettiti alla stazione Hager tramite LAN o WLAN (i dettagli per la connessione si trovano nelle istruzioni di installazione)
+1.  Collegati alla stazione Hager tramite LAN o WLAN (i dettagli per la connessione si trovano nelle istruzioni di installazione)
 
-2.  Maschera di login (i dati di accesso necessari si trovano anch'essi nelle istruzioni di installazione.).
+2.  Maschera di login (anche i dati di accesso necessari si trovano nelle istruzioni di installazione.).
 
 - Nome utente: admin
 
 - PW:1234
 
-3.  In Configurazione (Konfiguration) puoi effettuare le impostazioni LAN e/o WLAN.
+3.  In Configurazione puoi effettuare le impostazioni LAN e/o WLAN.
 
-4.  In Protocollo (Protokoll) imposta il tipo su OCPP e la modalità di autorizzazione su OCPP completo (OCPP Voll). 
+4.  In Protocollo imposta il tipo su OCPP e la modalità di autorizzazione su OCPP completo. 
 
 5.  Server OCPP: l'URL del tuo account, ad es. ws://www.ecarup.com/api/Ocpp16/D037xxxxxxxxxx
 
-6.  Il ChargePoint-ID può essere lasciato con le impostazioni predefinite. 
+6.  L'ID ChargePoint può essere lasciato con le impostazioni predefinite. 
 
-7.  Tipo di autenticazione su Nessuna (Keine).
+7.  Tipo di autenticazione su Nessuna.
 
-8.  Salva e riavvia
+8.  Salvare e riavviare
 
-### 2\. Passo: effettuare l'accesso
+### 2\. Passaggio: accedere
 
 ![Hager – Figura 22](/img/ocpp-ladestationen-hager/22.png)
 
-### 3\. Passo: configurare le impostazioni WLAN e LAN
+### 3\. Passaggio: configurare le impostazioni WLAN e LAN
 
 ![Hager – Figura 23](/img/ocpp-ladestationen-hager/23.png)
 
-### 4.-7. Passo: inserire e adattare i dati
+### 4.-7. Passaggio: inserire e adattare i dati
 
 ![Hager – Figura 24](/img/ocpp-ladestationen-hager/24.png)
 
-### 8\. Passo: salvare e riavviare.
+### 8\. Passaggio: salvare e riavviare.
 
-## Impostazioni avanzate tramite strumento di manutenzione (eCarUp Premium)
+## Impostazioni avanzate tramite lo strumento di manutenzione (eCarUp Premium)
 
-L'intervallo di upload dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30-60s. Solo così possiamo calcolare e visualizzare meglio la potenza di ricarica attuale nell'app. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e mostrare meglio nell'app la potenza di ricarica attuale. 
 
 Puoi modificarlo come segue:
 
-1.  Get Configuration (per leggere ciò che è programmato)
+1.  Get Configuration (per leggere cosa è programmato)
 
 2.  Change Configuration (per sovrascrivere il valore)
 

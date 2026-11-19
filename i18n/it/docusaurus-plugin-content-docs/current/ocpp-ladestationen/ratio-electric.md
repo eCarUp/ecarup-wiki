@@ -1,33 +1,33 @@
 ---
 title: 'Ratio Electric'
 slug: '/ocpp-ladestationen/ratio-electric'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione backend'
 sidebar_label: 'Ratio Electric'
 ---
-![Ratio Electric – Figura 1](/img/ocpp-ladestationen-ratio-electric/01.jpg)
+<Kacheln min="11rem">
 
-[IO7](https://elektroscout.ch/produkt/doppellader-fuer-den-oeffentlichen-bereich-mit-ocpp/)
+<Kachel bild="/img/ocpp-ladestationen-ratio-electric/01.jpg" bildtext="Ratio Electric IO7" titel="IO7" href="https://elektroscout.ch/produkt/doppellader-fuer-den-oeffentlichen-bereich-mit-ocpp/" bildhoehe="10rem" mittig />
 
-![Ratio Electric – Figura 2](/img/ocpp-ladestationen-ratio-electric/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-ratio-electric/02.jpg" bildtext="Ratio Electric IO6 MID Pro" titel="IO6 MID Pro" href="https://elektroscout.ch/produkt/io6/" bildhoehe="10rem" mittig />
 
-[IO6 MID Pro](https://elektroscout.ch/produkt/io6/)
+</Kacheln>
 
-## Guida all'integrazione nel backend
+## Guida all'integrazione backend
 
-Le stazioni Ratio Electric possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire in modo semplice e autonomo le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Decidi tu chi può ricaricare, quando e a quale prezzo. 
+Le stazioni Ratio Electric possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza difficoltà le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo. 
 
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configurazione nel [portale web per gestori di stazioni](/stationsbetreiber/webportal)
+- Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
 - Scopri di più sulle nostre [funzioni Premium](/funktionen)
 
 
-### Integrazione di stazioni OCPP
+### Integrazione delle stazioni OCPP
 
-1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
-2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) e accedi con i dati del tuo account.
+2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed esegui l'accesso con i dati del tuo account.
 
 3.  Nel menu a sinistra, clicca sulla scheda "Stazioni" ("Stationen").
 
@@ -40,9 +40,9 @@ Le stazioni Ratio Electric possono essere integrate in pochi passaggi nel sistem
 
 ## Integrazione di IO7 e IO6 pro MID
 
-Importante: versione firmware testata , 1.5.4  (IO7)
+Importante: versione firmware testata, 1.5.4 (IO7)
 
-Importante: versione firmware testata , 3.13.1  (IO6)
+Importante: versione firmware testata, 3.13.1 (IO6)
 
 
 
@@ -53,7 +53,7 @@ Importante: versione firmware testata , 3.13.1  (IO6)
 
 ## Impostazioni avanzate tramite lo strumento di manutenzione (eCarUp Premium)
 
-L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo tra 30-60s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
 
 
 

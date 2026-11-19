@@ -1,75 +1,58 @@
 ---
 title: 'Juice Technology'
 slug: '/ocpp-ladestationen/juice-technology'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione del backend'
 sidebar_label: 'Juice Technology'
 ---
-![Juice Technology – Figura 1](/img/ocpp-ladestationen-juice-technology/01.jpg)
+<Kacheln min="11rem">
 
-[Charger me 3](https://juice.world/)
+<Kachel bild="/img/ocpp-ladestationen-juice-technology/01.jpg" bildtext="Juice Technology Charger me 3" titel="Charger me 3" href="https://juice.world/" bildhoehe="10rem" mittig />
 
-![Juice Technology – Figura 2](/img/ocpp-ladestationen-juice-technology/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-juice-technology/02.jpg" bildtext="Juice Technology Charger 2" titel="Charger 2" href="https://juice.world/" bildhoehe="10rem" mittig />
 
-[Charger 2](https://juice.world/)
+</Kacheln>
 
-## Guida all'integrazione nel backend
+## Guida all'integrazione del backend
 
-Le stazioni Juice possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel Suo account, può definire autonomamente e senza complicazioni le condizioni d'uso delle Sue stazioni (prezzi, utenti, orari di disponibilità ecc.). È Lei a decidere chi può ricaricare, quando e a quale prezzo. 
+Le stazioni Juice possono essere integrate nel sistema di conteggio di eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo. 
 
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configurazione nel [portale web per gestori di stazioni](/stationsbetreiber/webportal)
+- Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
-- Scopra di più sulle nostre [funzioni Premium](/funktionen)
+- Scopri di più sulle nostre [funzioni Premium](/funktionen)
 
 
 ### Integrazione di stazioni OCPP
 
-1.  Si assicuri che le Sue stazioni di ricarica siano installate e che il Suo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
-2.  Apra il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettui l'accesso con i dati del Suo account.
+2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) e accedi con i dati del tuo account.
 
-3.  Nel menu a sinistra, clicchi sulla scheda "Stazioni" ("Stationen").
+3.  Nel menu a sinistra, clicca sulla scheda "Stazioni".
 
-4.  Selezioni la scheda "OCPP".
+4.  Seleziona la scheda "OCPP".
 
-5.  Copi l'URL negli appunti.
+5.  Copia l'URL negli appunti.
 
-6.  Vada all'interfaccia web della stazione desiderata e inserisca l'URL copiato.
+6.  Vai all'interfaccia web della stazione desiderata e incolla l'URL copiato.
 
 
 ## Integrazione delle stazioni di ricarica Juice
 
-<Video src="nj_x0WNQhNk" title="Video YouTube, guida all'integrazione «Juice Technology nel backend eCarUp»" />
+<Video src="nj_x0WNQhNk" title="Video YouTube, guida all'integrazione «Juice Technology nel backend di eCarUp»" />
 
-Video guida all'integrazione di Juice Technology nel backend eCarUp
+Guida video all'integrazione di Juice Technology nel backend di eCarUp
 
 ## Juice Charger me 3
 
 ### Installazione
 
-Accesso alla stazione (statico):
+Accedere alla stazione (statico):
 
-1\. Non appena è connesso alla stazione (attenzione: il PC deve trovarsi nello stesso intervallo IP), apra il browser che preferisce e inserisca il seguente indirizzo IP: 192.168.123.123/
+1\. Non appena sei collegato alla stazione (attenzione: il PC deve trovarsi nello stesso intervallo IP), apri il browser di tua fiducia e inserisci il seguente indirizzo IP: 192.168.123.123/
 
-2\. Accesso: i dati di accesso si trovano nelle istruzioni fornite in dotazione.
-
-Standard: 
-
-Username: operator
-
-PW: JuiCeMeUP!
-
-3\. Configuri quindi il Juice Charger me 3 secondo le Sue esigenze. 
-
-
-
-Accesso alla stazione (dinamico):
-
-1.  Colleghi il cavo di rete al router e individui l'indirizzo IP nell'elenco del router. 
-
-2.   Accesso: i dati di accesso si trovano nelle istruzioni fornite in dotazione.
-
+2\. Accesso: i dati di accesso si trovano nella guida in dotazione.
 
 Standard: 
 
@@ -77,7 +60,24 @@ Username: operator
 
 PW: JuiCeMeUP!
 
-3.   Configuri quindi il Juice Charger me 3 secondo le Sue esigenze. 
+3\. Configura quindi il Juice Charger me 3 secondo le tue esigenze. 
+
+
+
+Accedere alla stazione (dinamico):
+
+1.  Collega il cavo di rete al router e individua l'indirizzo IP nell'elenco del router. 
+
+2.   Accesso: i dati di accesso si trovano nella guida in dotazione.
+
+
+Standard: 
+
+Username: operator
+
+PW: JuiCeMeUP!
+
+3.   Configura quindi il Juice Charger me 3 secondo le tue esigenze. 
 
 
 
@@ -86,64 +86,64 @@ PW: JuiCeMeUP!
 
 ![Juice Technology – Figura 3](/img/ocpp-ladestationen-juice-technology/03.png)
 
-1.  Selezioni il tipo di connessione (WLAN, LAN ecc.)
+1.  Seleziona il tipo di connessione (WLAN, LAN ecc.)
 
-2.  Aggiunga l'URL eCarUp dal Suo account. 
+2.  Aggiungi l'URL di eCarUp dal tuo account. 
 
 
 Esempio: ws://www.ecarup.com/api/OCPP16/wgwepog4980h4ho
 
 ![Juice Technology – Figura 4](/img/ocpp-ladestationen-juice-technology/04.png)
 
-\+ imposti Meter Value Sample Interval su max. 60 secondi. 
+\+ impostare Meter Value Sample Interval a max. 60 secondi. 
 
 ### Impostazioni di autorizzazione
 
 ![Juice Technology – Figura 5](/img/ocpp-ladestationen-juice-technology/05.png)
 
-- Disattivi la ricarica gratuita
+- Disattivare la ricarica gratuita
 
-- Disattivi la whitelist locale
+- Disattivare la whitelist locale
 
 
-salvi tutte le impostazioni e riavvii la stazione. 
+salvare tutte le impostazioni e riavviare la stazione. 
 
 ## Juice Charger 2
 
 ### Installazione
 
-Accesso alla stazione:
+Accedere alla stazione:
 
-1\. Non appena è connesso alla stazione, apra il browser che preferisce e inserisca il seguente indirizzo IP: 192.168.4.1:1234
+1\. Non appena sei collegato alla stazione, apri il browser di tua fiducia e inserisci il seguente indirizzo IP: 192.168.4.1:1234
 
-2\. Accesso: inserisca in questa pagina la password standard 1234567890.
+2\. Accesso: su questa pagina inserisci la password standard 1234567890.
 
-3\. Configuri quindi il Juice Charger 2 secondo le Sue esigenze. 
+3\. Configura quindi il Juice Charger 2 secondo le tue esigenze. 
 
 ![Juice Technology – Figura 6](/img/ocpp-ladestationen-juice-technology/06.png)
 
 ### Integrazione OCPP
 
-⚠️ Importante: l'URL generato dall'account eCarUp deve essere scomposto secondo l'esempio seguente. 
+⚠️ Importante: l'URL generato dall'account eCarUp deve essere scomposto secondo il seguente esempio. 
 
-1.  ws:// va omesso, hostpath e dominio devono essere inseriti singolarmente / separatamente.
+1.  ws:// va omesso; Hostpath e dominio devono essere inseriti separatamente.
 
 2.  (\*\*\*\* deve essere sostituito ad es. con F749E....)
 
-3.  La Chargebox ID non deve contenere spazi
+3.  Chargebox ID non deve contenere spazi
 
-4.  Salvi la configurazione
+4.  Salvare la configurazione
 
 5.  La stazione si riavvia.
 
 
 ![Juice Technology – Figura 7](/img/ocpp-ladestationen-juice-technology/07.png)
 
-## Impostazioni avanzate tramite lo strumento di manutenzione (eCarUp Premium)
+## Impostazioni avanzate tramite strumento di manutenzione (eCarUp Premium)
 
-L'intervallo di upload dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo tra 30-60s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
 
-Può modificarlo come segue:
+Puoi modificarlo come segue:
 
 1.  Get Configuration (per leggere ciò che è programmato)
 

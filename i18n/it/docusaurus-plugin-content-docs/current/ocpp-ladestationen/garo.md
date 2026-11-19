@@ -1,24 +1,22 @@
 ---
 title: 'Garo'
 slug: '/ocpp-ladestationen/garo'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione backend'
 sidebar_label: 'Garo'
 ---
-![Garo – Figura 1](/img/ocpp-ladestationen-garo/01.jpg)
+<Kacheln min="11rem">
 
-[Wallbox GLB+](https://www.garo.se/en/products/wallbox)
+<Kachel bild="/img/ocpp-ladestationen-garo/01.jpg" bildtext="Garo Wallbox GLB+" titel="Wallbox GLB+" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-![Garo – Figura 2](/img/ocpp-ladestationen-garo/02.png)
+<Kachel bild="/img/ocpp-ladestationen-garo/02.png" bildtext="Garo Entity Pro" titel="Entity Pro" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-[Entity Pro](https://www.garo.se/en/products/wallbox)
+<Kachel bild="/img/ocpp-ladestationen-garo/03.jpg" bildtext="Garo LS4 Compact" titel="LS4 Compact" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-![Garo – Figura 3](/img/ocpp-ladestationen-garo/03.jpg)
+</Kacheln>
 
-[LS4 Compact](https://www.garo.se/en/products/wallbox)
+## Guida all'integrazione backend
 
-## Guida all'integrazione nel backend
-
-Le stazioni Garo possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire tu stesso in modo semplice le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Decidi tu chi può ricaricare, quando e a quale prezzo. 
+Le stazioni Garo possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza difficoltà le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo. 
 
 - Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
@@ -28,11 +26,11 @@ Le stazioni Garo possono essere integrate in pochi passaggi nel sistema di conte
 
 ### Integrazione di stazioni OCPP
 
-1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
 2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua l'accesso con i dati del tuo account.
 
-3.  Nel menu a sinistra, clicca sulla scheda "Stazioni" ("Stationen").
+3.  Nel menu a sinistra, clicca sulla scheda "Stazioni".
 
 4.  Seleziona la scheda "OCPP".
 
@@ -54,18 +52,18 @@ Installa qui l'app Garo Connect.
 
 ![Garo – Figura 4](/img/ocpp-ladestationen-garo/04.png)
 
-### Passo 1
+### Passaggio 1
 
-Segui passo dopo passo la guida fornita e scansiona il codice QR sulla piastra posteriore. 
+Segui passo dopo passo la guida in dotazione e scansiona il codice QR sulla piastra posteriore. 
 
-⚠️ Importante: il tuo smartphone e la stazione di ricarica devono trovarsi nella stessa rete. (LAN o WLAN)
+⚠️ Importante: il tuo smartphone e la stazione di ricarica devono trovarsi nella stessa rete (LAN o WLAN).
 
-### Passo 2
+### Passaggio 2
 
 <div className="row">
 <div className="col col--6">
 
-Nelle impostazioni generali assicurati che non siano attivati né un piano per la ricarica dell'auto né l'utilizzo gratuito.
+Nelle impostazioni generali assicurati che non sia attivato alcun piano per la ricarica dell'auto e l'utilizzo gratuito.
 
 </div>
 <div className="col col--6 text--center">
@@ -75,12 +73,12 @@ Nelle impostazioni generali assicurati che non siano attivati né un piano per l
 </div>
 </div>
 
-### Passo 3
+### Passaggio 3
 
 <div className="row">
 <div className="col col--6">
 
-Nella panoramica dell'installazione seleziona il campo "Terze parti".
+Nella panoramica dell'installazione seleziona il campo "Terze parti" ("Drittanbieter").
 
 </div>
 <div className="col col--6 text--center">
@@ -90,7 +88,7 @@ Nella panoramica dell'installazione seleziona il campo "Terze parti".
 </div>
 </div>
 
-### Passo 4
+### Passaggio 4
 
 <div className="row">
 <div className="col col--6">
@@ -105,14 +103,14 @@ Il nostro consiglio: selezionare StopTransactionPnEVSideDisconnecet + UnlockConn
 </div>
 </div>
 
-### Passo 5
+### Passaggio 5
 
 <div className="row">
 <div className="col col--6">
 
-Per la connessione OCPP la DeviceId può essere scelta liberamente.
+Per la connessione OCPP, il DeviceId può essere scelto liberamente.
 
-Nel campo CsmsUrl puoi inserire il tuo URL dell'account eCarUp.
+Per il CsmsUrl puoi inserire il tuo URL dell'account eCarUp.
 
 </div>
 <div className="col col--6 text--center">
@@ -122,12 +120,12 @@ Nel campo CsmsUrl puoi inserire il tuo URL dell'account eCarUp.
 </div>
 </div>
 
-### Passo 5.1
+### Passaggio 5.1
 
 <div className="row">
 <div className="col col--6">
 
-L'URL può essere incollato esattamente così com'è.
+L'URL può essere copiato esattamente così com'è.
 
 Non dimenticare di salvare e riavviare!
 
@@ -144,7 +142,7 @@ Non dimenticare di salvare e riavviare!
 <div className="row">
 <div className="col col--6">
 
-Sulla stazione di ricarica l'utente può inoltre definire cosa deve fare la stazione nello stato "Non connesso". Consigliamo di non attivare nulla.
+Nella stazione di ricarica l'utente può inoltre definire cosa deve fare in caso di stato "Non connesso" ("Nicht verbunden"). Consigliamo di non attivare nulla.
 
 </div>
 <div className="col col--6 text--center">
@@ -154,9 +152,9 @@ Sulla stazione di ricarica l'utente può inoltre definire cosa deve fare la staz
 </div>
 </div>
 
-## Integrazione delle Garo GLB+ e LS4 Compact
+## Integrazione della Garo GLB+ e della LS4 Compact
 
-### 1\. Collegare il notebook al controller Bender tramite cavo USB:
+### 1\. Collegare il notebook al Bender Controller tramite cavo USB:
 
 ⚠️ Importante: utilizzare l'interfaccia Micro-USB
 
@@ -177,13 +175,13 @@ Inserisci il seguente URL: http://192.168.123.123/operator/
 
 Deve essere installata almeno la versione 4.00-2139.
 
-In State →  Firmware Version trovi la versione attuale.
+In State →  Firmware Version si trova la versione più recente.
 
 Eseguire l'aggiornamento del firmware:
 
 a) Copiare il file del firmware su una chiavetta USB. Inserire la chiavetta USB.
 
-b) Riavviare il controller Bender
+b) Riavviare il Bender Controller
 
 </div>
 <div className="col col--4 text--center">
@@ -201,21 +199,21 @@ WebSocket JSON OCPP URL: ws://www.ecarup.com/api/Ocpp16/&#123;ecarupID&#125;/
 
 Esempio: ws://www.ecarup.com/api/Ocpp16/D8D2AFE54EF4D508/
 
-Importante: dopo l'URL OCPP di eCarUp deve essere aggiunto un "/" (come mostrato nell'esempio). Inoltre, nel campo "ChargePoint ID (OCPP)" non devono comparire caratteri speciali.
+Importante: dopo l'URL OCPP di eCarUp deve essere aggiunto un "/" (come mostrato nell'esempio). Inoltre, nel campo "ChargePoint ID (OCPP)" non devono essere presenti caratteri speciali.
 
 ![Garo – Figura 13](/img/ocpp-ladestationen-garo/13.png)
 
 ### Nuova interfaccia Bender
 
-Se disponi della seguente interfaccia web, trovi la guida nel seguente articolo 
+Se hai la seguente interfaccia web, trovi la guida nel seguente articolo 
 
 - [Guida](/ocpp-ladestationen/webasto)
 
 ![Garo – Figura 14](/img/ocpp-ladestationen-garo/14.png)
 
-## Impostazioni avanzate tramite strumento di manutenzione (eCarUp Premium)
+## Impostazioni avanzate tramite lo strumento di manutenzione (eCarUp Premium)
 
-L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo tra 30-60s. Solo così possiamo calcolare e visualizzare meglio la potenza di ricarica attuale nell'app. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
 
 Puoi modificarlo come segue:
 

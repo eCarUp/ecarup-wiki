@@ -4,32 +4,32 @@ slug: '/ocpp-ladestationen/weidmueller'
 description: 'Backend integration guide'
 sidebar_label: 'Weidmüller'
 ---
-![Weidmüller – Figure 1](/img/ocpp-ladestationen-weidmueller/01.jpg)
+<Kacheln min="11rem">
 
-[AC-Smart Advance](https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE)
+<Kachel bild="/img/ocpp-ladestationen-weidmueller/01.jpg" bildtext="Weidmüller AC-Smart Advance" titel="AC-Smart Advance" href="https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE" bildhoehe="10rem" mittig />
 
-![Weidmüller – Figure 2](/img/ocpp-ladestationen-weidmueller/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-weidmueller/02.jpg" bildtext="Weidmüller Wallbox" titel="Wallbox" href="https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE" bildhoehe="10rem" mittig />
 
-[Wallbox](https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE)
+</Kacheln>
 
 ## Backend integration guide
 
 Weidmüller stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Prerequisite for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more here about our [Premium features](/funktionen)
+- Learn more about our [premium functions](/funktionen)
 
 
 ### Integration of OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and your PC or phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stations" tab ("Stationen").
 
 4.  Select the "OCPP" tab.
 
@@ -38,16 +38,16 @@ Weidmüller stations can be integrated into the eCarUp billing system in just a 
 6.  Go to the web interface of the desired station and paste the copied URL.
 
 
-## Connecting Weidmüller charging stations
+## Integrating the Weidmüller charging stations
 
 ### AC-Smart Advance
 
-- Weidmüller discontinuation process for this hardware as of 01/2025
+- Weidmüller's discontinuation process for this hardware has been in effect since 01/2025
 
 
 - Open the network and internet settings of your PC
 
-- Here you need to assign a static IP address, e.g. 192.168.0.72
+- Here you must assign a static IP address, e.g. 192.168.0.72
 
 - Then connect your PC to the wallbox and open the following "default" IP in the browser: 192.168.0.8 
 
@@ -94,7 +94,7 @@ Restart the station.
 
 - Open the network and internet settings of your PC
 
-- Here you need to assign a static IP address, e.g. 192.168.0.72
+- Here you must assign a static IP address, e.g. 192.168.0.72
 
 - Then connect your PC to the wallbox and open the following "default" IP in the browser: 192.168.0.8 & PW: wallbe7213
 
@@ -111,16 +111,16 @@ Restart the station.
 
 - Desired medium for communication
 
-- The OCPP vendor must not contain any spaces
+- OCPP Vendor must not contain any spaces
 
-- The websocket must be split into its parts
+- The websocket must be split up
 
 
 ### eCarUp websocket
 
 - Enter it as shown in the screenshot
 
-- Please note the end: api/Ocpp16/weoih48zlkuhr9/00000010638
+- Please note the end of the path, api/Ocpp16/weoih48zlkuhr9/00000010638
 
 
 

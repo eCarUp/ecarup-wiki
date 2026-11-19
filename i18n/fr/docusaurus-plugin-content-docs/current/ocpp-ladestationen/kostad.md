@@ -1,54 +1,52 @@
 ---
 title: 'Kostad'
 slug: '/ocpp-ladestationen/kostad'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration backend'
 sidebar_label: 'Kostad'
 ---
-![Kostad – Illustration 1](/img/ocpp-ladestationen-kostad/01.png)
+<Kacheln min="11rem">
 
-[Unnity20 - DC Wallbox](https://www.kostad.at/)
+<Kachel bild="/img/ocpp-ladestationen-kostad/01.png" bildtext="Kostad Unnity20 - DC Wallbox" titel="Unnity20 - DC Wallbox" href="https://www.kostad.at/" bildhoehe="10rem" mittig />
 
-![Kostad – Illustration 2](/img/ocpp-ladestationen-kostad/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-kostad/02.jpg" bildtext="Kostad Unity50" titel="Unity50" href="https://www.kostad.at/" bildhoehe="10rem" mittig />
 
-[Unity50](https://www.kostad.at/)
+<Kachel bild="/img/ocpp-ladestationen-kostad/03.jpg" bildtext="Kostad Unity20 - Mobile Charger" titel="Unity20 - Mobile Charger" href="https://www.kostad.at/" bildhoehe="10rem" mittig />
 
-![Kostad – Illustration 3](/img/ocpp-ladestationen-kostad/03.jpg)
+</Kacheln>
 
-[Unity20 - Mobile Charger](https://www.kostad.at/)
+## Guide d'intégration backend
 
-## Guide d'intégration au backend
+Les bornes de recharge Kostad peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même, en toute simplicité, les conditions d'utilisation de vos bornes (prix, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
 
-Les stations Kostad peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même, en toute simplicité, les conditions d'utilisation de vos stations (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+- Condition préalable pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Configuration dans le [portail web pour exploitants de stations](/stationsbetreiber/webportal)
+- Découvrez-en plus sur nos [fonctions premium](/funktionen)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+### Intégration de bornes OCPP
 
-### Intégration de stations OCPP
-
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone portable est connecté au même réseau que la borne de recharge.
 
 2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet « Stations » ("Stationen").
+3.  Dans le menu à gauche, cliquez sur l'onglet « Stations » (Stationen).
 
-4.  Sélectionnez l'onglet « OCPP ».
+4.  Sélectionnez l'onglet « OCPP » (OCPP).
 
 5.  Copiez l'URL dans le presse-papiers.
 
-6.  Accédez à l'interface web de la station souhaitée et collez-y l'URL copiée.
+6.  Rendez-vous dans l'interface web de la borne souhaitée et collez-y l'URL copiée.
 
-## Intégration de la Kostad DC-Wallbox (CPC20)
+## Intégration de la borne DC Kostad (CPC20)
 
 1.  Connectez-vous au menu de service. Le nom d'utilisateur et le mot de passe figurent dans le mode d'emploi. 
 
-2.  ⚠️ Important : la station doit pouvoir communiquer avec Internet (LAN, WLAN, etc.)
+2.  ⚠️ Important : la borne doit pouvoir communiquer avec Internet (LAN, WLAN, etc.)
 
 ![Kostad – Illustration 4](/img/ocpp-ladestationen-kostad/04.png)
 
-### Configuration de la station
+### Configuration de la borne
 
 3\. Sélectionner OCPP :
 
@@ -58,17 +56,17 @@ Les stations Kostad peuvent être intégrées en quelques étapes dans le systè
 
 6. Veuillez vérifier encore une fois : aucun espace nulle part et un / à la fin 
 
-7\. Appliquer les données de connexion ; si la connexion est établie, le statut est « Vert » ("Grün").
+7\. Reprendre les données de connexion ; si la connexion est établie, le statut est « vert ».
 
 ![Kostad – Illustration 5](/img/ocpp-ladestationen-kostad/05.png)
 
 <div className="row">
 <div className="col col--8">
 
-Veuillez également tenir compte du paramètre suivant : « Paramètres exploitant 1 » ("Betreibereinstellungen 1")
+Veuillez également tenir compte du paramètre suivant : « Betreibereinstellungen 1 » (Paramètres de l'exploitant 1)
 
-- Si l'authentification doit se faire via eCarUp (app ou carte RFID), vous devez passer sur OCPP sous
-    Authentification ("Authentifikation").
+- Si l'authentification doit se faire via eCarUp (app ou carte RFID), vous devez, sous
+    Authentifikation, passer sur OCPP.
 
 </div>
 <div className="col col--4 text--center">
@@ -82,7 +80,7 @@ Veuillez également tenir compte du paramètre suivant : « Paramètres exploita
 
 ![Kostad – Illustration 7](/img/ocpp-ladestationen-kostad/07.png)
 
-L'intégration de ces installations est effectuée par :
+L'intégration de ces installations est assurée par :
 
  Kostad Schweiz AG. 
 
@@ -96,13 +94,13 @@ L'intégration de ces installations est effectuée par :
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de transmission des Meter Values peut varier d'une station à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'app. 
+L'intervalle d'envoi des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. C'est la seule façon de mieux calculer et d'afficher dans l'app la puissance de recharge actuelle. 
 
-Vous pouvez modifier ce réglage comme suit :
+Vous pouvez le modifier comme suit :
 
-1.  Get Configuration (pour lire la valeur programmée)
+1.  Get Configuration (pour lire ce qui est programmé)
 
-2.  Change Configuration (pour remplacer la valeur)
+2.  Change Configuration (pour écraser la valeur)
 
 ![Kostad – Illustration 9](/img/ocpp-ladestationen-kostad/09.png)
 

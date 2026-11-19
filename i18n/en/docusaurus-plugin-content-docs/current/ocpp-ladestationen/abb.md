@@ -5,55 +5,51 @@ description: 'All ABB stations with backend functionality can be integrated into
 sidebar_label: 'ABB'
 ---
 All ABB stations with backend functionality can be integrated into the eCarUp backend.
-ABB charging stations that are already installed can also be migrated to eCarUp. 
+Already installed ABB charging stations can also be migrated to eCarUp. 
 
-![ABB – Figure 1](/img/ocpp-ladestationen-abb/01.jpg)
+<Kacheln min="11rem">
 
-[AC Terra Wallbox](https://e-mobility.abb.com/en)
+<Kachel bild="/img/ocpp-ladestationen-abb/01.jpg" bildtext="ABB AC Terra Wallbox" titel="AC Terra Wallbox" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-![ABB – Figure 2](/img/ocpp-ladestationen-abb/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-abb/02.jpg" bildtext="ABB AC EV Lunic Pro M / Pro S" titel="AC EV Lunic Pro M / Pro S" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-[AC EV Lunic Pro M / Pro S](https://e-mobility.abb.com/en)
+<Kachel bild="/img/ocpp-ladestationen-abb/03.jpg" bildtext="ABB DC Terra 24 / 54 / 54 HV" titel="DC Terra 24 / 54 / 54 HV" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-![ABB – Figure 3](/img/ocpp-ladestationen-abb/03.jpg)
+<Kachel bild="/img/ocpp-ladestationen-abb/04.jpg" bildtext="ABB DC Terra Wallbox" titel="DC Terra Wallbox" href="https://e-mobility.abb.com/en" bildhoehe="10rem" mittig />
 
-[DC Terra 24 / 54 / 54 HV](https://e-mobility.abb.com/en)
-
-![ABB – Figure 4](/img/ocpp-ladestationen-abb/04.jpg)
-
-[DC Terra Wallbox](https://e-mobility.abb.com/en)
+</Kacheln>
 
 ## Backend integration guide
 
-ABB stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when and at what price. 
+ABB stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Requirements for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more about our [Premium features](/funktionen) here
+- Learn more about our [premium functions](/funktionen) here
 
 ### Integration of OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or mobile phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and your PC or mobile phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stationen" tab (Stations).
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-6.  Go to the web interface of the station you want and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
-## Integrating ABB AC charging stations
+## Integration of ABB AC charging stations
 
 <Video src="UxKCeK8RGSA" title="YouTube video, integration guide for ABB in the eCarUp backend" />
 
 ### ABB Terra AC Wallbox
 
-To integrate the ABB Terra AC Wallbox, the following steps must be carried out (once) by ABB:
+To integrate the ABB Terra AC Wallbox, the following steps must be carried out (once) on the ABB side:
 
 - Create a TerraConfig Portal account. Apply via  [https://forms.abb.com/form-39881/Antrag-Connected-Services-AC-Terra](https://forms.abb.com/form-39881/Antrag-Connected-Services-AC-Terra))
 
@@ -61,7 +57,7 @@ To integrate the ABB Terra AC Wallbox, the following steps must be carried out (
 
 - Add the eCarUp URL via the ABB portal
 
-- Note: no special characters or spaces in the Third Party Name!
+- Note: No special characters or spaces in the Third Party Name!
 
 - Without password
 
@@ -71,11 +67,11 @@ To integrate the ABB Terra AC Wallbox, the following steps must be carried out (
 
 ![ABB – Figure 6](/img/ocpp-ladestationen-abb/06.png)
 
-### Then proceed as follows in the ABB TerraConfig app:
+### Then proceed as follows in the ABB TerraConfig App:
 
-- Log in to the TerraConfig app with the app (ABB) account
+- Log in to the TerraConfig App with the app (ABB) account
 
-- Connect to the station via Bluetooth (requires the key supplied)
+- Connect to the station via Bluetooth (requires the supplied key)
 
 - Tested with software version 1.6.9
 
@@ -94,11 +90,11 @@ To integrate the ABB Terra AC Wallbox, the following steps must be carried out (
 
 2.1 Select the desired connection type
 
-2.2 Deactivate free charging
+2.2 Disable free charging
 
 2.3 OCPP configuration (explained in more detail below)
 
-2.4 Activate external RFID cards
+2.4 Enable external RFID cards
 
 2.5 Always confirm the configuration
 
@@ -115,11 +111,11 @@ To integrate the ABB Terra AC Wallbox, the following steps must be carried out (
 <div className="row">
 <div className="col col--6">
 
-2.3.1Activate external server
+2.3.1 Enable external server
 
 The URL that was added in the web portal can be selected here.
 
-2.3.2 Add a custom URL; the OCPP URL can be entered manually here.
+2.3.2 Add custom URL, where the OCPP URL can be entered manually.
 
 Select and configure the OCPP server
 
@@ -139,27 +135,27 @@ Save the entire configuration and restart.
 
 ![ABB – Figure 13](/img/ocpp-ladestationen-abb/13.png)
 
-## Integrating ABB DC charging stations
+## Integration of ABB DC charging stations
 
 ### ABB Terra DC (Wallbox and fast charging stations)
 
-DC charging stations must be loaded with the eCarUp backend by ABB. To do this, contact the following directly, stating the station details and your OCPP URL (from the web portal):
+DC charging stations must be provisioned by ABB with the eCarUp backend. To do so, contact the following address directly, providing the station details and your OCPP URL (from the web portal):
 
 -  [emobility@ch.abb.com](mailto:emobility@ch.abb.com)
 
-The migration will be confirmed to you by e-mail.
+The migration will be confirmed to you by email.
 
-The station is then created in your eCarUp account and you can configure the settings according to your use case. You can find more information in the [Backend](/funktionen) section.
+After that, the station is created in your eCarUp account and you can make the settings according to your use case. You can find more information in the section [Backend](/funktionen).
 
 ## Old version
 
-### Then proceed as follows in the ABB TerraConfig app (old version):
+### Then proceed as follows in the ABB TerraConfig App (old version):
 
-- Log in to the TerraConfig app with the app (ABB) account
+- Log in to the TerraConfig App with the app (ABB) account
 
-- Connect to the station via Bluetooth (requires the key supplied)
+- Connect to the station via Bluetooth (requires the supplied key)
 
-<Video src="6aw4vxHiWwU" title="YouTube video, setting up the OCPP backend for the ABB Terra AC wallbox" />
+<Video src="6aw4vxHiWwU" title="YouTube video, setting up the OCPP backend for the ABB Terra AC wall charging station" />
 
 1.  OCPP Server
 
@@ -169,7 +165,7 @@ The station is then created in your eCarUp account and you can configure the set
 
 ![ABB – Figure 15](/img/ocpp-ladestationen-abb/15.jpg)
 
-3\. Predefined URL link appears
+3\. A predefined URL link appears
 
 ![ABB – Figure 16](/img/ocpp-ladestationen-abb/16.jpg)
 
@@ -177,7 +173,7 @@ The station is then created in your eCarUp account and you can configure the set
 
 ![ABB – Figure 17](/img/ocpp-ladestationen-abb/17.png)
 
-5\. Activate external access and click "Configure"
+5\. Enable external access and click "Configure"
 
 ![ABB – Figure 18](/img/ocpp-ladestationen-abb/18.png)
 
@@ -189,27 +185,27 @@ The station is then created in your eCarUp account and you can configure the set
 
 ## Important:
 
-If the RFID cards do not work, you must also make the following setting on the station via the Terra Config App:
+If the RFID cards do not work, you must make the following setting on the station via the Terra Config App:
 
 ![ABB – Figure 20](/img/ocpp-ladestationen-abb/20.png)
 
 Information:
 
-Since the ABB software release (SW V1.6.5), the UID of the supplied ABB badge (RFID card No.xxxxxxxxx) is no longer transmitted via OCPP for security reasons.  
+Since the ABB software release (SW V1.6.5), the UID is no longer transmitted via OCPP for security reasons when using the supplied ABB badge (RFID card No.xxxxxxxxx).  
 
-### Possible obstacles to successful activation via the RFID card
+### Possible obstacles to an unsuccessful activation via the RFID card
 
-1.  If the station sends us an authorisation request with the serial number, this means that the station is still in Free Vending mode. Please deactivate this mode under Device Mode in the TerraConfig App. 
+1.  If the station sends us an authorisation request with the serial number, this means the station is still in Free Vending mode. Please disable this mode under Device Mode in the TerraConfig App. 
 
 ![ABB – Figure 21](/img/ocpp-ladestationen-abb/21.png)
 
-The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. Only then can we better calculate and display the current charging power in the app. 
 
 You can change this as follows:
 
 1.  Get Configuration (to read out what is programmed)
 
-2.  Change Configuration (to overwrite the value) 
+2.  Change Configuration (to overwrite the value)
 
 ![ABB – Figure 22](/img/ocpp-ladestationen-abb/22.png)
 

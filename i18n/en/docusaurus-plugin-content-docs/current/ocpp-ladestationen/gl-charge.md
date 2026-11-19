@@ -4,41 +4,39 @@ slug: '/ocpp-ladestationen/gl-charge'
 description: 'Backend integration guide'
 sidebar_label: 'GL Charge'
 ---
-![GL Charge – Figure 1](/img/ocpp-ladestationen-gl-charge/01.png)
+<Kacheln min="11rem">
 
-[LiteBox](https://iskraemeco-emobility.com/)
+<Kachel bild="/img/ocpp-ladestationen-gl-charge/01.png" bildtext="GL Charge LiteBox" titel="LiteBox" href="https://iskraemeco-emobility.com/" bildhoehe="10rem" mittig />
 
-![GL Charge – Figure 2](/img/ocpp-ladestationen-gl-charge/02.png)
+<Kachel bild="/img/ocpp-ladestationen-gl-charge/02.png" bildtext="GL Charge Public Box" titel="Public Box" href="https://iskraemeco-emobility.com/" bildhoehe="10rem" mittig />
 
-[Public Box](https://iskraemeco-emobility.com/)
+<Kachel bild="/img/ocpp-ladestationen-gl-charge/03.png" bildtext="GL Charge Platinum" titel="Platinum" href="https://iskraemeco-emobility.com/" bildhoehe="10rem" mittig />
 
-![GL Charge – Figure 3](/img/ocpp-ladestationen-gl-charge/03.png)
-
-[Platinum](https://iskraemeco-emobility.com/)
+</Kacheln>
 
 ## Backend integration guide
 
-GL Charge stations can be integrated into the eCarUp billing system in a few steps. Once they are installed in your account, you can easily set the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
+GL Charge stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Prerequisites for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal) 
 
-- Learn more about our [Premium features](/funktionen) here
+- Learn more about our [premium features](/funktionen)
 
-### Integrating OCPP stations
+### Integration of OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and your PC or phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stationen" tab.
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-6.  Go to the web interface of the station you want to set up and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
 ## LiteBox
 
@@ -55,7 +53,7 @@ Firmware version: A0-GL-V2.0.5-b4
 <div className="row">
 <div className="col col--6">
 
-- In CP Tool, search for the charging station and select it.
+- Search for the charging station in the CP Tool and select it.
 
 - Enter the password (default: 12345678)
 
@@ -71,7 +69,7 @@ Firmware version: A0-GL-V2.0.5-b4
 
 ### Step 2
 
-- Set up the desired internet connection
+- Establish the desired connection to the internet
 
 ![GL Charge – Figure 6](/img/ocpp-ladestationen-gl-charge/06.png)
 
@@ -119,11 +117,11 @@ Firmware version: 0.20/6,1.8,2.8
 
 ### Integration
 
-Before you can configure the charging station, you need access to its web interface. 
+Before you can configure the charging station, you need access to the web interface. 
 
 1.  Connect a PC to the station via Ethernet. 
 
-2.  Set the following address locally on your network interface:
+2.  Set the following address locally on your interface:
 
 - IP Address: 192.168.1.3
 
@@ -143,19 +141,19 @@ Before you can configure the charging station, you need access to its web interf
 
 1.  Navigate to the OCPP Settings
 
-2.  Enter your eCarUp URL as the OCPP Host:
+2.  In the OCPP Host field, enter your eCarUp URL:
 
 Example: ws://[www.ecarup.com/api/Ocpp16/xxxxxxxxxx](http://www.ecarup.com/api/Ocpp16/xxxxxxxxxx)/serial number
 
 ⚠️Important: don't forget to add / + serial number after the URL. 
 
-3.  Click Apply and the station restarts. 
+3.  Click Apply and the station will restart. 
 
 ![GL Charge – Figure 10](/img/ocpp-ladestationen-gl-charge/10.png)
 
-## Advanced settings via the maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the Meter Values can vary from station to station. We recommend an interval between 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
 
 You can change this as follows:
 

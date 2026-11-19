@@ -1,22 +1,22 @@
 ---
 title: 'ABL'
 slug: '/ocpp-ladestationen/abl'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione del backend'
 sidebar_label: 'ABL'
 ---
-![ABL – Figura 1](/img/ocpp-ladestationen-abl/01.jpg)
+<Kacheln min="11rem">
 
-[ABL Wallbox](https://www.ablmobility.de/de/)
+<Kachel bild="/img/ocpp-ladestationen-abl/01.jpg" bildtext="ABL Wallbox" titel="ABL Wallbox" href="https://www.ablmobility.de/de/" bildhoehe="10rem" mittig />
 
-![ABL – Figura 2](/img/ocpp-ladestationen-abl/02.png)
+<Kachel bild="/img/ocpp-ladestationen-abl/02.png" bildtext="ABL Supernova" titel="ABL Supernova" href="https://www.ablmobility.de/de/" bildhoehe="10rem" mittig />
 
-[ABL Supernova](https://www.ablmobility.de/de/)
+</Kacheln>
 
-## Guida all'integrazione nel backend
+## Guida all'integrazione del backend
 
-Le stazioni ABL possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire tu stesso in modo semplice le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
+Le stazioni ABL possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni d'uso delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo.
 
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
@@ -25,11 +25,11 @@ Le stazioni ABL possono essere integrate in pochi passaggi nel sistema di conteg
 
 ### Integrazione di stazioni OCPP
 
-1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
-2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua il login con i dati del tuo account.
+2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua l'accesso con i dati del tuo account.
 
-3.  Nel menu a sinistra, clicca sulla scheda "Stazioni" ("Stationen").
+3.  Nel menu a sinistra, clicca sulla scheda "Stazioni".
 
 4.  Seleziona la scheda "OCPP".
 
@@ -42,25 +42,25 @@ Le stazioni ABL possono essere integrate in pochi passaggi nel sistema di conteg
 
 ### ⚠️ Note importanti per l'integrazione delle stazioni di ricarica ABL
 
-- Per avviare la sessione di ricarica è indispensabile collegare prima un veicolo. In caso contrario, non viene avviata alcuna sessione di ricarica.
+- Per avviare la sessione di ricarica è assolutamente necessario collegare prima un veicolo. In caso contrario non viene avviata alcuna sessione di ricarica.
 
-- Se la ricarica viene avviata con la tessera RFID, può essere terminata solo tramite l'auto (ad es. sbloccando il cavo) oppure tramite l'app eCarUp. Avvicinare nuovamente la tessera RFID non termina la sessione di ricarica.
+- Se la ricarica viene avviata con la tessera RFID, la si può terminare solo tramite l'auto (ad es. sbloccando il cavo) o tramite l'app eCarUp. Avvicinare di nuovo la tessera RFID non termina la sessione di ricarica.
 
 
 ### Accedere alla stazione
 
-- Non appena ti sei connesso alla stazione, inserisci nel browser il seguente IP: [http://169.254](/).1.1:8300/
+- Dopo esserti collegato alla stazione, inserisci nel browser il seguente indirizzo IP: [http://169.254](/).1.1:8300/
 
-- Verifica nei dati di sistema che sia presente la versione software attuale
+- Verifica nei dati di sistema se è presente la versione software aggiornata
 
 
 ### Configurazione
 
 - Impostare la versione OCPP su 1.6
 
-- Inserire l'URL completo dall'account eCarUp
+- Incollare l'intero URL dal tuo account eCarUp
 
-- Rinominare la ChargeBox ID. Attenzione: nessuno spazio. 
+- Rinominare l'ID ChargeBox. Attenzione: nessuno spazio.
 
 - Salvare e riavviare la stazione.
 
@@ -69,27 +69,27 @@ Le stazioni ABL possono essere integrate in pochi passaggi nel sistema di conteg
 
 ### Importante
 
-La Chargebox ID non deve contenere più di 20 caratteri. 
+L'ID Chargebox non deve contenere più di 20 caratteri.
 
 ![ABL – Figura 4](/img/ocpp-ladestationen-abl/04.png)
 
 ### Importante
 
-Disattiva la funzione Auto-Charge
+Disattiva la funzione Auto-Charge.
 
 ![ABL – Figura 5](/img/ocpp-ladestationen-abl/05.png)
 
-## Impostazioni avanzate tramite lo strumento di manutenzione (eCarUp Premium)
+## Impostazioni avanzate tramite Wartungstool (eCarUp Premium)
 
-L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30-60s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e mostrare meglio nell'app la potenza di ricarica attuale.
 
 
 
 Puoi modificarlo come segue:
 
-1.  Get Configuration (per leggere cosa è programmato)
+1.  Get Configuration (per leggere ciò che è programmato)
 
-2.  Change Configuration (per sovrascrivere il valore) 
+2.  Change Configuration (per sovrascrivere il valore)
 
 
 
