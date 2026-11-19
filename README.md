@@ -19,6 +19,12 @@ automatisch über die Übersetzungs-Pipeline (`npm run translate`).
 
 ## Loslegen
 
+Richtest du den Rechner zum ersten Mal ein, geh nach
+[LOKALINSTALLATION.md](./LOKALINSTALLATION.md) — Schritt für Schritt von der
+Installation von Git und Node.js bis zur laufenden Vorschau. Arbeitet ihr zu
+mehreren, steht der Ablauf mit Branches, Pull Requests und Merge-Konflikten in
+[ZUSAMMENARBEIT.md](./ZUSAMMENARBEIT.md).
+
 ```bash
 npm ci
 npm start          # Vorschau auf http://localhost:3000
