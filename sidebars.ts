@@ -187,6 +187,8 @@ const sidebars: SidebarsConfig = {
         },
         {type: 'doc', id: 'drittsysteme/export-energieversorger',
          customProps: {rolle: 'abrechnung'}},
+        {type: 'doc', id: 'drittsysteme/kreditkartenterminal',
+         customProps: {laender: ['ch'], rolle: 'verwalter'}},
         {
           type: 'category',
           label: 'Lastmanagement',

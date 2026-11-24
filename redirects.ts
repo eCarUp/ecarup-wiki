@@ -26,4 +26,7 @@ export const redirects: Redirect[] = [
 
   // Aus einer Kontaktseite wurden zwei, je Land eine.
   {from: '/kontakt', to: '/kontakt-schweiz'},
+
+  // Im alten Wiki mit Tippfehler angelegt.
+  {from: '/drittsysteme/kredtikartenterminal', to: '/drittsysteme/kreditkartenterminal'},
 ];

@@ -18,6 +18,12 @@ eCarUp Ladedaten können selbst oder durch einen Dienstleister verarbeitet werde
 
 [Abrechnungsdienstleister](/drittsysteme/abrechnungsdienstleister)
 
+## Kreditkartenterminal
+
+Lass Fahrer direkt an der Ladestation mit Kredit- oder Debitkarte bezahlen, ohne App und ohne Konto (nur Schweiz).
+
+[Kreditkartenterminal](/drittsysteme/kreditkartenterminal)
+
 ## Drittanbieter Lastmanagement
 
 Steuere deine Ladestationen mit einem kompatiblen Lastmanagement von einem Drittanbieter
