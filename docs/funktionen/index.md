@@ -23,7 +23,7 @@ für Onboarding und Testing Zwecke
 
 </Kachel>
 
-<Kachel titel="eCarUp Premium" gross>
+<Kachel titel="eCarUp Premium" gross hervorgehoben>
 
 10 Jahres Lizenz pro Ladepunkt
 

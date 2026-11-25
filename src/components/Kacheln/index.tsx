@@ -76,6 +76,12 @@ type KachelProps = {
    * zu laut, deshalb ist es nicht die Voreinstellung.
    */
   gross?: boolean;
+  /**
+   * Hebt eine `gross`-Kachel mit der Primärfarbe hervor – etwa die
+   * umfangreichere von zwei Lizenzen. Sparsam einsetzen: Ist alles
+   * hervorgehoben, ist es nichts mehr.
+   */
+  hervorgehoben?: boolean;
   /** Beschreibender Text für das Bild. Ohne Angabe: `Logo <titel>`. */
   bildtext?: string;
   children?: React.ReactNode;
@@ -88,6 +94,7 @@ export function Kachel({
   bildhoehe,
   mittig,
   gross,
+  hervorgehoben,
   bildtext,
   children,
 }: KachelProps): React.ReactElement {
@@ -102,7 +109,13 @@ export function Kachel({
   );
 
   return (
-    <div className={clsx(styles.kachel, href && styles.verlinkt)}>
+    <div
+      className={clsx(
+        styles.kachel,
+        href && styles.verlinkt,
+        gross && styles.kachelGross,
+        gross && hervorgehoben && styles.hervorgehoben,
+      )}>
       {(bild || bildhoehe) && (
         <div
           className={clsx(styles.logo, mittig && styles.logoMittig)}
