@@ -4,13 +4,13 @@ slug: '/ocpp-ladestationen/weidmueller'
 description: 'Backend integration guide'
 sidebar_label: 'Weidmüller'
 ---
-![Weidmüller – Figure 1](/img/ocpp-ladestationen-weidmueller/01.jpg)
+<Kacheln min="11rem">
 
-[AC-Smart Advance](https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE)
+<Kachel bild="/img/ocpp-ladestationen-weidmueller/01.jpg" bildtext="Weidmüller AC-Smart Advance" titel="AC-Smart Advance" href="https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE" bildhoehe="10rem" mittig />
 
-![Weidmüller – Figure 2](/img/ocpp-ladestationen-weidmueller/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-weidmueller/02.jpg" bildtext="Weidmüller Wallbox" titel="Wallbox" href="https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE" bildhoehe="10rem" mittig />
 
-[Wallbox](https://www.weidmueller.de/de/produkte/elektronik/wallbox/index.jsp?gclid=CjwKCAjw2K6lBhBXEiwA5RjtCbAmZOvWrCNlfC8cwdbzRLt3y6OgvMq4_sHL43wfaHOBy_34iB-q9BoC7WUQAvD_BwE)
+</Kacheln>
 
 ## Backend integration guide
 
@@ -20,16 +20,16 @@ Weidmüller stations can be integrated into the eCarUp billing system in just a 
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more here about our [Premium features](/funktionen)
+- Learn more about our [premium features](/funktionen)
 
 
 ### Integration of OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and your PC or phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stationen" tab ("Stations").
 
 4.  Select the "OCPP" tab.
 
@@ -38,7 +38,7 @@ Weidmüller stations can be integrated into the eCarUp billing system in just a 
 6.  Go to the web interface of the desired station and paste the copied URL.
 
 
-## Connecting Weidmüller charging stations
+## Integrating the Weidmüller charging stations
 
 ### AC-Smart Advance
 
@@ -49,13 +49,13 @@ Weidmüller stations can be integrated into the eCarUp billing system in just a 
 
 - Here you need to assign a static IP address, e.g. 192.168.0.72
 
-- Then connect your PC to the wallbox and open the following "default" IP in the browser: 192.168.0.8 
+- Then connect your PC to the wallbox and open the following "default" IP in your browser: 192.168.0.8 
 
 - Please refer to the supplied guide for the login details
 
 - The software version must be at least 01.08.01
 
-- Important: with the current version, no active charging power can be displayed in the app!
+- Important: with the current version, the active charging power cannot be displayed in the app!
 
 
 ![Weidmüller – Figure 3](/img/ocpp-ladestationen-weidmueller/03.png)
@@ -96,7 +96,7 @@ Restart the station.
 
 - Here you need to assign a static IP address, e.g. 192.168.0.72
 
-- Then connect your PC to the wallbox and open the following "default" IP in the browser: 192.168.0.8 & PW: wallbe7213
+- Then connect your PC to the wallbox and open the following "default" IP in your browser: 192.168.0.8 & PW: wallbe7213
 
 - The firmware must be at least version: BF-01.04.20
 
@@ -113,14 +113,14 @@ Restart the station.
 
 - The OCPP vendor must not contain any spaces
 
-- The websocket must be split into its parts
+- The websocket must be split up
 
 
 ### eCarUp websocket
 
 - Enter it as shown in the screenshot
 
-- Please note the end: api/Ocpp16/weoih48zlkuhr9/00000010638
+- Please note the end of the path: api/Ocpp16/weoih48zlkuhr9/00000010638
 
 
 
@@ -140,7 +140,7 @@ If RFID cards are used, please also set the following parameter:
 
 ## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. Only this way can we better calculate and display the current charging power in the app. 
 
 
 

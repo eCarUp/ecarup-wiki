@@ -1,35 +1,35 @@
 ---
 title: 'Zaptec'
 slug: '/ocpp-ladestationen/zaptec'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione del backend'
 sidebar_label: 'Zaptec'
 ---
-![Zaptec – Figura 1](/img/ocpp-ladestationen-zaptec/01.jpg)
+<Kacheln min="11rem">
 
-[Zaptec Go](https://www.zaptec.com/de-ch)
+<Kachel bild="/img/ocpp-ladestationen-zaptec/01.jpg" bildtext="Zaptec Go" titel="Zaptec Go" href="https://www.zaptec.com/de-ch" bildhoehe="10rem" mittig />
 
-![Zaptec – Figura 2](/img/ocpp-ladestationen-zaptec/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-zaptec/02.jpg" bildtext="Zaptec Pro" titel="Zaptec Pro" href="https://www.zaptec.com/de-ch" bildhoehe="10rem" mittig />
 
-[Zaptec Pro](https://www.zaptec.com/de-ch)
+</Kacheln>
 
-## Guida all'integrazione nel backend
+## Guida all'integrazione del backend
 
-Le stazioni Zaptec possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire in modo semplice e autonomo le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
+Le stazioni Zaptec possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni d'uso delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo.
 
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
 - Scopri di più sulle nostre [funzioni Premium](/funktionen)
 
 
-### Integrazione delle stazioni OCPP
+### Integrazione di stazioni OCPP
 
-1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
-2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) e accedi con i dati del tuo account.
+2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua l'accesso con i dati del tuo account.
 
-3.  Nel menu a sinistra, clicca sulla scheda "Stazioni" ("Stationen").
+3.  Nel menu a sinistra, clicca sulla scheda "Stationen" (Stazioni).
 
 4.  Seleziona la scheda "OCPP".
 
@@ -40,92 +40,92 @@ Le stazioni Zaptec possono essere integrate in pochi passaggi nel sistema di con
 
 ## Integrazione delle stazioni di ricarica Zaptec
 
-La stazione Zaptec può inoltre trasmettere i valori a 15 minuti a smart-me. Per saperne di più, consulta [Importazione dati a 15 minuti](/funktionen/15-minuten-datenimport).
+La stazione Zaptec può inoltre trasmettere a smart-me i valori ogni 15 minuti. Per saperne di più, consulta [Importazione dati ogni 15 minuti](/funktionen/15-minuten-datenimport).
 
 [![Zaptec – Figura 3](/img/ocpp-ladestationen-zaptec/03.jpg)](https://youtu.be/jK-UypywXZU)
 
-Videoguida all'integrazione di Zaptec nel backend eCarUp
+Guida video all'integrazione di Zaptec nel backend eCarUp
 
 ## Zaptec Go e Pro
 
-### Installazione nel portale Zaptec
+### Installazione portale Zaptec
 
 1.  Vai al [portale web Zaptec](https://portal.zaptec.com/) ed effettua l'accesso
 
-2.  Nella barra dei menu in alto seleziona "Installazioni" ("Installationen") e il gruppo di stazioni Zaptec desiderato per l'integrazione nel sistema di conteggio eCarUp
+2.  Nella barra del menu in alto seleziona "Installationen" (Installazioni) e il gruppo desiderato di stazioni Zaptec per l'integrazione nel sistema di conteggio eCarUp
 
-3.  Seleziona ora "Impostazioni" ("Einstellungen") e poi, nel sottomenu, "Autenticazione" ("Authentifizierung")
+3.  Seleziona ora "Einstellungen" (Impostazioni) e poi, nel sottomenu, "Authentifizierung" (Autenticazione)
 
-4.  Visualizzi la seguente interfaccia di menu:
+4.  Vedrai la seguente interfaccia del menu:
 
 
-5\. Attiva il campo "Autenticazione OCPP 1.6" ("OCPP 1.6 Authentifizierung")
+5\. Attiva il campo "OCPP 1.6 Authentifizierung" (Autenticazione OCPP 1.6)
 
-6\. Inserisci in "URL" l'URL OCPP che hai ricevuto durante i preparativi nel portale eCarUp. 
+6\. Sotto "URL" inserisci l'URL OCPP che hai ricevuto durante i preparativi nel portale eCarUp.
 
-Attenzione: l'URL deve ancora essere completato con / & &#123;deviceid&#125;
+Attenzione: all'URL va ancora aggiunto / &#123;deviceid&#125;
 
 - Esempio: ws://www.ecarup.com/api/Ocpp16/wei948gfhwe/&#123;deviceid&#125;
 
 
-7\. Attiva il campo "Authorization required" e clicca infine su "Salva" ("Speichern")
+7\. Attiva il campo "Authorization required" (Autorizzazione richiesta) e clicca infine su "Speichern" (Salva)
 
-⚠️ Importante:  la stazione deve essere riavviata. 
+⚠️ Importante: la stazione deve essere riavviata.
 
-I charger Zaptec del gruppo selezionato sono ora registrati come stazioni di ricarica nel tuo account eCarUp e possono essere configurati secondo le tue condizioni di utilizzo individuali.
+I Zaptec Charger del gruppo selezionato sono ora registrati nel tuo account eCarUp come stazioni di ricarica e possono essere configurati in base alle tue condizioni d'uso individuali.
 
 ![Zaptec – Figura 4](/img/ocpp-ladestationen-zaptec/04.png)
 
-### Conteggio dei charger Zaptec in un sistema multitariffa
+### Conteggio dei Zaptec Charger in un sistema multitariffa
 
-I valori a 15 minuti della stazione Zaptec possono essere esportati. Ciò consente strutture tariffarie avanzate come, ad esempio, i conteggi RCP o i sistemi multitariffa. Per saperne di più, consulta la pagina [Importazione dati a 15 minuti](/funktionen/15-minuten-datenimport).
+I valori ogni 15 minuti della stazione Zaptec possono essere esportati. Ciò consente strutture tariffarie avanzate, come ad esempio i conteggi ZEV o i sistemi multitariffa. Per saperne di più, consulta la pagina [Importazione dati ogni 15 minuti](/funktionen/15-minuten-datenimport).
 
 ## Senza autenticazione + ricarica offline
 
-Collega come di consueto le tue stazioni Zaptec a eCarUp tramite l'installazione. ( passaggi da 5. a 7. )
+Collega le tue stazioni Zaptec a eCarUp tramite l'installazione, come di consueto (passaggi da 5 a 7).
 
-1.  Se non è ancora registrato, registra un conducente
+1.  Se non è ancora stato registrato, registra un conducente
 
 2.  Vai quindi alla stazione di ricarica
 
 3.  Disattiva l'autenticazione
 
-4.  Aggiungi un ID tag standard del tuo conducente. 
+4.  Aggiungi un ID tag standard del tuo conducente.
 
 
-Importante: il token RFID deve essere registrato anche in eCarUp sotto il conducente. Qui trovi maggiori informazioni: [LINK](/fahrer/rfid-nfc-tags-carid)
+Importante: il token RFID deve essere registrato in eCarUp anche sotto il conducente. Qui trovi maggiori informazioni: [LINK](/fahrer/rfid-nfc-tags-carid)
 
 ![Zaptec – Figura 5](/img/ocpp-ladestationen-zaptec/05.png)
 
 Cosa succede:
 
-Se non è memorizzato alcun token, eCarUp invia un messaggio "Invalid", poiché l'ID tag è vuoto. In quanto backend, dobbiamo poter verificare in qualsiasi momento chi si autorizza. 
+Se non è registrato alcun token, eCarUp invia un messaggio "Invalid", poiché l'ID tag è vuoto. Noi, come backend, dobbiamo poter validare in qualsiasi momento chi si autorizza.
 
 ![Zaptec – Figura 6](/img/ocpp-ladestationen-zaptec/06.png)
 
-Se presso Zaptec è memorizzato un token, eCarUp invia un messaggio "Accepted", poiché ora l'ID tag viene trasmesso. La ricarica viene comunque registrata in eCarUp. 
+Se in Zaptec è registrato un token, eCarUp invia un messaggio "Accepted", poiché l'ID tag viene ora inviato insieme. La ricarica viene comunque registrata in eCarUp.
 
 ![Zaptec – Figura 7](/img/ocpp-ladestationen-zaptec/07.png)
 
-La ricarica può ora essere effettuata anche in modalità offline. La stazione ci invia la transazione offline non appena torna online. 
+La ricarica può ora essere eseguita anche in modalità offline. La stazione ci invia la transazione offline in un secondo momento, non appena torna online.
 
 ![Zaptec – Figura 8](/img/ocpp-ladestationen-zaptec/08.png)
 
-Il vantaggio è che anche il conducente può essere addebitato a posteriori. (se configurato in tal senso)
+Il vantaggio è che il conducente può essere addebitato anche a posteriori (se configurato in tal modo).
 
-## Più proprietari di stazioni eCarUp su un'unica installazione Zaptec ?
+## Più proprietari di stazioni eCarup su un'unica installazione Zaptec?
 
 ### Sì, funziona!
 
 Procedi come segue:
 
-1.  Sull'installazione imposta come di consueto l'autenticazione su OCPP 1.6J
+1.  Sull'installazione imposta l'autenticazione su OCPP 1.6J, come di consueto
 
-2.  Lascia vuoto il campo dell'URL
+2.  Lascia vuoto il campo con l'URL
 
-3.  Seleziona la casella di controllo per l'autenticazione obbligatoria.
+3.  Seleziona la casella di controllo per l'autenticazione richiesta.
 
-4.  Vai ora alla stazione: nelle impostazioni puoi inserire l'URL individuale con il numero di serie della stazione Zaptec. 
+4.  Ora vai alla stazione: nelle impostazioni puoi inserire l'URL individuale con il numero di serie della stazione Zaptec.
 
 5.  Salva.
 
@@ -138,23 +138,23 @@ Procedi come segue:
 
 [Registrazione del webinar sulle stazioni di ricarica Zaptec nel backend eCarUp](https://web.ecarup.com/webinar-zaptec-stationen-mit-ecarup-backend/)
 
-[Importazione dati a 15 minuti](/funktionen/15-minuten-datenimport)
+[Importazione dati ogni 15 minuti](/funktionen/15-minuten-datenimport)
 
 [Funzioni della wallbox Zaptec nel backend eCarUp](https://web.ecarup.com/backend/novavolt-zaptec-charger-abrechnen/)
 
-## Impostazioni avanzate tramite lo strumento di manutenzione (eCarUp Premium)
+## Impostazione avanzata tramite tool di manutenzione (eCarUp Premium)
 
-L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30-60s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
+L'intervallo di upload dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e mostrare meglio nell'app la potenza di ricarica attuale.
 
 
 
 Puoi modificarlo come segue:
 
-1.  Get Configuration (per leggere cosa è programmato)
+1.  Get Configuration (per leggere ciò che è programmato)
 
 2.  Change Configuration (per sovrascrivere il valore)
 
 
-![Zaptec – Figura 11](/img/ocpp-ladestationen-zaptec/11.png)
+![Zaptec – Abbildung 11](/img/ocpp-ladestationen-zaptec/11.png)
 
-![Zaptec – Figura 12](/img/ocpp-ladestationen-zaptec/12.png)
+![Zaptec – Abbildung 12](/img/ocpp-ladestationen-zaptec/12.png)

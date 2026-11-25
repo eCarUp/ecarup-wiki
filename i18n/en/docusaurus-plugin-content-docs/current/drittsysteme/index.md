@@ -8,7 +8,7 @@ sidebar_label: 'Third-party systems'
 
 eCarUp charging data can be passed on seamlessly to a third-party system.
 
-[Automatic export for energy suppliers (I-SE, MSCONS)](/drittsysteme/export-energieversorger)
+[Auto export for energy suppliers (I-SE, MSCONS)](/drittsysteme/export-energieversorger)
 
 [smart-me API](/drittsysteme/smart-me-api)
 
@@ -18,22 +18,28 @@ eCarUp charging data can be processed by yourself or by a service provider.
 
 [Billing service providers](/drittsysteme/abrechnungsdienstleister)
 
+## Credit card terminal
+
+Let drivers pay directly at the charging station with a credit or debit card, without an app and without an account (Switzerland only).
+
+[Credit card terminal](/drittsysteme/kreditkartenterminal)
+
 ## Third-party load management
 
-Control your charging stations with compatible load management from a third-party provider
+Control your charging stations with a compatible load management system from a third-party provider.
 
 [Third-party load management](/drittsysteme/lastmanagement)
 
-## API visualisation
+## API visualization
 
-Would you like to have your eCarUp data visualised via the API?
+Would you like to have the data from eCarUp visualized via the API?
 
 
-[Third-party visualisation](/drittsysteme/api-visualisierung)
+[Third-party visualization](/drittsysteme/api-visualisierung)
 
 ## BoxProxy Green Motion
 
-Here you will find the basics, including the integration guide
+Here you will find the basics, including the integration guide.
 
 [BoxProxy Green Motion](/drittsysteme/box-proxy-green-motion)
 

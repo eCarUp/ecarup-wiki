@@ -1,44 +1,42 @@
 ---
 title: 'Hesotec'
 slug: '/ocpp-ladestationen/hesotec'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration backend'
 sidebar_label: 'Hesotec'
 ---
-![Hesotec – Illustration 1](/img/ocpp-ladestationen-hesotec/01.jpg)
+<Kacheln min="11rem">
 
-[eBox wr30](https://electrify.hesotec.de/produkte/ebox-wr30)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/01.jpg" bildtext="Hesotec eBox wr30" titel="eBox wr30" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-![Hesotec – Illustration 2](/img/ocpp-ladestationen-hesotec/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/02.jpg" bildtext="Hesotec eBox sr10" titel="eBox sr10" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-[eBox sr10](https://electrify.hesotec.de/produkte/ebox-wr30)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/03.jpg" bildtext="Hesotec eSat r10/r20" titel="eSat r10/r20" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-![Hesotec – Illustration 3](/img/ocpp-ladestationen-hesotec/03.jpg)
+</Kacheln>
 
-[eSat r10/r20](https://electrify.hesotec.de/produkte/ebox-wr30)
+## Guide d'intégration backend
 
-## Guide d'intégration au backend
+Les bornes de recharge Hesotec peuvent être intégrées au système de décompte eCarUp en quelques étapes. Une fois installées dans votre compte, vous pouvez définir simplement vous-même les conditions d'utilisation de vos bornes (prix, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
 
-Les bornes Hesotec peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même et en toute simplicité les conditions d'utilisation de vos bornes (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
-
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Condition préalable pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+- Découvrez-en plus sur nos [fonctions Premium](/funktionen)
 
 ### Intégration de bornes OCPP
 
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone portable est connecté au même réseau que la borne de recharge.
 
 2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet « Bornes » (Stationen).
+3.  Dans le menu à gauche, cliquez sur l'onglet « Bornes de recharge » (Stationen).
 
 4.  Sélectionnez l'onglet « OCPP ».
 
 5.  Copiez l'URL dans le presse-papiers.
 
-6.  Accédez à l'interface web de la borne souhaitée et collez-y l'URL copiée.
+6.  Rendez-vous sur l'interface web de la borne souhaitée et collez-y l'URL copiée.
 
 ## Intégration de la borne de recharge Hesotec
 
@@ -48,13 +46,13 @@ Les bornes Hesotec peuvent être intégrées en quelques étapes dans le systèm
 
 - La connexion peut être établie via le hotspot ou via l'eLMS de Hesotec
 
-- Sélectionnez votre modèle et nommez la borne
+- Sélectionnez votre modèle et donnez un nom à la borne
 
-- Connectez ensuite le téléphone au hotspot de la borne de recharge
+- Connectez ensuite le téléphone portable au hotspot de la borne de recharge
 
-- Vous trouverez toutes les informations relatives au hotspot (SSID\_EBOX\_XXX, mot de passe compris) dans l'enveloppe fournie. 
+- Toutes les informations sur le hotspot (SSID\_EBOX\_XXX, mot de passe inclus) se trouvent dans l'enveloppe fournie. 
 
-- Une fois la borne connectée avec succès, elle apparaît dans l'application. 
+- Lorsque la borne s'est connectée avec succès, elle apparaît dans l'application. 
 
 ## Play Store
 
@@ -73,9 +71,9 @@ Les bornes Hesotec peuvent être intégrées en quelques étapes dans le systèm
 </div>
 </div>
 
-- Dans l'application, cliquez sur les 3 points en haut à droite
+- Dans l'application, cliquez en haut à droite sur les 3 points
 
-- Les paramètres avancés et le mode technicien doivent être activés
+- Les options « Paramètres avancés » (Erweiterte Einstellungen) et « Technicien » (Techniker) doivent être activées
 
 <div className="row">
 <div className="col col--6 text--center">
@@ -90,13 +88,13 @@ Les bornes Hesotec peuvent être intégrées en quelques étapes dans le systèm
 </div>
 </div>
 
-- Sélectionnez les paramètres généraux
+- Sélectionnez « Paramètres généraux » (Allgemeine Einstellungen)
 
-- Réglez l'autorisation sur RFID/App et 
+- Réglez l'autorisation sur « RFID/App » (RFID/App) et 
 
-- Activez l'arrêt par RFID
+- Activez « Terminer avec RFID » (Beenden mit RFID)
 
-- Enregistrez et revenez aux paramètres
+- Enregistrez et retournez aux paramètres
 
 <div className="row">
 <div className="col col--6 text--center">
@@ -114,9 +112,9 @@ Les bornes Hesotec peuvent être intégrées en quelques étapes dans le systèm
 <div className="row">
 <div className="col col--6">
 
-- Ouvrez les paramètres avancés
+- Ouvrez les « Paramètres avancés » (Erweiterte Einstellungen)
 
-- Sous Backend OCPP, saisissez l'URL eCarUp figurant dans votre portail web
+- Sous Backend OCPP, saisissez l'URL eCarUp de votre portail web
 
 - Exemple : ws://www.ecarup.com/api/Ocpp16/xxxxxxxxxxx/15023910 (numéro de série de la borne)
 
@@ -130,20 +128,20 @@ Les bornes Hesotec peuvent être intégrées en quelques étapes dans le systèm
 </div>
 </div>
 
-- Important : dans l'URL, indiquez après le / le numéro de série de votre borne !
+- Important : dans l'URL, après le /, indiquez le numéro de série de votre borne !
 
 - Redémarrez ensuite la borne
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de transmission des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle d'envoi des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. Ce n'est qu'ainsi que nous pouvons mieux calculer et afficher la puissance de charge actuelle dans l'application. 
 
-Vous pouvez le modifier comme suit :
+Vous pouvez la modifier comme suit :
 
 1.  Get Configuration (pour lire ce qui est programmé)
 
 2.  Change Configuration (pour écraser la valeur)
 
-![Hesotec – Illustration 12](/img/ocpp-ladestationen-hesotec/12.png)
+![Hesotec – Illustration 13](/img/ocpp-ladestationen-hesotec/12.png)
 
 ![Hesotec – Illustration 13](/img/ocpp-ladestationen-hesotec/13.png)

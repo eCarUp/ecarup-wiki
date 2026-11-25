@@ -6,35 +6,37 @@ sidebar_label: 'NEXBLUE'
 ---
 ## Backend integration guide
 
-NEXBLUE stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when and at what price. 
+NEXBLUE stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price.
 
-- Requirements for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configuration in the [web portal for station operators](/stationsbetreiber/webportal) 
+- Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more about our [Premium features](/funktionen) here
+- Learn more about our [premium features](/funktionen)
 
 
-![NEXBLUE – Figure 1](/img/ocpp-ladestationen-nexblue/01.png)
+<Kacheln min="11rem">
 
-[NEXBLUE](https://nexblue.com/de)
+<Kachel bild="/img/ocpp-ladestationen-nexblue/01.png" bildtext="NEXBLUE" titel="NEXBLUE" href="https://nexblue.com/de" bildhoehe="10rem" mittig />
+
+</Kacheln>
 
 ### Integration of OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or mobile phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and your PC or phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click on the "Stations" tab.
 
 4.  Select the "OCPP" tab.
 
 
- 1. ws link without Basic Auth: tested and working
+ 1. ws link without Basic Auth: tested and works
 
-2\. wss without Basic Auth: tested and working
+2\. wss without Basic Auth: tested and works
 
-3\. wss with Basic Auth: tested and working
+3\. wss with Basic Auth: tested and works
 
 5.  Copy the URL to the clipboard.
 
@@ -43,16 +45,16 @@ NEXBLUE stations can be integrated into the eCarUp billing system in just a few 
 
 ## Integrating the NEXBLUE
 
-- tested "firmwareVersion":"03.07.36" 
+- tested"firmwareVersion":"03.07.36" 
 
 
 Integration via the web portal
 
 <Embed src="https://demo.arcade.software/ZMABeR5jjEkvl6uWrWsV?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" aspect="1.705" title="Wiki - NEXBLUE" />
 
-## Advanced settings via the maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. Only then can we better calculate and display the current charging power in the app.
 
 
 

@@ -1,40 +1,40 @@
 ---
 title: 'Gresgying'
 slug: '/ocpp-ladestationen/gresgying'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration backend'
 sidebar_label: 'Gresgying'
 ---
-![Gresgying – Illustration 1](/img/ocpp-ladestationen-gresgying/01.png)
+<Kacheln min="11rem">
 
-[Turbo Wallbox](https://www.gresgying.global/product/turbo-wallbox.html)
+<Kachel bild="/img/ocpp-ladestationen-gresgying/01.png" bildtext="Gresgying Turbo Wallbox" titel="Turbo Wallbox" href="https://www.gresgying.global/product/turbo-wallbox.html" bildhoehe="10rem" mittig />
 
-![Gresgying – Illustration 2](/img/ocpp-ladestationen-gresgying/02.png)
+<Kachel bild="/img/ocpp-ladestationen-gresgying/02.png" bildtext="Gresgying 120kW & 180kW DC Charging Station" titel="120kW & 180kW DC Charging Station" href="https://www.gresgying.global/product/120kw-180kw-dc-charging-station.html" bildhoehe="10rem" mittig />
 
-[120kW & 180kW DC Charging Station](https://www.gresgying.global/product/120kw-180kw-dc-charging-station.html)
+</Kacheln>
 
-## Guide d'intégration au backend
+## Guide d'intégration backend
 
-Les stations Gresgying peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même et en toute simplicité les conditions d'utilisation de vos stations (prix, utilisateurs, horaires de disponibilité, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+Les bornes de recharge Gresgying peuvent être intégrées en quelques étapes au système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir simplement vous-même les conditions d'utilisation de vos bornes (prix, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
 
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Condition préalable : [intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configuration dans le [portail web pour les exploitants de stations](/stationsbetreiber/webportal) 
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal) 
 
 - Découvrez-en plus sur nos [fonctions Premium](/funktionen)
 
-### Intégration des stations OCPP
+### Intégration de bornes OCPP
 
 1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
 
 2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet « Stations » ("Stationen").
+3.  Dans le menu à gauche, cliquez sur l'onglet « Stationen » (Stationen).
 
-4.  Sélectionnez l'onglet « OCPP » ("OCPP").
+4.  Sélectionnez l'onglet « OCPP » (OCPP).
 
 5.  Copiez l'URL dans le presse-papiers.
 
-6.  Accédez à l'interface web de la station souhaitée et collez-y l'URL copiée.
+6.  Accédez à l'interface web de la borne souhaitée et collez-y l'URL copiée.
 
 ## Gresgying AC Wallbox
 
@@ -51,7 +51,7 @@ Les stations Gresgying peuvent être intégrées en quelques étapes dans le sys
 <div className="row">
 <div className="col col--6">
 
-- Connectez la station à votre compte Gresgying via l'application.
+- Connectez la borne à votre compte Gresgying via l'application.
 
 </div>
 <div className="col col--6 text--center">
@@ -66,7 +66,7 @@ Les stations Gresgying peuvent être intégrées en quelques étapes dans le sys
 <div className="row">
 <div className="col col--6">
 
-- Une fois la station connectée avec succès, l'application affiche ceci
+- Dès que la borne est connectée avec succès, l'application l'affiche ainsi
 
 </div>
 <div className="col col--6 text--center">
@@ -98,9 +98,9 @@ Les stations Gresgying peuvent être intégrées en quelques étapes dans le sys
 <div className="row">
 <div className="col col--6">
 
-- Sous Path, ajoutez l'URL complète provenant de votre compte eCarUp.
+- Sous Path, ajoutez l'URL complète de votre compte eCarUp.
 
-- Attention : le numéro de série de la station doit être ajouté après l'URL.
+- Veuillez noter qu'il faut ajouter le numéro de série de la borne après l'URL.
 
 - Cliquez sur Connect.
 
@@ -116,9 +116,9 @@ Les stations Gresgying peuvent être intégrées en quelques étapes dans le sys
 
 - ws://www.ecarup.com/api/Ocpp16/D0xxxxxxxxxx/Seriennummer
 
-### Pour terminer, veuillez vérifier le paramètre suivant :
+### Veuillez enfin vérifier le paramètre suivant :
 
-- Charging Mode doit être réglé sur "Online". 
+- Charging Mode doit être réglé sur « Online ». 
 
 ![Gresgying – Illustration 8](/img/ocpp-ladestationen-gresgying/08.png)
 
@@ -126,23 +126,23 @@ Les stations Gresgying peuvent être intégrées en quelques étapes dans le sys
 
 - "firmwareVersion":"C2032\_V2.8.2" 
 
-### La station peut être configurée aussi bien localement qu'à distance.
+### La borne peut être configurée aussi bien localement qu'à distance.
 
 Localement via l'écran :
 
-- Veuillez consulter pour cela le mode d'emploi fourni. 
+- Veuillez pour cela consulter le mode d'emploi fourni. 
 
 À distance via le Device Management System :
 
-- Cliquez sur "Device Manage" et recherchez la station souhaitée
+- Cliquez sur « Device Manage » et recherchez la borne souhaitée
 
-- Sélectionnez "Set Parameters"
+- Sélectionnez « Set Parameters »
 
-- "Operation Platfrom address"
+- « Operation Platfrom address »
 
 - Ajoutez l'URL OCPP de votre compte et enregistrez le paramètre.
 
-- Redémarrez ensuite la station.
+- Redémarrez ensuite la borne.
 
 ![Gresgying – Illustration 9](/img/ocpp-ladestationen-gresgying/09.png)
 
@@ -150,13 +150,15 @@ Localement via l'écran :
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de transmission des Meter Values peut varier d'une station à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle de téléversement des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon de mieux calculer et afficher la puissance de charge actuelle dans l'application. 
 
-Vous pouvez le modifier comme suit :
+Vous pouvez la modifier comme suit :
 
-1.  Get Configuration (pour lire la valeur programmée)
+1.  Get Configuration (pour lire ce qui est programmé)
 
 2.  Change Configuration (pour écraser la valeur)
+
+3.  
 
 ![Gresgying – Illustration 11](/img/ocpp-ladestationen-gresgying/11.png)
 

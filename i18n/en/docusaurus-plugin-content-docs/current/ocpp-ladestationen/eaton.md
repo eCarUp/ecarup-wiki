@@ -8,7 +8,7 @@ sidebar_label: 'Eaton OCPP'
 
 ## Older Green Motion charging stations (Box Proxy)
 
-The Box Proxy is now available for integrating older Green Motion stations. This means the charging stations can already be connected to the eCarUp platform and tested using the guide below. However, extensions and/or improvements may still follow.
+The Box Proxy is now available for integrating older Green Motion stations. This means the charging stations can already be connected to the eCarUp platform and tested using the guide below. However, further extensions and/or improvements may still be made.
 
 The following charging station models are currently supported:
 
@@ -24,41 +24,39 @@ The following charging station models are currently supported:
 
 ## OCPP charging stations
 
-![Eaton OCPP – Figure 1](/img/ocpp-ladestationen-eaton/01.jpg)
+<Kacheln min="11rem">
 
-[Green Motion Duo](https://www.eaton.com/ch/de-de.html)
+<Kachel bild="/img/ocpp-ladestationen-eaton/01.jpg" bildtext="Eaton Green Motion Duo" titel="Green Motion Duo" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-![Eaton OCPP – Figure 2](/img/ocpp-ladestationen-eaton/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-eaton/02.jpg" bildtext="Eaton Green Motion DC 22&66" titel="Green Motion DC 22&66" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-[Green Motion DC 22&66](https://www.eaton.com/ch/de-de.html)
+<Kachel bild="/img/ocpp-ladestationen-eaton/03.jpg" bildtext="Eaton Green Motion Building" titel="Green Motion Building" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-![Eaton OCPP – Figure 3](/img/ocpp-ladestationen-eaton/03.jpg)
-
-[Green Motion Building](https://www.eaton.com/ch/de-de.html)
+</Kacheln>
 
 ## Backend integration guide
 
-Eaton stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when and at what price. 
+Eaton stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Prerequisites for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more about our [Premium features](/funktionen) here
+- Learn more about our [premium features](/funktionen)
 
 ### Integrating OCPP stations
 
-1.  Make sure your charging stations are installed and your PC or mobile phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and your PC or phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stations" tab ("Stationen").
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-6.  Go to the web interface of the station in question and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
 ## Integrating the Eaton charging stations
 
@@ -74,9 +72,9 @@ Info: The configuration page is active for 30 minutes; after that, the station m
 
 - Connect your PC via Ethernet to one of the three LAN ports on the Teltronika router in the station
 
-- In your browser, go to the following IP: 192.168.52.11
+- In the browser, go to the following IP: 192.168.52.11
 
-- Click on open page and enter the login details supplied with the station in the browser. (The default may be admin/admin)
+- Click Open page and enter the login details that are supplied with the station (the default may be admin/admin)
 
 ![Eaton OCPP – Figure 4](/img/ocpp-ladestationen-eaton/04.png)
 
@@ -123,17 +121,17 @@ Info: The configuration page is active for 30 minutes; after that, the station m
 
 - Switch on the station
 
-- Enable Wi-Fi on your PC or mobile phone
+- Activate Wi-Fi on your PC or phone
 
-- The station creates a hotspot with the last 4 digits of the serial number, e.g. GM\_Mxxxxx
+- The station creates a hotspot named after the last 4 digits of the serial number, e.g. GM\_Mxxxxx
 
 - The password is provided on a sticker with the charger documentation. Older models have a default password (GreenMotion!1052).
 
-- Connect your PC or mobile phone to the hotspot and go to the following IP in your browser: 192.168.53.1
+- Connect your PC or phone to the hotspot and go to the following IP in the browser: 192.168.53.1
 
 - Configure the network and continue with the steps below.
 
-- You may receive a warning message before accessing the configuration page. Click continue.
+- You may receive a warning message before you open the configuration page. Click Continue.
 
 </div>
 <div className="col col--4 text--center">
@@ -167,13 +165,13 @@ wss://[www.ecarup.com/api/Ocpp16/D037091EE3026BE0/](http://www.ecarup.com/api/Oc
 
 - Restart the station
 
-## Check authorisation
+## Checking authorization
 
 ![Eaton OCPP – Figure 11](/img/ocpp-ladestationen-eaton/11.png)
 
 ## Advanced settings via the maintenance tool (eCarUp Premium)
 
-The upload interval of the Meter Values can vary from station to station. We recommend an interval of 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. Only then can we better calculate and display the current charging power in the app. 
 
 You can change this as follows:
 
@@ -185,7 +183,7 @@ You can change this as follows:
 
 ![Eaton OCPP – Figure 13](/img/ocpp-ladestationen-eaton/13.png)
 
-### Download logs
+### Download Logs
 
 If the station does not appear in our system and Eaton support cannot find a solution to the problem either, please provide us with the log files for review.
 

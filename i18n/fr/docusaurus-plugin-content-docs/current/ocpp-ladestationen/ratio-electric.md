@@ -4,45 +4,45 @@ slug: '/ocpp-ladestationen/ratio-electric'
 description: 'Guide d''intégration backend'
 sidebar_label: 'Ratio Electric'
 ---
-![Ratio Electric – Illustration 1](/img/ocpp-ladestationen-ratio-electric/01.jpg)
+<Kacheln min="11rem">
 
-[IO7](https://elektroscout.ch/produkt/doppellader-fuer-den-oeffentlichen-bereich-mit-ocpp/)
+<Kachel bild="/img/ocpp-ladestationen-ratio-electric/01.jpg" bildtext="Ratio Electric IO7" titel="IO7" href="https://elektroscout.ch/produkt/doppellader-fuer-den-oeffentlichen-bereich-mit-ocpp/" bildhoehe="10rem" mittig />
 
-![Ratio Electric – Illustration 2](/img/ocpp-ladestationen-ratio-electric/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-ratio-electric/02.jpg" bildtext="Ratio Electric IO6 MID Pro" titel="IO6 MID Pro" href="https://elektroscout.ch/produkt/io6/" bildhoehe="10rem" mittig />
 
-[IO6 MID Pro](https://elektroscout.ch/produkt/io6/)
+</Kacheln>
 
 ## Guide d'intégration backend
 
-Les bornes Ratio Electric peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même, en toute simplicité, les conditions d'utilisation de vos bornes (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+Les bornes de recharge Ratio Electric peuvent être intégrées au système de décompte eCarUp en quelques étapes. Une fois installées dans votre compte, vous pouvez définir simplement vous-même les conditions d'utilisation de vos bornes (prix, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
 
-- Prérequis pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Condition préalable pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+- Apprenez-en davantage sur nos [fonctions Premium](/funktionen)
 
 
-### Intégration des bornes OCPP
+### Intégration de bornes OCPP
 
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone portable est connecté au même réseau que la borne de recharge.
 
 2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet « Stations » ("Stationen").
+3.  Dans le menu à gauche, cliquez sur l'onglet « Stationen ».
 
-4.  Sélectionnez l'onglet « OCPP » ("OCPP").
+4.  Sélectionnez l'onglet « OCPP ».
 
 5.  Copiez l'URL dans le presse-papiers.
 
 6.  Accédez à l'interface web de la borne souhaitée et collez-y l'URL copiée.
 
 
-## Intégration de l'IO7 et de l'IO6 pro MID
+## Intégration des IO7 et IO6 pro MID
 
-Important : version de firmware testée , 1.5.4  (IO7)
+Important : version de firmware testée, 1.5.4 (IO7)
 
-Important : version de firmware testée , 3.13.1  (IO6)
+Important : version de firmware testée, 3.13.1 (IO6)
 
 
 
@@ -53,7 +53,7 @@ Important : version de firmware testée , 3.13.1  (IO6)
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle d'envoi des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle d'envoi des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon de mieux calculer et afficher la puissance de recharge actuelle dans l'app. 
 
 
 

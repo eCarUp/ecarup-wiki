@@ -4,55 +4,53 @@ slug: '/ocpp-ladestationen/hesotec'
 description: 'Backend integration guide'
 sidebar_label: 'Hesotec'
 ---
-![Hesotec – Figure 1](/img/ocpp-ladestationen-hesotec/01.jpg)
+<Kacheln min="11rem">
 
-[eBox wr30](https://electrify.hesotec.de/produkte/ebox-wr30)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/01.jpg" bildtext="Hesotec eBox wr30" titel="eBox wr30" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-![Hesotec – Figure 2](/img/ocpp-ladestationen-hesotec/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/02.jpg" bildtext="Hesotec eBox sr10" titel="eBox sr10" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-[eBox sr10](https://electrify.hesotec.de/produkte/ebox-wr30)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/03.jpg" bildtext="Hesotec eSat r10/r20" titel="eSat r10/r20" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-![Hesotec – Figure 3](/img/ocpp-ladestationen-hesotec/03.jpg)
-
-[eSat r10/r20](https://electrify.hesotec.de/produkte/ebox-wr30)
+</Kacheln>
 
 ## Backend integration guide
 
-Hesotec stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when and at what price. 
+Hesotec stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Prerequisite for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more here about our [Premium features](/funktionen)
+- Learn more about our [premium functions](/funktionen) here
 
-### Integrating OCPP stations
+### Integration of OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or mobile phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and that your PC or phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stations" tab ("Stationen").
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-6.  Go to the web interface of the station in question and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
-## Connecting the Hesotec charging station
+## Integrating the Hesotec charging station
 
-- Download the "electrify charge control" app by Hesotec from your app store
+- Download the "electrify charge control" app from Hesotec from your app store
 
-- In the app, tap the + to connect your station
+- In the app, click the + to connect your desired station
 
 - The connection can be set up via the hotspot or via the Hesotec eLMS
 
 - Select your model and name the station
 
-- Then connect your mobile phone to the charging station's hotspot
+- Then connect the phone to the charging station's hotspot
 
-- All information about the hotspot (SSID\_EBOX\_XXX incl. password) can be found in the envelope supplied. 
+- You will find all information about the hotspot (SSID\_EBOX\_XXX incl. password) in the enclosed envelope. 
 
 - Once the station has connected successfully, it appears in the app. 
 
@@ -73,9 +71,9 @@ Hesotec stations can be integrated into the eCarUp billing system in just a few 
 </div>
 </div>
 
-- In the app, tap the 3 dots at the top right
+- In the app, click the 3 dots at the top right
 
-- Advanced settings and Technician must be activated
+- "Advanced settings" and "Technician" must be activated
 
 <div className="row">
 <div className="col col--6 text--center">
@@ -90,11 +88,11 @@ Hesotec stations can be integrated into the eCarUp billing system in just a few 
 </div>
 </div>
 
-- Select General settings
+- Select general settings
 
-- Set Authorisation to RFID/App and 
+- Set authorization to RFID/App and 
 
-- Activate Stop with RFID
+- Activate stop with RFID
 
 - Save and return to the settings
 
@@ -114,13 +112,13 @@ Hesotec stations can be integrated into the eCarUp billing system in just a few 
 <div className="row">
 <div className="col col--6">
 
-- Open Advanced settings
+- Open the advanced settings
 
 - Under Backend OCPP, enter the eCarUp URL from your web portal
 
 - Example: ws://www.ecarup.com/api/Ocpp16/xxxxxxxxxxx/15023910 (serial number of the station)
 
-- Set Mode to OCPP
+- Set the mode to OCPP
 
 </div>
 <div className="col col--6 text--center">
@@ -134,9 +132,9 @@ Hesotec stations can be integrated into the eCarUp billing system in just a few 
 
 - Then restart the station
 
-## Advanced setting via the maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the meter values can vary from station to station. We recommend an interval of 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values may vary from station to station. We recommend an interval of 30–60s. This is the only way we can better calculate and display the current charging power in the app. 
 
 You can change this as follows:
 

@@ -4,43 +4,43 @@ slug: '/ocpp-ladestationen/juice-technology'
 description: 'Backend integration guide'
 sidebar_label: 'Juice Technology'
 ---
-![Juice Technology – Figure 1](/img/ocpp-ladestationen-juice-technology/01.jpg)
+<Kacheln min="11rem">
 
-[Charger me 3](https://juice.world/)
+<Kachel bild="/img/ocpp-ladestationen-juice-technology/01.jpg" bildtext="Juice Technology Charger me 3" titel="Charger me 3" href="https://juice.world/" bildhoehe="10rem" mittig />
 
-![Juice Technology – Figure 2](/img/ocpp-ladestationen-juice-technology/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-juice-technology/02.jpg" bildtext="Juice Technology Charger 2" titel="Charger 2" href="https://juice.world/" bildhoehe="10rem" mittig />
 
-[Charger 2](https://juice.world/)
+</Kacheln>
 
 ## Backend integration guide
 
-Juice stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times etc.). You decide who can charge, when and at what price. 
+Juice stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Prerequisite for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more here about our [Premium features](/funktionen)
+- Learn more about our [premium features](/funktionen) here
 
 
 ### Integration of OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and your PC or mobile phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stationen" tab ("Stations").
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-6.  Go to the web interface of the station in question and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
 
 ## Integrating the Juice charging stations
 
-<Video src="nj_x0WNQhNk" title="YouTube video, integration guide “Juice Technology in the eCarUp backend”" />
+<Video src="nj_x0WNQhNk" title="YouTube video, integration guide „Juice Technology in the eCarUp backend“" />
 
 Video guide: integrating Juice Technology into the eCarUp backend
 
@@ -50,9 +50,9 @@ Video guide: integrating Juice Technology into the eCarUp backend
 
 Accessing the station (static):
 
-1\. As soon as you are connected to the station (note: your PC must be in the same IP range), open the browser of your choice and enter the following IP address: 192.168.123.123/
+1\. As soon as you are connected to the station (note: the PC must be in the same IP range), open the browser of your choice and enter the following IP address: 192.168.123.123/
 
-2\. Log in: You will find the login details in the guide supplied with the station.
+2\. Log in: You can find the login details in the supplied manual.
 
 Default: 
 
@@ -60,15 +60,15 @@ Username: operator
 
 PW: JuiCeMeUP!
 
-3\. Then configure the Juice Charger me 3 as required. 
+3\. Then configure the Juice Charger me 3 to your liking. 
 
 
 
 Accessing the station (dynamic):
 
-1.  Plug the network cable into the router and look up the IP address in the router's device list. 
+1.  Plug the network cable into the router and find the IP address in the router's directory. 
 
-2.   Log in: You will find the login details in the guide supplied with the station.
+2.   Log in: You can find the login details in the supplied manual.
 
 
 Default: 
@@ -77,7 +77,7 @@ Username: operator
 
 PW: JuiCeMeUP!
 
-3.   Then configure the Juice Charger me 3 as required. 
+3.   Then configure the Juice Charger me 3 to your liking. 
 
 
 
@@ -86,7 +86,7 @@ PW: JuiCeMeUP!
 
 ![Juice Technology – Figure 3](/img/ocpp-ladestationen-juice-technology/03.png)
 
-1.  Select the connection type (WLAN, LAN etc.)
+1.  Select the connection type (Wi-Fi, LAN, etc.)
 
 2.  Add the eCarUp URL from your account. 
 
@@ -95,7 +95,7 @@ Example: ws://www.ecarup.com/api/OCPP16/wgwepog4980h4ho
 
 ![Juice Technology – Figure 4](/img/ocpp-ladestationen-juice-technology/04.png)
 
-\+ set Meter Value Sample Interval to max. 60 seconds. 
+\+ set the Meter Value Sample Interval to a maximum of 60 seconds. 
 
 ### Authorization settings
 
@@ -103,7 +103,7 @@ Example: ws://www.ecarup.com/api/OCPP16/wgwepog4980h4ho
 
 - Switch off free charging
 
-- Deactivate the local whitelist
+- Deactivate local whitelist
 
 
 Save all settings and restart the station. 
@@ -118,17 +118,17 @@ Accessing the station:
 
 2\. Log in: On this page, enter the default password 1234567890.
 
-3\. Then configure the Juice Charger 2 as required. 
+3\. Then configure the Juice Charger 2 to your liking. 
 
 ![Juice Technology – Figure 6](/img/ocpp-ladestationen-juice-technology/06.png)
 
 ### OCPP integration
 
-⚠️ Important: The URL generated from the eCarUp account must be split up as shown in the following example. 
+⚠️ Important: The URL generated from the eCarUp account must be broken down as in the following example. 
 
-1.  Omit ws://; the host path and domain must be entered individually / separately.
+1.  Omit ws://; the host path and domain must be entered separately / separated.
 
-2.  (\*\*\*\* must be replaced by e.g. F749E....)
+2.  (\*\*\*\* must be replaced with e.g. F749E....)
 
 3.  The Chargebox ID must not contain any spaces
 
@@ -139,9 +139,9 @@ Accessing the station:
 
 ![Juice Technology – Figure 7](/img/ocpp-ladestationen-juice-technology/07.png)
 
-## Advanced settings via the maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the meter values can vary from station to station. We recommend an interval of 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. Only then can we better calculate and display the current charging power in the app. 
 
 You can change this as follows:
 

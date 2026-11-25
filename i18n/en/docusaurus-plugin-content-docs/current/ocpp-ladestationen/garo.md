@@ -4,47 +4,45 @@ slug: '/ocpp-ladestationen/garo'
 description: 'Backend integration guide'
 sidebar_label: 'Garo'
 ---
-![Garo – Figure 1](/img/ocpp-ladestationen-garo/01.jpg)
+<Kacheln min="11rem">
 
-[Wallbox GLB+](https://www.garo.se/en/products/wallbox)
+<Kachel bild="/img/ocpp-ladestationen-garo/01.jpg" bildtext="Garo Wallbox GLB+" titel="Wallbox GLB+" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-![Garo – Figure 2](/img/ocpp-ladestationen-garo/02.png)
+<Kachel bild="/img/ocpp-ladestationen-garo/02.png" bildtext="Garo Entity Pro" titel="Entity Pro" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-[Entity Pro](https://www.garo.se/en/products/wallbox)
+<Kachel bild="/img/ocpp-ladestationen-garo/03.jpg" bildtext="Garo LS4 Compact" titel="LS4 Compact" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-![Garo – Figure 3](/img/ocpp-ladestationen-garo/03.jpg)
-
-[LS4 Compact](https://www.garo.se/en/products/wallbox)
+</Kacheln>
 
 ## Backend integration guide
 
-Garo stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when and at what price. 
+Garo stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Requirements for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more about our [Premium features](/funktionen)
+- Learn more about our [premium features](/funktionen)
 
 ### Integration of OCPP stations
 
-1.  Make sure that your charging stations are installed and that your PC or mobile phone is connected to the same network as the charging station.
+1.  Make sure your charging stations are installed and your PC or phone is connected to the same network as the charging station.
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stationen" tab ("Stations").
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-6.  Go to the web interface of the station in question and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
-## Integrating the Garo charging stations
+## Integration of the Garo charging stations
 
-<Video src="Jj_6G8k8nus" title="YouTube video, guide for integrating GARO into the eCarUp backend" />
+<Video src="Jj_6G8k8nus" title="YouTube video, integration guide for GARO in the eCarUp backend" />
 
-## Integrating the Garo Entity Pro
+## Integration of the Garo Entity Pro
 
 Install the Garo Connect app here.  
 
@@ -56,16 +54,16 @@ Install the Garo Connect app here.
 
 ### Step 1
 
-Follow the supplied guide step by step and scan the QR code on the back plate. 
+Follow the supplied instructions step by step and scan the QR code on the back plate. 
 
-⚠️ Important: Your mobile phone and the charging station must be on the same network. (LAN or Wi-Fi)
+⚠️ Important: Your phone and the charging station must be on the same network (LAN or Wi-Fi).
 
 ### Step 2
 
 <div className="row">
 <div className="col col--6">
 
-In the general settings, please make sure that neither a schedule for charging the car nor free use is activated.
+In the general settings, please make sure that no plan for charging the car and no free use is activated.
 
 </div>
 <div className="col col--6 text--center">
@@ -80,7 +78,7 @@ In the general settings, please make sure that neither a schedule for charging t
 <div className="row">
 <div className="col col--6">
 
-On the installation overview, please select the "Third party" ("Drittanbieter") field.
+On the installation overview, please select the "Drittanbieter" ("Third party") field.
 
 </div>
 <div className="col col--6 text--center">
@@ -127,7 +125,7 @@ For the CsmsUrl, you can add your URL from the eCarUp account.
 <div className="row">
 <div className="col col--6">
 
-The URL can be pasted exactly as it is.
+The URL can be copied in exactly as it is.
 
 Don't forget to save & restart!
 
@@ -144,7 +142,7 @@ Don't forget to save & restart!
 <div className="row">
 <div className="col col--6">
 
-On the charging station, the user can also define what it should do in the "Not connected" ("Nicht verbunden") status. We recommend not activating anything.
+On the charging station, the user can also define what it should do in the "Nicht verbunden" ("Not connected") status. We recommend not activating anything.
 
 </div>
 <div className="col col--6 text--center">
@@ -154,11 +152,11 @@ On the charging station, the user can also define what it should do in the "Not 
 </div>
 </div>
 
-## Integrating the Garo GLB+ and the LS4 Compact
+## Integration of the Garo GLB+ and the LS4 Compact
 
 ### 1\. Connect the notebook to the Bender controller via USB cable:
 
-⚠️ Important: Use the Micro-USB interface
+⚠️ Important: Use the micro-USB port
 
 ![Garo – Figure 11](/img/ocpp-ladestationen-garo/11.png)
 
@@ -177,9 +175,9 @@ Enter the following URL: http://192.168.123.123/operator/
 
 At least version 4.00-2139 must be installed.
 
-The current version can be found under State →  Firmware Version.
+Under State →  Firmware Version you will find the latest version.
 
-Performing a firmware update:
+Perform a firmware update:
 
 a) Copy the firmware file to a USB stick. Insert the USB stick.
 
@@ -215,7 +213,7 @@ If you have the following web interface, you will find the guide in the followin
 
 ## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the meter values can vary from station to station. We recommend an interval of between 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. Only this way can we better calculate and display the current charging power in the app. 
 
 You can change this as follows:
 

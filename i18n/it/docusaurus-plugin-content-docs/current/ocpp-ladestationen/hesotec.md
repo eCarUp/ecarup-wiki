@@ -1,60 +1,58 @@
 ---
 title: 'Hesotec'
 slug: '/ocpp-ladestationen/hesotec'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione del backend'
 sidebar_label: 'Hesotec'
 ---
-![Hesotec – Figura 1](/img/ocpp-ladestationen-hesotec/01.jpg)
+<Kacheln min="11rem">
 
-[eBox wr30](https://electrify.hesotec.de/produkte/ebox-wr30)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/01.jpg" bildtext="Hesotec eBox wr30" titel="eBox wr30" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-![Hesotec – Figura 2](/img/ocpp-ladestationen-hesotec/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/02.jpg" bildtext="Hesotec eBox sr10" titel="eBox sr10" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-[eBox sr10](https://electrify.hesotec.de/produkte/ebox-wr30)
+<Kachel bild="/img/ocpp-ladestationen-hesotec/03.jpg" bildtext="Hesotec eSat r10/r20" titel="eSat r10/r20" href="https://electrify.hesotec.de/produkte/ebox-wr30" bildhoehe="10rem" mittig />
 
-![Hesotec – Figura 3](/img/ocpp-ladestationen-hesotec/03.jpg)
+</Kacheln>
 
-[eSat r10/r20](https://electrify.hesotec.de/produkte/ebox-wr30)
+## Guida all'integrazione del backend
 
-## Guida all'integrazione nel backend
+Le stazioni Hesotec possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo.
 
-Le stazioni Hesotec possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel Suo account, può definire in modo semplice e autonomo le condizioni di utilizzo delle Sue stazioni (prezzi, utenti, orari di disponibilità ecc.). È Lei a decidere chi può ricaricare, quando e a quale prezzo. 
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
-- Configurazione nel [portale web per gestori di stazioni](/stationsbetreiber/webportal)
-
-- Scopra di più sulle nostre [funzioni Premium](/funktionen)
+- Scopri di più sulle nostre [funzioni Premium](/funktionen)
 
 ### Integrazione di stazioni OCPP
 
-1.  Si assicuri che le Sue stazioni di ricarica siano installate e che il Suo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
-2.  Apra il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettui l'accesso con i dati del Suo account.
+2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua l'accesso con i dati del tuo account.
 
-3.  Nel menu a sinistra, clicchi sulla scheda "Stazioni" ("Stationen").
+3.  Nel menu a sinistra, clicca sulla scheda "Stazioni" ("Stationen").
 
-4.  Selezioni la scheda "OCPP".
+4.  Seleziona la scheda "OCPP".
 
-5.  Copi l'URL negli appunti.
+5.  Copia l'URL negli appunti.
 
-6.  Acceda all'interfaccia web della stazione desiderata e incolli l'URL copiato.
+6.  Vai all'interfaccia web della stazione desiderata e incolla l'URL copiato.
 
 ## Collegamento della stazione di ricarica Hesotec
 
-- Scarichi l'app "electrify charge control" di Hesotec dal Suo App Store
+- Scarica dall'App Store l'app "electrify charge control" di Hesotec
 
-- Nell'app, clicchi sul + per collegare la stazione desiderata
+- Nell'app, clicca sul + per collegare la stazione desiderata
 
-- Il collegamento può essere configurato tramite l'hotspot o tramite l'eLMS di Hesotec
+- La connessione può essere configurata tramite hotspot oppure tramite l'eLMS di Hesotec
 
-- Selezioni il Suo modello e assegni un nome alla stazione
+- Seleziona il tuo modello e assegna un nome alla stazione
 
-- Colleghi quindi lo smartphone all'hotspot della stazione di ricarica
+- Poi collega lo smartphone all'hotspot della stazione di ricarica
 
-- Tutte le informazioni sull'hotspot (SSID\_EBOX\_XXX con password) si trovano nella busta fornita in dotazione. 
+- Tutte le informazioni sull'hotspot (SSID\_EBOX\_XXX incl. password) si trovano nella busta fornita in dotazione.
 
-- Se la stazione si è collegata correttamente, compare nell'app. 
+- Quando la stazione si è collegata correttamente, appare nell'app.
 
 ## Play Store
 
@@ -73,9 +71,9 @@ Le stazioni Hesotec possono essere integrate nel sistema di conteggio eCarUp in 
 </div>
 </div>
 
-- Nell'app, clicchi sui 3 puntini in alto a destra
+- Nell'app, clicca sui 3 puntini in alto a destra
 
-- Occorre attivare "Impostazioni avanzate" ("Erweiterte Einstellungen") e "Tecnico" ("Techniker")
+- Devono essere attivati "Impostazioni avanzate" e "Tecnico"
 
 <div className="row">
 <div className="col col--6 text--center">
@@ -90,13 +88,13 @@ Le stazioni Hesotec possono essere integrate nel sistema di conteggio eCarUp in 
 </div>
 </div>
 
-- Selezioni "Impostazioni generali" ("Allgemeine Einstellungen")
+- Seleziona le impostazioni generali
 
-- Imposti "Autorizzazione" ("Autorisierung") su RFID/App e 
+- Imposta l'autorizzazione su RFID/App e
 
-- attivi "Termina con RFID" ("Beenden mit RFID")
+- Attiva "Termina con RFID"
 
-- Salvi e torni alle impostazioni
+- Salva e torna alle impostazioni
 
 <div className="row">
 <div className="col col--6 text--center">
@@ -114,13 +112,13 @@ Le stazioni Hesotec possono essere integrate nel sistema di conteggio eCarUp in 
 <div className="row">
 <div className="col col--6">
 
-- Apra "Impostazioni avanzate" ("Erweiterte Einstellungen")
+- Apri le impostazioni avanzate
 
-- In "Backend OCPP" inserisca l'URL eCarUp del Suo portale web
+- In Backend OCPP, inserisci l'URL eCarUp dal tuo portale web
 
 - Esempio: ws://www.ecarup.com/api/Ocpp16/xxxxxxxxxxx/15023910 (numero di serie della stazione)
 
-- Imposti "Modalità" ("Modus") su OCPP
+- Imposta la modalità su OCPP
 
 </div>
 <div className="col col--6 text--center">
@@ -130,17 +128,17 @@ Le stazioni Hesotec possono essere integrate nel sistema di conteggio eCarUp in 
 </div>
 </div>
 
-- Importante: nell'URL, dopo la / va inserito il numero di serie della Sua stazione!
+- Importante: nell'URL, dopo la / inserisci il numero di serie della tua stazione!
 
-- Riavvii quindi la stazione
+- Poi riavvia la stazione
 
-## Impostazione avanzata tramite strumento di manutenzione (eCarUp Premium)
+## Impostazioni avanzate tramite tool di manutenzione (eCarUp Premium)
 
-L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30-60s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo tra 30 e 60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale.
 
-Può modificarlo come segue:
+Puoi modificarlo come segue:
 
-1.  Get Configuration (per leggere cosa è programmato)
+1.  Get Configuration (per leggere ciò che è programmato)
 
 2.  Change Configuration (per sovrascrivere il valore)
 

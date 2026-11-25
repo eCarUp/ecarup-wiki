@@ -4,35 +4,29 @@ slug: '/ocpp-ladestationen/compleo'
 description: 'Backend integration guide'
 sidebar_label: 'Compleo'
 ---
-![Compleo – Figure 1](/img/ocpp-ladestationen-compleo/01.png)
+<Kacheln min="11rem">
 
-[SOLO](https://www.compleo-charging.ch/)
+<Kachel bild="/img/ocpp-ladestationen-compleo/01.png" bildtext="Compleo SOLO" titel="SOLO" href="https://www.compleo-charging.ch/" bildhoehe="10rem" mittig />
 
-![Compleo – Figure 2](/img/ocpp-ladestationen-compleo/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-compleo/02.jpg" bildtext="Compleo eBOX" titel="eBOX" href="https://www.compleo-charging.ch/" bildhoehe="10rem" mittig />
 
-[eBOX](https://www.compleo-charging.ch/)
+<Kachel bild="/img/ocpp-ladestationen-compleo/03.jpg" bildtext="Compleo DUO" titel="DUO" href="https://www.compleo-charging.ch/" bildhoehe="10rem" mittig />
 
-![Compleo – Figure 3](/img/ocpp-ladestationen-compleo/03.jpg)
+<Kachel bild="/img/ocpp-ladestationen-compleo/04.jpg" bildtext="Compleo CITO 500" titel="CITO 500" href="https://www.compleo-charging.ch/" bildhoehe="10rem" mittig />
 
-[DUO](https://www.compleo-charging.ch/)
+<Kachel bild="/img/ocpp-ladestationen-compleo/05.jpg" bildtext="Compleo CITO 240" titel="CITO 240" href="https://www.compleo-charging.ch/" bildhoehe="10rem" mittig />
 
-![Compleo – Figure 4](/img/ocpp-ladestationen-compleo/04.jpg)
-
-[CITO 500](https://www.compleo-charging.ch/)
-
-![Compleo – Figure 5](/img/ocpp-ladestationen-compleo/05.jpg)
-
-[CITO 240](https://www.compleo-charging.ch/)
+</Kacheln>
 
 ## Backend integration guide
 
 Compleo stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Prerequisite for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more about our [premium features](/funktionen) here
+- Learn more about our [premium features](/funktionen)
 
 
 ### Integrating OCPP stations
@@ -41,20 +35,20 @@ Compleo stations can be integrated into the eCarUp billing system in just a few 
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stations" tab ("Stationen").
 
 4.  Select the "OCPP" tab.
 
 5.  Copy the URL to the clipboard.
 
-6.  Go to the web interface of the station in question and paste the copied URL.
+6.  Go to the web interface of the desired station and paste the copied URL.
 
 
-## Connecting Compleo charging stations
+## Integrating the Compleo charging stations
 
 ### Note
 
-- A credit card terminal can be operated in parallel with eCarUp to ensure maximum flexibility. Compleo will be happy to provide further information. This only applies to the DC hardware!
+- A credit card terminal can be operated in parallel with eCarUp to ensure maximum flexibility. Compleo will be happy to provide you with further information. Here, this only applies to the DC hardware!
 
 
 ### Compleo SOLO
@@ -63,7 +57,7 @@ Video guide: [https://www.youtube.com/watch?v=Aa3artQXC6w](https://www.youtube.c
 
 ### Compleo eBOX
 
-To connect the Compleo eBOX, you need the Compleo eConfig app. 
+To integrate the Compleo eBOX, you need the Compleo eConfig app. 
 
 It is also important that firmware version 1.1 is installed on the box for the OCPP connection. 
 
@@ -91,34 +85,34 @@ It is also important that firmware version 1.1 is installed on the box for the O
 
 ![Compleo – Figure 11](/img/ocpp-ladestationen-compleo/11.png)
 
-Important: if the station does not work properly after successful implementation with eCarUp, please check the following via the wallbox's web interface:
+Important: if the station does not work properly with eCarUp after successful implementation, please check the following via the wallbox's web interface:
 
 - Authentication set to MIT
 
 - Remote must be enabled
 
 
-How to access the web interface should be described in the guide supplied with the station. 
+How to access the web interface should be described in the supplied manual. 
 
 ![Compleo – Figure 12](/img/ocpp-ladestationen-compleo/12.png)
 
 ### Compleo DUO, CITO 500 & CITO 240
 
-To integrate other Compleo stations with eCarUp, you need support from [Compleo Charging Solutions AG Schweiz](https://www.compleo-charging.ch/kontakt) . They take care of the configuration and assign your charge point to the eCarUp account using the OCPP URL you received during preparation.
+To integrate other Compleo stations with eCarUp, you need the support of [Compleo Charging Solutions AG Schweiz](https://www.compleo-charging.ch/kontakt) . They take care of the configuration and assign your charge point to the eCarUp account via the OCPP URL that you received during preparation.
 
 ![Compleo – Figure 13](/img/ocpp-ladestationen-compleo/13.png)
 
 ### Important
 
-On every Compleo charging station, the following parameter must be set to "true".
+For every Compleo charging station, the following parameter must be set to "true".
 
 ![Compleo – Figure 14](/img/ocpp-ladestationen-compleo/14.png)
 
 This can be done using our maintenance tool (eCarUp Premium), or the setting can be made on the station side. 
 
-## Advanced settings via the maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the meter values can vary from station to station. We recommend an interval of 30-60s. Only then can we better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
 
 
 

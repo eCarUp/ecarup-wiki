@@ -1,37 +1,37 @@
 ---
 title: 'Bibus'
 slug: '/ocpp-ladestationen/bibus'
-description: 'Guide d''intégration backend'
+description: 'Guide d''intégration du backend'
 sidebar_label: 'Bibus'
 ---
-![Bibus – Illustration 1](/img/ocpp-ladestationen-bibus/01.jpg)
+<Kacheln min="11rem">
 
-[Bibus eVolve](https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/)
+<Kachel bild="/img/ocpp-ladestationen-bibus/01.jpg" bildtext="Bibus eVolve" titel="Bibus eVolve" href="https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/" bildhoehe="10rem" mittig />
 
-![Bibus – Illustration 2](/img/ocpp-ladestationen-bibus/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-bibus/02.jpg" bildtext="Bibus eNext" titel="Bibus eNext" href="https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/" bildhoehe="10rem" mittig />
 
-[Bibus eNext](https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/)
+</Kacheln>
 
-## Guide d'intégration backend
+## Guide d'intégration du backend
 
-Les bornes Bibus peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même, en toute simplicité, les conditions d'utilisation de vos bornes (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+Les bornes de recharge Bibus peuvent être intégrées au système de décompte eCarUp en quelques étapes. Une fois installées dans votre compte, vous pouvez définir simplement vous-même les conditions d'utilisation de vos bornes (prix, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix.
 
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prérequis pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configuration dans le [portail web pour les exploitants de bornes](/stationsbetreiber/webportal)
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+- Pour en savoir plus sur nos [fonctions Premium](/funktionen)
 
 
-### Intégration des bornes OCPP
+### Intégration de bornes OCPP
 
 1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
 
 2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet « Stations » ("Stationen").
+3.  Dans le menu de gauche, cliquez sur l'onglet « Stationen ».
 
-4.  Sélectionnez l'onglet « OCPP » ("OCPP").
+4.  Sélectionnez l'onglet « OCPP ».
 
 5.  Copiez l'URL dans le presse-papiers.
 
@@ -40,7 +40,7 @@ Les bornes Bibus peuvent être intégrées en quelques étapes dans le système 
 
 ## Intégration de la borne de recharge Bibus
 
-Pour la version avec bornes Kempower, cliquez [ici](/ocpp-ladestationen/kempower).
+Pour la version avec des bornes Kempower, cliquez [ici](/ocpp-ladestationen/kempower).
 
 ## Version avec Circontrol
 
@@ -52,26 +52,26 @@ Les premières étapes doivent être effectuées directement sur l'écran de vot
 
 3.  Saisissez ensuite l'adresse IP dans le navigateur web
 
-4.  Le tableau de bord de Circontrol s'affiche
+4.  Le tableau de bord de Circontrol apparaît
 
-5.  Choisissez le type de connexion (GSM, LAN ...)
+5.  Sélectionnez le type de connexion (GSM, LAN ...)
 
 
 ⚠️ Veuillez noter :
 
-Le réglage par défaut de la borne Bibus peut être Plug & Charge. Celui-ci doit être désactivé dans le Charge Point Manager. 
+Le réglage par défaut de la borne Bibus peut être Plug & Charge. Celui-ci doit être désactivé dans le Charge Point Manager.
 
 Veuillez contacter BIBUS pour obtenir le Charge Point Manager.
 
-Dans les paramètres, le statut doit y être réglé sur « Activé » ("Aktiviert").
+Dans les paramètres, le statut doit y être réglé sur « Aktiviert ».
 
 ![Bibus – Illustration 3](/img/ocpp-ladestationen-bibus/03.png)
 
 ### Paramètres de l'interface web Circontrol
 
-1.  Cliquez sur Integration dans la navigation à gauche
+1.  Cliquez sur Intégration dans la navigation à gauche
 
-2.  Sélectionnez OCPP 1.6J sous « Intégrations disponibles » ("Verfügbare Integrationen").
+2.  Sélectionnez OCPP 1.6J sous « Verfügbare Integrationen ».
 
 3.  Cliquez sur le lien
 
@@ -84,17 +84,17 @@ Dans les paramètres, le statut doit y être réglé sur « Activé » ("Aktivie
 
 ![Bibus – Illustration 5](/img/ocpp-ladestationen-bibus/05.png)
 
-6\. Saisissez l'URL OCPP de votre compte sous Système central (Zentrales System)
+6\. Saisissez l'URL OCPP de votre compte sous Zentrales System
 
 ![Bibus – Illustration 6](/img/ocpp-ladestationen-bibus/06.png)
 
-⚠️ Important : vous devez régler l'intervalle de mesure des valeurs mesurées (p. ex. sur 60 )
+⚠️ Important : vous devez régler l'intervalle de mesure des valeurs mesurées (p. ex. sur 60)
 
 ![Bibus – Illustration 7](/img/ocpp-ladestationen-bibus/07.png)
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de transmission des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle de téléversement des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon de mieux calculer et afficher la puissance de charge actuelle dans l'application.
 
 
 
