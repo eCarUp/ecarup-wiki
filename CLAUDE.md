@@ -86,6 +86,11 @@ mit und ist mehrfach ausführbar.
   sich MDX sonst verschluckt
 - Zahlen, Einheiten, Artikelnummern, Produktnamen
 
+Linkziele setzt `restoreLinkTargets` in `scripts/translate.ts` nach jeder
+Seite positionsweise auf die der deutschen Vorlage zurück — das Modell
+übersetzt sie trotz Anweisung gelegentlich mit (`/funktionen` → `/funzioni`),
+und dann bräche der Build ab.
+
 Übersetzt werden dagegen `title`, `description`, `sidebar_label`, der Fliesstext,
 die sichtbaren Linktexte und die Alt-Texte der Bilder.
 

@@ -443,6 +443,52 @@ export function buildPrompt(opts: {
   ].join('\n');
 }
 
+/**
+ * Markdown-Links (`[Text](/ziel)`, ohne Bilder) und `href="…"` in JSX, etwa
+ * bei `<Kachel>`. Erfasst wird nur der Pfad, die Sprungmarke dahinter nicht –
+ * die biegt `fixAnchors` am Ende des Laufs ohnehin auf die übersetzten Anker um.
+ */
+const LINKZIEL_MUSTER = [
+  /(?<!!)(\[[^\]]*\]\()([^)\s#]*)/g,
+  /(href=")([^"\s#]*)/g,
+] as const;
+
+/**
+ * Setzt Linkziele, die das Modell trotz Regel 4 übersetzt hat, auf die der
+ * deutschen Vorlage zurück.
+ *
+ * Anlass: Aus `[Premium Funktionen](/funktionen)` wurde auf Italienisch
+ * `(/funzioni)`. Die Seite gibt es nicht, der Build brach mit „broken links"
+ * ab, und mit ihm die Übersetzungen aller anderen Seiten desselben Laufs.
+ * Der Fehler tritt zufällig auf – ein neuer Lauf übersetzt denselben Link
+ * meistens richtig –, deshalb wird er hier repariert statt nur gemeldet.
+ *
+ * Zugeordnet wird positionsweise wie in `fixAnchors`: das n-te Linkziel der
+ * Übersetzung gehört zum n-ten der Vorlage. Das setzt voraus, dass gleich
+ * viele Links dastehen. Weicht die Anzahl ab, wäre jede Zuordnung geraten –
+ * dann bleibt die Übersetzung unverändert, und die Strukturprüfung meldet es.
+ */
+export function restoreLinkTargets(
+  translated: string,
+  source: string,
+): {text: string; repaired: {from: string; to: string}[]} {
+  const repaired: {from: string; to: string}[] = [];
+  let text = translated;
+  for (const muster of LINKZIEL_MUSTER) {
+    const vorlage = [...source.matchAll(muster)].map((m) => m[2]);
+    const uebersetzt = [...text.matchAll(muster)].map((m) => m[2]);
+    if (vorlage.length !== uebersetzt.length) continue;
+    let i = 0;
+    text = text.replace(muster, (match, vorne: string, ziel: string) => {
+      const soll = vorlage[i++];
+      if (ziel === soll) return match;
+      repaired.push({from: ziel, to: soll});
+      return `${vorne}${soll}`;
+    });
+  }
+  return {text, repaired};
+}
+
 export async function translateFile(job: Job, glossary: string): Promise<void> {
   const content = await readFile(job.source, 'utf8');
   const prompt = buildPrompt({
@@ -467,6 +513,15 @@ export async function translateFile(job: Job, glossary: string): Promise<void> {
       );
     }
     normalized = normalizeFrontmatter(translated, content);
+  }
+
+  const {text, repaired} = restoreLinkTargets(normalized, content);
+  normalized = text;
+  if (repaired.length > 0) {
+    console.log(
+      `      [${job.locale}] ${job.source}: Linkziel zurückgesetzt: ` +
+        repaired.map((r) => `${r.from} -> ${r.to}`).join(', '),
+    );
   }
 
   await mkdir(dirname(job.target), {recursive: true});
