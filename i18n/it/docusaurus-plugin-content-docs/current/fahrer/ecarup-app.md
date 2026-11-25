@@ -1,16 +1,16 @@
 ---
-title: 'eCarUp App'
+title: 'App eCarUp'
 slug: '/fahrer/ecarup-app'
-description: 'L''app eCarUp supporta i conducenti nella ricarica quotidiana della loro auto elettrica.'
-sidebar_label: 'eCarUp App'
+description: 'L''app eCarUp supporta i conducenti nella vita quotidiana durante la ricarica della loro auto elettrica.'
+sidebar_label: 'App eCarUp'
 ---
-L'app eCarUp supporta i conducenti nella ricarica quotidiana della loro auto elettrica. Aiuta a trovare le stazioni di ricarica, a gestire facilmente le sessioni di ricarica e a tenere traccia dei costi in modo trasparente.
+L'app eCarUp supporta i conducenti nella vita quotidiana durante la ricarica della loro auto elettrica. Aiuta a trovare le stazioni di ricarica, a gestire facilmente le sessioni di ricarica e a tenere traccia dei costi in modo trasparente.
 
-## Sbloccare una stazione di ricarica con eCarUp
+## Attivare una stazione di ricarica elettrica con eCarUp
 
 <Video src="1GLs5aY4AO4" title="Video YouTube" />
 
-## Registrazione / accesso:
+## Registrazione / Accesso:
 
 ### iOS:
 
@@ -19,16 +19,16 @@ L'app eCarUp supporta i conducenti nella ricarica quotidiana della loro auto ele
 
 - Scarica l'app eCarUp e crea un account gratuito.
 
-- Nel menu in fondo allo schermo, alla voce "Account" (Account), tocca Sì (Ja)
+- Nel menu nella parte inferiore dello schermo, sotto «Account» (Account), clicca su Sì
 
-- Scegli Accedi (Anmelden) o Registrati (Registrieren)
+- Scegli Accedi o Registrati
 
-- Al momento dell'accesso puoi anche usare la funzione Password dimenticata (Passwort vergessen) per richiedere una nuova password.
+- Al momento dell'accesso è possibile utilizzare anche la funzione Password dimenticata per richiedere una nuova password.
 
 </div>
 <div className="col col--4 text--center">
 
-![eCarUp App – Figura 1](/img/fahrer-ecarup-app/01.png)
+![App eCarUp – Immagine 1](/img/fahrer-ecarup-app/01.png)
 
 </div>
 </div>
@@ -38,17 +38,17 @@ L'app eCarUp supporta i conducenti nella ricarica quotidiana della loro auto ele
 <div className="row">
 <div className="col col--4 text--center">
 
-![eCarUp App – Figura 2](/img/fahrer-ecarup-app/02.png)
+![App eCarUp – Immagine 2](/img/fahrer-ecarup-app/02.png)
 
 </div>
 <div className="col col--4 text--center">
 
-![eCarUp App – Figura 3](/img/fahrer-ecarup-app/03.png)
+![App eCarUp – Immagine 3](/img/fahrer-ecarup-app/03.png)
 
 </div>
 <div className="col col--4 text--center">
 
-![eCarUp App – Figura 4](/img/fahrer-ecarup-app/04.png)
+![App eCarUp – Immagine 4](/img/fahrer-ecarup-app/04.png)
 
 </div>
 </div>
@@ -60,14 +60,14 @@ L'app eCarUp supporta i conducenti nella ricarica quotidiana della loro auto ele
 
 - Scarica l'app eCarUp e crea un account gratuito.
 
-- Nel menu in fondo allo schermo, alla voce "Account" (Account), puoi scegliere Accedi (Anmelden) o Registrati (Registrieren)
+- Nel menu nella parte inferiore dello schermo, sotto «Account» (Account), puoi scegliere tra Accedi o Registrati
 
-- Al momento dell'accesso puoi anche usare la funzione Password dimenticata (Passwort vergessen). Per farlo, tocca i 3 puntini.
+- Al momento dell'accesso è possibile utilizzare anche la funzione Password dimenticata. A tale scopo, clicca sui 3 punti.
 
 </div>
 <div className="col col--4 text--center">
 
-![eCarUp App – Figura 5](/img/fahrer-ecarup-app/05.png)
+![App eCarUp – Immagine 5](/img/fahrer-ecarup-app/05.png)
 
 </div>
 </div>
@@ -77,104 +77,125 @@ L'app eCarUp supporta i conducenti nella ricarica quotidiana della loro auto ele
 <div className="row">
 <div className="col col--6 text--center">
 
-![eCarUp App – Figura 6](/img/fahrer-ecarup-app/06.png)
+![App eCarUp – Immagine 6](/img/fahrer-ecarup-app/06.png)
 
 </div>
 <div className="col col--6 text--center">
 
-![eCarUp App – Figura 7](/img/fahrer-ecarup-app/07.png)
+![App eCarUp – Immagine 7](/img/fahrer-ecarup-app/07.png)
 
 </div>
 </div>
 
-## Reimpostare la password (videoguida)
+## Funzioni nell'app:
 
-<Video src="b1uOJP5jZEc" title="Video YouTube, reimpostare la password eCarUp su dispositivo iOS" />
+<div className="row">
+<div className="col col--8">
 
-<Video src="viemoEVXnak" title="Video YouTube, reimpostare la password eCarUp su dispositivo Android" />
+### Nella scheda «Mappa» (Karte) puoi:
 
-## Funzioni dell'app:
-
-![eCarUp App – Figura 8](/img/fahrer-ecarup-app/08.png)
-
-### Nella scheda "Mappa" (Karte) puoi:
-
-- Trovare stazioni 
+- Trovare le stazioni
 
 - Localizzare la tua posizione attuale
 
 - Funzione di ricerca (lente d'ingrandimento)
 
-- filtrare per:
+- filtrare per;
 
     - Disponibilità
 
-    - Connettori (Type2,CCS ecc.)
+    - Connettori (Type2, CCS ecc.)
 
     - Potenza (kW)
 
     - stazioni disponibili (online)
 
-- Scansionare il codice QR della stazione per essere indirizzato direttamente alla stazione corrispondente 
-
-### Nella scheda "Nelle vicinanze" (In der Nähe) vedi:
-
-<div className="row">
-<div className="col col--8">
-
-- le stazioni visitate di recente
-
-- l'elenco delle stazioni vicine a te
+- Scansionare il codice QR della stazione per essere indirizzati direttamente alla stazione corrispondente
 
 </div>
 <div className="col col--4 text--center">
 
-![eCarUp App – Figura 9](/img/fahrer-ecarup-app/09.png)
+![Scheda Mappa nell'app eCarUp](/img/fahrer-ecarup-app/08.png)
 
 </div>
 </div>
 
-### Nella scheda "Account" (Account) puoi:
+### Nella scheda «Nelle vicinanze» (In der Nähe) vedi:
 
-- Mezzo di pagamento: registrare una carta di credito o di debito (è necessario il codice CVC).  Tutte le ricariche vengono addebitate sulla carta registrata. La valuta viene ripresa automaticamente dalla carta. In questa [pagina del wiki](/sonstige-informationen/stripe) trovi maggiori informazioni sull'elaborazione delle transazioni finanziarie e sulla loro sicurezza.
+- mostra le stazioni visitate di recente
+
+- elenca le stazioni nelle tue vicinanze
+
+<div className="row">
+<div className="col col--8">
+
+### Nella scheda «Account» (Account) puoi:
+
+- Mezzi di pagamento: registrare una carta di credito o di debito (requisito: codice CVC). Tutte le ricariche vengono addebitate sulla carta registrata. La valuta viene adottata automaticamente dalla carta. In questa [pagina del wiki](/sonstige-informationen/stripe) trovi maggiori informazioni sull'elaborazione delle transazioni finanziarie e sulla loro sicurezza.
     La carta di credito può anche essere eliminata.
 
-- ID veicolo:  registra la Car-ID (al momento funziona solo con la [stazione di ricarica Pico](https://wiki.smart-me.com/produkte/pico-ladestation))
+- ID veicolo: registra il Car-ID (al momento funziona solo con la [stazione di ricarica Pico](https://wiki.smart-me.com/produkte/pico-ladestation))
 
-- Carta RFID: aggiungere badge aziendali, portachiavi ecc. In [Tag RFID / NFC](/fahrer/rfid-nfc-tags-carid) trovi una guida passo per passo.
+- Carta RFID: aggiungere badge aziendale, portachiavi ecc. In [RFID / NFC Tags](/fahrer/rfid-nfc-tags-carid) trovi a tale scopo una guida passo dopo passo.
 
 - FAQ: per conducenti e proprietari di stazioni
 
-- Contatto 
+- Contatto
 
-- Account: qui puoi eliminare il tuo account eCarUp. Tutti i dati presso eCarUp e presso smart-me vengono eliminati definitivamente.
-    È possibile modificare l'e-mail e la password. 
+- Account: qui puoi eliminare il tuo account eCarUp. Tutti i dati presso eCarUp e anche presso smart-me vengono eliminati definitivamente.
+    È possibile modificare l'e-mail e la password.
 
-- Novità:  scopri le nostre novità (release notes)
+- Novità: scopri le nostre novità (Release Notes)
 
-### Nella scheda "Ricarica" (Laden) vedi:
+</div>
+<div className="col col--4 text--center">
 
-- Tutte le sessioni di ricarica attive, con l'energia prelevata e i costi
+![Scheda Account nell'app eCarUp](/img/fahrer-ecarup-app/09.png)
 
-- La cronologia delle sessioni di ricarica, con l'energia prelevata e i costi
+</div>
+</div>
 
-- Seleziona la stazione di ricarica per accedere direttamente alla panoramica della stazione. 
+### Nella scheda «Ricarica» (Laden) vedi:
+
+- Tutte le sessioni di ricarica attive, incluse l'energia assorbita e i costi
+
+- La cronologia delle sessioni di ricarica, inclusi l'energia assorbita e i costi
+
+- Seleziona a tale scopo la stazione di ricarica e accedi direttamente alla panoramica della stazione.
 
 ## Sessione di ricarica iOS
 
-La sessione di ricarica è attiva e visibile in Ricarica (Laden)
+<div className="row">
+<div className="col col--4">
 
-![eCarUp App – Figura 10](/img/fahrer-ecarup-app/10.jpg)
+La sessione di ricarica è attiva e visibile sotto Ricarica
+
+![App eCarUp – Immagine 10](/img/fahrer-ecarup-app/10.jpg)
+
+</div>
+<div className="col col--4">
 
 Terminare la sessione di ricarica
 
-- tocca i 3 puntini in alto a destra
+- cliccare in alto a destra sui 3 punti
 
-![eCarUp App – Figura 11](/img/fahrer-ecarup-app/11.jpg)
+![App eCarUp – Immagine 11](/img/fahrer-ecarup-app/11.jpg)
+
+</div>
+<div className="col col--4">
 
 La sessione di ricarica è in sospeso
 
-![eCarUp App – Figura 12](/img/fahrer-ecarup-app/12.jpg)
+![App eCarUp – Immagine 12](/img/fahrer-ecarup-app/12.jpg)
+
+</div>
+</div>
 
 ⚠️Importante:
-La sessione di ricarica rimane aperta finché la stazione non ci invia uno stop. Attendiamo quindi che la stazione ci dia un riscontro. In casi particolari può succedere che la stazione vada offline e ci invii lo stop solo dopo essere tornata online.
+La sessione di ricarica rimane attiva finché la stazione non ci invia uno stop. Attendiamo quindi che la stazione ci dia un riscontro. In casi particolari può accadere che la stazione vada offline e ci invii lo stop solo dopo essere tornata online.
+
+## Reimpostare la password (guida video)
+
+<Video src="b1uOJP5jZEc" title="Video YouTube, reimpostare la password eCarUp su dispositivo iOS" />
+
+<Video src="viemoEVXnak" title="Video YouTube, reimpostare la password eCarUp su dispositivo Android" />

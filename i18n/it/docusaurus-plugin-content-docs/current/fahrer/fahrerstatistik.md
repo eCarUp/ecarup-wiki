@@ -8,29 +8,32 @@ sidebar_label: 'Informazioni generali'
 
 ### Pagamento non riuscito
 
-Se un pagamento con la carta di credito o di debito registrata in eCarUp non è andato a buon fine, riceve una notifica. 
+Se un pagamento effettuato con la carta di credito o di debito registrata in eCarUp non è andato a buon fine, riceverai una notifica.
 
-Al seguente [link](/fahrer/fehlgeschlagene-zahlung) trova maggiori informazioni.
+Trovi maggiori informazioni a questo [link](/fahrer/fehlgeschlagene-zahlung).
 
 ### Pagamento annullato
 
-Se un pagamento con la carta di credito o di debito registrata in eCarUp non va a buon fine e si verificano ripetuti insuccessi nel saldo del pagamento, riceve un'e-mail. La preghiamo di contattarci all'indirizzo support@ecarup.com. 
+Se un pagamento effettuato con la carta di credito o di debito registrata in eCarUp non va a buon fine e il saldo del pagamento fallisce ripetutamente, riceverete un'e-mail. Vi preghiamo di contattarci all'indirizzo support@ecarup.com.
 
 ### Il metodo di pagamento sta per scadere
 
-Il mezzo di pagamento registrato (carta di credito o di debito) scade tra un mese. Per garantire un'elaborazione regolare dei pagamenti, le informazioni di pagamento dovrebbero essere aggiornate per tempo nell'app. 
+Il mezzo di pagamento registrato (carta di credito o di debito) scade tra un mese. Per garantire un'elaborazione dei pagamenti senza intoppi, le informazioni di pagamento dovrebbero essere aggiornate per tempo nell'app.
 
-Al seguente [link](/fahrer/ecarup-app) trova maggiori informazioni. 
+Trovi maggiori informazioni a questo [link](/fahrer/ecarup-app).
+
+<div className="row">
+<div className="col col--7">
 
 ## Statistica del conducente
 
 ### Panoramica mensile
 
-La panoramica mensile viene inviata automaticamente all'inizio del mese successivo all'indirizzo e-mail del conducente. 
+La panoramica mensile viene inviata automaticamente all'indirizzo e-mail del conducente all'inizio del mese successivo.
 
 ⚠️ Importante:
 
-1.  Deve aver avuto luogo almeno 1 ricarica a pagamento. 
+1.  Deve essere avvenuta almeno 1 ricarica a pagamento.
 
 2.  Non possiamo influire sulle tariffe né sulle informazioni relative ai gestori delle stazioni.
 
@@ -39,32 +42,38 @@ La panoramica mensile viene inviata automaticamente all'inizio del mese successi
 4.  La panoramica non è una fattura.
 
 
-Esempio: [Panoramica mensile](https://drive.google.com/file/d/1gMxvbHk9BbkVp-ZQk0vNfTmcxZRlwYA1/view?usp=drive_link) 
+Esempio: [Panoramica-mensile](https://drive.google.com/file/d/1gMxvbHk9BbkVp-ZQk0vNfTmcxZRlwYA1/view?usp=drive_link)
 
-![Informazioni generali – Figura 1](/img/fahrer-fahrerstatistik/01.png)
+</div>
+<div className="col col--5 text--center">
 
-![Informazioni generali – Figura 2](/img/fahrer-fahrerstatistik/02.png)
+![Panoramica mensile – pagina 1](/img/fahrer-fahrerstatistik/01.png)
+
+![Panoramica mensile – pagina 2](/img/fahrer-fahrerstatistik/02.png)
+
+</div>
+</div>
 
 ## Portale web
 
-Acceda con il Suo account eCarUp al nostro [portale web](https://admin.ecarup.com/authentication/login).
+Accedi con il tuo account eCarUp al nostro [portale web](https://admin.ecarup.com/authentication/login).
 
-1.  Tutte le transazioni di pagamento vengono elencate, incluso lo stato del pagamento
+1.  Vengono elencate tutte le operazioni di pagamento, incluso lo stato del pagamento.
 
-2.  Alla voce di menu "Cronologia" ("History") può creare la Sua statistica del conducente.
+2.  Alla voce di menu "History" puoi creare la tua statistica del conducente.
 
 3.  Le carte RFID possono essere aggiunte anche tramite il portale web.
 
 
-![Informazioni generali – Figura 3](/img/fahrer-fahrerstatistik/03.png)
+![Informazioni generali – Immagine 3](/img/fahrer-fahrerstatistik/03.png)
 
-I conducenti possono creare le proprie "statistiche del conducente" come segue:
+I conducenti possono creare le proprie "statistiche del conducente" nel modo seguente:
 
-1.  Nella scheda "Conducente" ("Fahrer") clicchi su Cronologia (Verlauf / History). 
+1.  Nella scheda "Fahrer" fai clic su Cronologia / History.
 
-2.  Selezioni la data di inizio e di fine e clicchi sulla freccia casuale per aggiornare l'elenco.
+2.  Seleziona la data di inizio e di fine e fai clic sulla freccia casuale per aggiornare l'elenco.
 
-3.  Facoltativamente è possibile anche creare un'esportazione in un file Excel.
+3.  Facoltativamente è possibile creare anche un'esportazione in un file Excel.
 
 
-Maggiori informazioni sul tema del diritto metrologico e sulla verifica delle sessioni di ricarica sono disponibili alla seguente [pagina del wiki](/sonstige-informationen/eichrecht-in-deutschland).
+Trovi maggiori informazioni sul tema della legge sulla taratura e sulla verifica delle sessioni di ricarica alla seguente [pagina del wiki](/sonstige-informationen/eichrecht-in-deutschland).

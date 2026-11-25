@@ -1,29 +1,29 @@
 ---
 title: 'eCarUp App'
 slug: '/fahrer/ecarup-app'
-description: 'The eCarUp App supports drivers in their everyday charging of their electric car.'
+description: 'The eCarUp app supports drivers in everyday life when charging their electric car.'
 sidebar_label: 'eCarUp App'
 ---
-The eCarUp App supports drivers in their everyday charging of their electric car. It helps them find charging stations, control charging sessions easily and keep track of costs transparently.
+The eCarUp app supports drivers in everyday life when charging their electric car. It helps you find charging stations, control charging sessions easily and keep track of costs transparently.
 
-## Unlocking an EV charging station with eCarUp
+## Activate an EV charging station with eCarUp
 
-<Video src="1GLs5aY4AO4" title="YouTube video" />
+<Video src="1GLs5aY4AO4" title="YouTube Video" />
 
-## Registration / login:
+## Registration / Login:
 
 ### iOS:
 
 <div className="row">
 <div className="col col--8">
 
-- Download the eCarUp App and create a free account.
+- Download the eCarUp app and create a free account.
 
-- In the menu at the bottom of the screen, under "Account", tap Yes ("Ja")
+- In the menu at the bottom of the screen, under "Account" (Account), tap Yes
 
-- Select Log in ("Anmelden") or Register ("Registrieren")
+- Select Log in or Register
 
-- When logging in, you can also use the Forgot password ("Passwort vergessen") function to request a new password.
+- When logging in, you can also use the Forgot password function to request a new password.
 
 </div>
 <div className="col col--4 text--center">
@@ -58,11 +58,11 @@ The eCarUp App supports drivers in their everyday charging of their electric car
 <div className="row">
 <div className="col col--8">
 
-- Download the eCarUp App and create a free account.
+- Download the eCarUp app and create a free account.
 
-- In the menu at the bottom of the screen, under "Account", you can either Log in ("Anmelden") or Register ("Registrieren")
+- In the menu at the bottom of the screen, under "Account" (Account), you can either log in or register
 
-- When logging in, you can also use the Forgot password ("Passwort vergessen") function. To do so, tap the 3 dots.
+- When logging in, you can also use the Forgot password function. To do so, please tap the 3 dots.
 
 </div>
 <div className="col col--4 text--center">
@@ -87,17 +87,12 @@ The eCarUp App supports drivers in their everyday charging of their electric car
 </div>
 </div>
 
-## Resetting your password (video guide)
-
-<Video src="b1uOJP5jZEc" title="YouTube video, resetting the eCarUp password on an iOS device" />
-
-<Video src="viemoEVXnak" title="YouTube video, resetting the eCarUp password on an Android device" />
-
 ## Functions in the app:
 
-![eCarUp App – Figure 8](/img/fahrer-ecarup-app/08.png)
+<div className="row">
+<div className="col col--8">
 
-### In the "Map" ("Karte") tab you can:
+### In the "Map" (Karte) tab you can:
 
 - Find stations 
 
@@ -105,7 +100,7 @@ The eCarUp App supports drivers in their everyday charging of their electric car
 
 - Search function (magnifying glass)
 
-- Filter by:
+- filter by;
 
     - Availability
 
@@ -113,68 +108,94 @@ The eCarUp App supports drivers in their everyday charging of their electric car
 
     - Power (kW)
 
-    - Available stations (online)
+    - available stations (online)
 
-- Scan the station's QR code to be taken directly to the corresponding station 
-
-### In the "Nearby" ("In der Nähe") tab you can see:
-
-<div className="row">
-<div className="col col--8">
-
-- the most recently visited stations
-
-- a list of the stations near you
+- Scan the station's QR code to be taken directly to the corresponding station
 
 </div>
 <div className="col col--4 text--center">
 
-![eCarUp App – Figure 9](/img/fahrer-ecarup-app/09.png)
+![Map tab in the eCarUp app](/img/fahrer-ecarup-app/08.png)
 
 </div>
 </div>
 
-### In the "Account" tab you can:
+### In the "Nearby" (In der Nähe) tab you see:
 
-- Payment method ("Zahlungsmittel"): add a credit or debit card (CVC code required).  All charging sessions are charged to the stored card. The currency is taken over automatically from the card. On this [wiki page](/sonstige-informationen/stripe) you can find out more about how financial transactions are processed and how they are secured.
+- shows the most recently visited stations
+
+- lists the stations near you
+
+<div className="row">
+<div className="col col--8">
+
+### In the "Account" (Account) tab you can:
+
+- Payment method: Store a credit or debit card (CVC code required). All charges are billed to the stored card. The currency is automatically taken from the card. On this [wiki page](/sonstige-informationen/stripe) you can learn more about how financial transactions are processed and how secure they are.
     The credit card can also be deleted.
 
-- Vehicle ID ("Fahrzeug ID"):  Enter the Car-ID (currently only works with the [Pico charging station](https://wiki.smart-me.com/produkte/pico-ladestation))
+- Vehicle ID: Enter the Car ID (currently only works with the [Pico charging station](https://wiki.smart-me.com/produkte/pico-ladestation))
 
-- RFID card ("RFID-Karte"): add a company badge, key fob etc. Under [RFID / NFC Tags](/fahrer/rfid-nfc-tags-carid) you will find a step-by-step guide for this.
+- RFID card: Add a company badge, key fob, etc. You will find a step-by-step guide for this under [RFID / NFC Tags](/fahrer/rfid-nfc-tags-carid).
 
 - FAQ: for drivers and station owners
 
-- Contact ("Kontakt") 
+- Contact 
 
-- Account: here you can delete your eCarUp account. All data at eCarUp and at smart-me is permanently deleted.
-    Your email address and password can be changed. 
+- Account: here you can delete your eCarUp account. All data at eCarUp as well as at smart-me will be permanently deleted.
+    Email and password can be changed. 
 
-- News ("Neuigkeiten"):  Find out about our latest news (release notes)
+- News: Find out our news (release notes)
 
-### In the "Charging" ("Laden") tab you can see:
+</div>
+<div className="col col--4 text--center">
 
-- All active charging sessions including the energy drawn and the costs
+![Account tab in the eCarUp app](/img/fahrer-ecarup-app/09.png)
 
-- The history of charging sessions including the energy drawn and the costs
+</div>
+</div>
 
-- Select the charging station to go directly to the station overview. 
+### In the "Charging" (Laden) tab you see:
+
+- All active charging sessions including energy drawn and costs
+
+- The history of charging sessions including energy drawn and costs
+
+- Select the charging station and you will go directly to the station overview. 
 
 ## Charging session iOS
 
-The charging session is active and visible under Charging ("Laden")
+<div className="row">
+<div className="col col--4">
+
+Charging session is active and visible under Charging (Laden)
 
 ![eCarUp App – Figure 10](/img/fahrer-ecarup-app/10.jpg)
 
-Ending the charging session
+</div>
+<div className="col col--4">
+
+End charging session
 
 - tap the 3 dots at the top right
 
 ![eCarUp App – Figure 11](/img/fahrer-ecarup-app/11.jpg)
 
-The charging session is pending
+</div>
+<div className="col col--4">
+
+Charging session is pending
 
 ![eCarUp App – Figure 12](/img/fahrer-ecarup-app/12.jpg)
 
+</div>
+</div>
+
 ⚠️Important:
-The charging session remains open until the station sends us a stop. We therefore wait until the station sends us a response. In exceptional cases, the station may go offline and only send us the stop once it is back online.
+The charging session remains active until the station sends us a stop. We therefore wait until the station gives us a response. In special cases, the station may go offline and only send us the stop once it comes back online.
+
+## Resetting your password (video guide)
+
+<Video src="b1uOJP5jZEc" title="YouTube Video, eCarUp password reset on iOS device" />
+
+<Video src="viemoEVXnak" title="YouTube Video, eCarUp password reset on Android device" />

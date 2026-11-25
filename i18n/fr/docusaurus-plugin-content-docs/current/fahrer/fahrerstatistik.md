@@ -1,70 +1,79 @@
 ---
 title: 'Informations générales'
 slug: '/fahrer/fahrerstatistik'
-description: 'Notifications aux conducteurs'
+description: 'Notifications pour les conducteurs'
 sidebar_label: 'Informations générales'
 ---
-## Notifications aux conducteurs
+## Notifications pour les conducteurs
 
 ### Paiement échoué
 
-Si un paiement avec la carte de crédit ou de débit enregistrée dans eCarUp a échoué, vous recevez une notification. 
+Si un paiement effectué avec la carte de crédit ou de débit enregistrée dans eCarUp a échoué, tu reçois une notification.
 
-Vous trouverez plus d'informations à ce sujet sous le [lien](/fahrer/fehlgeschlagene-zahlung) suivant.
+Tu trouveras plus d'informations à ce sujet sous le [lien](/fahrer/fehlgeschlagene-zahlung) suivant.
 
 ### Paiement annulé
 
-Si un paiement avec la carte de crédit ou de débit enregistrée dans eCarUp échoue et que le règlement du paiement échoue à plusieurs reprises, vous recevez un e-mail. Veuillez nous contacter à l'adresse support@ecarup.com. 
+Si un paiement effectué avec la carte de crédit ou de débit enregistrée dans eCarUp échoue et que le règlement du paiement échoue à plusieurs reprises, vous recevez un e-mail. Veuillez nous contacter à l'adresse support@ecarup.com.
 
 ### Le moyen de paiement arrive à expiration
 
-Le moyen de paiement enregistré (carte de crédit ou de débit) expire dans un mois. Pour garantir un traitement sans accroc des paiements, les informations de paiement doivent être mises à jour à temps dans l'app. 
+Le moyen de paiement enregistré (carte de crédit ou de débit) arrive à expiration dans un mois. Afin de garantir un traitement sans accroc des paiements, les informations de paiement devraient être mises à jour à temps dans l'application.
 
-Vous trouverez plus d'informations à ce sujet sous le [lien](/fahrer/ecarup-app) suivant. 
+Tu trouveras plus d'informations à ce sujet sous le [lien](/fahrer/ecarup-app) suivant.
+
+<div className="row">
+<div className="col col--7">
 
 ## Statistiques du conducteur
 
 ### Aperçu mensuel
 
-L'aperçu mensuel est envoyé automatiquement au début du mois suivant à l'adresse e-mail du conducteur. 
+L'aperçu mensuel est envoyé automatiquement par e-mail au conducteur au début du mois suivant.
 
 ⚠️ Important :
 
-1.  Au moins 1 recharge payante doit avoir eu lieu. 
+1.  Au moins une recharge payante doit avoir eu lieu.
 
-2.  Nous n'avons aucune influence sur les tarifs ni sur les informations relatives aux exploitants de stations.
+2.  Nous n'avons aucune influence sur les tarifs ni sur les informations relatives aux exploitants de bornes.
 
-3.  Actuellement, cette version n'est disponible qu'en anglais.
+3.  Actuellement, la version n'est disponible qu'en anglais.
 
 4.  L'aperçu n'est pas une facture.
 
 
-Exemple : [Aperçu-mensuel](https://drive.google.com/file/d/1gMxvbHk9BbkVp-ZQk0vNfTmcxZRlwYA1/view?usp=drive_link) 
+Exemple : [Aperçu-mensuel](https://drive.google.com/file/d/1gMxvbHk9BbkVp-ZQk0vNfTmcxZRlwYA1/view?usp=drive_link)
 
-![Informations générales – Illustration 1](/img/fahrer-fahrerstatistik/01.png)
+</div>
+<div className="col col--5 text--center">
 
-![Informations générales – Illustration 2](/img/fahrer-fahrerstatistik/02.png)
+![Aperçu mensuel – page 1](/img/fahrer-fahrerstatistik/01.png)
+
+![Aperçu mensuel – page 2](/img/fahrer-fahrerstatistik/02.png)
+
+</div>
+</div>
 
 ## Portail web
 
-Connectez-vous à notre [portail web](https://admin.ecarup.com/authentication/login) avec votre compte eCarUp.
+Connecte-toi avec ton compte eCarUp à notre [portail web](https://admin.ecarup.com/authentication/login).
 
-1.  Toutes les opérations de paiement sont listées, y compris le statut du paiement
+1.  Tous les paiements sont listés, y compris leur statut de paiement.
 
-2.  Sous le point de menu "History", vous pouvez créer vos statistiques de conducteur.
+2.  Sous l'option de menu « History », tu peux créer tes statistiques de conducteur.
 
 3.  Les cartes RFID peuvent également être ajoutées via le portail web.
 
 
-![Informations générales – Illustration 3](/img/fahrer-fahrerstatistik/03.png)
+![Informations générales – illustration 3](/img/fahrer-fahrerstatistik/03.png)
 
-Les conducteurs peuvent créer leurs "statistiques de conducteur" ("Fahrerstatistiken") comme suit :
+Les conducteurs peuvent créer leurs « statistiques de conducteur » comme suit :
 
-1.  Sous l'onglet "Conducteur" ("Fahrer"), cliquez sur Historique / History (Verlauf / History). 
+1.  Sous l'onglet « Fahrer », clique sur Verlauf / History.
 
-2.  Sélectionnez la date de début et la date de fin, puis cliquez sur la flèche aléatoire pour actualiser la liste.
+2.  Sélectionne la date de début et la date de fin, puis clique sur la flèche aléatoire pour actualiser la liste.
 
 3.  En option, un export vers un fichier Excel peut également être créé.
 
 
-Vous trouverez plus d'informations sur le droit de la métrologie légale et sur la vérification des sessions de recharge sur la [page Wiki](/sonstige-informationen/eichrecht-in-deutschland) suivante.
+Vous trouverez de plus amples informations sur le thème de la loi sur les poids et mesures (Eichrecht) et sur la vérification des sessions de recharge sous la [page wiki](/sonstige-informationen/eichrecht-in-deutschland) suivante.
