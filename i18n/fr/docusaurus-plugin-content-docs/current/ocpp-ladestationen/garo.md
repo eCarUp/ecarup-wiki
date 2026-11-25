@@ -1,44 +1,42 @@
 ---
 title: 'Garo'
 slug: '/ocpp-ladestationen/garo'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration backend'
 sidebar_label: 'Garo'
 ---
-![Garo – Illustration 1](/img/ocpp-ladestationen-garo/01.jpg)
+<Kacheln min="11rem">
 
-[Wallbox GLB+](https://www.garo.se/en/products/wallbox)
+<Kachel bild="/img/ocpp-ladestationen-garo/01.jpg" bildtext="Garo Wallbox GLB+" titel="Wallbox GLB+" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-![Garo – Illustration 2](/img/ocpp-ladestationen-garo/02.png)
+<Kachel bild="/img/ocpp-ladestationen-garo/02.png" bildtext="Garo Entity Pro" titel="Entity Pro" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-[Entity Pro](https://www.garo.se/en/products/wallbox)
+<Kachel bild="/img/ocpp-ladestationen-garo/03.jpg" bildtext="Garo LS4 Compact" titel="LS4 Compact" href="https://www.garo.se/en/products/wallbox" bildhoehe="10rem" mittig />
 
-![Garo – Illustration 3](/img/ocpp-ladestationen-garo/03.jpg)
+</Kacheln>
 
-[LS4 Compact](https://www.garo.se/en/products/wallbox)
+## Guide d'intégration backend
 
-## Guide d'intégration au backend
+Les bornes de recharge Garo peuvent être intégrées au système de décompte eCarUp en quelques étapes. Une fois installées dans ton compte, tu peux définir toi-même, très simplement, les conditions d'utilisation de tes bornes (prix, utilisateurs, plages horaires disponibles, etc.). Tu décides qui peut recharger, quand et à quel prix. 
 
-Les bornes de recharge Garo peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même et en toute simplicité les conditions d'utilisation de vos bornes (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+- Condition préalable : l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Configuration dans le [portail web pour les exploitants de bornes](/stationsbetreiber/webportal)
+- Découvre ici plus de détails sur nos [fonctions premium](/funktionen)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+### Intégration de bornes OCPP
 
-### Intégration des bornes OCPP
+1.  Assure-toi que tes bornes de recharge sont installées et que ton PC ou ton téléphone portable est connecté au même réseau que la borne de recharge.
 
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+2.  Ouvre le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connecte-toi avec les données de ton compte.
 
-2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
+3.  Dans le menu à gauche, clique sur l'onglet « Stationen » (Stations).
 
-3.  Dans le menu à gauche, cliquez sur l'onglet « Stations » ("Stationen").
+4.  Sélectionne l'onglet « OCPP ».
 
-4.  Sélectionnez l'onglet « OCPP » ("OCPP").
+5.  Copie l'URL dans le presse-papiers.
 
-5.  Copiez l'URL dans le presse-papiers.
-
-6.  Rendez-vous dans l'interface web de la borne souhaitée et collez-y l'URL copiée.
+6.  Va sur l'interface web de la borne souhaitée et colle l'URL copiée.
 
 ## Intégration des bornes de recharge Garo
 
@@ -46,7 +44,7 @@ Les bornes de recharge Garo peuvent être intégrées en quelques étapes dans l
 
 ## Intégration de la Garo Entity Pro
 
-Installez ici pour l'application Garo Connect.  
+Installe ici l'application Garo Connect.  
 
 ### Version testée
 
@@ -56,16 +54,16 @@ Installez ici pour l'application Garo Connect.
 
 ### Étape 1
 
-Suivez pas à pas le guide fourni et scannez le code QR figurant sur la plaque arrière. 
+Suis le guide fourni étape par étape et scanne le code QR sur la plaque arrière. 
 
-⚠️ Important : votre téléphone et la borne de recharge doivent se trouver sur le même réseau. (LAN ou WLAN)
+⚠️ Important : ton téléphone et la borne de recharge doivent se trouver dans le même réseau (LAN ou WLAN).
 
 ### Étape 2
 
 <div className="row">
 <div className="col col--6">
 
-Dans les paramètres généraux, veuillez vous assurer qu'aucun planning de recharge de la voiture ni l'utilisation gratuite ne sont activés.
+Dans les paramètres généraux, assure-toi qu'aucun plan de recharge du véhicule et aucune utilisation gratuite ne sont activés.
 
 </div>
 <div className="col col--6 text--center">
@@ -80,7 +78,7 @@ Dans les paramètres généraux, veuillez vous assurer qu'aucun planning de rech
 <div className="row">
 <div className="col col--6">
 
-Dans l'aperçu de l'installation, veuillez sélectionner le champ « Fournisseur tiers » ("Drittanbieter").
+Dans l'aperçu de l'installation, sélectionne le champ « Drittanbieter » (Fournisseur tiers).
 
 </div>
 <div className="col col--6 text--center">
@@ -112,7 +110,7 @@ Notre recommandation : sélectionner StopTransactionPnEVSideDisconnecet + Unlock
 
 Pour la connexion OCPP, le DeviceId peut être choisi librement.
 
-Dans le champ CsmsUrl, vous pouvez ajouter votre URL issue de votre compte eCarUp.
+Dans le champ CsmsUrl, tu peux ajouter ton URL issue de ton compte eCarUp.
 
 </div>
 <div className="col col--6 text--center">
@@ -127,9 +125,9 @@ Dans le champ CsmsUrl, vous pouvez ajouter votre URL issue de votre compte eCarU
 <div className="row">
 <div className="col col--6">
 
-L'URL peut être copiée telle quelle.
+L'URL peut être copiée telle quelle, sans modification.
 
-N'oubliez pas d'enregistrer et de redémarrer !
+N'oublie pas d'enregistrer et de redémarrer !
 
 </div>
 <div className="col col--6 text--center">
@@ -144,7 +142,7 @@ N'oubliez pas d'enregistrer et de redémarrer !
 <div className="row">
 <div className="col col--6">
 
-Sur la borne de recharge, l'utilisateur peut encore définir ce qu'elle doit faire en cas d'état « Non connecté » ("Nicht verbunden"). Nous recommandons de ne rien activer.
+Sur la borne de recharge, l'utilisateur peut encore définir ce qu'elle doit faire dans l'état « Nicht verbunden » (Non connecté). Nous recommandons de ne rien activer.
 
 </div>
 <div className="col col--6 text--center">
@@ -156,15 +154,15 @@ Sur la borne de recharge, l'utilisateur peut encore définir ce qu'elle doit fai
 
 ## Intégration de la Garo GLB+ et de la LS4 Compact
 
-### 1\. Connecter l'ordinateur portable au contrôleur Bender via un câble USB :
+### 1\. Connecter le notebook au contrôleur Bender par câble USB :
 
 ⚠️ Important : utiliser l'interface Micro-USB
 
 ![Garo – Illustration 11](/img/ocpp-ladestationen-garo/11.png)
 
-### 2\. Ouvrir le navigateur sur l'ordinateur portable
+### 2\. Ouvrir le navigateur sur le notebook
 
-Saisissez l'URL suivante : http://192.168.123.123/operator/
+Saisis l'URL suivante : http://192.168.123.123/operator/
 
 - Nom d'utilisateur par défaut : operator
 
@@ -177,9 +175,9 @@ Saisissez l'URL suivante : http://192.168.123.123/operator/
 
 La version 4.00-2139 au minimum doit être installée.
 
-Sous State →  Firmware Version, vous trouverez la version actuelle.
+Sous State →  Firmware Version, tu trouves la version la plus récente.
 
-Effectuer une mise à jour du firmware :
+Effectuer la mise à jour du firmware :
 
 a) Copier le fichier du firmware sur une clé USB. Insérer la clé USB.
 
@@ -201,13 +199,13 @@ WebSocket JSON OCPP URL: ws://www.ecarup.com/api/Ocpp16/&#123;ecarupID&#125;/
 
 Exemple : ws://www.ecarup.com/api/Ocpp16/D8D2AFE54EF4D508/
 
-Important : un « / » doit être ajouté après l'URL OCPP eCarUp (comme dans l'exemple). De plus, le champ « ChargePoint ID (OCPP) » ne doit contenir aucun caractère spécial.
+Important : après l'URL OCPP d'eCarUp, il faut ajouter un « / » (comme indiqué dans l'exemple). De plus, aucun caractère spécial ne doit figurer dans le champ « ChargePoint ID (OCPP) ».
 
 ![Garo – Illustration 13](/img/ocpp-ladestationen-garo/13.png)
 
 ### Nouvelle interface Bender
 
-Si vous disposez de l'interface web ci-dessous, vous trouverez le guide dans l'article suivant 
+Si tu as l'interface web suivante, tu trouveras le guide dans l'article suivant 
 
 - [Guide](/ocpp-ladestationen/webasto)
 
@@ -215,9 +213,9 @@ Si vous disposez de l'interface web ci-dessous, vous trouverez le guide dans l'a
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de transmission des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle d'envoi des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. C'est la seule manière de calculer et d'afficher plus précisément dans l'application la puissance de recharge actuelle. 
 
-Vous pouvez le modifier comme suit :
+Tu peux la modifier comme suit :
 
 1.  Get Configuration (pour lire ce qui est programmé)
 

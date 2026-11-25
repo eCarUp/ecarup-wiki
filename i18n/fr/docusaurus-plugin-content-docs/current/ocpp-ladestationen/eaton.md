@@ -8,7 +8,7 @@ sidebar_label: 'Eaton OCPP'
 
 ## Anciennes bornes de recharge Green Motion (Box Proxy)
 
-Le Box Proxy est désormais disponible pour l'intégration des anciennes bornes Green Motion. Cela signifie que les bornes de recharge peuvent déjà être connectées à la plateforme eCarUp et testées à l'aide du guide ci-dessous. Des extensions et/ou des améliorations peuvent toutefois encore être apportées.
+Le Box Proxy est dès à présent disponible pour l'intégration des anciennes bornes Green Motion. Cela signifie que les bornes de recharge peuvent déjà être connectées à la plateforme eCarUp et testées à l'aide du guide ci-dessous. Des extensions et/ou des améliorations peuvent toutefois encore avoir lieu.
 
 Les modèles de bornes de recharge suivants sont actuellement pris en charge :
 
@@ -24,41 +24,39 @@ Les modèles de bornes de recharge suivants sont actuellement pris en charge :
 
 ## Bornes de recharge OCPP
 
-![Eaton OCPP – Illustration 1](/img/ocpp-ladestationen-eaton/01.jpg)
+<Kacheln min="11rem">
 
-[Green Motion Duo](https://www.eaton.com/ch/de-de.html)
+<Kachel bild="/img/ocpp-ladestationen-eaton/01.jpg" bildtext="Eaton Green Motion Duo" titel="Green Motion Duo" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-![Eaton OCPP – Illustration 2](/img/ocpp-ladestationen-eaton/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-eaton/02.jpg" bildtext="Eaton Green Motion DC 22&66" titel="Green Motion DC 22&66" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-[Green Motion DC 22&66](https://www.eaton.com/ch/de-de.html)
+<Kachel bild="/img/ocpp-ladestationen-eaton/03.jpg" bildtext="Eaton Green Motion Building" titel="Green Motion Building" href="https://www.eaton.com/ch/de-de.html" bildhoehe="10rem" mittig />
 
-![Eaton OCPP – Illustration 3](/img/ocpp-ladestationen-eaton/03.jpg)
+</Kacheln>
 
-[Green Motion Building](https://www.eaton.com/ch/de-de.html)
+## Guide d'intégration backend
 
-## Guide d'intégration au backend
+Les bornes Eaton peuvent être intégrées au système de décompte eCarUp en quelques étapes. Une fois installées dans ton compte, tu peux définir toi-même très simplement les conditions d'utilisation de tes bornes (tarifs, utilisateurs, plages horaires disponibles, etc.). Tu décides qui peut recharger, quand et à quel tarif. 
 
-Les bornes Eaton peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même et en toute simplicité les conditions d'utilisation de vos bornes (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
-
-- Prérequis pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Condition préalable pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+- Découvre ici-même davantage d'informations sur nos [fonctions premium](/funktionen)
 
 ### Intégration de bornes OCPP
 
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assure-toi que tes bornes de recharge sont installées et que ton PC ou ton téléphone portable est connecté au même réseau que la borne de recharge.
 
-2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
+2.  Ouvre le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connecte-toi avec les données de ton compte.
 
-3.  Dans le menu à gauche, cliquez sur l'onglet "Bornes" (Stationen).
+3.  Dans le menu à gauche, clique sur l'onglet « Stationen » (Stations).
 
-4.  Sélectionnez l'onglet "OCPP".
+4.  Sélectionne l'onglet « OCPP ».
 
-5.  Copiez l'URL dans le presse-papiers.
+5.  Copie l'URL dans le presse-papiers.
 
-6.  Accédez à l'interface web de la borne souhaitée et collez-y l'URL copiée.
+6.  Va sur l'interface web de la borne souhaitée et colle l'URL copiée.
 
 ## Intégration des bornes de recharge Eaton
 
@@ -68,15 +66,15 @@ Version de firmware testée : 2003
 
 ### Intégration de la borne de recharge
 
-Info : la page de configuration est active pendant 30 minutes, après quoi la borne doit être redémarrée. 
+Info : la page de configuration reste active pendant 30 minutes, après quoi la borne doit être redémarrée. 
 
-- Allumez la borne à l'aide du disjoncteur
+- Enclenche la borne à l'aide du disjoncteur de protection
 
-- Connectez votre PC via Ethernet à l'un des trois ports LAN du routeur Teltronika situé dans la borne
+- Connecte-toi avec le PC via Ethernet à l'un des trois ports LAN du routeur Teltonika dans la borne
 
-- Dans le navigateur, accédez à l'adresse IP suivante : 192.168.52.11
+- Dans le navigateur, va à l'adresse IP suivante : 192.168.52.11
 
-- Cliquez sur « Ouvrir la page » et saisissez dans le navigateur les données de connexion fournies. (par défaut, il peut s'agir de admin/admin)
+- Clique sur Ouvrir la page et saisis dans le navigateur les données de connexion fournies. (par défaut, cela peut être admin/admin)
 
 ![Eaton OCPP – Illustration 4](/img/ocpp-ladestationen-eaton/04.png)
 
@@ -84,56 +82,56 @@ Info : la page de configuration est active pendant 30 minutes, après quoi la bo
 
 ### Étape 1
 
-- Vérifiez la version du logiciel, Bienne 2003 est le firmware testé. 
+- Vérifier la version du logiciel, Bienne 2003 est le firmware testé. 
 
 ![Eaton OCPP – Illustration 6](/img/ocpp-ladestationen-eaton/06.png)
 
 ### Étape 2
 
-- Sélectionnez OCPP Server
+- Sélectionner OCPP Server
 
-- Sous Backend, réglez sur Custom
+- Régler Backend sur Custom
 
-- Ajoutez l'URL eCarUp de votre compte
+- Ajouter l'URL eCarUp de ton compte
 
 Exemple : 
 
 wss://[www.ecarup.com/api/Ocpp16/D037091EE3xxxxxx/](http://www.ecarup.com/api/Ocpp16/D037091EE3026BE0/HL68P28001)
 
-- Réglez Security Profile sur None
+- Régler Security Profile sur None
 
-- Enregistrez
+- Enregistrer
 
 ![Eaton OCPP – Illustration 7](/img/ocpp-ladestationen-eaton/07.png)
 
 ### Étape 3
 
-- Redémarrez la borne
+- Redémarrer la borne
 
 ## Green Motion Building
 
-- Firmware testé v.1807
+- Version de firmware testée : v.1807
 
 ### Intégration de la borne de recharge
 
 <div className="row">
 <div className="col col--8">
 
-Info : la page de configuration est active pendant 30 minutes, après quoi la borne doit être redémarrée.
+Info : la page de configuration reste active pendant 30 minutes, après quoi la borne doit être redémarrée.
 
-- Allumez la borne
+- Enclenche la borne
 
-- Activez le Wi-Fi sur votre PC ou votre téléphone
+- Active le WiFi sur ton PC ou ton téléphone portable
 
-- La borne crée un point d'accès portant les 4 derniers chiffres du numéro de série. P. ex. GM\_Mxxxxx
+- La borne crée un hotspot portant les 4 derniers chiffres du numéro de série. P. ex. GM\_Mxxxxx
 
-- Le mot de passe figure sur un autocollant fourni avec la documentation du chargeur. Les modèles plus anciens ont un mot de passe par défaut (GreenMotion!1052).
+- Le mot de passe figure sur un autocollant joint à la documentation du chargeur. Les modèles plus anciens ont un mot de passe standard (GreenMotion!1052).
 
-- Connectez votre PC ou votre téléphone au point d'accès et accédez dans le navigateur à l'adresse IP suivante : 192.168.53.1
+- Connecte ton PC ou ton téléphone portable au hotspot et va dans le navigateur à l'adresse IP suivante : 192.168.53.1
 
-- Configurez le réseau et poursuivez avec les étapes ci-dessous.
+- Configure le réseau et poursuis avec les étapes ci-dessous.
 
-- Il est possible qu'un message d'avertissement s'affiche avant que vous accédiez à la page de configuration. Cliquez sur « Continuer ».
+- Il est possible que tu reçoives un message d'avertissement avant d'accéder à la page de configuration. Clique sur Continuer.
 
 </div>
 <div className="col col--4 text--center">
@@ -147,25 +145,25 @@ Info : la page de configuration est active pendant 30 minutes, après quoi la bo
 
 ### Étape 1
 
-- Sélectionnez OCPP Server
+- Sélectionner OCPP Server
 
-- Sous Backend, réglez sur Custom
+- Régler Backend sur Custom
 
-- Ajoutez l'URL eCarUp de votre compte
+- Ajouter l'URL eCarUp de ton compte
 
 Exemple : 
 
 wss://[www.ecarup.com/api/Ocpp16/D037091EE3026BE0/](http://www.ecarup.com/api/Ocpp16/D037091EE3026BE0/HL68P28001)
 
-- Réglez Security Profile sur None
+- Régler Security Profile sur None
 
-- Enregistrez
+- Enregistrer
 
 ![Eaton OCPP – Illustration 10](/img/ocpp-ladestationen-eaton/10.png)
 
 ### Étape 2
 
-- Redémarrez la borne
+- Redémarrer la borne
 
 ## Vérifier l'autorisation
 
@@ -173,9 +171,9 @@ wss://[www.ecarup.com/api/Ocpp16/D037091EE3026BE0/](http://www.ecarup.com/api/Oc
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de téléversement des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle de téléversement des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. Ce n'est qu'ainsi que nous pouvons mieux calculer et afficher la puissance de charge actuelle dans l'app. 
 
-Vous pouvez le modifier comme suit :
+Tu peux le modifier comme suit :
 
 1.  Get Configuration (pour lire ce qui est programmé)
 
@@ -185,8 +183,8 @@ Vous pouvez le modifier comme suit :
 
 ![Eaton OCPP – Illustration 13](/img/ocpp-ladestationen-eaton/13.png)
 
-### Télécharger les logs
+### Download Logs
 
-Si la borne n'apparaît pas dans notre système et que le support Eaton ne trouve pas non plus de solution au problème, nous vous prions de nous transmettre les fichiers journaux pour vérification.
+Si la borne n'apparaît pas dans notre système et que le support Eaton ne trouve pas non plus de solution au problème, nous vous prions de nous mettre à disposition les fichiers journaux pour vérification.
 
 Maintenance --> System Log --> Get the Logs

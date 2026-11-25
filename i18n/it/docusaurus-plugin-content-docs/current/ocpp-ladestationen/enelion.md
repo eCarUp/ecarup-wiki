@@ -1,63 +1,63 @@
 ---
 title: 'Enelion'
 slug: '/ocpp-ladestationen/enelion'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione del backend'
 sidebar_label: 'Enelion'
 ---
-![Enelion – Figura 1](/img/ocpp-ladestationen-enelion/01.jpg)
+<Kacheln min="11rem">
 
-[Lumina](https://enelion.com/product/lumina/)
+<Kachel bild="/img/ocpp-ladestationen-enelion/01.jpg" bildtext="Enelion Lumina" titel="Lumina" href="https://enelion.com/product/lumina/" bildhoehe="10rem" mittig />
 
-![Enelion – Figura 2](/img/ocpp-ladestationen-enelion/02.png)
+<Kachel bild="/img/ocpp-ladestationen-enelion/02.png" bildtext="Enelion Vertica" titel="Vertica" href="https://enelion.com/product/vertica/" bildhoehe="10rem" mittig />
 
-[Vertica](https://enelion.com/product/vertica/)
+</Kacheln>
 
-## Guida all'integrazione nel backend
+## Guida all'integrazione del backend
 
-Le stazioni Enelion possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel Suo account, può definire Lei stesso in modo semplice le condizioni d'uso delle Sue stazioni (prezzi, utenti, orari disponibili ecc.). È Lei a decidere chi può ricaricare, quando e a quale prezzo. 
+Le stazioni Enelion possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo. 
 
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Presupposto per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
-- Scopra qui di più sulle nostre [funzioni Premium](/funktionen)
+- Scopri di più sulle nostre [funzioni Premium](/funktionen)
 
-### Integrazione delle stazioni OCPP
+### Integrazione di stazioni OCPP
 
-1.  Si assicuri che la Sua stazione sia installata e che il Suo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che la tua stazione sia installata e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
-2.  Apra il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettui l'accesso con i dati del Suo account.
+2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua l'accesso con i dati del tuo account.
 
-3.  Nel menu a sinistra, clicchi sulla scheda "Stazioni" ("Stationen").
+3.  Nel menu a sinistra, clicca sulla scheda "Stationen".
 
-4.  Selezioni la scheda "OCPP".
+4.  Seleziona la scheda "OCPP".
 
-5.  Copi l'URL negli appunti.
+5.  Copia l'URL negli appunti.
 
-6.  Vada all'interfaccia web della stazione desiderata e inserisca l'URL copiato.
+6.  Vai all'interfaccia web della stazione desiderata e incolla l'URL copiato.
 
 ## Enelion Lumina
 
 ### Passaggi preliminari per l'integrazione della Lumina
 
-1.  Accenda la Sua Lumina
+1.  Accendi la tua Lumina
 
-2.  Utilizzi uno smartphone e vada alle impostazioni WLAN
+2.  Usa uno smartphone e vai alle impostazioni WLAN
 
-3.  Selezioni l'hotspot della wallbox Lumina\-Wallbox (Enelion-xxxx-xxx)
+3.  Seleziona l'hotspot della wallbox Lumina (Enelion-xxxx-xxx)
 
-4.  Apra il browser sullo smartphone e inserisca il seguente indirizzo IP: 192.168.8.8
+4.  Apri il browser sullo smartphone e inserisci il seguente indirizzo IP: 192.168.8.8
 
-5.  Si apre la pagina di configurazione Enelion
+5.  Si apre la pagina di configurazione di Enelion
 
-6.  Inserisca la password richiesta. La password si trova nella lettera di Enelion fornita in dotazione 
+6.  Inserisci la password richiesta. La password si trova nella lettera di Enelion fornita in dotazione 
 
 ### Passaggio 1
 
 <div className="row">
 <div className="col col--6">
 
-- Sotto Network la stazione può essere connessa tramite WLAN o GSM.
+- Sotto Network la stazione può essere collegata tramite WLAN o GSM.
 
 </div>
 <div className="col col--6 text--center">
@@ -95,15 +95,15 @@ Le stazioni Enelion possono essere integrate in pochi passaggi nel sistema di co
 
 2.  Connector ID 1
 
-3.  Freecharge idTAg non deve essere vuoto. Qui è possibile inserire un badge master (whitelist) oppure, se non ha alcuna importanza, procedere come nello screenshot di esempio
+3.  Freecharge idTAg non deve essere vuoto. Qui è possibile registrare un badge master (whitelist) oppure, se non ha alcuna rilevanza, procedere in modo analogo all'esempio dello screenshot
 
-4.  Inserire il Suo URL eCarUp dall'account
+4.  Inserire l'URL eCarUp del proprio account
 
-5.  Anche Charge Point ID non deve essere vuoto e può essere denominato a piacere. (Attenzione: max. 20 caratteri e nessuno spazio)
+5.  Anche Charge Point ID non deve essere vuoto e può essere denominato individualmente. (Attenzione: max. 20 caratteri e nessuno spazio)
 
 \+ Salvare e riavviare
 
-Controllo dello stato di connessione della stazione nella dashboard. 
+Controllare lo stato della connessione della stazione nella dashboard. 
 
 <div className="row">
 <div className="col col--6 text--center">
@@ -122,15 +122,17 @@ Controllo dello stato di connessione della stazione nella dashboard.
 
 - firmwareVersion":"4.4.4
 
-## Impostazione avanzata tramite lo strumento di manutenzione (eCarUp Premium)
+## Impostazioni avanzate tramite il tool di manutenzione (eCarUp Premium)
 
-L'intervallo di upload dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo tra 30-60s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
+L'intervallo di caricamento dei Meter Values può variare da una stazione all'altra. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
 
-Può modificarlo come segue:
+Puoi modificarlo come segue:
 
-1.  Get Configuration (per leggere cosa è programmato)
+1.  Get Configuration (per leggere ciò che è programmato)
 
 2.  Change Configuration (per sovrascrivere il valore)
+
+3.  
 
 ![Enelion – Figura 9](/img/ocpp-ladestationen-enelion/09.png)
 

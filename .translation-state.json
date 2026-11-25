@@ -58,15 +58,15 @@
     },
     "docs/anwendungsfaelle/oeffentlich.md": {
       "en": {
-        "hash": "b2287b29c5b464f2",
+        "hash": "18dd15d79a2fdac0",
         "origin": "translated"
       },
       "fr": {
-        "hash": "b2287b29c5b464f2",
+        "hash": "18dd15d79a2fdac0",
         "origin": "translated"
       },
       "it": {
-        "hash": "b2287b29c5b464f2",
+        "hash": "18dd15d79a2fdac0",
         "origin": "translated"
       }
     },
@@ -86,15 +86,15 @@
     },
     "docs/anwendungsfaelle/privat-kreditkarte.md": {
       "en": {
-        "hash": "69accc2b905a0893",
+        "hash": "6be554ee3033131c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "69accc2b905a0893",
+        "hash": "6be554ee3033131c",
         "origin": "translated"
       },
       "it": {
-        "hash": "69accc2b905a0893",
+        "hash": "6be554ee3033131c",
         "origin": "translated"
       }
     },
@@ -212,15 +212,29 @@
     },
     "docs/drittsysteme/index.md": {
       "en": {
-        "hash": "1ba154f98717db99",
+        "hash": "e780ec4145a6bf9c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "1ba154f98717db99",
+        "hash": "e780ec4145a6bf9c",
         "origin": "translated"
       },
       "it": {
-        "hash": "1ba154f98717db99",
+        "hash": "e780ec4145a6bf9c",
+        "origin": "translated"
+      }
+    },
+    "docs/drittsysteme/kreditkartenterminal.md": {
+      "en": {
+        "hash": "bde47c7870e6e348",
+        "origin": "translated"
+      },
+      "fr": {
+        "hash": "bde47c7870e6e348",
+        "origin": "translated"
+      },
+      "it": {
+        "hash": "bde47c7870e6e348",
         "origin": "translated"
       }
     },
@@ -716,29 +730,29 @@
     },
     "docs/ocpp-ladestationen/abb.md": {
       "en": {
-        "hash": "d555079dfb5e9e7b",
+        "hash": "2ecd0cb2dc36705b",
         "origin": "translated"
       },
       "fr": {
-        "hash": "d555079dfb5e9e7b",
+        "hash": "2ecd0cb2dc36705b",
         "origin": "translated"
       },
       "it": {
-        "hash": "d555079dfb5e9e7b",
+        "hash": "2ecd0cb2dc36705b",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/abl.md": {
       "en": {
-        "hash": "d19c45cccc7e694d",
+        "hash": "405185301cb933c7",
         "origin": "translated"
       },
       "fr": {
-        "hash": "d19c45cccc7e694d",
+        "hash": "405185301cb933c7",
         "origin": "translated"
       },
       "it": {
-        "hash": "d19c45cccc7e694d",
+        "hash": "405185301cb933c7",
         "origin": "translated"
       }
     },
@@ -786,29 +800,29 @@
     },
     "docs/ocpp-ladestationen/bibus.md": {
       "en": {
-        "hash": "5a77611ba4e5da87",
+        "hash": "4f8b128090887d18",
         "origin": "translated"
       },
       "fr": {
-        "hash": "5a77611ba4e5da87",
+        "hash": "4f8b128090887d18",
         "origin": "translated"
       },
       "it": {
-        "hash": "5a77611ba4e5da87",
+        "hash": "4f8b128090887d18",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/charge-amps.md": {
       "en": {
-        "hash": "f82b8fddc4ad9d58",
+        "hash": "47f856bbc48d6d9a",
         "origin": "translated"
       },
       "fr": {
-        "hash": "f82b8fddc4ad9d58",
+        "hash": "47f856bbc48d6d9a",
         "origin": "translated"
       },
       "it": {
-        "hash": "f82b8fddc4ad9d58",
+        "hash": "47f856bbc48d6d9a",
         "origin": "translated"
       }
     },
@@ -828,15 +842,15 @@
     },
     "docs/ocpp-ladestationen/compleo.md": {
       "en": {
-        "hash": "724138361809a64e",
+        "hash": "82df72bf3f7f51ba",
         "origin": "translated"
       },
       "fr": {
-        "hash": "724138361809a64e",
+        "hash": "82df72bf3f7f51ba",
         "origin": "translated"
       },
       "it": {
-        "hash": "724138361809a64e",
+        "hash": "82df72bf3f7f51ba",
         "origin": "translated"
       }
     },
@@ -856,15 +870,15 @@
     },
     "docs/ocpp-ladestationen/daze.md": {
       "en": {
-        "hash": "03b8e394418e36db",
+        "hash": "6fb4245595d5da7e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "03b8e394418e36db",
+        "hash": "6fb4245595d5da7e",
         "origin": "translated"
       },
       "it": {
-        "hash": "03b8e394418e36db",
+        "hash": "6fb4245595d5da7e",
         "origin": "translated"
       }
     },
@@ -884,15 +898,15 @@
     },
     "docs/ocpp-ladestationen/eaton.md": {
       "en": {
-        "hash": "5d7b9e707034632f",
+        "hash": "4f443c9314bc9d28",
         "origin": "translated"
       },
       "fr": {
-        "hash": "5d7b9e707034632f",
+        "hash": "4f443c9314bc9d28",
         "origin": "translated"
       },
       "it": {
-        "hash": "5d7b9e707034632f",
+        "hash": "4f443c9314bc9d28",
         "origin": "translated"
       }
     },
@@ -926,15 +940,15 @@
     },
     "docs/ocpp-ladestationen/enelion.md": {
       "en": {
-        "hash": "88de46d7a7cb617c",
+        "hash": "0ab51ee85f6e38c6",
         "origin": "translated"
       },
       "fr": {
-        "hash": "88de46d7a7cb617c",
+        "hash": "0ab51ee85f6e38c6",
         "origin": "translated"
       },
       "it": {
-        "hash": "88de46d7a7cb617c",
+        "hash": "0ab51ee85f6e38c6",
         "origin": "translated"
       }
     },
@@ -968,15 +982,15 @@
     },
     "docs/ocpp-ladestationen/evtec.md": {
       "en": {
-        "hash": "60bd67527127a8d7",
+        "hash": "8d54954c5bbaa48d",
         "origin": "translated"
       },
       "fr": {
-        "hash": "60bd67527127a8d7",
+        "hash": "8d54954c5bbaa48d",
         "origin": "translated"
       },
       "it": {
-        "hash": "60bd67527127a8d7",
+        "hash": "8d54954c5bbaa48d",
         "origin": "translated"
       }
     },
@@ -996,43 +1010,43 @@
     },
     "docs/ocpp-ladestationen/garo.md": {
       "en": {
-        "hash": "7ddfda4aca7d8c56",
+        "hash": "101b6b64b5104d1a",
         "origin": "translated"
       },
       "fr": {
-        "hash": "7ddfda4aca7d8c56",
+        "hash": "101b6b64b5104d1a",
         "origin": "translated"
       },
       "it": {
-        "hash": "7ddfda4aca7d8c56",
+        "hash": "101b6b64b5104d1a",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/gewiss.md": {
       "en": {
-        "hash": "14399acd11a00476",
+        "hash": "c539d7dc1ebea93e",
         "origin": "translated"
       },
       "fr": {
-        "hash": "14399acd11a00476",
+        "hash": "c539d7dc1ebea93e",
         "origin": "translated"
       },
       "it": {
-        "hash": "14399acd11a00476",
+        "hash": "c539d7dc1ebea93e",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/gl-charge.md": {
       "en": {
-        "hash": "9362c9e4b29bf076",
+        "hash": "0690d5b31b53a088",
         "origin": "translated"
       },
       "fr": {
-        "hash": "9362c9e4b29bf076",
+        "hash": "0690d5b31b53a088",
         "origin": "translated"
       },
       "it": {
-        "hash": "9362c9e4b29bf076",
+        "hash": "0690d5b31b53a088",
         "origin": "translated"
       }
     },
@@ -1052,29 +1066,29 @@
     },
     "docs/ocpp-ladestationen/gresgying.md": {
       "en": {
-        "hash": "029b1fdb58bba88e",
+        "hash": "e79ad9516041ad4a",
         "origin": "translated"
       },
       "fr": {
-        "hash": "029b1fdb58bba88e",
+        "hash": "e79ad9516041ad4a",
         "origin": "translated"
       },
       "it": {
-        "hash": "029b1fdb58bba88e",
+        "hash": "e79ad9516041ad4a",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/hager.md": {
       "en": {
-        "hash": "5202ca56b3f13c1e",
+        "hash": "a07403c481c2cc0c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "5202ca56b3f13c1e",
+        "hash": "a07403c481c2cc0c",
         "origin": "translated"
       },
       "it": {
-        "hash": "5202ca56b3f13c1e",
+        "hash": "a07403c481c2cc0c",
         "origin": "translated"
       }
     },
@@ -1094,15 +1108,15 @@
     },
     "docs/ocpp-ladestationen/hesotec.md": {
       "en": {
-        "hash": "bb8bea6fded027d6",
+        "hash": "1888260c02aa0460",
         "origin": "translated"
       },
       "fr": {
-        "hash": "bb8bea6fded027d6",
+        "hash": "1888260c02aa0460",
         "origin": "translated"
       },
       "it": {
-        "hash": "bb8bea6fded027d6",
+        "hash": "1888260c02aa0460",
         "origin": "translated"
       }
     },
@@ -1136,57 +1150,57 @@
     },
     "docs/ocpp-ladestationen/juice-technology.md": {
       "en": {
-        "hash": "1204fef9776614b8",
+        "hash": "9155b42eaa297235",
         "origin": "translated"
       },
       "fr": {
-        "hash": "1204fef9776614b8",
+        "hash": "9155b42eaa297235",
         "origin": "translated"
       },
       "it": {
-        "hash": "1204fef9776614b8",
+        "hash": "9155b42eaa297235",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/keba.md": {
       "en": {
-        "hash": "ce59227aec6a62f3",
+        "hash": "b3b490bb486e315f",
         "origin": "translated"
       },
       "fr": {
-        "hash": "ce59227aec6a62f3",
+        "hash": "b3b490bb486e315f",
         "origin": "translated"
       },
       "it": {
-        "hash": "ce59227aec6a62f3",
+        "hash": "b3b490bb486e315f",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/kempower.md": {
       "en": {
-        "hash": "aee15680fbcd5a79",
+        "hash": "40f1825d1790de6c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "aee15680fbcd5a79",
+        "hash": "40f1825d1790de6c",
         "origin": "translated"
       },
       "it": {
-        "hash": "aee15680fbcd5a79",
+        "hash": "40f1825d1790de6c",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/kostad.md": {
       "en": {
-        "hash": "05868b28518c050c",
+        "hash": "42cd72ab9d217cf5",
         "origin": "translated"
       },
       "fr": {
-        "hash": "05868b28518c050c",
+        "hash": "42cd72ab9d217cf5",
         "origin": "translated"
       },
       "it": {
-        "hash": "05868b28518c050c",
+        "hash": "42cd72ab9d217cf5",
         "origin": "translated"
       }
     },
@@ -1220,15 +1234,15 @@
     },
     "docs/ocpp-ladestationen/mennekes.md": {
       "en": {
-        "hash": "c704e0d1254a65e9",
+        "hash": "5d721e237ba80ec2",
         "origin": "translated"
       },
       "fr": {
-        "hash": "c704e0d1254a65e9",
+        "hash": "5d721e237ba80ec2",
         "origin": "translated"
       },
       "it": {
-        "hash": "c704e0d1254a65e9",
+        "hash": "5d721e237ba80ec2",
         "origin": "translated"
       }
     },
@@ -1262,57 +1276,57 @@
     },
     "docs/ocpp-ladestationen/nexblue.md": {
       "en": {
-        "hash": "4ad3aaa24172fc8e",
+        "hash": "faf6699e023b7d7a",
         "origin": "translated"
       },
       "fr": {
-        "hash": "4ad3aaa24172fc8e",
+        "hash": "faf6699e023b7d7a",
         "origin": "translated"
       },
       "it": {
-        "hash": "4ad3aaa24172fc8e",
+        "hash": "faf6699e023b7d7a",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/partino.md": {
       "en": {
-        "hash": "bfefd5e3156bb628",
+        "hash": "420012efb4f343cc",
         "origin": "translated"
       },
       "fr": {
-        "hash": "bfefd5e3156bb628",
+        "hash": "420012efb4f343cc",
         "origin": "translated"
       },
       "it": {
-        "hash": "bfefd5e3156bb628",
+        "hash": "420012efb4f343cc",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/powerjames.md": {
       "en": {
-        "hash": "3e8d011b6f2dde8b",
+        "hash": "ef425bcdd1353f20",
         "origin": "translated"
       },
       "fr": {
-        "hash": "3e8d011b6f2dde8b",
+        "hash": "ef425bcdd1353f20",
         "origin": "translated"
       },
       "it": {
-        "hash": "3e8d011b6f2dde8b",
+        "hash": "ef425bcdd1353f20",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/ratio-electric.md": {
       "en": {
-        "hash": "a4d5db38025428b8",
+        "hash": "fe2b6c5ed9604659",
         "origin": "translated"
       },
       "fr": {
-        "hash": "a4d5db38025428b8",
+        "hash": "fe2b6c5ed9604659",
         "origin": "translated"
       },
       "it": {
-        "hash": "a4d5db38025428b8",
+        "hash": "fe2b6c5ed9604659",
         "origin": "translated"
       }
     },
@@ -1332,15 +1346,15 @@
     },
     "docs/ocpp-ladestationen/schneider-electric.md": {
       "en": {
-        "hash": "52ee78edfa15996e",
+        "hash": "868a07ecbe5be280",
         "origin": "translated"
       },
       "fr": {
-        "hash": "52ee78edfa15996e",
+        "hash": "868a07ecbe5be280",
         "origin": "translated"
       },
       "it": {
-        "hash": "52ee78edfa15996e",
+        "hash": "868a07ecbe5be280",
         "origin": "translated"
       }
     },
@@ -1360,15 +1374,15 @@
     },
     "docs/ocpp-ladestationen/siemens.md": {
       "en": {
-        "hash": "f22bbd0f177c471d",
+        "hash": "4f60c5d106ca5a5c",
         "origin": "translated"
       },
       "fr": {
-        "hash": "f22bbd0f177c471d",
+        "hash": "4f60c5d106ca5a5c",
         "origin": "translated"
       },
       "it": {
-        "hash": "f22bbd0f177c471d",
+        "hash": "4f60c5d106ca5a5c",
         "origin": "translated"
       }
     },
@@ -1458,29 +1472,29 @@
     },
     "docs/ocpp-ladestationen/weidmueller.md": {
       "en": {
-        "hash": "4f88955e79da2670",
+        "hash": "500e4f474759ceba",
         "origin": "translated"
       },
       "fr": {
-        "hash": "4f88955e79da2670",
+        "hash": "500e4f474759ceba",
         "origin": "translated"
       },
       "it": {
-        "hash": "4f88955e79da2670",
+        "hash": "500e4f474759ceba",
         "origin": "translated"
       }
     },
     "docs/ocpp-ladestationen/zaptec.md": {
       "en": {
-        "hash": "dc9e4044aea3489d",
+        "hash": "7c0183dff0e929cf",
         "origin": "translated"
       },
       "fr": {
-        "hash": "dc9e4044aea3489d",
+        "hash": "7c0183dff0e929cf",
         "origin": "translated"
       },
       "it": {
-        "hash": "dc9e4044aea3489d",
+        "hash": "7c0183dff0e929cf",
         "origin": "translated"
       }
     },

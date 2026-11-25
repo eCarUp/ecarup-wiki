@@ -1,58 +1,54 @@
 ---
 title: 'Mennekes'
 slug: '/ocpp-ladestationen/mennekes'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration du backend'
 sidebar_label: 'Mennekes'
 ---
-![Mennekes – Illustration 1](/img/ocpp-ladestationen-mennekes/01.jpg)
+<Kacheln min="11rem">
 
-[Professional](https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/01.jpg" bildtext="Mennekes Professional" titel="Professional" href="https://www.mennekes.ch/emobility/produkte/" bildhoehe="10rem" mittig />
 
-![Mennekes – Illustration 2](/img/ocpp-ladestationen-mennekes/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/02.jpg" bildtext="Mennekes Wallbox Premium" titel="Wallbox Premium" href="https://www.mennekes.ch/emobility/produkte/" bildhoehe="10rem" mittig />
 
-[Wallbox Premium](https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/03.jpg" bildtext="Mennekes Amtron Professional" titel="Amtron Professional" href="https://www.mennekes.ch/emobility/produkte/" bildhoehe="10rem" mittig />
 
-![Mennekes – Illustration 3](/img/ocpp-ladestationen-mennekes/03.jpg)
+<Kachel bild="/img/ocpp-ladestationen-mennekes/04.png" bildtext="Mennekes Amtron 4Business/4You" titel="Amtron 4Business/4You" href="https://www.mennekes.ch/emobility/produkte/" bildhoehe="10rem" mittig />
 
-[Amtron Professional](https://www.mennekes.ch/emobility/produkte/portfolio/ladesaeulen/)
+</Kacheln>
 
-![Mennekes – Illustration 4](/img/ocpp-ladestationen-mennekes/04.png)
+## Guide d'intégration du backend
 
-[Amtron 4Business/4You](https://www.mennekes.ch/emobility/produkt-details/1347012405BK/#)
+Les bornes de recharge Mennekes peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même, sans complication, les conditions d'utilisation de vos bornes (prix, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix.
 
-## Guide d'intégration au backend
+- Condition préalable à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-Les stations Mennekes peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même et en toute simplicité les conditions d'utilisation de vos stations (prix, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Découvrez-en plus sur nos [fonctions Premium](/funktionen)
 
-- Configuration dans le [portail web pour exploitants de stations](/stationsbetreiber/webportal)
+### Intégration de bornes OCPP
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
-
-### Intégration de stations OCPP
-
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone portable est connecté au même réseau que la borne de recharge.
 
 2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
 
-3.  Dans le menu de gauche, cliquez sur l'onglet « Stations » ("Stationen").
+3.  Dans le menu à gauche, cliquez sur l'onglet « Bornes » (« Stationen »).
 
-4.  Sélectionnez l'onglet « OCPP » ("OCPP").
+4.  Sélectionnez l'onglet « OCPP ».
 
 5.  Copiez l'URL dans le presse-papiers.
 
-6.  Accédez à l'interface web de la station souhaitée et collez-y l'URL copiée.
+6.  Accédez à l'interface web de la borne souhaitée et collez-y l'URL copiée.
 
 ## Amtron 4Business/4You
 
-- Version de firmware testée : 1.2.15
+- version de firmware testée : 1.2.15
 
-Intégrez la station dans un réseau sur lequel vous pouvez y accéder via son adresse IP.  
+Intégrez la borne dans un réseau auquel vous pouvez accéder via l'adresse IP.  
 
 <Embed src="https://demo.arcade.software/pn64vzJQpOAvqVOZLRlT?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true" aspect="1.570" title="Wiki - Mennekes" />
 
-1.  Activer le mode expert
+1.  Activez le mode expert (« Expertenmodus »)
 
 2.  Dans les paramètres, cliquez sur Backend.
 
@@ -64,11 +60,11 @@ Exemple d'URL :
 
 ![Mennekes – Illustration 6](/img/ocpp-ladestationen-mennekes/06.png)
 
-## Intégration de la colonne de recharge Amedio Professional et de la Wallbox Amtron Professional
+## Intégration de la borne Amedio Professional et de la wallbox Amtron Professional
 
-### 1\. Connecter l'ordinateur portable au contrôleur Bender via un câble USB :
+### 1\. Relier l'ordinateur portable au contrôleur Bender par câble USB :
 
-⚠️ Important : utilisez le port micro-USB
+⚠️ Important : utilisez l'interface Micro-USB
 
 ![Mennekes – Illustration 7](/img/ocpp-ladestationen-mennekes/07.png)
 
@@ -87,13 +83,13 @@ Saisissez l'URL suivante : http://192.168.123.123/operator/
 
 La version 4.00-2139 au minimum doit être installée.
 
-La version actuelle se trouve sous State -> Firmware Version.
+Sous State -> Firmware Version, vous trouverez la version la plus récente.
 
 Effectuer une mise à jour du firmware :
 
-a) Copier le fichier du firmware sur une clé USB. Insérer la clé USB.
+a) Copiez le fichier du firmware sur une clé USB. Insérez la clé USB.
 
-b) Redémarrer le contrôleur Bender
+b) Redémarrez le contrôleur Bender
 
 </div>
 <div className="col col--4 text--center">
@@ -105,23 +101,23 @@ b) Redémarrer le contrôleur Bender
 
 ### 4\. Configurer le Bender
 
-OCPP Mode: OCPP-J 1.6
+OCPP Mode : OCPP-J 1.6
 
-WebSocket JSON OCPP URL: ws://www.ecarup.com/api/Ocpp16/&#123;ecarupID&#125;/
+WebSocket JSON OCPP URL : ws://www.ecarup.com/api/Ocpp16/&#123;ecarupID&#125;/
 
 Exemple : ws://www.ecarup.com/api/Ocpp16/D8D2AFE54EF4D508/
 
-⚠️ Important : un « / » doit être ajouté après l'URL OCPP eCarUp (comme dans l'exemple). De plus, le champ « ChargePoint ID (OCPP) » ne doit contenir aucun caractère spécial.
+⚠️ Important : une « / » doit être ajoutée après l'URL OCPP d'eCarUp (comme dans l'exemple). De plus, aucun caractère spécial ne doit figurer dans le « ChargePoint ID (OCPP) ».
 
 ![Mennekes – Illustration 9](/img/ocpp-ladestationen-mennekes/09.png)
 
 ## Intégration de l'ACU V3 et V4
 
-### Intégration du contrôleur ACU
+### Intégration des contrôleurs ACU
 
-Se connecter à la station via Ethernet
+Se connecter à la borne par Ethernet
 
-1.  L'ordinateur portable doit avoir l'adresse IP 192.168.0.21 et le masque de sous-réseau 255.255.255.0.
+1.  L'ordinateur portable doit avoir l'IP suivante : 192.168.0.21 et le masque de sous-réseau : 255.255.255.0.
 
 2.  Ouvrez le navigateur de votre ordinateur portable et saisissez l'URL suivante dans la barre d'adresse : 192.168.0.10
 
@@ -129,25 +125,25 @@ Se connecter à la station via Ethernet
 
 ![Mennekes – Illustration 10](/img/ocpp-ladestationen-mennekes/10.png)
 
-### Mises à jour logicielles et guide Mennekes :
+### Mises à jour du logiciel et guide Mennekes :
 
-Le logiciel ainsi que le guide sont disponibles sur la page [Mises à jour logicielles de Mennekes](https://www.chargeupyourday.de/services/software-updates/).
+Le logiciel et son guide sont disponibles sur la page [Mises à jour du logiciel de Mennekes](https://www.chargeupyourday.de/services/software-updates/).
 
 ## Interface web de Mennekes
 
 1.  Vérification du firmware actuel
 
-2.  S'il n'est pas à jour, veuillez mettre à jour l'ACU. Vous trouverez la version logicielle actuelle ainsi que le guide sur la [page des mises à jour logicielles de Mennekes](https://www.chargeupyourday.de/services/software-updates/).
+2.  Si le firmware n'est pas à jour, veuillez mettre à jour l'ACU. La version actuelle du logiciel, avec son guide, se trouve sur la [page de mises à jour du logiciel de Mennekes](https://www.chargeupyourday.de/services/software-updates/).
 
-3.  Sélectionner le protocole de transmission v1.6J
+3.  Sélectionnez le protocole de transmission v1.6J
 
-4.  Insérer l'URL OCPP de votre compte et OCPP 1.6 
+4.  Collez l'URL OCPP de votre compte et OCPP 1.6 
 
-ws://www.ecarup.com/api/Ocpp16/(votre ID)/
+ws://www.ecarup.com/api/Ocpp16/(Ihre ID)/
 
 N'oubliez pas la barre oblique à la fin. ! 
 
-Respecter les paramètres
+Respectez les paramètres
 
 ![Mennekes – Illustration 11](/img/ocpp-ladestationen-mennekes/11.png)
 
@@ -163,9 +159,9 @@ Softwareupdate-ACU-v3-v4\_v03\_30-09-2019\_de.pdf
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de transmission des Meter Values peut varier d'une station à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon pour nous de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle de téléversement des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule manière de calculer et d'afficher plus précisément la puissance de charge actuelle dans l'application.
 
-Vous pouvez le modifier comme suit :
+Vous pouvez la modifier comme suit :
 
 1.  Get Configuration (pour lire ce qui est programmé)
 

@@ -1,31 +1,31 @@
 ---
 title: 'Bibus'
 slug: '/ocpp-ladestationen/bibus'
-description: 'Guida all''integrazione nel backend'
+description: 'Guida all''integrazione backend'
 sidebar_label: 'Bibus'
 ---
-![Bibus – Figura 1](/img/ocpp-ladestationen-bibus/01.jpg)
+<Kacheln min="11rem">
 
-[Bibus eVolve](https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/)
+<Kachel bild="/img/ocpp-ladestationen-bibus/01.jpg" bildtext="Bibus eVolve" titel="Bibus eVolve" href="https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/" bildhoehe="10rem" mittig />
 
-![Bibus – Figura 2](/img/ocpp-ladestationen-bibus/02.jpg)
+<Kachel bild="/img/ocpp-ladestationen-bibus/02.jpg" bildtext="Bibus eNext" titel="Bibus eNext" href="https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/" bildhoehe="10rem" mittig />
 
-[Bibus eNext](https://technology.bibus.com/ch-de/produkte/e-mobility-and-energy/)
+</Kacheln>
 
-## Guida all'integrazione nel backend
+## Guida all'integrazione backend
 
-Le stazioni Bibus possono essere integrate in pochi passaggi nel sistema di conteggio eCarUp. Una volta installate nel tuo account, puoi definire tu stesso in modo semplice le condizioni di utilizzo delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può ricaricare, quando e a quale prezzo. 
+Le stazioni Bibus possono essere integrate nel sistema di conteggio eCarUp in pochi passaggi. Una volta installate nel tuo account, puoi definire autonomamente e senza complicazioni le condizioni d'uso delle tue stazioni (prezzi, utenti, orari disponibili ecc.). Sei tu a decidere chi può caricare, quando e a quale prezzo. 
 
-- Requisiti per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Requisito per l'[integrazione tramite OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Configurazione nel [portale web per gestori di stazioni](/stationsbetreiber/webportal)
+- Configurazione nel [portale web per i gestori di stazioni](/stationsbetreiber/webportal)
 
 - Scopri di più sulle nostre [funzioni Premium](/funktionen)
 
 
-### Integrazione delle stazioni OCPP
+### Integrazione di stazioni OCPP
 
-1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia connesso alla stessa rete della stazione di ricarica.
+1.  Assicurati che le tue stazioni di ricarica siano installate e che il tuo PC o smartphone sia collegato alla stessa rete della stazione di ricarica.
 
 2.  Apri il [portale web di eCarUp](https://admin.ecarup.com/authentication/login) ed effettua l'accesso con i dati del tuo account.
 
@@ -48,18 +48,18 @@ I primi passaggi devono essere eseguiti direttamente sul display della tua stazi
 
 1.   Collega il tuo laptop alla stazione
 
-2.   Ricava l'indirizzo IP attuale della stazione dalla guida allegata
+2.   Ricava l'indirizzo IP attuale della stazione dalle istruzioni allegate
 
 3.  Inserisci quindi l'indirizzo IP nel browser web
 
-4.  Appare la dashboard di Circontrol
+4.  Compare la dashboard di Circontrol
 
 5.  Seleziona il tipo di connessione (GSM, LAN ...)
 
 
 ⚠️ Nota bene:
 
-L'impostazione predefinita della stazione Bibus può essere Plug & Charge. Questa deve essere disattivata nel Charge Point Manager. 
+L'impostazione standard della stazione Bibus può essere Plug & Charge. Questa funzione deve essere disattivata nel Charge Point Manager. 
 
 Contatta BIBUS per ottenere il Charge Point Manager.
 
@@ -69,7 +69,7 @@ Lì, nelle impostazioni, lo stato deve essere impostato su "Attivato" ("Aktivier
 
 ### Impostazioni dell'interfaccia web Circontrol
 
-1.  Clicca su Integrazione nella navigazione a sinistra
+1.  Clicca su Integrazione ("Integration") nella navigazione sul lato sinistro
 
 2.  Seleziona OCPP 1.6J in "Integrazioni disponibili" ("Verfügbare Integrationen").
 
@@ -84,7 +84,7 @@ Lì, nelle impostazioni, lo stato deve essere impostato su "Attivato" ("Aktivier
 
 ![Bibus – Figura 5](/img/ocpp-ladestationen-bibus/05.png)
 
-6\. Inserisci l'URL OCPP del tuo account in Sistema centrale
+6\. Inserisci l'URL OCPP del tuo account in Sistema centrale ("Zentrales System")
 
 ![Bibus – Figura 6](/img/ocpp-ladestationen-bibus/06.png)
 
@@ -92,9 +92,9 @@ Lì, nelle impostazioni, lo stato deve essere impostato su "Attivato" ("Aktivier
 
 ![Bibus – Figura 7](/img/ocpp-ladestationen-bibus/07.png)
 
-## Impostazione avanzata tramite strumento di manutenzione (eCarUp Premium)
+## Impostazioni avanzate tramite Wartungstool (eCarUp Premium)
 
-L'intervallo di upload dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30-60s. Solo così possiamo calcolare e visualizzare meglio la potenza di ricarica attuale nell'app. 
+L'intervallo di caricamento dei Meter Values può variare da stazione a stazione. Consigliamo un intervallo compreso tra 30 e 60 s. Solo così possiamo calcolare e visualizzare meglio nell'app la potenza di ricarica attuale. 
 
 
 

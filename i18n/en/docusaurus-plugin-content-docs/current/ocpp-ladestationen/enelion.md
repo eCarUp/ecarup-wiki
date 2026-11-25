@@ -4,23 +4,23 @@ slug: '/ocpp-ladestationen/enelion'
 description: 'Backend integration guide'
 sidebar_label: 'Enelion'
 ---
-![Enelion – Figure 1](/img/ocpp-ladestationen-enelion/01.jpg)
+<Kacheln min="11rem">
 
-[Lumina](https://enelion.com/product/lumina/)
+<Kachel bild="/img/ocpp-ladestationen-enelion/01.jpg" bildtext="Enelion Lumina" titel="Lumina" href="https://enelion.com/product/lumina/" bildhoehe="10rem" mittig />
 
-![Enelion – Figure 2](/img/ocpp-ladestationen-enelion/02.png)
+<Kachel bild="/img/ocpp-ladestationen-enelion/02.png" bildtext="Enelion Vertica" titel="Vertica" href="https://enelion.com/product/vertica/" bildhoehe="10rem" mittig />
 
-[Vertica](https://enelion.com/product/vertica/)
+</Kacheln>
 
 ## Backend integration guide
 
-Enelion stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when and at what price. 
+Enelion stations can be integrated into the eCarUp billing system in just a few steps. Once installed in your account, you can easily define the terms of use for your stations yourself (prices, users, available times, etc.). You decide who can charge, when, and at what price. 
 
-- Requirements for [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Prerequisite for the [integration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
 - Configuration in the [web portal for station operators](/stationsbetreiber/webportal)
 
-- Learn more about our [premium features](/funktionen) here
+- Learn more here about our [premium features](/funktionen)
 
 ### Integration of OCPP stations
 
@@ -28,7 +28,7 @@ Enelion stations can be integrated into the eCarUp billing system in just a few 
 
 2.  Open the [eCarUp web portal](https://admin.ecarup.com/authentication/login) and log in with your account details.
 
-3.  In the menu on the left, click the "Stations" ("Stationen") tab.
+3.  In the menu on the left, click the "Stationen" tab ("Stations").
 
 4.  Select the "OCPP" tab.
 
@@ -50,7 +50,7 @@ Enelion stations can be integrated into the eCarUp billing system in just a few 
 
 5.  The Enelion setup page opens
 
-6.  Enter the requested password. You will find the password in the letter supplied by Enelion 
+6.  Enter the required password. You will find the password on the letter from Enelion supplied with the unit 
 
 ### Step 1
 
@@ -75,7 +75,7 @@ Enelion stations can be integrated into the eCarUp billing system in just a few 
 
 ### Step 3
 
-- Disable FreeCharge mode and save
+- Remove FreeCharge mode and save
 
 ![Enelion – Figure 5](/img/ocpp-ladestationen-enelion/05.png)
 
@@ -95,11 +95,11 @@ Enelion stations can be integrated into the eCarUp billing system in just a few 
 
 2.  Connector ID 1
 
-3.  Freecharge idTAg must not be empty. A master badge can be stored here (whitelist) or, if it has no relevance, as in the example screenshot
+3.  Freecharge idTAg must not be empty. A master badge can be stored here (whitelist), or, if it is not relevant, follow the example in the screenshot
 
-4.  Enter your eCarUp URL from the account
+4.  Enter your eCarUp URL from your account
 
-5.  Charge Point ID must not be empty either and can be labelled individually. (Note: max. 20 characters and no spaces)
+5.  Charge Point ID must also not be empty and can be labelled individually. (Note: max. 20 characters and no spaces)
 
 \+ Save and restart
 
@@ -122,16 +122,14 @@ Check the connection status of the station in the dashboard.
 
 - firmwareVersion":"4.4.4
 
-## Advanced setting via maintenance tool (eCarUp Premium)
+## Advanced settings via maintenance tool (eCarUp Premium)
 
-The upload interval of the meter values can vary from station to station. We recommend an interval between 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
+The upload interval of the meter values can vary from station to station. We recommend an interval of 30-60s. This is the only way we can better calculate and display the current charging power in the app. 
 
 You can change this as follows:
 
 1.  Get Configuration (to read out what is programmed)
 
 2.  Change Configuration (to overwrite the value)
-
-![Enelion – Figure 9](/img/ocpp-ladestationen-enelion/09.png)
 
 ![Enelion – Figure 10](/img/ocpp-ladestationen-enelion/10.png)

@@ -1,40 +1,38 @@
 ---
 title: 'Daze'
 slug: '/ocpp-ladestationen/daze'
-description: 'Guide d''intégration au backend'
+description: 'Guide d''intégration backend'
 sidebar_label: 'Daze'
 ---
-![Daze – illustration 1](/img/ocpp-ladestationen-daze/01.png)
+<Kacheln min="11rem">
 
-[Home](https://daze.eu/en-ch/store/dazebox-home-s/?_gl=1*b49m7b*_up*MQ..*_ga*NzI2NTg0NTYxLjE3MTgzNjY5OTk.*_ga_ZR8FBKG0V4*MTcxODM2Njk5OC4xLjAuMTcxODM2Njk5OC4wLjAuMA..)
+<Kachel bild="/img/ocpp-ladestationen-daze/01.png" bildtext="Daze Home" titel="Home" href="https://daze.eu/en-ch/store/dazebox-home-s/?_gl=1*b49m7b*_up*MQ..*_ga*NzI2NTg0NTYxLjE3MTgzNjY5OTk.*_ga_ZR8FBKG0V4*MTcxODM2Njk5OC4xLjAuMTcxODM2Njk5OC4wLjAuMA.." bildhoehe="10rem" mittig />
 
-![Daze – illustration 2](/img/ocpp-ladestationen-daze/02.png)
+<Kachel bild="/img/ocpp-ladestationen-daze/02.png" bildtext="Daze Duo" titel="Duo" href="https://www.daze.eu/en/store?_gl=1*b49m7b*_up*MQ..*_ga*NzI2NTg0NTYxLjE3MTgzNjY5OTk.*_ga_ZR8FBKG0V4*MTcxODM2Njk5OC4xLjAuMTcxODM2Njk5OC4wLjAuMA.." bildhoehe="10rem" mittig />
 
-[Duo](https://www.daze.eu/en/store?_gl=1*b49m7b*_up*MQ..*_ga*NzI2NTg0NTYxLjE3MTgzNjY5OTk.*_ga_ZR8FBKG0V4*MTcxODM2Njk5OC4xLjAuMTcxODM2Njk5OC4wLjAuMA..)
+<Kachel bild="/img/ocpp-ladestationen-daze/03.png" bildtext="Daze Urban" titel="Urban" href="https://www.daze.eu/en/store?_gl=1*b49m7b*_up*MQ..*_ga*NzI2NTg0NTYxLjE3MTgzNjY5OTk.*_ga_ZR8FBKG0V4*MTcxODM2Njk5OC4xLjAuMTcxODM2Njk5OC4wLjAuMA.." bildhoehe="10rem" mittig />
 
-![Daze – illustration 3](/img/ocpp-ladestationen-daze/03.png)
+</Kacheln>
 
-[Urban](https://www.daze.eu/en/store?_gl=1*b49m7b*_up*MQ..*_ga*NzI2NTg0NTYxLjE3MTgzNjY5OTk.*_ga_ZR8FBKG0V4*MTcxODM2Njk5OC4xLjAuMTcxODM2Njk5OC4wLjAuMA..)
+## Guide d'intégration backend
 
-## Guide d'intégration au backend
+Les bornes de recharge Daze peuvent être intégrées au système de décompte eCarUp en quelques étapes. Une fois installées dans votre compte, vous pouvez définir simplement vous-même les conditions d'utilisation de vos bornes (tarifs, utilisateurs, plages horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel tarif. 
 
-Les bornes Daze peuvent être intégrées en quelques étapes dans le système de décompte eCarUp. Une fois installées dans votre compte, vous pouvez définir vous-même et en toute simplicité les conditions d'utilisation de vos bornes (prix, utilisateurs, horaires disponibles, etc.). Vous décidez qui peut recharger, quand et à quel prix. 
+- Condition préalable pour l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
 
-- Conditions préalables à l'[intégration via OCPP](/stationsbetreiber/inbetriebnahme-ocpp-station)
+- Configuration dans le [portail web pour exploitants de bornes](/stationsbetreiber/webportal)
 
-- Configuration dans le [portail web pour les exploitants de bornes](/stationsbetreiber/webportal)
+- Découvrez-en plus sur nos [fonctions Premium](/funktionen)
 
-- Découvrez ici nos [fonctions Premium](/funktionen)
+### Intégration de bornes OCPP
 
-### Intégration des bornes OCPP
+1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone portable est connecté au même réseau que la borne de recharge.
 
-1.  Assurez-vous que vos bornes de recharge sont installées et que votre PC ou votre téléphone est connecté au même réseau que la borne de recharge.
+2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les données de votre compte.
 
-2.  Ouvrez le [portail web d'eCarUp](https://admin.ecarup.com/authentication/login) et connectez-vous avec les identifiants de votre compte.
+3.  Dans le menu à gauche, cliquez sur l'onglet « Stationen » (Stations).
 
-3.  Dans le menu de gauche, cliquez sur l'onglet « Bornes » ("Stationen").
-
-4.  Sélectionnez l'onglet « OCPP » ("OCPP").
+4.  Sélectionnez l'onglet « OCPP ».
 
 5.  Copiez l'URL dans le presse-papiers.
 
@@ -42,11 +40,11 @@ Les bornes Daze peuvent être intégrées en quelques étapes dans le système d
 
 ## Intégration de la Dazebox Home, Share et Duo
 
-Important : version de firmware testée de la Dazebox Home : 16.0.6.0
+Important : version de firmware testée de la Dazebox Home, 16.0.6.0
 
-Important : version de firmware testée de la Share et de la Duo : 2.1.4.1.1.4
+Important : version de firmware testée de la Share et de la Duo, 2.1.4.1.1.4
 
-<Video src="BLvGWpLkiiY" title="Vidéo YouTube, guide d'intégration DAZE dans le backend eCarUp" />
+<Video src="BLvGWpLkiiY" title="Vidéo YouTube, guide d'intégration de DAZE dans le backend eCarUp" />
 
 <div className="row">
 <div className="col col--8">
@@ -76,7 +74,7 @@ Ajoutez un réseau.
 <div className="row">
 <div className="col col--6">
 
-À cette étape, configurez votre borne de recharge et ajoutez le réseau Wi-Fi.
+À ce stade, configurez votre borne de recharge et ajoutez le WLAN.
 
 </div>
 <div className="col col--6 text--center">
@@ -91,7 +89,7 @@ Ajoutez un réseau.
 <div className="row">
 <div className="col col--6">
 
-Une fois la borne de recharge ajoutée, vous trouvez l'aperçu suivant
+Une fois la borne de recharge ajoutée, vous obtenez l'aperçu suivant
 
 </div>
 <div className="col col--6 text--center">
@@ -127,7 +125,7 @@ Activez OCPP et sélectionnez eCarUp comme fournisseur.
 <div className="row">
 <div className="col col--6">
 
-Collez maintenant dans le champ URL l'URL provenant du portail web du compte eCarUp souhaité.
+Collez maintenant votre URL, issue du portail web du compte eCarUp souhaité, dans le champ URL.
 
 </div>
 <div className="col col--6 text--center">
@@ -141,13 +139,13 @@ Collez maintenant dans le champ URL l'URL provenant du portail web du compte eCa
 
 L'ID de la borne de recharge est renseigné automatiquement. 
 
-Cliquez ensuite sur Terminer. 
+Cliquez ensuite sur « Ende » (Terminer). 
 
-Après le redémarrage de la borne, celle-ci devrait maintenant apparaître dans votre compte. 
+Après le redémarrage de la borne, elle devrait maintenant apparaître dans votre compte. 
 
-Important : la borne doit rester connectée à votre téléphone via Bluetooth pendant toute la procédure.
+Important : la borne doit rester connectée à votre téléphone portable via Bluetooth pendant tout le processus.
 
-## Important pour la borne Urban à 2 connecteurs :
+## Important pour la borne Urban avec 2 connecteurs :
 
 - Pour l'identification, les connecteurs gauche et droit doivent être complétés par les trois derniers chiffres du numéro de série. 
 
@@ -157,11 +155,11 @@ Important : la borne doit rester connectée à votre téléphone via Bluetooth p
 
 ## Paramètres avancés via l'outil de maintenance (eCarUp Premium)
 
-L'intervalle de transmission des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle compris entre 30 et 60 s. C'est la seule façon de mieux calculer et afficher la puissance de recharge actuelle dans l'application. 
+L'intervalle d'envoi des Meter Values peut varier d'une borne à l'autre. Nous recommandons un intervalle de 30 à 60 s. C'est la seule façon pour nous de calculer et d'afficher plus précisément la puissance de charge actuelle dans l'application. 
 
-Vous pouvez le modifier comme suit :
+Vous pouvez la modifier comme suit :
 
-1.  Get Configuration (pour lire la valeur programmée)
+1.  Get Configuration (pour lire ce qui est programmé)
 
 2.  Change Configuration (pour écraser la valeur)
 
