@@ -22,6 +22,9 @@ Das hinterlegte Zahlungsmittel (Kredit- oder Debitkarte) läuft in einem Monat a
 
 Unter folgendem [Link](/fahrer/ecarup-app) findest du mehr dazu. 
 
+<div className="row">
+<div className="col col--7">
+
 ## Fahrerstatistik
 
 ### Monatliche Übersicht
@@ -39,11 +42,17 @@ Die monatliche Übersicht wird automatisiert am Anfang des Folgemonats an die Fa
 4.  Die Übersicht ist keine Rechnung.
 
 
-Beispiel: [Monatliche-Übersicht](https://drive.google.com/file/d/1gMxvbHk9BbkVp-ZQk0vNfTmcxZRlwYA1/view?usp=drive_link) 
+Beispiel: [Monatliche-Übersicht](https://drive.google.com/file/d/1gMxvbHk9BbkVp-ZQk0vNfTmcxZRlwYA1/view?usp=drive_link)
 
-![Allgemeine Informationen – Abbildung 1](/img/fahrer-fahrerstatistik/01.png)
+</div>
+<div className="col col--5 text--center">
 
-![Allgemeine Informationen – Abbildung 2](/img/fahrer-fahrerstatistik/02.png)
+![Monatliche Übersicht – Seite 1](/img/fahrer-fahrerstatistik/01.png)
+
+![Monatliche Übersicht – Seite 2](/img/fahrer-fahrerstatistik/02.png)
+
+</div>
+</div>
 
 ## Webportal
 

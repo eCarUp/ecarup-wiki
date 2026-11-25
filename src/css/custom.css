@@ -246,6 +246,35 @@
   --ifm-h3-font-size: var(--wiki-text-xl);
 }
 
+/* Bild neben Text (CONTRIBUTING.md): Beginnt die linke Spalte mit einer
+   Überschrift, steht diese nicht mehr direkt in `.markdown`, und Infima gibt
+   ihr den Abstand davor nicht. Das Raster übernimmt ihn deshalb – sonst
+   rückte der Abschnitt näher an den vorherigen als jeder andere.
+   Ausgenommen ist ein Raster direkt unter dem Seitentitel (`header`), wie
+   auf den Ladestationen-Seiten: Dort bleibt der Abstand, wie er war. */
+.markdown > :not(header) + .row:has(> .col:first-child > h2:first-child) {
+  margin-top: calc(var(--ifm-h2-vertical-rhythm-top) * var(--ifm-leading));
+}
+
+.markdown > :not(header) + .row:has(> .col:first-child > h3:first-child) {
+  margin-top: calc(var(--ifm-h3-vertical-rhythm-top) * var(--ifm-leading));
+}
+
+/* Überschriften in einer Spalte bekommen denselben Rhythmus wie im
+   Fliesstext; nur die erste nicht, deren Abstand trägt das Raster. */
+.markdown > .row > .col > h2,
+.markdown > .row > .col > h3 {
+  margin-bottom: calc(var(--ifm-heading-vertical-rhythm-bottom) * var(--ifm-leading));
+}
+
+.markdown > .row > .col > h2:not(:first-child) {
+  margin-top: calc(var(--ifm-h2-vertical-rhythm-top) * var(--ifm-leading));
+}
+
+.markdown > .row > .col > h3:not(:first-child) {
+  margin-top: calc(var(--ifm-h3-vertical-rhythm-top) * var(--ifm-leading));
+}
+
 /* Gewicht, Zeilenhöhe und Laufweite je Stufe, wie im Design System:
    H1 700 mit −0.03em, H2 600 mit −0.01em, H3 500 ohne Sperrung. */
 h1 {

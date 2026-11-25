@@ -87,15 +87,10 @@ Die eCarUp App unterstützt Fahrer im Alltag beim Laden ihres Elektroautos. Sie 
 </div>
 </div>
 
-## Passwort zurücksetzten (Videoanleitung)
-
-<Video src="b1uOJP5jZEc" title="YouTube Video, eCarUp Passwort zurücksetzen iOS Device" />
-
-<Video src="viemoEVXnak" title="YouTube Video, eCarUp Passwort zurücksetzen Android Device" />
-
 ## Funktionen in der App:
 
-![eCarUp App – Abbildung 8](/img/fahrer-ecarup-app/08.png)
+<div className="row">
+<div className="col col--8">
 
 ### Im Tab "Karte" kannst du:
 
@@ -115,24 +110,24 @@ Die eCarUp App unterstützt Fahrer im Alltag beim Laden ihres Elektroautos. Sie 
 
     - verfügbare Stationen (online)
 
-- Den QR-Code der Station scannen, um direkt zur entsprechenden Station weitergeleitet zu werden 
+- Den QR-Code der Station scannen, um direkt zur entsprechenden Station weitergeleitet zu werden
+
+</div>
+<div className="col col--4 text--center">
+
+![Tab Karte in der eCarUp App](/img/fahrer-ecarup-app/08.png)
+
+</div>
+</div>
 
 ### Der Tab "In der Nähe" siehst du:
-
-<div className="row">
-<div className="col col--8">
 
 - zeigt die zuletzt besuchten Stationen an
 
 - listet die Stationen in deiner Nähe auf
 
-</div>
-<div className="col col--4 text--center">
-
-![eCarUp App – Abbildung 9](/img/fahrer-ecarup-app/09.png)
-
-</div>
-</div>
+<div className="row">
+<div className="col col--8">
 
 ### Im Tab "Account" kannst du:
 
@@ -152,6 +147,14 @@ Die eCarUp App unterstützt Fahrer im Alltag beim Laden ihres Elektroautos. Sie 
 
 - Neuigkeiten:  Erfahre unsere Neuikeiten (Release Notes)
 
+</div>
+<div className="col col--4 text--center">
+
+![Tab Account in der eCarUp App](/img/fahrer-ecarup-app/09.png)
+
+</div>
+</div>
+
 ### Im Tab "Laden" siehst du:
 
 - Alle aktiven Ladevorgänge inklusive bezogener Energie und Kosten
@@ -162,9 +165,15 @@ Die eCarUp App unterstützt Fahrer im Alltag beim Laden ihres Elektroautos. Sie 
 
 ## Ladevorgang iOS
 
+<div className="row">
+<div className="col col--4">
+
 Ladevorgang ist aktiv und unter Laden ersichtlich
 
 ![eCarUp App – Abbildung 10](/img/fahrer-ecarup-app/10.jpg)
+
+</div>
+<div className="col col--4">
 
 Ladevorgang beenden
 
@@ -172,9 +181,21 @@ Ladevorgang beenden
 
 ![eCarUp App – Abbildung 11](/img/fahrer-ecarup-app/11.jpg)
 
+</div>
+<div className="col col--4">
+
 Ladevorgang ist ausstehend
 
 ![eCarUp App – Abbildung 12](/img/fahrer-ecarup-app/12.jpg)
 
+</div>
+</div>
+
 ⚠️Wichtig:
 Der Ladevorgang bleibt so lange bestehen, bis die Station uns ein Stop sendet. Wir warten also ab bis die Station uns eine Rückmeldung gibt. Es kann in Sonderfällen vorkommen, dass die Station offline geht und erst nach online kommen uns das Stop sendet.
+
+## Passwort zurücksetzten (Videoanleitung)
+
+<Video src="b1uOJP5jZEc" title="YouTube Video, eCarUp Passwort zurücksetzen iOS Device" />
+
+<Video src="viemoEVXnak" title="YouTube Video, eCarUp Passwort zurücksetzen Android Device" />

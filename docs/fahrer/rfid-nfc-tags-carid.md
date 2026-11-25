@@ -38,6 +38,9 @@ sidebar_label: 'RFID / NFC Tags / CarID'
 
 ## Anleitung RFID Karte hinzufügen:
 
+<div className="row">
+<div className="col col--7">
+
 ### Anleitung Android App
 
 Voraussetzung: Android Handy mit NFC Funktion.
@@ -51,6 +54,17 @@ Voraussetzung: Android Handy mit NFC Funktion.
 Falls du die Tag ID (UID) von Hand eingibst, kannst du diese ermitteln, indem du den gewünschten RFID-Tag ausliest. Dies kann entweder direkt über ein RFID Lesegerät geschehen (z. B. in einer Firma) oder auch über eine App mit einem Mobiltelefon, welches über einen NFC-Reader verfügt. Ein Beispiel ist das kostenlose App [NFC-Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=de_CH) (Apple unterdrückt das Auslesen von RFID / NFC Nummern).
 
 4\. Deine Tag-ID ist jetzt mit dem Account verknüpft und kann für die Freischaltung verwendet werden.
+
+</div>
+<div className="col col--5 text--center">
+
+![RFID / NFC Tags / CarID – Abbildung 4](/img/fahrer-rfid-nfc-tags-carid/04.png)
+
+</div>
+</div>
+
+<div className="row">
+<div className="col col--7">
 
 ### Anleitung iOS App
 
@@ -66,13 +80,8 @@ Voraussetzung: iPhone mit NFC-Funktion (ab iOS 14 & > iPhone 6).
 
 4\. Deine Tag-ID ist jetzt mit dem Account verknüpft und kann für die Freischaltung verwendet werden.
 
-<div className="row">
-<div className="col col--6 text--center">
-
-![RFID / NFC Tags / CarID – Abbildung 4](/img/fahrer-rfid-nfc-tags-carid/04.png)
-
 </div>
-<div className="col col--6 text--center">
+<div className="col col--5 text--center">
 
 ![RFID / NFC Tags / CarID – Abbildung 5](/img/fahrer-rfid-nfc-tags-carid/05.png)
 

@@ -14,6 +14,9 @@ Transaktionen unter CHF 0.50 werden vom System nicht verarbeitet.
 
 Folgende Debit- & Kreditkarten werden akzeptiert: Visa, MasterCard, American Express, Discover, Diners Club und JCB
 
+<div className="row">
+<div className="col col--7">
+
 ### Bezahlung
 
 Zum Bezahlen der Ladevorgänge mit der eCarUp App, hinterlegen die Nutzer in der App unter Account eine Debit- oder Kreditkarte. Der Betrag für jeden Ladevorgang wird direkt nach der Deaktivierung von der hinterlegten Karte abgebucht. 
@@ -26,6 +29,16 @@ Der Fahrer erhält direkt nach dem Ladevorgang automatisch eine  Quittung per E
 
 ⚠️ Wichtig: Die MWST-Information hinterlegt der Stationsbesitzer anhand seiner eigenen Bedingungen (Privatpersonen oder Stiftungen sind z.B. nicht MWST-pflichtig).
 
+</div>
+<div className="col col--5 text--center">
+
+![Quittung für Fahrer](/img/fahrer-abrechnen-mit-debit-kreditkarte/01.png)
+
+*Quittung für Fahrer*
+
+</div>
+</div>
+
 ### Wurden neben dem Ladepreis zusätzliche Spesen auf Ihrer Kreditkartenabrechnung vermerkt?
 
 Dies kann u.U. Fahrer im EU-Raum treffen und muss mit dem Kreditkartenanbieter geklärt werden. In den meisten AGB\`s der Kartenanbieter steht dann z.B. folgender Satz:
@@ -35,7 +48,3 @@ Dies kann u.U. Fahrer im EU-Raum treffen und muss mit dem Kreditkartenanbieter g
 Bitte setze dich dann mit dem Kartenanbieter in Verbindung.
 
 Erfahre mehr zur Sicherheit der Finanztransaktionen im Artikel [Stripe](/stationsbetreiber/account-verifizieren).
-
-### Quittung für Fahrer:
-
-![Abrechnen mit Debit-& Kreditkarte – Abbildung 1](/img/fahrer-abrechnen-mit-debit-kreditkarte/01.png)
