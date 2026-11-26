@@ -4,7 +4,7 @@ slug: '/funktionen'
 description: 'The eCarUp backend consists of a free charging app and a web portal.'
 sidebar_label: 'Features'
 ---
-The eCarUp backend consists of a [free charging app](https://web.ecarup.com/elektroauto-lade-app/) and a web portal. The station operator decides who can charge at their charging station, when, and at what price. You can find a list of all compatible charging stations on our website under [EV charging stations](https://web.ecarup.com/e-ladestationen/).
+The eCarUp backend consists of a [free charging app](https://web.ecarup.com/elektroauto-lade-app/) and a web portal. The station operator decides for themselves who can charge at their charging station, when, and at what price. You can find a list of all compatible charging stations on our website under [E-charging stations](https://web.ecarup.com/e-ladestationen/).
 
 {/* Die beiden Lizenzen stehen nebeneinander, damit sich ihr Umfang
     vergleichen lässt. Auf dem Telefon rücken sie von selbst untereinander. */}
@@ -19,11 +19,11 @@ for onboarding and testing purposes
 - Set opening hours
 - Monitor status and usage live
 - Bill charging sessions
-- Basic user management
+- Simple user management
 
 </Kachel>
 
-<Kachel titel="eCarUp Premium" gross>
+<Kachel titel="eCarUp Premium" gross hervorgehoben>
 
 10-year license per charge point
 
@@ -32,7 +32,7 @@ for onboarding and testing purposes
 - [eCarUp API](/funktionen/ecarup-api)
 - [Alarms](/funktionen/wartung/alarme)
 - [Maintenance](/funktionen/wartung)
-- [Adv. user management](/funktionen/erw-nutzerverwaltung)
+- [Advanced user management](/funktionen/erw-nutzerverwaltung)
 - [eCarUp API Swagger](https://public-api.ecarup.com/swagger/index.html)
 - [Price plans](/funktionen/preisplaene)
 - [Reports](/funktionen/reports)
